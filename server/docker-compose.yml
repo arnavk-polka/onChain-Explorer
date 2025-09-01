@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  server:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_CONNECTION_STRING=${DB_CONNECTION_STRING}
+      - DEBUG=true
+      - LOG_LEVEL=INFO
+      - LOG_FORMAT=json
+    volumes:
+      - .:/app
+    networks:
+      - onchain-network
+
+networks:
+  onchain-network:
+    driver: bridge
