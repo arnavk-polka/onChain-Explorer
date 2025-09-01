@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.endpoints import router
+from app.api.endpoints import router as api_router
+from app.routers.health import router as health_router
 from app.logging import setup_logging
-from app.database import close_pool
+from app.db import init_db, close_pool
 
 # Setup logging
 setup_logging()
@@ -23,14 +24,23 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include API router
-app.include_router(router, prefix="/api/v1")
+# Include routers
+app.include_router(health_router, prefix="/api/v1")
+app.include_router(api_router, prefix="/api/v1")
 
 
 @app.on_event("startup")
 async def startup_event():
     """Initialize application on startup"""
-    print("✅ Server started successfully")
+    try:
+        # Initialize database and run migrations
+        if await init_db():
+            print("✅ Server started successfully with database initialized")
+        else:
+            print("⚠️  Server started but database initialization failed")
+    except Exception as e:
+        print(f"❌ Failed to initialize server: {e}")
+        raise
 
 
 @app.on_event("shutdown")
@@ -48,6 +58,7 @@ async def root():
         "version": "0.1.0",
         "endpoints": {
             "health": "/api/v1/healthz",
+            "dbcheck": "/api/v1/dbcheck",
             "query": "/api/v1/query"
         }
     }

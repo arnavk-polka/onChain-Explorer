@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Dict, Any, Optional
-from app.database import test_connection
+from app.db import test_connection
 from app.langgraph.graph import graph, GraphState, router as graph_router, sql_agent, retrieval, composer
 from app.logging import get_logger
 
