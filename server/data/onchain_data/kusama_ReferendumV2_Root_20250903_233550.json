@@ -1,0 +1,3006 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:47:50.236359",
+  "total_items": 39,
+  "items": [
+    {
+      "allowedCommentor": "all",
+      "createdAt": "2025-08-10T22:26:28.488Z",
+      "isDeleted": false,
+      "index": 576,
+      "id": "o1C3pSPojrnuSiGLJK4L",
+      "proposalType": "ReferendumV2",
+      "title": "Wrong path",
+      "dataSource": "polkassembly",
+      "userId": 10090,
+      "content": "Vote nay",
+      "network": "kusama",
+      "updatedAt": "2025-08-10T22:26:28.488Z",
+      "tags": [],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2025-08-10T22:18:48.000Z",
+        "description": "",
+        "index": 576,
+        "origin": "Root",
+        "proposer": "EJgdRddcYSd6XWnwr8oZkkzxJJX8SLwig38d5yxZSRgJGQZ",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xc5cc7d4018ab50e72d14621ad229ee5df69ea19f47ecfaf3973b76d7a46b87e1",
+        "voteMetrics": {
+          "nay": {
+            "count": 22,
+            "value": "203006757099983391"
+          },
+          "aye": {
+            "count": 1,
+            "value": "35812613927"
+          },
+          "support": {
+            "value": "2358126139270"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5Do4y7HkzBRhLshMB9KkfoPzoi2HKmXmGJCPERi15eDBZNmk",
+            "amount": "210000000000000",
+            "assetId": null
+          }
+        ],
+        "preparePeriodEndsAt": "2025-08-11T00:18:48.000Z"
+      },
+      "publicUser": {
+        "id": 10090,
+        "username": "KSM",
+        "profileScore": 15.75,
+        "addresses": [
+          "5Do4y7HkzBRhLshMB9KkfoPzoi2HKmXmGJCPERi15eDBZNmk"
+        ],
+        "rank": 312,
+        "createdAt": "2023-07-03T13:53:09.537Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 526,
+      "title": "SEE UPDATE: Acquisition of dUSD stablecoin for Kusama treasury on Asset Hub and set dUSD as a Sufficient Asset",
+      "content": "**Proposer:** Decent Partners\n\n**Date:** May 2025\n\n**Track:** Root (decision deposit will be placed at resolution of [#522](https://kusama.subsquare.io/referenda/522))\n\n**Requested amount:** 25k KSM held in [Asset Hub treasury](https://assethub-kusama.subscan.io/account/HWZmQq6zMMk7TxixHfseFT2ewicT6UofPa68VCn3gkXrdJF)\n\n**Total exchanged:** ~400k dUSD ($16 KSM EMA30)\n\n## Summary\n\nWe propose a structured approach for the Kusama Treasury to obtain native dUSD issued by [Brale](https://brale.xyz/stablecoins/dUSD) on Asset Hub, for the purpose of diversification, enabling expenses to be paid out in a stable asset and to recirculate yield back into the ecosystem.\n\nThis proposal is to convert a slightly forgotten 25k KSM in Asset Hub treasury to dUSD via Asset Hub’s asset conversion pallet through a DCA mechanism over the course of five weeks creating ~$400k.\n\nAs the main KSM LP in the pool was provided by the Kusama treasury, the community will recoup ~50% of the 0.3% pool fees (note LP shares are currently received by Brale, who will send them on as they accrue).\n\nThe proposal also includes making dUSD a Sufficient Asset (as USDC/T are on Polkadot) so that the stablecoin can be used to pay transaction fees and exist on accounts without KSM.\n\nWe are bundling the DCA and sufficiency request into a single proposal as both require the Root track and large 3,333 KSM submission deposit.\n\n## Further reading:\n\n- [Brale announcement](https://brale.xyz/blog/introducing-dusd-on-kusama-with-decent-partners)\n- [Kusama twitter coverage](https://x.com/kusamanetwork/status/1917581420983210244).\n\n## Background\n\nStablecoins allow the treasury to diversify risk, reduce volatility for proposals and enable more predictable financing for the network.\n\nUniquely, Brale’s platform enables partners like Decent to launch branded stablecoins and benefit from a share of yield that can be recirculated as public goods, rather than being extracted and privatised as with Circle/USDC.\nTechnical approach\n\nThe referendum uses Asset Hub’s asset conversion and scheduler pallets to create a simple DCA feature that converts KSM to dUSD stablecoins that are then spendable by the treasury.\n\nA fixed amount of KSM is sold per trade rather than acquiring a fixed amount of dUSD.\n\n## DCA schedule parameters\n\n- Total duration: 5 weeks and 6 days\n- Total amount: 25,000 KSM\n- Trade frequency: One trade every 600 blocks (approx. 60 minutes)\n- Trade total: 1000 trades\n- Per trade: 25 KSM\n- Per day: 600 KSM\n- Destination: Kusama treasury account on Asset Hub\n- Total fee estimation: 0.15% of total amount (50% of LP fees returning to the community/treasury.)\n\n## Fee structure\n\nStablecoin acquisition is performed natively and without intermediaries on Asset Hub through the KSM:dUSD pool which operates with 0.3% fees to LPs. There are no collator fees.\n\nThe treasury provided the initial KSM liquidity ([ref #428](https://kusama.subsquare.io/referenda/474)) with Brale providing dUSD meaning Kusama community/treasury will receive 50% of fees.\n\nWith the recoup this leaves a 0.15% fee.\n\n## Treasury LP share\n\nNote the original plan was for the KSM and dUSD to be added separately, but Asset Conversion Pallet’s logic needs a single account to add liquidity as noted in [ref 480](https://kusama.subsquare.io/referendawish471).\n\nThe short term solution was for Brale to manage the pool directly and add both KSM and dUSD and to send the LP shares back as they accrue.\n\nA longer term solution is in the works which will enable the addition of single sided liquidity when contracts are live on Kusama Asset Hub, meaning these shares can be received by the treasury directly.\n\n## Pool management fee\n\nOwing to the inability to add dUSD and KSM separately Brale took on overall management of the pool.\n\nThey charge a fixed $1000 monthly fee for rebalancing the pool.\n\nThis is the subject of a separate contract with Decent Partners.\n\nWe have settled the fees to date (March/April) by reallocating unused KSM from the KSM:dUSD liquidity proposal.\n\nThis reallocation also covered currency loss on [ref 471](https://kusama.subsquare.io/referenda/471) so we avoided needing to top up from the treasury.\n\n[See full transaction list and calculations.](https://docs.google.com/spreadsheets/d/13TuYevRunyg2SeE6WV4OMPYf8CHdu9Yspr8VLH_m-sQ/edit?gid=1115641577#gid=1115641577)\n\nThere will be a future proposal by Decent Partners to cover these monthly ongoing costs until we have a solution for adding KSM liquidity directly when contracts are live.\n\n## Making dUSD Sufficient\n\nAssets on Kusama can be Sufficient or Non-Sufficient.\n\nBy making dUSD sufficient the currency can be used to directly pay fees and execute transactions on Asset Hub and beyond.\n\nTo hold a Non-Sufficient asset in a Kusama Asset Hub wallet address, a corresponding Kusama Asset Hub account needs to exist on-chain. This is different from other chains, where a wallet address can hold other tokens by default.\n\nOn Kusama Asset Hub, users need to ensure that the receiving wallet address holds at least 0.00000333 KSM, which is the Existential Deposit for establishing a Kusama Asset Hub account, prior to sending additional assets to the address.\n\nSufficient assets can also establish a Kusama Asset Hub account, such that the Existential Deposit in KSM is not necessary.\n\nSufficiency for dUSD will improve accessibility and user experience for existing and arriving projects.\n\n## dUSD Integrations and Updates\n\nWith the treasury funded Brale integration ([ref #471](https://kusama.subsquare.io/referenda/471)) into Kusama Asset Hub, the issuance of the US regulated decent/dUSD stablecoin (asset ID [50000002](https://taniko.soda.zone/assets/urn:ocn:kusama:1000/50000002)), the launch of the KSM:dUSD [liquidity pool](https://kheopswap.xyz/#/kusama/pools) and integration into a number of established and emerging projects like [Kreivo](https://virto.team/), [Bloque](https://bloque.app/) ([ref 499](https://kusama.subsquare.io/treasury/proposals/437)), [Kippu](https://kippu.rocks/) (W3F grant recipient) and [Kwickbit](https://kwickbit.com/) ([Decentralized Futures recipient](https://medium.com/web3foundation/decentralized-futures-introducing-kwickbit-62016c8d3343)), Kusama now has native infrastructure for developing a regenerative and incentives aligned on-chain economy.\n\nAlongside this, Brale have just announced their IO product - a new [zero fee stablecoin onramp](https://brale.xyz/blog/introducing-io-from-brale-in-alpha) allowing simple, fee-less purchases of dUSD directly on Kusama Asset Hub.\n\nThere will soon be a permission-less Asset Hub based stablecoin exchange from the Bloque team to run alongside their VISA debit card issuance platform that will enable proposal beneficiaries to easily receive dUSD from the treasury and off-ramp to USDC and/or bank accounts.\n\nWe also expect a Polkadot native integration of Brale's issuance platform to go live in the next couple of months.\n\n## Regulatory news\n\nAs highlighted by Parity/W3F on the Kusamarian's [Regulatory Rewind](https://www.youtube.com/live/Jpo6-JZtX8E?si=rYPTs5X2tYMRbAw7&t=768), the UK has recently announced a regulatory exemption for foreign stablecoin issuers like Brale as part of closer co-operation with the US in regulating the emerging global market for digital assets including a ‘transatlantic sandbox’ creating conditions for broader adoption of the technology.\n\nThe clarification around regulation and the US exemption opens the door to dUSD being more easily adopted by developers, companies and users, creating a platform for future innovation. \n\n## About Brale, dUSD and Decent Partners\n\nBrale is a US regulated issuer of stablecoins. Unlike Circle (USDC) and Tether (USDT) stablecoins, Brale shares yield on the underlying reserves with community partners in line with adoption.\n\nUSD yield is paid to the Decent Partners organisation on Kreivo (note this UI is being superceded by new work) where it creates a treasury derived from dUSD adoption that can be recirculated into the ecosystem rather than be extracted by private entities.\n\nDecent Partners is a UK based company.",
+      "createdAt": "2025-05-19T15:32:06.001Z",
+      "updatedAt": "2025-05-29T10:04:16.262Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-19T15:32:06.001Z",
+        "description": "",
+        "index": 526,
+        "origin": "Root",
+        "proposer": "FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0x6eb7a19b00a3d7bd0ce80cf579e52615ed4d9aea1f2172303a7c89f4f50cfb8c",
+        "voteMetrics": {
+          "nay": {
+            "count": 18,
+            "value": "79354512797343156"
+          },
+          "aye": {
+            "count": 15,
+            "value": "33786456297590434"
+          },
+          "support": {
+            "value": "16724195903914366"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2025-06-06T03:51:54.000Z",
+        "preparePeriodEndsAt": "2025-05-19T17:32:06.001Z"
+      },
+      "publicUser": {
+        "id": 12694,
+        "username": "DecentPartners",
+        "profileScore": 8.75,
+        "createdAt": "2023-10-15T14:33:55.093Z",
+        "rank": 607,
+        "addresses": [
+          "5FREwG23EmhEhL2xn3mgWYrxixe2H1mva1QeXGhAz8XkWSJj"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 523,
+      "title": "[Root] Referendum #523",
+      "content": "We (CrDdFXV729K1ipSRmuyv4ux5uGzmwjEvihvmL29f4T8AScQ) are the manager of the heiko parathread with the ID of 2085. We'd like to remove the lock in order to deregister the parathread since it's not currently running anymore. Thank you!",
+      "createdAt": "2025-05-09T05:00:24.000Z",
+      "updatedAt": "2025-05-09T05:02:22.295Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-09T05:00:24.000Z",
+        "description": "",
+        "index": 523,
+        "origin": "Root",
+        "proposer": "CrDdFXV729K1ipSRmuyv4ux5uGzmwjEvihvmL29f4T8AScQ",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xfcd0a62134bb10aa0be42466c0b5950a764bc10e1f3a849bc167b8478fee3746",
+        "voteMetrics": {
+          "nay": {
+            "count": 8,
+            "value": "68428699389002711"
+          },
+          "aye": {
+            "count": 4,
+            "value": "1882050000000000"
+          },
+          "support": {
+            "value": "1991800000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-05-09T07:00:24.000Z"
+      },
+      "publicUser": {
+        "id": 3351,
+        "username": "Para",
+        "profileScore": 0,
+        "createdAt": "2022-04-13T18:01:44.492Z",
+        "rank": 8543,
+        "addresses": [
+          "5CLbxwBcUf8PG4zzf56w27YwwJzkyGv4ULsBNfkCBGEdRGKv"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "Td6vLdu3lbjy62hmaYVS",
+      "index": 520,
+      "userId": 12737,
+      "title": "DO NOT PLACE DECISION DEPOSIT - Moving Ref to Treasurer Track",
+      "content": "**This Referendum can be moved to Treasurer track. This will keep the Root track available for other important referenda.**\n\n\nThanks to Polkadot ecosystem's Interoperability and Cross Consensus Messaging through Polkadot \\<> Kusama trustless bridge, DOT can be accessed directly on Kusama. At the time of creating this post, there is around 4900+ DOT on Kusama. You can query the chain state to get the accurate number\n\n![DOT on Kusama](https://i.ibb.co/ns9n8dXs/mdx-Editor-Radha-1746308625297.png)\n\nIt is possible to send DOT to Kusama Treasury and access it through Kusama OpenGov. For the treasury tracks on Kusama to work as expected, a proper spend limits in terms of DOT need to be set. For this purpose, the asset rate parameter is used. For instance, DOT/USDC/USDT conversion rates were set on Polkadot through [referendum 645](https://polkadot.subscan.io/referenda_v2/645?tab=preimage\\&focus=post), which allowed for Polkadot OpenGov to spend USDT/USDC directly through its treasury tracks.\n\nIt is worth noting that the current asset rate for DOT/USDC and DOT/USDT on Polkadot is 1 DOT = 10 USDC/T. This should not be confused as the actual exchange rate of the assets. Instead, the asset rate just applies this factor to adhere to spend limits. This rate can be adjusted through governance if the actual rate diverges too much.\n\nIn that light, the asset rate of 1 KSM = 4 DOT is reasonable to set, which translates to an asset rate of 25. We understand it is a bit counter intuitive. Please check the explanation below which converts assets into the smallest units (plancks) represnted on-chain:\n\n* 1 KSM = 1000,000,000,000 (hence KSM token has 12 decimals)\n* 1 DOT = 10,000,000,000 (hence DOT token has 10 decimals)\n* 4 DOT = 40,000,000,000 when multiplied by 25 results in 1000,000,000,000 units which are interpreted as 1 KSM by Kusama OpenGov treasury tracks",
+      "createdAt": "2025-05-03T22:17:48.000Z",
+      "tags": [
+        {
+          "value": "ecosystem",
+          "lastUsedAt": "2025-05-03T22:17:48.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "root",
+      "history": [
+        {
+          "content": "Thanks to Polkadot ecosystem's Interoperability and Cross Consensus Messaging through Polkadot \\<> Kusama trustless bridge, DOT can be accessed directly on Kusama. At the time of creating this post, there is around 4900+ DOT on Kusama. You can query the chain state to get the accurate number\n\n\n\n![DOT on Kusama](https://i.ibb.co/ns9n8dXs/mdx-Editor-Radha-1746308625297.png)\n\n\n\nIt is possible to send DOT to Kusama Treasury and access it through Kusama OpenGov. For the treasury tracks on Kusama to work as expected, a proper spend limits in terms of DOT need to be set. For this purpose, the asset rate parameter is used. For instance, DOT/USDC/USDT conversion rates were set on Polkadot through [referendum 645](https://polkadot.subscan.io/referenda_v2/645?tab=preimage\\&focus=post), which allowed for Polkadot OpenGov to spend USDT/USDC directly through its treasury tracks.\n\nIt is worth noting that the current asset rate for DOT/USDC and DOT/USDT on Polkadot is 1 DOT = 10 USDC/T. This should not be confused as the actual exchange rate of the assets. Instead, the asset rate just applies this factor to adhere to spend limits. This rate can be adjusted through governance if the actual rate diverges too much.\n\nIn that light, the asset rate of 1 KSM = 4 DOT is reasonable to set, which translates to an asset rate of 25. We understand it is a bit counter intuitive. Please check the explanation below which converts assets into the smallest units (plancks) represnted on-chain:\n\n* 1 KSM = 1000,000,000,000 (hence KSM token has 12 decimals)\n* 1 DOT = 10,000,000,000 (hence DOT token has 10 decimals)\n* 4 DOT = 40,000,000,000 when multiplied by 25 results in 1000,000,000,000 units which are interpreted as 1 KSM by Kusama OpenGov treasury tracks",
+          "title": "Set Asset Rate for KSM/DOT Conversion for spending DOT from Kusama Treasury",
+          "createdAt": {
+            "_seconds": 1746311978,
+            "_nanoseconds": 823000000
+          }
+        },
+        {
+          "content": "Thanks to Polkadot ecosystem's Interoperability and Cross Consensus Messaging through Polkadot \\<> Kusama trustless bridge, DOT can be accessed directly on Kusama. At the time of creating this post, there is around 4900+ DOT on Kusama. You can query the chain state to get the accurate number\n\n\n\n![DOT on Kusama](https://i.ibb.co/ns9n8dXs/mdx-Editor-Radha-1746308625297.png)\n\n\n\nIt is worth noting that the current asset rate for DOT/USDC and DOT/USDT on Polkadot is 1 DOT = 10 USDC/T. This should not be confused as the actual exchange rate of the assets. Instead, the asset rate just applies this factor to adhere to spend limits. This rate can be adjusted through governance if the actual rate diverges too much.\n\nIn that light, the asset rate of 1 KSM = 4 DOT is reasonable to set, which translates to an asset rate of 25. We understand it is a bit counter intuitive. Please check the explanation below which converts assets into the smallest units (plancks) represnted on-chain:\n\n* 1 KSM = 1000,000,000,000 (hence KSM token has 12 decimals)\n* 1 DOT = 10,000,000,000 (hence DOT token has 10 decimals)\n* 4 DOT = 40,000,000,000 when multiplied by 25 results in 1000,000,000,000 units which are interpreted as 1 KSM by Kusama OpenGov treasury tracks",
+          "title": "Set Asset Rate for KSM/DOT Conversion for spending DOT from Kusama Treasury",
+          "createdAt": {
+            "_seconds": 1746311371,
+            "_nanoseconds": 297000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-03T22:17:48.000Z",
+        "description": "",
+        "index": 520,
+        "origin": "Root",
+        "proposer": "Fa21tofAVF6jAR95K8NSbfLfiW3dabpdvfJVy492idMtF8R",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x3bbc76c3476d0a4dbff2995d815035d9cb890fe2de0feba7b3a9befb04cef4aa",
+        "voteMetrics": {
+          "nay": {
+            "count": 15,
+            "value": "36634093892874305"
+          },
+          "aye": {
+            "count": 8,
+            "value": "111050000000000"
+          },
+          "support": {
+            "value": "1212050000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-05-04T00:17:48.000Z"
+      },
+      "publicUser": {
+        "id": 12737,
+        "username": "Radha",
+        "profileScore": 1.75,
+        "addresses": [
+          "5F4QMaTnY8EAyWbhJcKKYeJLX8DopuneBYpZ7JnBYvQs9DSd"
+        ],
+        "rank": 2914,
+        "createdAt": "2023-10-18T16:29:32.147Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 512,
+      "title": "Adjust (only) ideal bulk proportion",
+      "content": "# Setting a realistic target for coretime sales\n\n## Background\n\nThis proposal aims to adjust the parameter that controls the ideal target for coretime sales to a value that better reflects the expected demand of Kusama cores. This change will help stop coretime prices from being driven to near-zero and instead drive prices to a more realistic value, benefiting the Kusama ecosystem.\n\nThe main utility of KSM is to pay for coretime (which gets burned), but current prices are virtually 0, making it hard for the system to benefit from its main product offering. Elastic scaling will help grow demand for coretime and thus KSM, and there might also be new sources of KSM demand like Kreivo's memberships, but we need to adjust the core business model.\n\n## Proposed Change\n\nThis proposal focuses solely on adjusting the `ideal_bulk_proportion` parameter:\n\n* Setting `ideal_bulk_proportion`: From `100%` to `40%`\n\n> The proportion of cores available for sale which should be sold.  \n> If more cores are sold than this, then further sales will no longer be considered in determining the sellout price. In other words, the sellout price will be the last price paid, without going over this limit.\n\n## Rationale\n\nA previous proposal ([Referendum 507](https://kusama.subsquare.io/referenda/507)) included both this parameter change and an inflation reduction. However, community feedback, particularly from validators, raised concerns about the inflation reduction component. Validators expressed that reducing inflation would make validator operations unprofitable, potentially harming network decentralization and security.\n\nThis modified proposal addresses those concerns by focusing only on the coretime sales parameter, which has received broader support. By setting a more realistic target for bulk coretime sales (40% instead of 100%), we can help discover coretime's true value while maintaining the current inflation rate that supports validator operations.\n\nNote that this number is not set in stone; it's a starting point that can help us better discover coretime's true value. The parameter can be adjusted in the future based on market response and ecosystem needs.\n\n## Future Considerations\n\nThis proposal is part of a broader effort to optimize Kusama's economic parameters. A future proposal focused on inflation may be developed in collaboration with validators to ensure any changes to inflation include conditions for newly minted KSM that benefit both validators and the broader ecosystem.\n\nAs a Kusama community member, I believe this focused change represents a balanced approach that addresses immediate concerns while setting the stage for future improvements.\n",
+      "createdAt": "2025-03-31T14:16:24.000Z",
+      "updatedAt": "2025-03-31T14:22:04.568Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2025-03-31T14:16:24.000Z",
+        "description": "",
+        "index": 512,
+        "origin": "Root",
+        "proposer": "EvoLanodoqDsgHb98Ymbu41uXXKfCPDKxeM6dXHyJ2JoVus",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x630004000100b50f040c2f00000602829b9918007c32000a000000e0c40000e0c40000b01300000084d7170080c3c901b01300002000",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 50,
+            "value": "106411983927701380"
+          },
+          "support": {
+            "value": "58385781245581332"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "decisionPeriodEndsAt": "2025-04-15T07:04:42.001Z",
+        "preparePeriodEndsAt": "2025-03-31T16:16:24.000Z"
+      },
+      "publicUser": {
+        "id": 2544,
+        "username": "olanod",
+        "profileScore": 57.25,
+        "createdAt": "2021-01-11T10:32:02.743Z",
+        "rank": 73,
+        "addresses": [
+          "5CzRiZYLwDugzTBm6fwfBMh34MQbM32mwRmt83Q7piE5vtiC",
+          "5Dht4YYw68iFAUTooEdDhkpcPW6pwYSR7meaUXABXCxSPfLF",
+          "5ERBgGSw1SpJ82U9NRjihwh1kwF5rXa2saobhyFLVVop4XJs",
+          "5EZSRMwtdtWexkaYpQH5aNBhsQ6tHUoBR9ETxmvvbsoQJnax",
+          "5F3VMLLVBYyhYetC3CsDc5xFZjtJ4ZqGJB6dPRMu3e2RXoVL"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "aHnPvQSR8hKiRyAhoXYa",
+      "index": 510,
+      "userId": 10090,
+      "title": "Secure Funds ",
+      "content": "To prevent potential mismanagement of Youdle DAO treasury funds, we propose temporarily transferring these assets to the Kusama Treasury, which is now the safest option.\n\nRationale:\n\nThe Invarch team, which currently controls the funds, has a history of questionable financial decisions, including the transfer of more than 200K ASTAR from the DAO to a CEX without transparency.\n\nCommunity members have raised concerns and asked questions about fund management, but the team has not provided clear answers.\n\nTo ensure responsible management, these remaining funds (400 KSM) should be safeguarded under Kusama governance.\n\n**Next Steps:**\n\nThe funds will later be returned to Youdle DAO holders through a transparent and verifiable process.\n\nWe urge the community to support this measure to protect DAO resources.\n\nEvidence:  \n  \nRug on virtuals  \n  \n![image.png](https://i.ibb.co/ksV69hZw/image.png)\n\n  \n![image.png](https://i.ibb.co/d07KbCzS/image.png)\n\nPolkadot treasury rugs  \n  \n![image.png](https://i.ibb.co/gF6yFp85/image.png)\n\nYoudle DAO rug\n\nMoving DAO funds to a CEX because it's a shared address instead of moving to another on chain address? No answers. \n\n![image.png](https://i.ibb.co/q3PybP6K/image.png)![image.png](https://i.ibb.co/sJHcg9gj/image.png)\n\n![image.png](https://i.ibb.co/rY3JSbx/image.png)\n\nPink rug  \n  \nPink distributed by the pink team to invarch was supposed to get distributed to the community  \n  \n![image.png](https://i.ibb.co/HLqzpKdz/image.png)\n\nbut instead 2000000 pink were allocated to xcastronaut (invarch founder) wallet\n\n![image.png](https://i.ibb.co/HfgvmkFQ/image.png)  \n  \n![image.png](https://i.ibb.co/Tx54NZdx/image.png)\n\nThen went to hydration and got sold.  \n  \nVARCH rug\n\n$VARCH token launched less than 30 days ago. ICO investors are down -96%  \n![image.png](https://i.ibb.co/fdtT68tX/image.png)  \n  \n  \n\nKSM partial rug  \n  \n\nNot fully delivered.   \n  \n\n![image.png](https://i.ibb.co/n8b29qmz/image.png)\n\nTinkernet rug  \n  \nTinkernet (kusama parachain) was shutdown. Investors were given 4 VARCH for 1 TINKER. VARCH was later a rug so this converts Tinkernet in a rug. Before shuting down they made an LBP in Osmosis (Cosmos) which also was a rug.",
+      "createdAt": "2025-03-30T23:15:18.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "governance",
+      "history": [
+        {
+          "content": "To prevent potential mismanagement of Youdle DAO treasury funds, we propose temporarily transferring these assets to the Kusama Treasury, which is now the safest option.\n\nRationale:\n\nThe Invarch team, which currently controls the funds, has a history of questionable financial decisions, including the transfer of more than 200K ASTAR from the DAO to a CEX without transparency.\n\nCommunity members have raised concerns and asked questions about fund management, but the team has not provided clear answers.\n\nTo ensure responsible management, these remaining funds (400 KSM) should be safeguarded under Kusama governance.\n\n**Next Steps:**\n\nThe funds will later be returned to Youdle DAO holders through a transparent and verifiable process.\n\nWe urge the community to support this measure to protect DAO resources.",
+          "title": "Secure Funds ",
+          "createdAt": {
+            "_seconds": 1743377813,
+            "_nanoseconds": 126000000
+          }
+        },
+        {
+          "content": "To prevent potential mismanagement of Youdle DAO treasury funds, we propose temporarily transferring these assets to the Kusama Treasury, which is now the safest option.\n\nRationale:\n\nThe Invarch team, which currently controls the funds, has a history of questionable financial decisions, including the transfer of more than 200K ASTAR from the DAO to a CEX without transparency.\n\nCommunity members have raised concerns and asked questions about fund management, but the team has not provided clear answers.\n\nTo ensure responsible management, these remaining funds (400 KSM) should be safeguarded under Kusama governance.\n\n**Next Steps:**\n\nThe funds will later be returned to Youdle DAO holders through a transparent and verifiable process.\n\nWe urge the community to support this measure to protect DAO resources.",
+          "title": "Secure Youdle DAO Funds ",
+          "createdAt": {
+            "_seconds": 1743377765,
+            "_nanoseconds": 261000000
+          }
+        },
+        {
+          "content": "To prevent potential mismanagement of Youdle DAO treasury funds, we propose temporarily transferring these assets to the Kusama Treasury, which is now the safest option.\n\nRationale:\n\nThe Invarch team, which currently controls the funds, has a history of questionable financial decisions, including the transfer of more than 200K ASTAR from the DAO to a CEX without transparency.\n\nCommunity members have raised concerns and asked questions about fund management, but the team has not provided clear answers.\n\nTo ensure responsible management, these funds (400 KSM) should be safeguarded under Kusama governance.\n\n**Next Steps:**\n\nThe funds will later be returned to Youdle DAO holders through a transparent and verifiable process.\n\nWe urge the community to support this measure to protect DAO resources.",
+          "title": "Secure Youdle DAO Funds ",
+          "createdAt": {
+            "_seconds": 1743377721,
+            "_nanoseconds": 650000000
+          }
+        },
+        {
+          "content": "To prevent potential mismanagement of Youdle DAO treasury funds, we propose temporarily transferring these assets to the Kusama Treasury, which is now the safest option.\n\nRationale:\n\nThe Invarch team, which currently controls the funds, has a history of questionable financial decisions, including the transfer of more than 200K ASTAR from the DAO to a CEX without transparency.\n\nCommunity members have raised concerns and asked questions about fund management, but the team has not provided clear answers.\n\nTo ensure responsible management, these funds (400 KSM) should be safeguarded under Kusama governance.\n\n**Next Steps:**\n\nThe funds will later be returned to Youdle DAO holders through a transparent and verifiable process.\n\nWe urge the community to support this measure to protect DAO resources.",
+          "title": "Secure Youdle DAO Funds ",
+          "createdAt": {
+            "_seconds": 1743377664,
+            "_nanoseconds": 102000000
+          }
+        },
+        {
+          "content": "To prevent potential mismanagement of Youdle DAO treasury funds, we propose temporarily transferring these assets to the Kusama Treasury, which is now the safest option.\n\nRationale:\n\nThe Invarch team, which currently controls the funds, has a history of questionable financial decisions, including the transfer of more than 200K ASTAR from the DAO to a CEX without transparency.\n\nCommunity members have raised concerns and asked questions about fund management, but the team has not provided clear answers.\n\nTo ensure responsible management, these funds (400 KSM) should be safeguarded under Kusama governance.\n\nNext Steps:\n\nThe funds will later be returned to Youdle DAO holders through a transparent and verifiable process.\n\nWe urge the community to support this measure to protect DAO resources.",
+          "title": "Secure Youdle DAO Funds ",
+          "createdAt": {
+            "_seconds": 1743377603,
+            "_nanoseconds": 98000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2025-03-30T23:15:18.000Z",
+        "description": "",
+        "index": 510,
+        "origin": "Root",
+        "proposer": "EJgdRddcYSd6XWnwr8oZkkzxJJX8SLwig38d5yxZSRgJGQZ",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xdf95b804c7bd8aa7ceab7b66763e04c330d3044b0aeb8275659d4f20718b0002",
+        "voteMetrics": {
+          "nay": {
+            "count": 14,
+            "value": "64352005699450206"
+          },
+          "aye": {
+            "count": 12,
+            "value": "28767751000000000"
+          },
+          "support": {
+            "value": "11638501000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-03-31T01:15:18.000Z"
+      },
+      "publicUser": {
+        "id": 10090,
+        "username": "KSM",
+        "profileScore": 15.75,
+        "addresses": [
+          "5Do4y7HkzBRhLshMB9KkfoPzoi2HKmXmGJCPERi15eDBZNmk"
+        ],
+        "rank": 312,
+        "createdAt": "2023-07-03T13:53:09.537Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 507,
+      "title": "Reducing inflation and setting a realistic target for coretime sales",
+      "content": "# Reducing Inflation\nSome time has passed since our wild cousin Polkadot successfully reduced its annual inflation to 8%(with gradual reduction), as a KSM token holder I believe our loved bird is due an adjustment of its inflation parameters as well. Instead of copy-pasting Polkadot's model, Kusama can try something different, some DOT holders were left wondering if inflation could be lower, I propose we reduce it to 5%. The high initial inflation was good for early bootstrapping and incentivizing participation, the ecosystem has matured enough to aim for long-term sustainability.\n\n## Changed parameters\n- Setting `MaxInflation`: From `10%` to `5%`\n- `UseAuctionSlots`: From `true` to `false`.  \n  From the [docs](https://github.com/polkadot-fellows/runtimes/blob/v1.4.2/relay/kusama/src/lib.rs#L687): \n  > With the move to agile-coretime, this parameter does not make much sense and should generally be set to false.\n\n**NOTE:** As `IdealStake` is \"75%\", `UseAuctionSlots = true` had the effect of making the *real* target around 45%, this is intentional as it would increase the treasury income to around 10% with current staking levels.\n\n![inflation.png](https://subsquare.infura-ipfs.io/ipfs/QmPLVu1AjKvG9eekJets2BxHLn6bK5kfYP3KWJ7hsQbucK)\n\n\n# Reducing ideal bulk coretime sales\nThe reduction of inflation should be balanced with an increased demand for the KSM, the main utility of KSM is to pay for coretime(which gets burned) but current prices are virtually 0 making it hard for the system to benefit from its main product offering. Elastic scaling will help grow demand for coretime and thus KSM, there might also be new sources of KSM demand like [Kreivo's memberships](https://forum.polkadot.network/t/sustainability-model-of-a-tokenless-protocol/8683) but we need to adjust the core business model.\n\nA while back I [proposed setting a minimum price](https://kusama.subsquare.io/referenda/469) but it was pointed out by @seadanda that a better approach is to change the parameter that controls the ideal target for sales to a value that better reflects the expected demand of the Kusama cores to stop the price from further being driven to 0 and quite the opposite drive its price up to a more realistic value.\n\nNote that this number is not set in stone, it's a starting point that can help us better discover coretime's true value.\n\n## Changed parameters\n- Setting `ideal_builk_proportion`: From `100%` to `40%`\n\n>The proportion of cores available for sale which should be sold.\nIf more cores are sold than this, then further sales will no longer be considered in determining the sellout price. In other words the sellout price will be the last price paid, without going over this limit.\n\n---\nAs self-proclaimed Kusama enthusiast#1, not only as KSM-only holder but as full-time exclusive builder on this network for several years, I hope this proposal well received and not seen as malicious as I only have the best intentions for this ecosystem :)",
+      "createdAt": "2025-03-17T13:43:00.000Z",
+      "updatedAt": "2025-03-17T15:10:55.086Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 15,
+          "dislike": 0
+        },
+        "comments": 14
+      },
+      "onChainInfo": {
+        "createdAt": "2025-03-17T13:43:00.000Z",
+        "description": "",
+        "index": 507,
+        "origin": "Root",
+        "proposer": "EvoLanodoqDsgHb98Ymbu41uXXKfCPDKxeM6dXHyJ2JoVus",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0x18020c2e000001010000c52ebca2b1002e0000040100630004000100b50f040c2f00000602829b9918007c32000a000000e0c40000e0c40000b01300000084d7170080c3c901b01300002000",
+        "voteMetrics": {
+          "nay": {
+            "count": 46,
+            "value": "347552346026386347"
+          },
+          "aye": {
+            "count": 18,
+            "value": "3204198793672488"
+          },
+          "support": {
+            "value": "9711934157069874"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "decisionPeriodEndsAt": "2025-03-31T15:44:06.001Z",
+        "preparePeriodEndsAt": "2025-03-17T15:43:00.000Z"
+      },
+      "publicUser": {
+        "id": 2544,
+        "username": "olanod",
+        "profileScore": 57.25,
+        "createdAt": "2021-01-11T10:32:02.743Z",
+        "rank": 73,
+        "addresses": [
+          "5CzRiZYLwDugzTBm6fwfBMh34MQbM32mwRmt83Q7piE5vtiC",
+          "5Dht4YYw68iFAUTooEdDhkpcPW6pwYSR7meaUXABXCxSPfLF",
+          "5ERBgGSw1SpJ82U9NRjihwh1kwF5rXa2saobhyFLVVop4XJs",
+          "5EZSRMwtdtWexkaYpQH5aNBhsQ6tHUoBR9ETxmvvbsoQJnax",
+          "5F3VMLLVBYyhYetC3CsDc5xFZjtJ4ZqGJB6dPRMu3e2RXoVL"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "jbCqLj4FUzqWHkzjYLlf",
+      "index": 497,
+      "userId": 2475,
+      "title": "PLEASE VOTE NAY",
+      "content": "This is a referendumV2 whose proposer address (JFArxqV6rqPSwBok3zQDnj5jL6vwsZQDwYXXqb1cFygnYVt) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2025-02-21T11:56:12.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2025-02-21T11:56:12.001Z",
+        "description": "",
+        "index": 497,
+        "origin": "Root",
+        "proposer": "JFArxqV6rqPSwBok3zQDnj5jL6vwsZQDwYXXqb1cFygnYVt",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x9b79758ea31a277c16e15d204448d0d7f626735fb55f89e2f0259bc854e2d5fd",
+        "voteMetrics": {
+          "nay": {
+            "count": 37,
+            "value": "91794408594908687"
+          },
+          "aye": {
+            "count": 6,
+            "value": "76101000000000"
+          },
+          "support": {
+            "value": "603001000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-02-21T13:56:12.001Z"
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "rank": 9,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "TYGpbPtmEMH2GbgsPvHW",
+      "index": 491,
+      "userId": 24921,
+      "title": "Deregister parathread 3390",
+      "content": "The parathread 3390 was originally set up for testing purposes and operated successfully for ~20 days. Unfortunately the collator along with its state was deleted before unlocking the parathread. Therefore, we are unable to deregister the parathread. We propose to deregister this chain via governance.\n\nThe proposer account owns parathread 3390, please feel free to verify.",
+      "createdAt": "2025-02-04T17:57:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "root",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 3,
+          "dislike": 1
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2025-02-04T17:57:12.000Z",
+        "description": "",
+        "index": 491,
+        "origin": "Root",
+        "proposer": "JL1EtiZwrawT6WajmBNPyVkWYf8MoBo3C43v95guyKeBB5y",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x73f5d4ba50e264519c353c4c1c1c7061b7ddddf77fda06b6dcbf9ed6530cab2f",
+        "voteMetrics": {
+          "nay": {
+            "count": 3,
+            "value": "10050000000000"
+          },
+          "aye": {
+            "count": 37,
+            "value": "67164082533040426"
+          },
+          "support": {
+            "value": "48070542366164226"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2025-02-24T16:12:12.000Z",
+        "preparePeriodEndsAt": "2025-02-04T19:57:12.000Z"
+      },
+      "publicUser": {
+        "id": 24921,
+        "username": "PDPTest",
+        "profileScore": 0,
+        "addresses": [
+          "5HpPaaNhKVa1hSh8y4NKW28kMxNtZ8NcapDJXUojSB79S2ku"
+        ],
+        "rank": 8543,
+        "createdAt": "2025-02-04T15:05:43.449Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "atds2L6rAR5fVdxElHlQ",
+      "index": 446,
+      "userId": 22980,
+      "title": "nay, wrong track. sorry.",
+      "content": "This is a referendumV2 whose proposer address (GqrkUcYx5Z9MXLADNAShQkBpUuy4nSCYU8xB7VHhx5ABogy) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2024-08-26T21:47:54.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-08-26T21:47:54.001Z",
+        "description": "",
+        "index": 446,
+        "origin": "Root",
+        "proposer": "GqrkUcYx5Z9MXLADNAShQkBpUuy4nSCYU8xB7VHhx5ABogy",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xe4470315d917d3811e314b4156aaf853f18e28768f3fe98dfc20367d8fdae2f8",
+        "voteMetrics": {
+          "nay": {
+            "count": 38,
+            "value": "29400536925297602"
+          },
+          "aye": {
+            "count": 2,
+            "value": "22000000000000"
+          },
+          "support": {
+            "value": "160000000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-08-26T23:47:54.001Z"
+      },
+      "publicUser": {
+        "id": 22980,
+        "username": "KSMfun",
+        "profileScore": 0,
+        "addresses": [
+          "5GLF6AGgKiYDbsWiSfMPoTPBftdjG7d266JCnTDLE9rfSWmy"
+        ],
+        "rank": 8543,
+        "createdAt": "2024-08-26T18:34:41.148Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "o90hdanYlcTt1rXgBHNq",
+      "index": 423,
+      "userId": 12694,
+      "title": "wrong track ignore",
+      "content": "This is a referendumV2 whose proposer address (FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2024-07-25T14:08:30.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-07-25T14:08:30.000Z",
+        "description": "",
+        "index": 423,
+        "origin": "Root",
+        "proposer": "FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x160516a2002a1b3bee62dd574004f14875a2b8bb233b9f089868c8884c11fb1e",
+        "voteMetrics": {
+          "nay": {
+            "count": 62,
+            "value": "430310774912190698"
+          },
+          "aye": {
+            "count": 1,
+            "value": "10000000000000"
+          },
+          "support": {
+            "value": "130000000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-07-25T16:08:30.000Z"
+      },
+      "publicUser": {
+        "id": 12694,
+        "username": "DecentPartners",
+        "profileScore": 8.75,
+        "addresses": [
+          "5FREwG23EmhEhL2xn3mgWYrxixe2H1mva1QeXGhAz8XkWSJj"
+        ],
+        "rank": 607,
+        "createdAt": "2023-10-15T14:33:55.093Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 418,
+      "title": "Add PolkaIdentity as Registrar",
+      "content": "**Application for Registrar**\n\n**Date**: 12th July 2024\n\n**Proponent**: Er58aNz1H8oXnDLvznADGido5jneBRuvDcULK3WK7ZKTpoR (**Snowpine**)\n\n**Contact**: hello@polkaidentity.com\n\n**Kusama Discussion:** https://kusama.polkassembly.io/post/2640\n\n**Requested KSM: Nothing**\n\n**Short description:** We would like to be added as a Kusama registrar to offer the service. This referendum is to add \\`HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix\\` as a registrar at Kusama People.\n\n**Reason for being at root track**: https://github.com/polkadot-fellows/runtimes/issues/382",
+      "createdAt": "2024-07-16T16:58:00.000Z",
+      "updatedAt": "2024-07-16T22:23:03.188Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 4,
+          "dislike": 0
+        },
+        "comments": 16
+      },
+      "onChainInfo": {
+        "createdAt": "2024-07-16T16:58:00.000Z",
+        "description": "",
+        "index": 418,
+        "origin": "Root",
+        "proposer": "E2g3jSsePP6TBomyMssxM1oT9Rk2MKAzNGi5yUXNqeLCsic",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xfa417dcbe6fa2e0060154215ce843031446de12ce72328882c0a18812dd8ac4f",
+        "voteMetrics": {
+          "nay": {
+            "count": 13,
+            "value": "2316100000000000"
+          },
+          "aye": {
+            "count": 71,
+            "value": "23861719158017464"
+          },
+          "support": {
+            "value": "15011740973041445"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-08-02T13:05:42.000Z",
+        "preparePeriodEndsAt": "2024-07-16T18:58:00.000Z"
+      }
+    },
+    {
+      "id": "3X3YRQVORO4iOs2ftn0Z",
+      "index": 402,
+      "userId": 12694,
+      "title": "Ignore wrong track. Cancelling.",
+      "content": "When submitting via Polkadot JS we selected the `Wish for change` track but did not adjust the Origin to the same. \n\nIssue is being raised. \n\n![image](https://i.ibb.co/Ph6PCwW/12694-Decent-Partners-1716750612480.png)\n\n",
+      "createdAt": "2024-05-24T20:31:48.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "fellowship",
+      "history": [
+        {
+          "content": "resubmitting",
+          "title": "Ignore wrong track. ",
+          "createdAt": {
+            "_seconds": 1716747854,
+            "_nanoseconds": 629000000
+          }
+        },
+        {
+          "content": "### Background\n\nWithin the current design of Kusama and Polkadot protocols there exists a [treasury and a burn mechanism](https://guide.kusama.network/docs/learn-polkadot-opengov-treasury/), designed to incentivise the spending of accrued funds.\n\nIn the current 6 day spend period on Kusama 494 KSM / $16k will be burned unless it is utilised via spending proposals.  \n\nKusama Society [Kappa Sigma Mu](https://hackmd.io/@beHJoYs7TbGToD_lc1aa8g/HJgZcXAmD), one of the earliest experiments on the network receives funding to its economic game to encourage new members to get a tattoo of a canary. \n\nThe pot is funded by 0.2% of the burn which streams in every 6 day spend period. \n\nAs a result of this drip funding over several years, the account now holds over [160k KSM worth over $5m](https://kusama.subscan.io/account/F3opxRbN5ZbbNGg1tFTKna9ymddEen74rNVr5JRPb3nRsXX). \n\n### Problem\n\nSetting aside the assessment of Kappa Sigma Mu and what to do with the current pot for now, this WFC is focused on the unique stream funding mechanism that is currently hardcoded into the runtime due to its early implementation in the network.\n\nThis means the decision-making powers to halt/continue funding the society pot, to propose alternative destinations for the spend, or to adjust parameters around the burn, exist outside of OpenGov and therefore the community's direct oversight. \n\n### Enable OpenGov to govern the burn\n\nIn the first instance and ahead of more subjective debates, this is a request to The Fellowship to expose this feature to OpenGov as a matter of good house-keeping and consistency - there is no reason why this particular spend should remain outside the direct purview of token holders.\n\nFurther we propose to expose the stream funding feature and indeed its underlying parameters to OpenGov oversight via new 'Stream' track that exists alongside other Spending tracks, representing an interesting alternative to current treasury orthodoxy that can foster innovation in novel ways.\n\n### Where this could go, Burn --> Ignite\n\nThe burn model in Kusama could become the pre-ignition phase for a new generation of on-chain collectives.\n\nWith the governance super-powers of [Krievo's](https://virto.network/blog/1ksm-1dao-create-community-kreivo) XCM focused organisational design, payment rails and [native grass-roots stablecoins arriving into Kusama Asset Hub](https://kusama.polkassembly.io/referenda/362), we believe new incentive structures can emerge that better align the incentives of voters, parachains and collectives in positive, rather than zero sum games.\n\nCurrently Polkadot burns 1% of treasury each spend period - given Kusama's chaotic credentials, there is no reason why we cannot progressively invert the current incentives, moving up to 1% of the treasury to match Polkadot. \n\n### Spec / Implementation\n\nAs Fellowship members, we believe the Krievo/Virto team are well placed to develop the spec and implementation of this WFC.\n\n### The future of the Kappa Sigma Mu pot\n\nIn general the fate of the funds held in this account are out of scope for this WFC and can be considered once the technical changes have been made and the burn feature is exposed to governance oversight.\n\nTo begin a discussion, the most obvious (and least contentious) options are to: \n\n1. Repatriate the funds - minus the operating requirements of Kappa Sigma Mu - via a ForceTransfer call on the Root track - boosting the treasury and indeed the amount available for the Stream track.\n2. Burn the funds via a ForceSetBalance call on the Root track, leaving the account with operating overhead. \n\n\n\n\n\n\n\n\n\n\n",
+          "title": "Wish for change: Halt Kusama treasury burn to Kappa Sigma Mu Society Pot. Make feature and underlying parameters adjustable by OpenGov oversight via new Stream track.",
+          "createdAt": {
+            "_seconds": 1716666965,
+            "_nanoseconds": 114000000
+          }
+        },
+        {
+          "content": "### Background\n\nWithin the current design of Kusama and Polkadot protocols there exists a [treasury and a burn mechanism](https://guide.kusama.network/docs/learn-polkadot-opengov-treasury/), designed to incentivise the spending of accrued funds.\n\nIn the current 6 day spend period on Kusama 494 KSM / $16k will be burned unless it is utilised via spending proposals.  \n\nKusama Society [Kappa Sigma Mu](https://hackmd.io/@beHJoYs7TbGToD_lc1aa8g/HJgZcXAmD), one of the earliest experiments on the network receives funding to its economic game to encourage new members to get a tattoo of a canary. \n\nThe pot is funded by 0.2% of the burn which streams in every 6 day spend period. \n\nAs a result of this drip funding over several years, the account now holds over [160k KSM worth over $5m](https://kusama.subscan.io/account/F3opxRbN5ZbbNGg1tFTKna9ymddEen74rNVr5JRPb3nRsXX). \n\n### Problem\n\nSetting aside the pros/cons of Kappa Sigma Mu and what to do with the current pot for now, the stream funding mechanism is an interesting structure but is hardcoded into the runtime due to its early implementation in the network.\n\nThis means the decision to halt/continue funding the society pot, to propose alternative destinations for the spend, or to adjust parameters around the burn, exist outside of OpenGov and therefore the community's oversight. \n\n### Enable OpenGov governance of the burn\n\nIn the first instance this is a request to The Fellowship to expose this feature to OpenGov as a matter of good house-keeping and consistency - there is no reason why this particular spend should remain outside the direct purview of token holders.\n\nFurther we propose to expose the stream funding feature and indeed its underlying parameters to OpenGov oversight via new 'Stream' track that exists alongside other Spending tracks, representing an interesting alternative to current treasury orthodoxy that can foster innovation in novel ways.\n\n### Where this could go, Burn --> Ignite\n\nThe burn model in Kusama could become the pre-ignition phase for a new generation of on-chain collectives.\n\nWith the governance super-powers of [Krievo's](https://virto.network/blog/1ksm-1dao-create-community-kreivo) XCM focused organisational design, payment rails and [native grass-roots stablecoins arriving into Kusama Asset Hub](https://kusama.polkassembly.io/referenda/362), we believe new incentive structures can emerge that better align the incentives of voters, parachains and collectives in positive, rather than zero sum games.\n\nCurrently Polkadot burns 1% of treasury each spend period - given Kusama's chaotic credentials, there is no reason why we cannot progressively invert the current incentives, moving up to 1% of the treasury to match Polkadot. \n\n### Spec / Implementation\n\nAs Fellowship members, we believe the Krievo/Virto team are well placed to develop the spec and implementation of this WFC.\n\n### The future of the Kappa Sigma Mu pot\n\nIn general the fate of the funds held in this account are out of scope for this WFC and can be considered once the technical changes have been made and the burn feature is exposed to governance oversight.\n\nTo begin a discussion, the most obvious (and least contentious) options are to: \n\n1. Repatriate the funds - minus the operating requirements of Kappa Sigma Mu - via a ForceTransfer call on the Root track - boosting the treasury and indeed the amount available for the Stream track.\n2. Burn the funds via a ForceSetBalance call on the Root track, leaving the account with operating overhead. \n\n\n\n\n\n\n\n\n\n\n",
+          "title": "Wish for change: Halt Kusama treasury burn to Kappa Sigma Mu Society Pot. Make feature and underlying parameters adjustable by OpenGov oversight via new Stream track.",
+          "createdAt": {
+            "_seconds": 1716661006,
+            "_nanoseconds": 938000000
+          }
+        },
+        {
+          "content": "This is a referendumV2 whose proposer address (FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+          "title": "Wish for change: Halt Kusama treasury burn to Kappa Sigma Mu Society Pot. Make feature and underlying parameters adjustable by OpenGov oversight via new Stream track.",
+          "createdAt": {
+            "_seconds": 1716614428,
+            "_nanoseconds": 279000000
+          }
+        },
+        {
+          "content": "This is a referendumV2 whose proposer address (FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+          "title": "Wish for change: Halt Kusama treasury burn to Kappa Sigma Mu Society Pot. Move feature and underlying parameter adjustment under OpenGov oversight via new Stream track.",
+          "createdAt": {
+            "_seconds": 1716614343,
+            "_nanoseconds": 663000000
+          }
+        },
+        {
+          "content": "This is a referendumV2 whose proposer address (FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+          "title": "Wish for change: Halt Kusama treasury burn to Kappa Sigma Mu Society Pot. Move feature under OpenGov oversight via new Stream track.",
+          "createdAt": {
+            "_seconds": 1716583952,
+            "_nanoseconds": 924000000
+          }
+        },
+        {
+          "content": "",
+          "title": "Wish for change: Kusama treasury burn  ",
+          "createdAt": {
+            "_seconds": 1716583050,
+            "_nanoseconds": 464000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-05-24T20:31:48.000Z",
+        "description": "",
+        "index": 402,
+        "origin": "Root",
+        "proposer": "FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn",
+        "status": "Cancelled",
+        "type": "ReferendumV2",
+        "hash": "0xc1c66ca3ec543cb9f25df351bf04b3181a8ca2da964cf953e7deb8e740f9c458",
+        "voteMetrics": {
+          "nay": {
+            "count": 69,
+            "value": "65991448089394125"
+          },
+          "aye": {
+            "count": 2,
+            "value": "10200000000000"
+          },
+          "support": {
+            "value": "630200000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-05-24T22:31:48.000Z"
+      },
+      "publicUser": {
+        "id": 12694,
+        "username": "DecentPartners",
+        "profileScore": 8.75,
+        "addresses": [
+          "5FREwG23EmhEhL2xn3mgWYrxixe2H1mva1QeXGhAz8XkWSJj"
+        ],
+        "rank": 607,
+        "createdAt": "2023-10-15T14:33:55.093Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 395,
+      "title": "Raise available cores to 60",
+      "content": "This proposal aims to raise the available cores from 55 to 60. It's primary purpose is to ensure that enough cores are available on the market in case an existing parachain accidentally misses to renew its core and make sufficient cores available on the market.\n\nThe proposal was discussed with the Technical Fellowship and no technical arguments have been upheld against it (compare [here](https://matrix.to/#/!xTldGNCpVcIMnZvSwo:matrix.org/$q9AotOC_9pkZTRPJGmf36_32CSQedievE-7EmHMLZ0g?via=matrix.org&via=parity.io&via=web3.foundation) and [here](https://matrix.to/#/!xTldGNCpVcIMnZvSwo:matrix.org/$4jtZZaWn7JM3a54QNScXQq2ggmEWhVmuTK9sJq6-lPM?via=matrix.org&via=parity.io&via=web3.foundation)). Following Bastis suggestion [here](https://matrix.to/#/!xTldGNCpVcIMnZvSwo:matrix.org/$CKkWKr4YLASpIdxf-BgNAHUKLnc80-q8jpYBfRn76JA?via=matrix.org&via=parity.io&via=web3.foundation) the only thing that is necessary is to call `broker.requestCoreCount(60)` as superuser on the Coretime Chain, which this proposal does.\n\n# Structure\n\nThe call sends an XCM message to the Coretime chain to request 60 cores to be made available: 0x630003000100b50f03082f00000602fa5159b0017d1032123c00\n\nDestination is parachain 1005\n\n![image](https://i.ibb.co/0c5VgPX/3003-Alice-Und-Bob-1715670048272.png)\n\nThe message consists of two instructions\n\nInstruction 0 uses the superuser infinite money glitch to not pay fees:\n![image](https://i.ibb.co/b28fN75/3003-Alice-Und-Bob-1715670139580.png)\n\nInstruction 1 contains the actual instruction for the coretime chain. `refTime` and `proofSize` are copied from Ref 375 and I have double-checked with the Fellowship that the values are sufficient.\n![image](https://i.ibb.co/44MGrbc/3003-Alice-Und-Bob-1715670171688.png)\n\nThe instruction for the Coretime Chain is 0x32123c00\n\n![image](https://i.ibb.co/HK1cQ4P/3003-Alice-Und-Bob-1715670314337.png)",
+      "createdAt": "2024-05-14T07:08:42.000Z",
+      "updatedAt": "2024-05-14T07:09:42.473Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-05-14T07:08:42.000Z",
+        "description": "",
+        "index": 395,
+        "origin": "Root",
+        "proposer": "DGaHm71gRHJGQVF2ubunkx37qgLpno2gYibq2WHoDJpFMt6",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xebdbbae55e99fdd54921a0897ab1d68164ea26ebcb86a85326b01d24b05aa9fc",
+        "voteMetrics": {
+          "nay": {
+            "count": 3,
+            "value": "32775557902312"
+          },
+          "aye": {
+            "count": 87,
+            "value": "80237121327121844"
+          },
+          "support": {
+            "value": "39559362410940686"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-05-14T09:08:42.000Z"
+      },
+      "publicUser": {
+        "id": 3003,
+        "username": "AliceUndBob",
+        "profileScore": 33.75,
+        "createdAt": "2023-03-14T18:41:30.600Z",
+        "rank": 133,
+        "addresses": [
+          "5CkxdSm944GNWkfoGCnrtob2yFQ727yrEAsrSNELKR6KWPaX",
+          "5DScBj1f4rKUCgfXuYzcZUXRy3mCorkUrjXv3XogNBc5AYtV"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "vEvNj4PCVuFlTJS7E8P6",
+      "index": 338,
+      "userId": 16915,
+      "title": "Deregister parachachain IDs 2086 and 2108",
+      "content": "BOTLabs GmbH registered Kusama parachains 2086 and 2108 for the benefit of the KILT Protocol. Kusama ParaID 2086 is the legacy Spiritnet which is not required anymore since KILT moved to Polkadot in October 2022. 2108 was used to bid for a new lease which was later swapped to 2086. Both chains are no longer required, but at the time of registration, unlocking a parachain was not supported. We therefore propose to deregister both chains via governance. Please verify the signatures of both registrar accounts for 2086 and 2108.\n\nSIgnature of parachain 2086: `0xe4458ecaaaa955dd4d73f43f25f4792a2fd0b003a2bc5e0b2eb2868ff98af916fd5bee389105e47fb771ee633e3248097c890624ad7416e9e82d6ea6f4b7cc80`\n\nSignature for 2108 not necessary, beacuse call submitted with that account.",
+      "createdAt": "2024-01-31T12:35:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "history": [
+        {
+          "content": "BOTLabs GmbH registered Kusama parachains 2086 and 2108 for the benefit of the KILT Protocol. Kusama ParaID 2086 is the legacy Spiritnet which is not required anymore since KILT moved to Polkadot in October 2022. 2108 was used to bid for a new lease which was later swapped to 2086. Both chains are no longer required, but at the time of registration, unlocking a parachain was not supported. We therefore propose to deregister both chains via governance. Please verify the signatures of both registrar accounts for 2086 and 2108.\n\nSIgnature of parachain 2086:\n`0xe4458ecaaaa955dd4d73f43f25f4792a2fd0b003a2bc5e0b2eb2868ff98af916fd5bee389105e47fb771ee633e3248097c890624ad7416e9e82d6ea6f4b7cc80`\n\nSignature for 2108 not necessary, beacuse call submitted with that account.",
+          "title": "Untitled",
+          "createdAt": {
+            "_seconds": 1706705845,
+            "_nanoseconds": 11000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-01-31T12:35:06.000Z",
+        "description": "",
+        "index": 338,
+        "origin": "Root",
+        "proposer": "FANv2seQVparUvgB2HMa6RYHdpcFta1GpSFLg2WSH11vZSR",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x0d5fff2685cd7563f4e94370ed0be82cbaa62bc251734c9221fb3a516642b12f",
+        "voteMetrics": {
+          "nay": {
+            "count": 15,
+            "value": "5779860887755044"
+          },
+          "aye": {
+            "count": 227,
+            "value": "99937318536094652"
+          },
+          "support": {
+            "value": "41828723533459812"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-02-27T11:55:06.000Z",
+        "preparePeriodEndsAt": "2024-01-31T14:35:06.000Z"
+      },
+      "publicUser": {
+        "id": 16915,
+        "username": "BOTLabs",
+        "profileScore": 0,
+        "addresses": [
+          "5EemFiXmn8of6q7EQKUJg94Y93YNTDkppSbVx1kYxUnXBMLb"
+        ],
+        "rank": 8543,
+        "createdAt": "2024-01-31T12:40:44.728Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "XRXhLc050CxRGjxoFmx0",
+      "index": 318,
+      "userId": 12916,
+      "title": "Deregister 2118",
+      "content": "We're writing to inform you about the decision to deregister Parachain ID 2118 from the Kusama network. Para ID 2118 is currently locked, we've decided to deregister it from the Kusama network.",
+      "createdAt": "2023-11-29T21:52:24.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-29T21:52:24.001Z",
+        "description": "",
+        "index": 318,
+        "origin": "Root",
+        "proposer": "FvbTkYUF9pZRZc9NtvcitgkjDQYEvmX2vuoyTqw4uW2YaKp",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xfebf9ea114e2b598b7bc1a16891a0d142818c6e6c190abdb94f470cdaba79b9a",
+        "voteMetrics": {
+          "nay": {
+            "count": 73,
+            "value": "12172771459607975"
+          },
+          "aye": {
+            "count": 249,
+            "value": "59162798591135089"
+          },
+          "support": {
+            "value": "23379949160013356"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-12-27T21:12:00.000Z",
+        "preparePeriodEndsAt": "2023-11-29T23:52:24.001Z"
+      },
+      "publicUser": {
+        "id": 12916,
+        "username": "2118",
+        "profileScore": 1,
+        "addresses": [
+          "5FQyoSCbcnodfunhcC7ZpwKkad8JSFxLaZ54aoZyb7HXoX3h"
+        ],
+        "rank": 4122,
+        "createdAt": "2023-10-27T09:58:09.892Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 299,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FQyoSCbcnodfunhcC7ZpwKkad8JSFxLaZ54aoZyb7HXoX3h.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2023-10-26T17:02:36.000Z",
+        "description": "",
+        "index": 299,
+        "origin": "Root",
+        "proposer": "FvbTkYUF9pZRZc9NtvcitgkjDQYEvmX2vuoyTqw4uW2YaKp",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xfebf9ea114e2b598b7bc1a16891a0d142818c6e6c190abdb94f470cdaba79b9a",
+        "voteMetrics": {
+          "nay": {
+            "count": 184,
+            "value": "94425699071070769"
+          },
+          "aye": {
+            "count": 109,
+            "value": "7263606648255303"
+          },
+          "support": {
+            "value": "4318078454793607"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-10-26T19:02:36.000Z"
+      },
+      "publicUser": {
+        "id": 12916,
+        "username": "2118",
+        "profileScore": 1,
+        "createdAt": "2023-10-27T09:58:09.892Z",
+        "rank": 4122,
+        "addresses": [
+          "5FQyoSCbcnodfunhcC7ZpwKkad8JSFxLaZ54aoZyb7HXoX3h"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "zyPyznxwJ17ir0toWEhb",
+      "index": 293,
+      "userId": 12694,
+      "title": "Burn the Kusama treasury and turn the canary into the phoenix.",
+      "content": "![image](https://i.ibb.co/7rnjqZp/12694-44ee48ef6d9f4d589b1866b93-1697934927514.png)\n\nRead the full proposal here - you'll need a Substrate address to comment and critique. \n\nhttps://rfc.decent.partners/t/burn-the-kusama-treasury-by-setting-balance-to-0/43\n\n",
+      "createdAt": "2023-10-20T16:11:00.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "history": [
+        {
+          "content": "![image](https://i.ibb.co/7rnjqZp/12694-44ee48ef6d9f4d589b1866b93-1697934927514.png)\n\nRead the full proposal here - you'll need a Substrate address to comment and critique. \n\nhttps://rfc.decent.partners/t/burn-the-kusama-treasury-by-setting-balance-to-0/43\n\n",
+          "title": "Burn the Kusama treasury and turn the canary into the phoenix.",
+          "createdAt": {
+            "_seconds": 1697934960,
+            "_nanoseconds": 894000000
+          }
+        },
+        {
+          "content": "Read, comment and critique the full proposal here (requires Substrate login) https://rfc.decent.partners/t/burn-the-kusama-treasury-by-setting-balance-to-0/43",
+          "title": "Burn the Kusama treasury by setting balance to 0 ",
+          "createdAt": {
+            "_seconds": 1697927468,
+            "_nanoseconds": 769000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-20T16:11:00.000Z",
+        "description": "",
+        "index": 293,
+        "origin": "Root",
+        "proposer": "FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x340e04984dc6eaba070a6c821ef0bd81a16cbf486b8bcb21ade45c7ed9aca7d8",
+        "voteMetrics": {
+          "nay": {
+            "count": 272,
+            "value": "444666519379199505"
+          },
+          "aye": {
+            "count": 32,
+            "value": "368107426254565890"
+          },
+          "support": {
+            "value": "63091093209332551"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-10-20T18:11:00.000Z"
+      },
+      "publicUser": {
+        "id": 12694,
+        "username": "DecentPartners",
+        "profileScore": 8.75,
+        "addresses": [
+          "5FREwG23EmhEhL2xn3mgWYrxixe2H1mva1QeXGhAz8XkWSJj"
+        ],
+        "rank": 607,
+        "createdAt": "2023-10-15T14:33:55.093Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "yeOkd7NIBwBzL79s9gnQ",
+      "index": 279,
+      "userId": 12530,
+      "title": "NIS Target",
+      "content": "Set `NisTarget` to 0.1%.",
+      "createdAt": "2023-10-02T11:11:18.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-02T11:11:18.000Z",
+        "description": "",
+        "index": 279,
+        "origin": "Root",
+        "proposer": "FXSnVifFTMG9VYyZDSBaPo2NFdAiFQw18KwHJK3hgx5ua5v",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x26fb252f7309ad7bd8b2ff005a7a4572319e45efb601ce41cb56760f9c7bbcb6",
+        "voteMetrics": {
+          "nay": {
+            "count": 217,
+            "value": "120182515702258999"
+          },
+          "aye": {
+            "count": 44,
+            "value": "5998780732101144"
+          },
+          "support": {
+            "value": "3385827570002642"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-10-02T13:11:18.000Z"
+      },
+      "publicUser": {
+        "id": 12530,
+        "username": "ebc28c7416414ebda4e9a9afe",
+        "profileScore": 0,
+        "addresses": [
+          "5F1q8BNnd6LLPqjXnWd8gSS2DfLvuabkYkVBte36DtjbAL4b"
+        ],
+        "rank": 8543,
+        "createdAt": "2023-10-04T06:01:35.459Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "bLYErHER1AZSbRzwsflG",
+      "index": 253,
+      "userId": 8919,
+      "title": "Perform lease swap for Karura",
+      "content": "Acala Foundation have registered para id 2233 and won a parachain slot auction by bidding with the intention to use the new lease to renew Karura para lease.\n\nHowever, due to historical reasons and missing migrations, para id 2233 is locked and in a bad state that can only be managed by root track.\n\nIn order to fix the bad state and improve the parachain lock mechanism to ensure this cannot happen in future, I have proposed [RFC-14](https://github.com/polkadot-fellows/RFCs/pull/14). A draft implementation is also implemented: https://github.com/paritytech/polkadot/pull/7560.\n\nBut Polkadot Fellowship is still on the process of taking over the ownership of Polkadot runtime, which slows everything down. We do not know if the RFC-14 can be accepted, implemented, and enacted before lease 32 ends.\n\nAs a result, I would like to perform a lease swap between Karura (Para ID 2000) and Para ID 2233 with root track. \n\nOnce RFC-14 is enacted, we would be able to self-service the lease swap in future and other parachain teams will be less likely require root track governance intervene for least swap or state update.",
+      "createdAt": "2023-08-09T05:31:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-08-09T05:31:12.000Z",
+        "description": "",
+        "index": 253,
+        "origin": "Root",
+        "proposer": "FoBryanE4CffsqaC7P3hC88N1cGx9fUBvJZXvikC8JxX3e1",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x9d73180a67e31c9a6f699fe6116fe25fef4f0bf4d24edc84a81148043f69565b",
+        "voteMetrics": {
+          "nay": {
+            "count": 59,
+            "value": "16052175458515045"
+          },
+          "aye": {
+            "count": 234,
+            "value": "215938407672816834"
+          },
+          "support": {
+            "value": "449740605271594351"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-08-23T09:39:24.000Z",
+        "preparePeriodEndsAt": "2023-08-09T07:31:12.000Z"
+      },
+      "publicUser": {
+        "id": 8919,
+        "username": "bryan",
+        "profileScore": 6.5,
+        "addresses": [
+          "5FHaCfEubhBjvE28RQZzoEm8DRL39UrHjYTp9GSniL6TmsAd"
+        ],
+        "rank": 853,
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 246,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FREwG23EmhEhL2xn3mgWYrxixe2H1mva1QeXGhAz8XkWSJj.",
+      "createdAt": "2023-07-28T08:52:36.000Z",
+      "updatedAt": "2023-07-28T08:52:36.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 4,
+          "dislike": 0
+        },
+        "comments": 16
+      },
+      "onChainInfo": {
+        "createdAt": "2023-07-28T08:52:36.000Z",
+        "description": "",
+        "index": 246,
+        "origin": "Root",
+        "proposer": "FvrbaMus8iASyrQYkajQWDxsYvG5gb72PFPuvy8TvkFFVGn",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x48212b2703934916d06738c545d36a43a42c6688a7a31699ed50c4a6b294a2df",
+        "voteMetrics": {
+          "nay": {
+            "count": 176,
+            "value": "43433159841047666"
+          },
+          "aye": {
+            "count": 93,
+            "value": "65765948447554313"
+          },
+          "support": {
+            "value": "25232590562173204"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-07-28T10:52:36.000Z"
+      },
+      "publicUser": {
+        "id": 12694,
+        "username": "DecentPartners",
+        "profileScore": 8.75,
+        "createdAt": "2023-10-15T14:33:55.093Z",
+        "rank": 607,
+        "addresses": [
+          "5FREwG23EmhEhL2xn3mgWYrxixe2H1mva1QeXGhAz8XkWSJj"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "BLe8O95jyumbXxccUzA8",
+      "index": 235,
+      "userId": 2652,
+      "title": "Spending Tracks Reconfiguration - runtime v9431",
+      "content": "Greetings everyone!\n\nAfter discussing these changes with many people in the ecosystem, I have finally prepared a referendum that will reconfigure Kusama's runtime accordingly. This referendum will change the following parameters in the spending tracks:\n\n| Track | Spend Limit| Max Deciding | Min Approval | Preparation Period | Confirmation Period | Decision Period |\n|-------|--------------|----------------|-----------------|---------------------|------------------------|------------------|\n|Small Tipper|No Change|200 -> 6|No Change|1 mins -> 3 hrs|No Change|No Change|\n|Big Tipper|No Change|100 -> 3|No Change|10 mins -> 6 hrs|No Change|No Change|\n|Small Spender|333 KSM -> 100 KSM|50 -> 7|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Medium Spender|3,333 KSM -> 1,250 KSM|50 -> 2|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Big Spender|33,333 KSM -> 2,500 KSM|50 -> 1|50% -> 66%|4 hrs -> 24 hrs|48 hrs -> 24 hrs|No Change|\n|Treasurer|No Change|No Change|50% -> 66%|2 hrs -> 48 hrs|3 hrs -> 48 hrs|14 days -> 28 days|\n\nFor now, the preimage is unnoted. However you can verify the hash by using srtool v0.11.0. The call is:\n\n```\nutility.withWeight(\n  system.setCode(\n    <adam-spending-reconfig wasm blob>\n    ),\n  1000000000000,\n  10000000\n)\n```\n\nYou can find the summary of changes [**on Github here**](https://github.com/paritytech/polkadot/compare/release-v0.9.43...adamsteeber:polkadot:adam-spending-reconfig).\n\nTreasury reconfiguration discussions [**here**](https://forum.polkadot.network/t/kusama-treasury-analysis-reconfiguration/2484) and [**here**](https://forum.polkadot.network/t/kusama-treasury-follow-up-analysis-continued-budgeting-incompetence/3143).\n\nI made a video going through the whole process of this referendum but [**it got removed from Youtube**](https://www.youtube.com/watch?v=HlxjSstvsmM) due to copyright strikes on the music in the background. [**I uploaded it to Twitter**](https://twitter.com/AdamSteeber1/status/1679661676486852610) though so hopefully it will stay up there.\n\nsrtool output:\n\n```\n✨ Your Substrate WASM Runtime is ready! ✨\nSummary generated with srtool v0.11.0 using the docker image paritytech/srtool:1.70.0:\n Package     : kusama-runtime v0.9.43\n GIT commit  : 700acb8e1fc20d53c71f7fdfea44dbe09d171c59\n GIT tag     : v0.9.43\n GIT branch  : adam-spending-reconfig\n Rustc       : rustc 1.70.0 (90c541806 2023-05-31)\n Time        : 2023-07-12T03:09:55Z\n\n== Compact\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 6.76 MB (7087543 bytes)\n setCode          : 0xb33c31bd19d662efa286825b762e12f4b5c5f3efe52adb9364f0536b85c23411\n authorizeUpgrade : 0x39d7596c5ff88184df84e1c8b97c990c770d3b504e1a14184f7cc1a7dc11554f\n IPFS             : QmTM2YunEtFS16M7U82tBVDXZoSqj6Ygj4BFvPoEzbD9Nq\n BLAKE2_256       : 0x6931efb33b54eb6415b0bc5872623049eb5c5d130dc8fff31597c2c4791b81a7\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.wasm\n\n== Compressed\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 1.41 MB (1482916 bytes)\n Compression      : 79.08%\n setCode          : 0x47c4c4406c953aa037361422b6633ad3238f324b065999e55f50ea30fc11f08d\n authorizeUpgrade : 0x5643d874b0e71ad9a5dd2341e29e06e28ca2b19db770298785adc1db527f7afc\n IPFS             : QmNt3L38axQ9q4ibhx3FaNKLF4CwX7WkWpPU6CAycbVtGw\n BLAKE2_256       : 0x6320cbe21cd6ddf5fdc371a6d2da568d4b179dc5648eb2559e2e801370375b99\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.compressed.wasm\n```\n\nRespectfully,\n\nAdam",
+      "createdAt": "2023-07-13T04:24:18.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "history": [
+        {
+          "content": "Greetings everyone!\n\nAfter discussing these changes with many people in the ecosystem, I have finally prepared a referendum that will reconfigure Kusama's runtime accordingly. This referendum will change the following parameters in the spending tracks:\n\n| Track | Spend Limit| Max Deciding | Min Approval | Preparation Period | Confirmation Period | Decision Period |\n|-------|--------------|----------------|-----------------|---------------------|------------------------|------------------|\n|Small Tipper|No Change|200 -> 6|No Change|1 mins -> 3 hrs|No Change|No Change|\n|Big Tipper|No Change|100 -> 3|No Change|10 mins -> 6 hrs|No Change|No Change|\n|Small Spender|333 KSM -> 100 KSM|50 -> 7|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Medium Spender|3,333 KSM -> 1,250 KSM|50 -> 2|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Big Spender|33,333 KSM -> 2,500 KSM|50 -> 1|50% -> 66%|4 hrs -> 24 hrs|48 hrs -> 24 hrs|No Change|\n|Treasurer|No Change|No Change|50% -> 66%|2 hrs -> 48 hrs|3 hrs -> 48 hrs|14 days -> 28 days|\n\nFor now, the preimage is unnoted. However you can verify the hash by using srtool v0.11.0. The call is:\n\n```\nutility.withWeight(\n  system.setCode(\n    <adam-spending-reconfig wasm blob>\n    ),\n  1000000000000,\n  10000000\n)\n```\n\nYou can find the summary of changes [**on Github here**](https://github.com/paritytech/polkadot/compare/release-v0.9.43...adamsteeber:polkadot:adam-spending-reconfig).\n\nTreasury reconfiguration discussions [**here**](https://forum.polkadot.network/t/kusama-treasury-analysis-reconfiguration/2484) and [**here**](https://forum.polkadot.network/t/kusama-treasury-follow-up-analysis-continued-budgeting-incompetence/3143)\n\nI am working on uploading a video explaining the process of this runtime upgrade. It should be up within the next 24 hours.\n\nsrtool output:\n\n```\n✨ Your Substrate WASM Runtime is ready! ✨\nSummary generated with srtool v0.11.0 using the docker image paritytech/srtool:1.70.0:\n Package     : kusama-runtime v0.9.43\n GIT commit  : 700acb8e1fc20d53c71f7fdfea44dbe09d171c59\n GIT tag     : v0.9.43\n GIT branch  : adam-spending-reconfig\n Rustc       : rustc 1.70.0 (90c541806 2023-05-31)\n Time        : 2023-07-12T03:09:55Z\n\n== Compact\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 6.76 MB (7087543 bytes)\n setCode          : 0xb33c31bd19d662efa286825b762e12f4b5c5f3efe52adb9364f0536b85c23411\n authorizeUpgrade : 0x39d7596c5ff88184df84e1c8b97c990c770d3b504e1a14184f7cc1a7dc11554f\n IPFS             : QmTM2YunEtFS16M7U82tBVDXZoSqj6Ygj4BFvPoEzbD9Nq\n BLAKE2_256       : 0x6931efb33b54eb6415b0bc5872623049eb5c5d130dc8fff31597c2c4791b81a7\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.wasm\n\n== Compressed\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 1.41 MB (1482916 bytes)\n Compression      : 79.08%\n setCode          : 0x47c4c4406c953aa037361422b6633ad3238f324b065999e55f50ea30fc11f08d\n authorizeUpgrade : 0x5643d874b0e71ad9a5dd2341e29e06e28ca2b19db770298785adc1db527f7afc\n IPFS             : QmNt3L38axQ9q4ibhx3FaNKLF4CwX7WkWpPU6CAycbVtGw\n BLAKE2_256       : 0x6320cbe21cd6ddf5fdc371a6d2da568d4b179dc5648eb2559e2e801370375b99\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.compressed.wasm\n```\n\nRespectfully,\n\nAdam",
+          "title": "Spending Tracks Reconfiguration - runtime v9431",
+          "createdAt": {
+            "_seconds": 1689226168,
+            "_nanoseconds": 893000000
+          }
+        },
+        {
+          "content": "Greetings everyone!\n\nAfter discussing these changes with many people in the ecosystem, I have finally prepared a referendum that will reconfigure Kusama's runtime accordingly. This referendum will change the following parameters in the spending tracks:\n\n| Track | Spend Limit| Max Deciding | Min Approval | Preparation Period | Confirmation Period | Decision Period |\n|-------|--------------|----------------|-----------------|---------------------|------------------------|------------------|\n|Small Tipper|No Change|200 -> 6|No Change|1 mins -> 3 hrs|No Change|No Change|\n|Big Tipper|No Change|100 -> 3|No Change|10 mins -> 6 hrs|No Change|No Change|\n|Small Spender|333 KSM -> 100 KSM|50 -> 7|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Medium Spender|3,333 KSM -> 1,250 KSM|50 -> 2|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Big Spender|33,333 KSM -> 2,500 KSM|50 -> 1|50% -> 66%|4 hrs -> 24 hrs|48 hrs -> 24 hrs|No Change|\n|Treasurer|No Change|No Change|50% -> 66%|2 hrs -> 48 hrs|3 hrs -> 48 hrs|14 days -> 28 days|\n\nFor now, the preimage is unnoted. However you can verify the hash by using srtool v0.11.0. The call is:\n\n```\nutility.withWeight(\n  system.setCode(\n    <adam-spending-reconfig wasm blob>\n    ),\n  1000000000000,\n  10000000\n)\n```\n\nYou can find the summary of changes [**on Github here**](https://github.com/paritytech/polkadot/compare/release-v0.9.43...adamsteeber:polkadot:adam-spending-reconfig).\n\nTreasury reconfiguration discussions [**here**](https://forum.polkadot.network/t/kusama-treasury-analysis-reconfiguration/2484) and [**here**](https://forum.polkadot.network/t/kusama-treasury-follow-up-analysis-continued-budgeting-incompetence/3143)\n\nI am working on uploading a video explaining the process of this runtime upgrade. It should be up within the next 24 hours.\n\nsrtool output:\n\n```\n✨ Your Substrate WASM Runtime is ready! ✨\nSummary generated with srtool v0.11.0 using the docker image paritytech/srtool:1.70.0:\n Package     : kusama-runtime v0.9.43\n GIT commit  : 700acb8e1fc20d53c71f7fdfea44dbe09d171c59\n GIT tag     : v0.9.43\n GIT branch  : adam-spending-reconfig\n Rustc       : rustc 1.70.0 (90c541806 2023-05-31)\n Time        : 2023-07-12T03:09:55Z\n\n== Compact\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 6.76 MB (7087543 bytes)\n setCode          : 0xb33c31bd19d662efa286825b762e12f4b5c5f3efe52adb9364f0536b85c23411\n authorizeUpgrade : 0x39d7596c5ff88184df84e1c8b97c990c770d3b504e1a14184f7cc1a7dc11554f\n IPFS             : QmTM2YunEtFS16M7U82tBVDXZoSqj6Ygj4BFvPoEzbD9Nq\n BLAKE2_256       : 0x6931efb33b54eb6415b0bc5872623049eb5c5d130dc8fff31597c2c4791b81a7\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.wasm\n\n== Compressed\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 1.41 MB (1482916 bytes)\n Compression      : 79.08%\n setCode          : 0x47c4c4406c953aa037361422b6633ad3238f324b065999e55f50ea30fc11f08d\n                    0x47c4c4406c953aa037361422b6633ad3238f324b065999e55f50ea30fc11f08d\n authorizeUpgrade : 0x5643d874b0e71ad9a5dd2341e29e06e28ca2b19db770298785adc1db527f7afc\n IPFS             : QmNt3L38axQ9q4ibhx3FaNKLF4CwX7WkWpPU6CAycbVtGw\n                    QmNt3L38axQ9q4ibhx3FaNKLF4CwX7WkWpPU6CAycbVtGw\n BLAKE2_256       : 0x6320cbe21cd6ddf5fdc371a6d2da568d4b179dc5648eb2559e2e801370375b99\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.compressed.wasm\n```\n\nRespectfully,\n\nAdam",
+          "title": "Spending Tracks Reconfiguration - runtime v9431",
+          "createdAt": {
+            "_seconds": 1689226130,
+            "_nanoseconds": 48000000
+          }
+        },
+        {
+          "content": "Greetings everyone!\n\nAfter discussing these changes with many people in the ecosystem, I have finally prepared a referendum that will reconfigure Kusama's runtime accordingly. This referendum will change the following parameters in the spending tracks:\n\n| Track | Spend Limit| Max Deciding | Min Approval | Preparation Period | Confirmation Period | Decision Period |\n|-------|--------------|----------------|-----------------|---------------------|------------------------|------------------|\n|Small Tipper|No Change|200 -> 6|No Change|1 mins -> 3 hrs|No Change|No Change|\n|Big Tipper|No Change|100 -> 3|No Change|10 mins -> 6 hrs|No Change|No Change|\n|Small Spender|333 KSM -> 100 KSM|50 -> 7|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Medium Spender|3,333 KSM -> 1,250 KSM|50 -> 2|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Big Spender|33,333 KSM -> 2,500 KSM|50 -> 1|50% -> 66%|4 hrs -> 24 hrs|48 hrs -> 24 hrs|No Change|\n|Treasurer|No Change|No Change|50% -> 66%|2 hrs -> 48 hrs|3 hrs -> 48 hrs|14 days -> 28 days|\n\nFor now, the preimage is unnoted. However you can verify the hash by using srtool v0.11.0. The call is:\n\n```\nutility.withWeight(\n  system.setCode(\n    <adam-spending-reconfig wasm blob>\n    ),\n  1000000000000,\n  10000000\n)\n```\n\nYou can find the summary of changes [**on Github here**](https://github.com/paritytech/polkadot/compare/release-v0.9.43...adamsteeber:polkadot:adam-spending-reconfig).\n\nTreasury reconfiguration discussions [**here**](https://forum.polkadot.network/t/kusama-treasury-analysis-reconfiguration/2484) and [**here**](https://forum.polkadot.network/t/kusama-treasury-follow-up-analysis-continued-budgeting-incompetence/3143)\n\nI am working on uploading a video explaining the process of this runtime upgrade. It should be up within the next few hours.\n\nsrtool output:\n\n```\n✨ Your Substrate WASM Runtime is ready! ✨\nSummary generated with srtool v0.11.0 using the docker image paritytech/srtool:1.70.0:\n Package     : kusama-runtime v0.9.43\n GIT commit  : 700acb8e1fc20d53c71f7fdfea44dbe09d171c59\n GIT tag     : v0.9.43\n GIT branch  : adam-spending-reconfig\n Rustc       : rustc 1.70.0 (90c541806 2023-05-31)\n Time        : 2023-07-12T03:09:55Z\n\n== Compact\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 6.76 MB (7087543 bytes)\n setCode          : 0xb33c31bd19d662efa286825b762e12f4b5c5f3efe52adb9364f0536b85c23411\n authorizeUpgrade : 0x39d7596c5ff88184df84e1c8b97c990c770d3b504e1a14184f7cc1a7dc11554f\n IPFS             : QmTM2YunEtFS16M7U82tBVDXZoSqj6Ygj4BFvPoEzbD9Nq\n BLAKE2_256       : 0x6931efb33b54eb6415b0bc5872623049eb5c5d130dc8fff31597c2c4791b81a7\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.wasm\n\n== Compressed\n Version          : kusama-9431 (parity-kusama-0.tx23.au2)\n Metadata         : V14\n Size             : 1.41 MB (1482916 bytes)\n Compression      : 79.08%\n setCode          : 0x47c4c4406c953aa037361422b6633ad3238f324b065999e55f50ea30fc11f08d\n                    0x47c4c4406c953aa037361422b6633ad3238f324b065999e55f50ea30fc11f08d\n authorizeUpgrade : 0x5643d874b0e71ad9a5dd2341e29e06e28ca2b19db770298785adc1db527f7afc\n IPFS             : QmNt3L38axQ9q4ibhx3FaNKLF4CwX7WkWpPU6CAycbVtGw\n                    QmNt3L38axQ9q4ibhx3FaNKLF4CwX7WkWpPU6CAycbVtGw\n BLAKE2_256       : 0x6320cbe21cd6ddf5fdc371a6d2da568d4b179dc5648eb2559e2e801370375b99\n Wasm             : runtime/kusama/target/srtool/release/wbuild/kusama-runtime/kusama_runtime.compact.compressed.wasm\n```\n\nRespectfully,\n\nAdam",
+          "title": "Spending Tracks Reconfiguration - runtime v9431",
+          "createdAt": {
+            "_seconds": 1689223239,
+            "_nanoseconds": 634000000
+          }
+        },
+        {
+          "content": "Greetings everyone!\n\nAfter discussing these changes with many people in the ecosystem, I have finally prepared a referendum that will reconfigure Kusama's runtime accordingly. This referendum will change the following parameters in the spending tracks:\n\n| Track | Spend Limit| Max Deciding | Min Approval | Preparation Period | Confirmation Period | Decision Period |\n|-------|--------------|----------------|-----------------|---------------------|------------------------|------------------|\n|Small Tipper|No Change|200 -> 6|No Change|1 mins -> 3 hrs|No Change|No Change|\n|Big Tipper|No Change|100 -> 3|No Change|10 mins -> 6 hrs|No Change|No Change|\n|Small Spender|333 KSM -> 100 KSM|50 -> 7|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Medium Spender|3,333 KSM -> 1,250 KSM|50 -> 2|No Change|4 hrs -> 24 hrs|No Change|No Change|\n|Big Spender|33,333 KSM -> 2,500 KSM|50 -> 1|50% -> 66%|4 hrs -> 24 hrs|48 hrs -> 24 hrs|No Change|\n|Treasurer|No Change|No Change|50% -> 66%|2 hrs -> 48 hrs|3 hrs -> 48 hrs|14 days -> 28 days|\n\nFor now, the preimage is unnoted. However you can verify the hash by using srtool v0.11.0. The call is:\n\n```\nutility.withWeight(\n  system.setCode(\n    <adam-spending-reconfig wasm blob>\n    ),\n  1000000000000,\n  10000000\n)\n```\n\nYou can find the summary of changes [**on Github here**](https://github.com/paritytech/polkadot/compare/release-v0.9.43...adamsteeber:polkadot:adam-spending-reconfig).\n\nTreasury reconfiguration discussions [**here**](https://forum.polkadot.network/t/kusama-treasury-analysis-reconfiguration/2484) and [**here**](https://forum.polkadot.network/t/kusama-treasury-follow-up-analysis-continued-budgeting-incompetence/3143)\n\nI am working on uploading a video explaining the process of this runtime upgrade. It should be up within the next few hours.\n\nRespectfully,\n\nAdam",
+          "title": "Spending Tracks Reconfiguration - runtime v9431",
+          "createdAt": {
+            "_seconds": 1689223157,
+            "_nanoseconds": 531000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 11,
+          "dislike": 0
+        },
+        "comments": 7
+      },
+      "onChainInfo": {
+        "createdAt": "2023-07-13T04:24:18.001Z",
+        "description": "",
+        "index": 235,
+        "origin": "Root",
+        "proposer": "GqC37KSFFeGAoL7YxSeP1YDwr85WJvLmDDQiSaprTDAm8Jj",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0x0b346506959c732b6f94578741c41be43bb5ee8579575cb8e515f11b0e94cc23",
+        "voteMetrics": {
+          "nay": {
+            "count": 169,
+            "value": "34997810964019361"
+          },
+          "aye": {
+            "count": 121,
+            "value": "12400006711993513"
+          },
+          "support": {
+            "value": "12684167622286105"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-07-27T15:11:18.000Z",
+        "preparePeriodEndsAt": "2023-07-13T06:24:18.001Z"
+      },
+      "publicUser": {
+        "id": 2652,
+        "username": "asteeber",
+        "profileScore": 155,
+        "addresses": [
+          "5GKaNnyZctdLR9WfnFdbV4BDoFqqhe7AJqNfKnJsNezg2JnW"
+        ],
+        "rank": 17,
+        "createdAt": "2021-03-25T09:58:43.689Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "o9Cbzg9YPtibWkGvD0mZ",
+      "index": 226,
+      "userId": 2,
+      "title": "Submitted to Wrong track, our apologies, Please ignore",
+      "content": "Submitted to Wrong track, my apologies, Please ignore",
+      "createdAt": "2023-06-21T16:34:21.718Z",
+      "tags": [
+        {
+          "value": "identity",
+          "lastUsedAt": "2023-06-21T16:34:21.718Z",
+          "network": "kusama"
+        },
+        {
+          "value": "registrar",
+          "lastUsedAt": "2023-06-21T16:34:21.718Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2585",
+        "proposalType": "Discussion"
+      },
+      "topic": "governance",
+      "history": [
+        {
+          "content": "> We propose to increase identity registration and make the process efficient by more than 75%. Easy UX, safer ecosystem! \n\n\nPolkassembly is an integral part of Polkadot and Kusama governance. It is dedicated to fostering transparent governance and active participation within the Kusama and Polkadot ecosystems. The team is excited to announce its application to become a registrar.\n\nOn-chain identities in the Polkadot ecosystem are crucial for trust, accountability, and interoperability. By establishing unique digital fingerprints, participants can securely interact within the network. An on-chain identity fosters a reliable and verifiable framework for participants within the Polkadot ecosystem, which is governed by a defined set of rules. It enables seamless integration and collaboration between different projects and stakeholders.\n\nIt also builds accountability as the participants are vetted and there are multiple points of contact for an individual/team. Hence, when requesting funds or proposing changes, the network and its resources have an additional layer of protection via the verification process. \n\nThe goal of setting an on-chain identity is to enhance transparency, security, and the overall ease of interaction between the participants of the Polkadot and Kusama ecosystems.\n\n**Problems in current on chain identity system**\n\n- The current process for verifying the identity is extremely fragmented\n- The process requires a heavy reliance on navigating through PolkadotJS, which can be overwhelming to those who are new to the ecosystem\n- Twitter, Element and email verification is done manually and the process is very complicated for any user. The verification process also relies on availability of the registrar, creating further friction in the process. \n- The process is also broken away from the governance and proposal creation interface, which makes it difficult for a lot of the community as they need to adapt to multiple tools for serving different use cases\n\n\n**Objective for Registrar Application**\n\n- The primary objective of creating the registrar application is to build an easy and integrated governance experience for all users within Polkassembly. \n- This involves building for automation of proposal creation, addition of education nudges on proposal evaluation, verification of on chain identities and comprehensive user level profiling with leaderboards and gamification for governance participants\n- Taking the onus for ensuring verification of users and building security for funds requested from treasury\n- All teams requesting funds should be able to create an onchain identity, verify themselves and use our product suite to create a multisig (via Polkasafe or any other publicly available multisig SDK) when requesting for funds\n- The time required for identity registration and verification will be reduced by more than 75%, enhancing the adoption of the feature and enabling a more robust and secure treasury management. \n\nEfficiency improvement of 75% was deduced by using the average time difference between the two methods for 3 unique users\n- The time required by the earlier method was 20-25 mins, and via Polkassembly will be approximately 5 mins\n \n\n**Why is Polkassemby uniquely positioned for this application?**\n\n- We believe that leveraging the right set of prompts and experiences, we can ensure teams are adopting the on chain identity feature set provided by the Polkadot and Kusama ecosystems \n- Polkassembly has continuously been working on differentiating its experience for proposal creators, governance participants, and networks and the verification of on chain identities can be a critical step towards the success of this initiative\n- Polkassembly has also been developing an extended feature set which will allow for an end to end experience \n- Creation of opengov proposals directly via the platform, in a simple and user friendly way\n- Observing locked, available and transferable balances while ensuring an easy mechanism to unlock bonded tokens\n- A super powerful delegation ecosystem, where track level delegation is  easy and helps build accountability for teams receiving delegations\n- Voting based on verification of credentials and track record of individuals and their contributions to the ecosystem\n\n**How will Polkassemby enable users to apply for on chain identity verification?**\n\nAttached below is a step wise explanation of how Polkassembly plans to receive and process on chain delegations \n\n**Step 1** - \nDiscovery on on chain identity setup\nUsers will be provided with contextual nudges on Polkassembly for setting up on chain identity\n\n![image](https://i.ibb.co/J3kBSVd/2-premiurly-1686908742146.png)\n\n![image](https://i.ibb.co/NFDMvtD/2-premiurly-1686908782463.png)\n\n**Step 2** - \nEducating users on what is on chain identity and why is it important\n- Explaining the process of setting up and on chain identity and how verification works\n- Helping users understand how to identify users with a valid on chain identity\n- Clear communication on the total amount required (Please note the amount mentioned is representative and may vary based on market conditions)\n- The breakdown of the feed will also be provided\n\n![image](https://i.ibb.co/VN7DkWT/2-premiurly-1686908809370.png)\n\n**Step 3 **- \nProviding the user with an interface to share all their social and contact information\n\n- The user will be allowed to choose any one of their address which they want to verify\n- They can choose their legal and display name\n- They can identify their social handles for further communication with the community\n- They are informed about the bond, which is mandatory while setting up an on chain identity \n- They are also informed about the fees charged for setting up or changing the social handles, which will be the fee per handle * # of handles being verified \n\n![image](https://i.ibb.co/mzVVfyj/2-premiurly-1686908855717.png)\n\n**Step 4** -\nConfirming the fees and initiating the step by step identity verification process\n\n- Each social handle will need to be independently verified after the input is provided \n- Once all verifications are completed the success states will be provided\n\n![image](https://i.ibb.co/7V4DK76/2-premiurly-1686908890788.png)\n\n![image](https://i.ibb.co/N9MrHHV/2-premiurly-1686908932198.png)\n\n![image](https://i.ibb.co/9rjw3NR/2-premiurly-1686908948205.png)\n\n**Step 5** -\nThe team will complete verification for the provided credentials and share an update over email for the candidate. \n\nThe tentative process will be as follows - \n- Website liveness will be checked using https://helloacm.com/tools/can-visit/ or a similar tool. \n- Email verification would be a verification link based hence removing a lot of manual steps involved currently. \n- Element & Twitter verification will be done using their APIs, again automating the process and removing manual steps of using polkadot.js and DMing registrars for verification. \n- Once the data is verified, there will be an final approval from registrar for a few days\n- (This will be eliminated permanently, completely automating the process and making it permissionless)\n\n\n\nFull Proposal [here](https://docs.google.com/document/d/1wYkC09wMjC6KstW2E9VtHLgoRd1bV_GLhYoTOQ8gv8U/edit)",
+          "title": "Polkassembly Application for Registrar",
+          "createdAt": {
+            "_seconds": 1687366064,
+            "_nanoseconds": 681000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-06-21T16:28:48.000Z",
+        "description": "",
+        "index": 226,
+        "origin": "Root",
+        "proposer": "F1wAMxpzvjWCpsnbUMamgKfqFM7LRvNdkcQ44STkeVbemEZ",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x5fbb2596418195548539176c86e724ad01cc33139f873831e1b01da33f6a1dbd",
+        "voteMetrics": {
+          "nay": {
+            "count": 222,
+            "value": "100999421129859483"
+          },
+          "aye": {
+            "count": 46,
+            "value": "7869342434826755"
+          },
+          "support": {
+            "value": "3066678747859618"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-06-21T18:28:48.000Z"
+      },
+      "publicUser": {
+        "id": 2,
+        "username": "Polkassembly",
+        "profileScore": 136.5,
+        "addresses": [
+          "5EWKW3cxNZiaTB4LpmYXsixfgf4sXm7CBNmefQAWGrH6unBd"
+        ],
+        "rank": 21,
+        "createdAt": "2021-06-15T12:12:29.047Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "mratLZfEEifH4jeMQxiE",
+      "index": 213,
+      "userId": 4031,
+      "title": "Moving a paraid to a new manager address - Kabocha",
+      "content": "EDIT - *No-one has objected, so I'm going to go ahead with this.*\n\nEDIT AGAIN - Passed and executed correctly.  Thank you to everyone who supported it!\n\nI'm interested in the communities views on whether the following is technically feasible and whether they would likely support it, please.\n\nWe're coming to the end of the Kabocha parachain lease (paraid 2113), and we've secured another lease on another paraid (2268).  Unfortunately, I hadn't realised that the parathread would instantly upgrade to a parachain and lock lease swaps, so we're going to need to use a root referendum to resolve it.\n\nHowever, there are a few other longer term issue that we'd like to resolve at the same time, if possible.  The current paraid is on a regular single owner account.  We'd like to move it to another account - probably a pure proxy so we can update control of the account as key people move in and out of the project.  I believe there isn't currently a way to update the manager of a paraid?\n\nWith that in mind, and noting that Kabocha will revert to a parathread in a few days, I'd like to set up a root track referendum that does the following in a batch (in order):\n\n1. registrar.deregister(2113) - release the paraid from the current holder and free the reserved balance.\n\n<wait 2 epoch for offboarding>\n\n2. registrar.forceRegister() - with the pure proxy account, standard 280.3KSM deposit (see below), paraid 2113, and the head hash and validation_code at the point where Kabocha stops making blocks (not yet known).\n\n<wait 2 epoch for onboarding - might not be strictly necessary>\n\n3. registrar.swap(2113,2268)\n4. registrar.swap(2268,2113)\n\nMy assumption is that this will move the paraid to the new account, offboard 2268 and onboard 2113 as parachains, and Kabocha should start making blocks again.  Is there anything fundamentally wrong with this assumption?  Or, indeed, is it too complex for the community to allow, perhaps?\n\nValidation wise, we can set remarks from the accounts involved (the current manager accounts for the two paraids and the new pure proxy), to confirm intent.  Is this sufficient?\n\n[About Kabocha, for anyone not familiar](https://forum.polkadot.network/t/introducing-kabocha-an-experimental-kusama-parachain-incubated-by-the-edgeware-community/327)\n\n\nEDIT to add **validation on-chain remarks**\n\n[Paraid 2268 manager account](https://kusama.subscan.io/extrinsic/18149800-2)\n\n[New paraid 2113 manager account, via proxy](https://kusama.subscan.io/extrinsic/18149835-2)\n\n[Old paraid 2113 manager account](https://kusama.subscan.io/extrinsic/18154737-2)\n\n\nEDIT to add **notes on deposit for forceRegister()**\n\nThe fee for setting the parachain PVF and head is just under 280.3KSM (this is more than the fee when Kabocha was first registered).  I will use the current fee in the forceRegister() extrinsic.\n\n![image](https://i.ibb.co/RpQRz5S/4031-jelliedowl-1685570490210.png)\n\nEDIT: In case it's useful for anyone in future - this is the preimage I used:\n![image](https://i.ibb.co/jLtPpdB/4031-jelliedowl-1687038852464.png)",
+      "createdAt": "2023-06-01T14:16:21.017Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2579",
+        "proposalType": "Discussion"
+      },
+      "topic": "root",
+      "history": [
+        {
+          "content": "EDIT - *No-one has objected, so I'm going to go ahead with this.*\n\nI'm interested in the communities views on whether the following is technically feasible and whether they would likely support it, please.\n\nWe're coming to the end of the Kabocha parachain lease (paraid 2113), and we've secured another lease on another paraid (2268).  Unfortunately, I hadn't realised that the parathread would instantly upgrade to a parachain and lock lease swaps, so we're going to need to use a root referendum to resolve it.\n\nHowever, there are a few other longer term issue that we'd like to resolve at the same time, if possible.  The current paraid is on a regular single owner account.  We'd like to move it to another account - probably a pure proxy so we can update control of the account as key people move in and out of the project.  I believe there isn't currently a way to update the manager of a paraid?\n\nWith that in mind, and noting that Kabocha will revert to a parathread in a few days, I'd like to set up a root track referendum that does the following in a batch (in order):\n\n1. registrar.deregister(2113) - release the paraid from the current holder and free the reserved balance.\n\n<wait 2 epoch for offboarding>\n\n2. registrar.forceRegister() - with the pure proxy account, standard 280.3KSM deposit (see below), paraid 2113, and the head hash and validation_code at the point where Kabocha stops making blocks (not yet known).\n\n<wait 2 epoch for onboarding - might not be strictly necessary>\n\n3. registrar.swap(2113,2268)\n4. registrar.swap(2268,2113)\n\nMy assumption is that this will move the paraid to the new account, offboard 2268 and onboard 2113 as parachains, and Kabocha should start making blocks again.  Is there anything fundamentally wrong with this assumption?  Or, indeed, is it too complex for the community to allow, perhaps?\n\nValidation wise, we can set remarks from the accounts involved (the current manager accounts for the two paraids and the new pure proxy), to confirm intent.  Is this sufficient?\n\n[About Kabocha, for anyone not familiar](https://forum.polkadot.network/t/introducing-kabocha-an-experimental-kusama-parachain-incubated-by-the-edgeware-community/327)\n\n\nEDIT to add **validation on-chain remarks**\n\n[Paraid 2268 manager account](https://kusama.subscan.io/extrinsic/18149800-2)\n\n[New paraid 2113 manager account, via proxy](https://kusama.subscan.io/extrinsic/18149835-2)\n\n[Old paraid 2113 manager account](https://kusama.subscan.io/extrinsic/18154737-2)\n\n\nEDIT to add **notes on deposit for forceRegister()**\n\nThe fee for setting the parachain PVF and head is just under 280.3KSM (this is more than the fee when Kabocha was first registered).  I will use the current fee in the forceRegister() extrinsic.\n\n![image](https://i.ibb.co/RpQRz5S/4031-jelliedowl-1685570490210.png)",
+          "title": "Moving a paraid to a new manager address - Kabocha",
+          "createdAt": {
+            "_seconds": 1685912482,
+            "_nanoseconds": 292000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-06-01T14:06:30.000Z",
+        "description": "",
+        "index": 213,
+        "origin": "Root",
+        "proposer": "GkHAhyJEezrPuJ4CCytry4NfNU7nchh8zUq9RuKYfqRsUuT",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x96438304473cf89856765805c128323ad0c38465cde7eeb405dbbcb38450bbcf",
+        "voteMetrics": {
+          "nay": {
+            "count": 26,
+            "value": "2805613571166284"
+          },
+          "aye": {
+            "count": 285,
+            "value": "99025767640544521"
+          },
+          "support": {
+            "value": "41277747992346106"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-06-15T16:42:18.000Z",
+        "preparePeriodEndsAt": "2023-06-01T16:06:30.000Z"
+      },
+      "publicUser": {
+        "id": 4031,
+        "username": "jelliedowl",
+        "profileScore": 11.5,
+        "addresses": [
+          "5GEfWPdRcHyveFUcRWAqy1hNWnBsywtWgce5kmdN4scw8VXz"
+        ],
+        "rank": 448,
+        "createdAt": "2022-08-30T15:07:22.132Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "CqtcAoPOmSJuxaAMuH5w",
+      "index": 208,
+      "userId": 214,
+      "title": "Ignore",
+      "content": "Ignore this proposal please, was submitted in wrong track.",
+      "createdAt": "2023-05-27T06:39:48.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-05-27T06:39:48.001Z",
+        "description": "",
+        "index": 208,
+        "origin": "Root",
+        "proposer": "FagnR7YW9N2PZfxC3dwSqQjb59Jsz3x35UZ24MqtA4eTVZR",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x331944b009304068e42ea118b51c94621bc652e50f6735b73b0927cefece08c6",
+        "voteMetrics": {
+          "nay": {
+            "count": 271,
+            "value": "64487594018147212"
+          },
+          "aye": {
+            "count": 21,
+            "value": "894299754730871"
+          },
+          "support": {
+            "value": "948409134530871"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5F5586mfsnM6durWRLptYt3jSUs55KEmahdodQ5tQMr9iY96",
+            "amount": "1185000000000000",
+            "assetId": null
+          }
+        ],
+        "preparePeriodEndsAt": "2023-05-27T08:39:48.001Z"
+      },
+      "publicUser": {
+        "id": 214,
+        "username": "ParaSpell",
+        "profileScore": 25.75,
+        "addresses": [
+          "5F5586mfsnM6durWRLptYt3jSUs55KEmahdodQ5tQMr9iY96"
+        ],
+        "rank": 180,
+        "createdAt": "2023-02-25T13:10:11.114Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "5MZdMrVGXcCyaDVxeuy4",
+      "index": 186,
+      "userId": 2933,
+      "title": "Remove lock for Bifrost swapped parachain id (2259 & 2262)",
+      "content": "## Background\n[Bifrost](https://kusama.subscan.io/parachain/2001) is a Kusama parachain that recently completed a lease renewal. We registered two paraids to bid for the lease renewal and then swapped to Bifrost paraid 2001 once the bidding was successful. \n\n## Request\nWe now have two parachains that require community assistance to execute the `remove_lock` function in order to withdraw the previous 700 KSM locking.\n\nThe address we used to register `paraid 2259` & `paraid 2262`: **J3dfxSNbUHwBbmB4My7DCgrNniQ227uTUNqqf4KB1DhyZkR**\n\nTransactions:\n- 2259 registration: [https://kusama.subscan.io/extrinsic/0x90433dd2c428e38104709393a35d41e051c353fb175eeb93d2240fa1aef7f13c](https://kusama.subscan.io/extrinsic/0x90433dd2c428e38104709393a35d41e051c353fb175eeb93d2240fa1aef7f13c)\n\n- 2262 registration: [https://kusama.subscan.io/extrinsic/0x0e2ad064d107abe9dca42f6be2f37ec27fa2b2858d847c62af8b87af38ad3975](https://kusama.subscan.io/extrinsic/0x0e2ad064d107abe9dca42f6be2f37ec27fa2b2858d847c62af8b87af38ad3975)\n\nThe signature below is used to prove the registration address (J3dfxSNbUHwBbmB4My7DCgrNniQ227uTUNqqf4KB1DhyZkR) is ours:\n\nContent:\n`Paraid 2259 & 2262 belong to Bifrost, and Bifrost Kusama slot renewal is successful, we are submitting referendum to unlock paraid 2259 & 2262`\n\nSignature:\n`0xa0e872b0d115e75cf82787693f5b4cce913c1c6666abb4cd5d4a279489d0ae795fc905d36b6d3af11cb65b1ecf66a8294726c52805f374e7ae4fb1ffa30b698e`",
+      "createdAt": "2023-05-09T15:30:06.000Z",
+      "tags": [
+        {
+          "value": "referenda",
+          "lastUsedAt": "2023-05-09T15:30:06.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2023-05-09T15:30:06.000Z",
+        "description": "",
+        "index": 186,
+        "origin": "Root",
+        "proposer": "EcpCHPVabccG59mVG21JkdJR5LHfmdf5BTR88t525wX9VBb",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xfb1600e2b4f4e56089ec4f850913db8ececa84883082f51056ecda153d10238c",
+        "voteMetrics": {
+          "nay": {
+            "count": 17,
+            "value": "1127620222716039"
+          },
+          "aye": {
+            "count": 279,
+            "value": "179087200019482123"
+          },
+          "support": {
+            "value": "322596163683193281"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-05-25T07:43:54.001Z",
+        "preparePeriodEndsAt": "2023-05-09T17:30:06.000Z"
+      },
+      "publicUser": {
+        "id": 2933,
+        "username": "Lurpis",
+        "profileScore": 16.25,
+        "addresses": [
+          "5E7CXy3cxEbgWRLKiZCxQoGJGV43s6pUcocfjUc7YHj2QLSJ",
+          "5FtEEfxEdXX5nM5gekhuoWcwWfhW66TtDdcJiBDaCezpF6ex"
+        ],
+        "rank": 297,
+        "createdAt": "2021-08-20T13:13:21.273Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 181,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5DqgQrisZLYV8s1dvMFW1CgV9KTLNGeYYAPCLwN38rZm6jys.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2023-05-05T10:45:18.000Z",
+        "description": "",
+        "index": 181,
+        "origin": "Root",
+        "proposer": "EMJ5B4kBhZQtWq5h44YuA3VHujaAwTizYDwjbdzcenFqkVM",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x5325debd4a768aec3df401659d99fd4c277e5c295a17959d44b596e9d4963e98",
+        "voteMetrics": {
+          "nay": {
+            "count": 245,
+            "value": "57375297479924553"
+          },
+          "aye": {
+            "count": 12,
+            "value": "227021892530871"
+          },
+          "support": {
+            "value": "442848460533056"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5DqgQrisZLYV8s1dvMFW1CgV9KTLNGeYYAPCLwN38rZm6jys",
+            "amount": "4701000000000000",
+            "assetId": null
+          }
+        ],
+        "preparePeriodEndsAt": "2023-05-05T12:45:18.000Z"
+      },
+      "publicUser": {
+        "id": 8849,
+        "username": "a5a33dcf0b4d4b90975566580",
+        "profileScore": 8,
+        "rank": 664,
+        "addresses": [
+          "5DqgQrisZLYV8s1dvMFW1CgV9KTLNGeYYAPCLwN38rZm6jys"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 173,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5E4V5P3D3t3vMj2FyXz7dLrgJ6GaZjZQ1AdMHjbtkUT89SLS.",
+      "createdAt": "2023-04-25T14:23:12.000Z",
+      "updatedAt": "2023-04-25T14:23:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-25T14:23:12.000Z",
+        "description": "",
+        "index": 173,
+        "origin": "Root",
+        "proposer": "Ea6jhP5gF4r7NqhkEoAXJDgSgYpNQNaTYU6gPsrEGfctaKR",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x13c641c4a49317ba2cd07cc1e98ca7f2582c9d04caecafe743aada9bbf0f3f84",
+        "voteMetrics": {
+          "nay": {
+            "count": 27,
+            "value": "1696753045267674"
+          },
+          "aye": {
+            "count": 288,
+            "value": "166989326212487632"
+          },
+          "support": {
+            "value": "246951619906507395"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-05-10T10:16:18.000Z",
+        "preparePeriodEndsAt": "2023-04-25T16:23:12.000Z"
+      },
+      "publicUser": {
+        "id": 8191,
+        "username": "Oliver",
+        "profileScore": 6.75,
+        "rank": 824,
+        "addresses": [
+          "5Dd4br974MVpHuDZEQ5vt3A9YT88rztGSzFF3sx6383heBJp",
+          "5E4V5P3D3t3vMj2FyXz7dLrgJ6GaZjZQ1AdMHjbtkUT89SLS",
+          "5EX82CC6VA7LePAJtJfDxuqXGe9L84RSAejUGNshsrpgmTsV",
+          "5GU3uc8pJGoZHubH9JSG6YPQP7WGxgGMMrpFESooBHQa3WHm"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "numV7uerpIUZSD1W4m6Y",
+      "index": 172,
+      "userId": 2933,
+      "title": "Remove lock for Bifrost swapped parachain id (2259 & 2262)",
+      "content": "## Background\n[Bifrost](https://kusama.subscan.io/parachain/2001) is a Kusama parachain that recently completed a lease renewal. We registered two paraids to bid for the lease renewal and then swapped to Bifrost paraid 2001 once the bidding was successful. \n\n## Request\nWe now have two parachains that require community assistance to execute the `remove_lock` function in order to withdraw the previous 700 KSM locking.\n\nThe address we used to register `paraid 2259` & `paraid 2262`: **J3dfxSNbUHwBbmB4My7DCgrNniQ227uTUNqqf4KB1DhyZkR**\n\nTransactions:\n- 2259 registration: [https://kusama.subscan.io/extrinsic/0x90433dd2c428e38104709393a35d41e051c353fb175eeb93d2240fa1aef7f13c](https://kusama.subscan.io/extrinsic/0x90433dd2c428e38104709393a35d41e051c353fb175eeb93d2240fa1aef7f13c)\n\n- 2262 registration: [https://kusama.subscan.io/extrinsic/0x0e2ad064d107abe9dca42f6be2f37ec27fa2b2858d847c62af8b87af38ad3975](https://kusama.subscan.io/extrinsic/0x0e2ad064d107abe9dca42f6be2f37ec27fa2b2858d847c62af8b87af38ad3975)\n\nThe signature below is used to prove the registration address (J3dfxSNbUHwBbmB4My7DCgrNniQ227uTUNqqf4KB1DhyZkR) is ours:\n\nContent:\n`Paraid 2259 & 2262 belong to Bifrost, and Bifrost Kusama slot renewal is successful, we are submitting referendum to unlock paraid 2259 & 2262`\n\nSignature:\n`0xa0e872b0d115e75cf82787693f5b4cce913c1c6666abb4cd5d4a279489d0ae795fc905d36b6d3af11cb65b1ecf66a8294726c52805f374e7ae4fb1ffa30b698e`",
+      "createdAt": "2023-04-25T10:27:36.000Z",
+      "tags": [
+        {
+          "value": "referenda",
+          "lastUsedAt": "2023-04-25T10:27:36.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-25T10:27:36.000Z",
+        "description": "",
+        "index": 172,
+        "origin": "Root",
+        "proposer": "EcpCHPVabccG59mVG21JkdJR5LHfmdf5BTR88t525wX9VBb",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xfb1600e2b4f4e56089ec4f850913db8ececa84883082f51056ecda153d10238c",
+        "voteMetrics": {
+          "nay": {
+            "count": 21,
+            "value": "7346473341746956"
+          },
+          "aye": {
+            "count": 280,
+            "value": "84625478849426454"
+          },
+          "support": {
+            "value": "36910049394050214"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-04-25T12:27:36.000Z"
+      },
+      "publicUser": {
+        "id": 2933,
+        "username": "Lurpis",
+        "profileScore": 16.25,
+        "addresses": [
+          "5E7CXy3cxEbgWRLKiZCxQoGJGV43s6pUcocfjUc7YHj2QLSJ",
+          "5FtEEfxEdXX5nM5gekhuoWcwWfhW66TtDdcJiBDaCezpF6ex"
+        ],
+        "rank": 297,
+        "createdAt": "2021-08-20T13:13:21.273Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "8sIVrKvE9FkNbHUWQXcD",
+      "index": 161,
+      "userId": 8369,
+      "title": "MISTAKE - Wrong track, my apologies",
+      "content": "MISTAKE - Wrong track, my apologies",
+      "createdAt": "2023-04-15T21:59:06.000Z",
+      "tags": [
+        {
+          "value": "education",
+          "lastUsedAt": "2023-04-15T21:59:06.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-15T21:59:06.000Z",
+        "description": "",
+        "index": 161,
+        "origin": "Root",
+        "proposer": "EwN3cKcTPbzhBpLmA6bL8geaTRxHnpKSEVGjRZsuypnWyyC",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xd6e49d8477d0e3899687bc10ce7f704e63142bd78a3acc9ed897a51ccd61c86d",
+        "voteMetrics": {
+          "nay": {
+            "count": 252,
+            "value": "56712429281082414"
+          },
+          "aye": {
+            "count": 11,
+            "value": "355041412530871"
+          },
+          "support": {
+            "value": "255143212530871"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2023-04-15T23:59:06.000Z"
+      },
+      "publicUser": {
+        "id": 8369,
+        "username": "Simplify_DeFi",
+        "profileScore": 2,
+        "addresses": [
+          "5D21WzaZ6NR13mvGRBG58JwAQ26d44Tbx9afXkNDpGPEkCje",
+          "5ERkPHyjq2b4wXztzTHYSBKeRs9iV818yreXLmHvSBcHmxnq"
+        ],
+        "rank": 2490,
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "3FGvFunUgEUKGoz07JYY",
+      "index": 145,
+      "userId": 2652,
+      "title": "Kusama Treasury Staking Configuration",
+      "content": "Hello everyone,\n\nI have proposed a very exciting root track referendum that will effectively increase the Treasury's revenue by ~43,000 KSM per year. This solution is totally decentralized, autonomous, and, most importantly, can be enacted without needing to issue a `system.setCode` call to upgrade to a custom runtime. I can't afford the decision deposit myself, so I'm calling on anyone with enough liquid KSM to place the deposit if you want this to be considered by the ecosystem. Allow me lay it all out:\n\n### The Referendum Call\n\n![](https://crustipfs.art/ipfs/QmNVnL3hXCZNZ6sTF3NmhrZwDqnqb8zxpWjB8K424Zd5Vp)\n\nSimply put, this referendum will do the following:\n\n- Transfer 120,000 KSM out of the [**Society**](https://kusama.subscan.io/account/F3opxRbN5ZbbNGg1tFTKna9ymddEen74rNVr5JRPb3nRsXX) and into the [**Treasury**](https://kusama.subscan.io/account/F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29)\n- Transfer 30,001 KSM from the Treasury to each of [9 preconfigured pure proxies](https://kusama.subscan.io/extrinsic/0x4d1d7eb5a6158a75aca18e98e324371befc212baf5962abe91dfc0e7ee5c83bf):\n  - [HeFL76wT2rZPQd3j4EnjothdLzLoiYUL3Tqc7kdqsJTznMe](https://kusama.subscan.io/account/HeFL76wT2rZPQd3j4EnjothdLzLoiYUL3Tqc7kdqsJTznMe)\n  - [DedtrfJnGapVYdds7F4rM1jPZis19NnJS9aHdjLFmfrmKa5](https://kusama.subscan.io/account/DedtrfJnGapVYdds7F4rM1jPZis19NnJS9aHdjLFmfrmKa5)\n  - [EcQgA6iB5LXcepGevvJU8MyLxKVs19xNks83xK6FsUzP7h2](https://kusama.subscan.io/account/EcQgA6iB5LXcepGevvJU8MyLxKVs19xNks83xK6FsUzP7h2)\n  - [GR7Ne8N1QgK36dweG14KcVX5gfhR1ExnAJ7jVhTGvH6qP5z](https://kusama.subscan.io/account/GR7Ne8N1QgK36dweG14KcVX5gfhR1ExnAJ7jVhTGvH6qP5z)\n  - [EeytoLwHVy6xSFN1MtbeKAmMa5J6iM3TuKRgEFaL1ifKe2u](https://kusama.subscan.io/account/EeytoLwHVy6xSFN1MtbeKAmMa5J6iM3TuKRgEFaL1ifKe2u)\n  - [D5ySbJETHTAFpJnoZ8NSLuDSr367G1xioXz9yhm3WDfbeAM](https://kusama.subscan.io/account/D5ySbJETHTAFpJnoZ8NSLuDSr367G1xioXz9yhm3WDfbeAM)\n  - [Eibm3W68F8Nev68KBnreUr1Q33SmnwaWFGt37h2zT17LSn3](https://kusama.subscan.io/account/Eibm3W68F8Nev68KBnreUr1Q33SmnwaWFGt37h2zT17LSn3)\n  - [DGiVvkbo77knCEJLJ54DEE154fyJSY5TVxmAEmJneJioeWb](https://kusama.subscan.io/account/DGiVvkbo77knCEJLJ54DEE154fyJSY5TVxmAEmJneJioeWb)\n  - [Gk2wxmpU6R1rmAvD49aGp9Eqo2C9Q69JTxDAexxgVvQKC4h](https://kusama.subscan.io/account/Gk2wxmpU6R1rmAvD49aGp9Eqo2C9Q69JTxDAexxgVvQKC4h)\n- Make these pure proxies join the following 9 nomination pools:\n  - [Amforc](https://kusama.subscan.io/nomination_pool/1)\n  - [Swiss Pool](https://kusama.subscan.io/nomination_pool/2)\n  - [Paradox - high returns](https://kusama.subscan.io/nomination_pool/4)\n  - [Gatotech](https://kusama.subscan.io/nomination_pool/8)\n  - [Turboflakes](https://kusama.subscan.io/nomination_pool/12)\n  - [Polkagates](https://kusama.subscan.io/nomination_pool/18)\n  - [StakePlus](https://kusama.subscan.io/nomination_pool/54)\n  - [ChaosDAO](https://kusama.subscan.io/nomination_pool/75)\n  - [CoinStudio](https://kusama.subscan.io/nomination_pool/86)\n- Schedule calls that will claim pool rewards and transfer directly to the Treasury at the beginning of each spend period.\n\n[**Here**](https://kusama.subscan.io/extrinsic/0xe824c4bfb79609af0c39b2592baf531ced8741a0f200ba00fa9bcd1f32406109) is the call that enlivened the proxies and added the Treasury as a delegate for each one. [**Here**](https://kusama.subscan.io/extrinsic/0x3307a76ee737f5374e5e397d3eedcf4ee75b394001aa8da5bf862e086dc29ea8) is the call that removed my account as a delegate for each one. [**Here**](https://kusama.subscan.io/extrinsic/0x087e02a033404fb175329ccd4d012f68c57d78ad022ab6a3d1179c87a6e9e1d3) is the call that confirms that I indeed do not have control of the proxies.\n\nThe reason for the proxy configuration is that the Treasury itself can't join multiple nomination pools, so to achieve thorough decentralization we need to utilize proxy accounts that are only controlled by the Treasury. And even if we wanted the Treasury to join just one pool, 270,000 KSM in one pool would yield very inefficient rewards since each validator in the pool would be nominated with way more than the average.\n\nI hand-selected these pools because they are maintained by people and organizations that have a good track record and are clearly here to stay. If a pool starts misbehaving, it will be quite easy to get a referendum passed to unbond from that pool and join another. This selection is the only potentially biased decision made in this process but I hope the ecosystem can trust my judgment - I really tried to be as unbiased as possible.\n\nThe amounts are what I believe to be a good balance between liquidity and passive revenue. With the Society funds, the Treasury only needs to offer up about half its free balance to these pools. If the community believes the Treasury needs to be more liquid, we can simply pass a referendum to unbond a certain amount from each pool and transfer the funds back to the Treasury. Remember *these funds are not being spent*. They are being staked.\n\nJust a quick note, the reason for the 30,001 KSM balance transfers but only 30,000 KSM being joined to a pool is because an account cannot dip below the existential balance while joining a nomination pool. These 9 KSM will be returned to the Treasury when the first reward claim is enacted by the scheduler. I know I enlivened the proxies with existential balances after I made them, but it's best to be redundant.\n\nFinally, the scheduler call is scheduled for Block #17,798,400 because I wanted to make sure that it would get scheduled even if this referendum took the maximum time possible, i.e. 432,000 blocks from the next spend period which starts at block #17,366,400. The maximum time this referendum could take is equal to 5 spend periods, so **the Treasury would receive its first RoS sometime around May 6th**. Also, the scheduled calls have a priority of `49` to ensure there's enough higher priorities for other scheduled calls and repeats 333 times to ensure automated payouts for the next few years.\n\n### Projected Effects\n\nBefore we get into projections, I want to address a *very* annoying bug in polkadot.js that probably hurts the ecosystem's marketability. The app uses [**`api.query.auctions.auctionCounter`**](https://github.com/polkadot-js/apps/blob/master/packages/react-hooks/src/useInflation.ts#L54) to calculate the ideal staking proportion in the ecosystem. This is wrong and it's [**not what the runtime does**](https://github.com/paritytech/polkadot/blob/master/runtime/kusama/src/lib.rs#L517). By using `api.query.auctions.auctionCounter` you're querying the *total* number of auctions that have ever happened - currently at 76. Since this is greater than the max of 60 parachains allocated 30% of the supply, the app defaults to 60 in its ideal staking calculation. In other words, it takes that whole 30% allocation away from 75% to get an ideal staking proportion of 45%. That's why it shows ~10% RoS because that's what you get when you plug those numbers into [**the inflation rate formula**](https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html). If you use the *correct* number of 43 non-system parachains and account for the 270,000 KSM throwing the total staked proportion off-kilter, you get an RoS closer to 16%. I can perform the math if anyone wants confirmation.\n\nNow that that's out of the way, if we estimate the expected revenue with the ecosystem average return on staking of 16% (rewards not compounding), we get ~118 KSM per day in revenue, or 0.00822 KSM per block on average. [**Based on my analysis of the Treasury over 1.2 million blocks**](https://forum.polkadot.network/t/kusama-treasury-analysis-reconfiguration/2484), the average revenue per block is currently at 0.0166. Therefore:\n\n**This referendum will instantly increase the Treasury's revenue by ~50%.**\n\nIt will be interesting to see what this number actually ends up being if this referendum passes. Needless to say, I think everyone can agree that if this can be done, it definitely should.\n\n### Follow-up Referenda\n\nThis referendum is the first step in a multi-referendum plan to stop the unsustainable decline of the Treasury's balance\n\n1. Give most Society funds to the Treasury and boost its revenue via nomination pools.\n2. As being discussed in [**this forum post**](https://forum.polkadot.network/t/kusama-treasury-analysis-reconfiguration/2484), we propose a custom runtime upgrade to change the spending tracks from general spending categories to topic-based spending tracks and restrict spending bandwidth.\n3. Assuming KSM's price increases in the next year or so, we strategically convert KSM to a stable asset, like USDT on Statemine, to bootstrap a stable Treasury on Statemine.\n\nThe first two steps are actionable and can be executed within the next 30 - 45 days. The 3rd step in this plan is where it gets vague, but that's only because it's far in the future and relies on variables that are out of our control. We would obviously monitor revenue, spending, and KSM price to ensure we are being prudent with Treasury management.\n\n### Potential Objections\n\n**Nomination pools aren't the solution for this, we should instead implement a Treasury staking pallet in the runtime.**\n\nThe fact of the matter is that this has been a topic of discussion for many months, *yet there has been no call to action or any real change in all that time*. Here is a solution that works *right now* and doesn't require a `system.setCode` call. If we strike this down, that's just more time the Treasury isn't earning this revenue. Enough pussyfooting, let's get a solution out *now* even if that solution isn't the best possible one.\n\n**I support this solution but I don't agree with the selection of the nomination pools.**\n\nOkay, [**then reconfigure the call**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.ibp.network%2Fkusama#/extrinsics/decode/0x18040c0402006d6f646c70792f736f6369650000000000000000000000000000000000000000006d6f646c70792f747273727900000000000000000000000000000000000000001300000c3d5d53aa01180300016d6f646c70792f74727372790000000000000000000000000000000000000000180448040000e02c0d619388fe06fcf8a3c0f39b6bec007b7681f74b46908025e7e7a9bef4010f0010e823c0956a0400002f8713f259edae6a39c46b3b7a2b50b56a9197f1a4bf0239699eb25fb8d5d88e0f0010e823c0956a0400005a1052540297d2476edc20e96c91d71d4e56f8c70846c11882614537ba7d1f5f0f0010e823c0956a040000a9ead86497da1e333d490aba19cf560202b626c64766fc6596223412f46ed69c0f0010e823c0956a0400005c06a2513f04763ba212a82edfcab8d99c8412aee095f1e3eb07bf738a184a280f0010e823c0956a040000169dc7fab75d13eadebea1751c7ae78ea0d88141885bc4bf3d74f7ebb4605c870f0010e823c0956a0400005ec91b5efe64c965944c935d60baeea3374f1a7a497b85945512badf48ece91f0f0010e823c0956a0400001ecf2e01060969c1d210f4bca7a9a18252475d5c66009e0358c8f0c6488ea15e0f0010e823c0956a040000b8599c4571bbc01019044115eaa2422bb57e87f8c3c998ad909a61f4bad629250f0010e823c0956a1e0000e02c0d619388fe06fcf8a3c0f39b6bec007b7681f74b46908025e7e7a9bef4010029000f0000434fd7946a010000001e00002f8713f259edae6a39c46b3b7a2b50b56a9197f1a4bf0239699eb25fb8d5d88e0029000f0000434fd7946a020000001e00005a1052540297d2476edc20e96c91d71d4e56f8c70846c11882614537ba7d1f5f0029000f0000434fd7946a040000001e0000a9ead86497da1e333d490aba19cf560202b626c64766fc6596223412f46ed69c0029000f0000434fd7946a080000001e00005c06a2513f04763ba212a82edfcab8d99c8412aee095f1e3eb07bf738a184a280029000f0000434fd7946a0c0000001e0000169dc7fab75d13eadebea1751c7ae78ea0d88141885bc4bf3d74f7ebb4605c870029000f0000434fd7946a120000001e00005ec91b5efe64c965944c935d60baeea3374f1a7a497b85945512badf48ece91f0029000f0000434fd7946a360000001e00001ecf2e01060969c1d210f4bca7a9a18252475d5c66009e0358c8f0c6488ea15e0029000f0000434fd7946a4b0000001e0000b8599c4571bbc01019044115eaa2422bb57e87f8c3c998ad909a61f4bad629250029000f0000434fd7946a560000001d0000950f0101805101004d01000000180300016d6f646c70792f747273727900000000000000000000000000000000000000001804241e0000e02c0d619388fe06fcf8a3c0f39b6bec007b7681f74b46908025e7e7a9bef4010018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00002f8713f259edae6a39c46b3b7a2b50b56a9197f1a4bf0239699eb25fb8d5d88e0018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00005a1052540297d2476edc20e96c91d71d4e56f8c70846c11882614537ba7d1f5f0018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e0000a9ead86497da1e333d490aba19cf560202b626c64766fc6596223412f46ed69c0018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00005c06a2513f04763ba212a82edfcab8d99c8412aee095f1e3eb07bf738a184a280018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e0000169dc7fab75d13eadebea1751c7ae78ea0d88141885bc4bf3d74f7ebb4605c870018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00005ec91b5efe64c965944c935d60baeea3374f1a7a497b85945512badf48ece91f0018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00001ecf2e01060969c1d210f4bca7a9a18252475d5c66009e0358c8f0c6488ea15e0018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e000030b5bf9cb181c2123093dcbb88ee3382725f496ab37267001c7de8145d3edb400018040829020404006d6f646c70792f7472737279000000000000000000000000000000000000000001) and pick 9 different pools. Want more pools? Then create more pure proxies in the same way I did, reconfigure the call, propose your own `root` track referendum, and leave it to the token holders to decide.\n\n**You don't have to use proxies to do this, there's a better batch of calls, the scheduler call could be better, etc.**\n\nLike I said above, just reconfigure the call and submit your own referendum then. This is *openGov* after all. If you have a better way of doing this, by all means, please show everyone how it's done.\n\n**There is a fundamental problem with using fees collected from transactions to secure the network via staking.**\n\nThis is something I've been pondering - is staking Treasury/ Society funds into the ecosystem a lot like a snake eating its own tail? I've come to the conclusion that no, recirculating \"burned\" funds back into staking doesn't hurt the security of the network. That's because the funds would otherwise eventually end up getting paid out to independent parties who would sell it on the open market. At the end of the day, these funds will eventually go back into circulation, so best to stake them across a decentralized set of validators.\n\n**How do you know that these calls will work?**\n\nPlease feel free to test these calls yourself by using Chopsticks and follow my testing environment documentation below. You can also verify these calls using different tools, whatever floats your boat. While I am very confident that these calls will work as expected it's always good to get more eyes and minds scrutinizing the technicalities.\n\n### Testing Environment\n\nBefore I could confidently propose this on chain, I had to make sure that every call worked exactly as intended.I decided to utilize [**Chopsticks**](https://github.com/AcalaNetwork/chopsticks) because it seemed to be the easiest way to test exactly how Kusama works. I'm sure there are far more efficient ways of setting up a dev environment that can test Kusama, especially ones that don't require the workarounds I had to utilize, but I was shooting for convenience and speed. Since Kusama doesn't have a `Sudo` pallet and I couldn't figure out how to hardcode an account with root origin in the config.yml file, I had to be clever. In the process of finding workarounds I came to the important realization that **confirmed referenda on Kusama are nothing more than scheduled calls in the `scheduler`**. That means if I could hardcode the `scheduler.agenda` in the Chopsticks config, I could simulate any successful referenda on Kusama. I needed to test the following:\n\n- Can `root` submit a `balances.forceTransfer` to move Society funds to the Treasury?\n- Can `root` submit a `utility.dispatchAs(signed,call)` on behalf of the Treasury?\n- Can the Treasury be a delegate of pure proxies?\n- Can `root` submit a `proxy.proxy` via `utility.dispatchAs(signed,call)` on behalf of the Treasury?\n- Can Treasury funds be staked to nomination pools using all of the above?\n- Will such large amounts joining the pools break the pools at all?\n- Can the Treasury automatically receive its rewards using all of the above? \n\nI obviously wouldn't have submitted this referendum on chain if any of these things weren't possible. Turns out `root` is really, really powerful! To test these things I had to hard code proxies, scheduled calls, preimages, and nomination pool rewards. I first focused on proxy configuration and joining nomination pools by adding the following under `import-storage` in the default `kusama.yml` file in Chopsticks:\n\n```\n  Proxy:\n    Proxies:\n      -\n        - [G8dY4RCzMW85s55GjubvUBQEGFqri7Y6BB3HhJN3QF6NYHS]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [Df9BxuggXYdszox1CHHgt8SqdziJXYDcY4ow72bGbyfx5YP]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [JAhvx2YRj9Rc1u9ke7W8mjWwosDmYpkVrj3CMsbJXaoGEAh]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [DFwZEF8rNEsZx8tzfGZHuM8Pma5RV1qQEZy7urDk3QcWKss]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [D5vJYsuWZ9vPn5wLk7zfQb9GiqcL3CEhzyLt3qForGACQ7s]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [E51bb6z5DZTzDomkG8QMXLCfATgYvwqovA2WUJdEZpA8YpY]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [Hvn4qnbRc17moQjwRTSVwzGGFFDY73uVKGgdwKi15zvibM8]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [J9Wv965oJqTRT8mMJkcrkBdSXt3hUSaP4mmnnYBnUqjGU6z]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n      -\n        - [DgBokRc1ZTvdCS3AmMikpZkWDoK6CwtTaUjp8t1Y6ZS2dNF]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n  Preimage:\n    PreimageFor:\n      -\n        -\n           - ['0x59738bdd0aeb9fd2bed0db1e22f13e90afa1b478fc7d07a8aa3a35b9b5ffefb4', 1704]\n        - '0x18040c0402006d6f646c70792f736f6369650000000000000000000000000000000000000000006d6f646c70792f747273727900000000000000000000000000000000000000001300000c3d5d53aa01180300016d6f646c70792f747273727900000000000000000000000000000000000000001804480400009d5935861195dfc92a0e61ecfb09cc6016acbd90b16e8db292ca9a92d6cfcc570f0010e823c0956a0400002fe9b18c2e4a19356409e553f9947cad1bb7dec2e0b03c7ee582443fd6ca156f0f0010e823c0956a040000f766f5e3e988404ae8e9006d4ffe8ade3727afeacc9691f6e51b2bf5620997260f0010e823c0956a0400001e37e3485870efbc43f017d710703c8273d0ddf708b0943c391dd931c9162b170f0010e823c0956a0400001693372d0721cf86bd276aac99ff208d00f02c08ff5aede6b1fcbea4e4d190c00f0010e823c0956a040000421e06239e41944ace1955b5a2782c9b77a2ff2faad1cef446073de06a928da50f0010e823c0956a040000ecc772b808e917a470b8b7ef253a2e54baaac41f0315e8fdb0227955333e20f00f0010e823c0956a040000f67ea38a89e5243c11196daac805636e79f2c28221ae7a72a7d390b161b9f4120f0010e823c0956a04000030b5bf9cb181c2123093dcbb88ee3382725f496ab37267001c7de8145d3edb400f0010e823c0956a1e00009d5935861195dfc92a0e61ecfb09cc6016acbd90b16e8db292ca9a92d6cfcc570029000f0000434fd7946a010000001e00002fe9b18c2e4a19356409e553f9947cad1bb7dec2e0b03c7ee582443fd6ca156f0029000f0000434fd7946a020000001e0000f766f5e3e988404ae8e9006d4ffe8ade3727afeacc9691f6e51b2bf5620997260029000f0000434fd7946a040000001e00001e37e3485870efbc43f017d710703c8273d0ddf708b0943c391dd931c9162b170029000f0000434fd7946a080000001e00001693372d0721cf86bd276aac99ff208d00f02c08ff5aede6b1fcbea4e4d190c00029000f0000434fd7946a0c0000001e0000421e06239e41944ace1955b5a2782c9b77a2ff2faad1cef446073de06a928da50029000f0000434fd7946a120000001e0000ecc772b808e917a470b8b7ef253a2e54baaac41f0315e8fdb0227955333e20f00029000f0000434fd7946a360000001e0000f67ea38a89e5243c11196daac805636e79f2c28221ae7a72a7d390b161b9f4120029000f0000434fd7946a4b0000001e000030b5bf9cb181c2123093dcbb88ee3382725f496ab37267001c7de8145d3edb400029000f0000434fd7946a560000001d0080a00b0101805101004d01000000180300016d6f646c70792f747273727900000000000000000000000000000000000000001804241e00009d5935861195dfc92a0e61ecfb09cc6016acbd90b16e8db292ca9a92d6cfcc570018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00002fe9b18c2e4a19356409e553f9947cad1bb7dec2e0b03c7ee582443fd6ca156f0018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e0000f766f5e3e988404ae8e9006d4ffe8ade3727afeacc9691f6e51b2bf5620997260018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00001e37e3485870efbc43f017d710703c8273d0ddf708b0943c391dd931c9162b170018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e00001693372d0721cf86bd276aac99ff208d00f02c08ff5aede6b1fcbea4e4d190c00018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e0000421e06239e41944ace1955b5a2782c9b77a2ff2faad1cef446073de06a928da50018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e0000ecc772b808e917a470b8b7ef253a2e54baaac41f0315e8fdb0227955333e20f00018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e0000f67ea38a89e5243c11196daac805636e79f2c28221ae7a72a7d390b161b9f4120018040829020404006d6f646c70792f74727372790000000000000000000000000000000000000000011e000030b5bf9cb181c2123093dcbb88ee3382725f496ab37267001c7de8145d3edb400018040829020404006d6f646c70792f7472737279000000000000000000000000000000000000000001'\n    StatusFor:\n      -\n        - ['0x59738bdd0aeb9fd2bed0db1e22f13e90afa1b478fc7d07a8aa3a35b9b5ffefb4']\n        - Unrequested:\n            deposit:\n              - 5FEejaLgafnvB64mmXnw4o7P4PsuWhpPpgw8neeVB5fj4j7P\n              - 1392266606400\n            len: 1704\n  Scheduler:\n    Agenda:\n      -\n        - [17202800]\n        - \n          - maybeId: null\n            priority: 0\n            call:\n              Lookup:\n                _alias:\n                  hash_: hash\n                hash_: '0x59738bdd0aeb9fd2bed0db1e22f13e90afa1b478fc7d07a8aa3a35b9b5ffefb4'\n                len: 1704\n            maybePeriodic: null\n            origin:\n              system: Root\n```\n\nI then forked Kusama by running `yarn start dev --config=configs/kusama.yml --block=17202799`\n\nYou may notice that the block I decided to fork is exactly one block before the hard-coded scheduled task. That's because Chopsticks only writes a new block when you submit an extrinsic. So all I needed to do to test this call was to submit a `system.remark`. By doing so, the Treasury successfully transferred 30,001 KSM to each pure proxy and joined 9 distinct pools via the scheduler. The pools remained open and the protocol also scheduled the desired reward claim.\n\nJust a note: the scheduler automatically requests its own calls' preimages so there is no need to explicitly store the preimage needed to claim pool rewards. \n\nI then tested whether the `claimPayout` + `transferAll` would work. I had some trouble hard coding the nomination pool to accommodate the massive claim, but got it figured out by adding the following to the default `kusama.yml` in Chopsticks:\n\n```\n  Proxy:\n    Proxies:\n      -\n        - [G8dY4RCzMW85s55GjubvUBQEGFqri7Y6BB3HhJN3QF6NYHS]\n        -\n          - \n            - delegate: F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29\n              proxyType: Any\n              delay: 0\n          - 668033331300\n  Preimage:\n    PreimageFor:\n      -\n        -\n           - ['0x6d4c5902a1a43810dfe33fa7c1e142392068c6af51f6788363173723b2c31712', 113]\n        - '0x180300016d6f646c70792f747273727900000000000000000000000000000000000000001e00009d5935861195dfc92a0e61ecfb09cc6016acbd90b16e8db292ca9a92d6cfcc570018040829020404006d6f646c70792f7472737279000000000000000000000000000000000000000001'\n    StatusFor:\n      -\n        - ['0x6d4c5902a1a43810dfe33fa7c1e142392068c6af51f6788363173723b2c31712']\n        - Unrequested:\n            deposit:\n              - 5FEejaLgafnvB64mmXnw4o7P4PsuWhpPpgw8neeVB5fj4j7P\n              - 1339233326100\n            len: 113\n  Scheduler:\n    Agenda:\n      -\n        - [17202800]\n        - \n          - maybeId: null\n            priority: 0\n            call:\n              Lookup:\n                _alias:\n                  hash_: hash\n                hash_: '0x6d4c5902a1a43810dfe33fa7c1e142392068c6af51f6788363173723b2c31712'\n                len: 113\n            maybePeriodic: null\n            origin:\n              system: Root\n  NominationPools:\n    BondedPools:\n      -\n        - [1]\n        - points: '30000000000000000'\n          state: Open\n          memberCounter: 66\n          roles:\n            depositor: E8a4iJyDLd2ZysHt4bWfg5VG3RwNfHqSZtkyt5SPNJpmYoq\n            root: E8a4iJyDLd2ZysHt4bWfg5VG3RwNfHqSZtkyt5SPNJpmYoq\n            nominator: Fc51t7QUm5sPhx6gJdxzVBjznqqoRyp2gHTJSnbRBcLExAo\n            stateToggler: GF5PrXFcW7YDKKKfgJsMJE9xKF1UgE64kVSWYxNNo7waZYe\n    RewardPools:\n      -\n        - [1]\n        - lastRecordedRewardCounter: '10000000000000000'\n          lastRecordedTotalPayouts: '5000000000000000'\n          totalRewardsClaimed: '2500000000000000'\n    PoolMembers:\n      -\n        - [G8dY4RCzMW85s55GjubvUBQEGFqri7Y6BB3HhJN3QF6NYHS]\n        - poolId: 1\n          points: '30000000000000000'\n          lastRecordedRewardCounter: 0\n          unbondingEras: {}\n  System:\n    Account:\n      -\n        -\n          - 5FEejaLgafnvB64mmXnw4o7P4PsuWhpPpgw8neeVB5fj4j7P\n        - data:\n            free: '10000000000000000000'\n      -\n        -\n          - G8dY4RCzMW85s55GjubvUBQEGFqri7Y6BB3HhJN3QF6NYHS\n        - data:\n            free: '1000000000000'\n      -\n        -\n          - F3opxRbN5ZavB4LTn2FZim9tPCHyvapGAAZzdDp5pzfg3sy #stash\n        - data:\n            free: '30000000000000000'\n      -\n        -\n          - F3opxRbN5ZavB4LTn2XJkJjzssVSUggzq75YZueYesPwk5J #reward\n        - data:\n            free: '30000000000000000'\n```\n\nI tested this with the same process as above. The reward was claimed successfully and transferred to the Treasury as expected. I only needed to prove the concept with one proxy since we can simply batch all the others.\n\nWith that, I confirmed that everything I hypothesized was absolutely possible on Kusama.\n\n### TL;DR\n\nThis referendum will configure 9 pure proxies controlled only by the Treasury to stake a total of 270,000 KSM across 9 nomination pools on behalf of the Treasury and pay out rewards to the Treasury every 6 days starting ~May 6th. Out of the 270,000 KSM, 120,000 KSM comes from the [**Society**](https://kusama.subscan.io/account/F3opxRbN5ZbbNGg1tFTKna9ymddEen74rNVr5JRPb3nRsXX) and 150,000 KSM comes from the [**Treasury**](https://kusama.subscan.io/account/F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29).\n\nBy staking these funds, we expect a projected revenue increase of ~43,000 KSM per year, which is approximately a 50% increase from what the Treasury is earning now.\n",
+      "createdAt": "2023-04-04T00:40:30.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 21,
+          "dislike": 0
+        },
+        "comments": 26
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-04T00:40:30.000Z",
+        "description": "",
+        "index": 145,
+        "origin": "Root",
+        "proposer": "GqC37KSFFeGAoL7YxSeP1YDwr85WJvLmDDQiSaprTDAm8Jj",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x77bfb894ea08e756b6bcc608c41313221cc457795eb24f61c1f9f17627cd3406",
+        "voteMetrics": {
+          "nay": {
+            "count": 223,
+            "value": "98047484747727212"
+          },
+          "aye": {
+            "count": 78,
+            "value": "17009822491897407"
+          },
+          "support": {
+            "value": "9960625592369440"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-04-04T02:40:30.000Z"
+      },
+      "publicUser": {
+        "id": 2652,
+        "username": "asteeber",
+        "profileScore": 155,
+        "addresses": [
+          "5GKaNnyZctdLR9WfnFdbV4BDoFqqhe7AJqNfKnJsNezg2JnW"
+        ],
+        "rank": 17,
+        "createdAt": "2021-03-25T09:58:43.689Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "8uOHjS4hcBD7ercep646",
+      "index": 122,
+      "userId": 3102,
+      "title": "Cancellation of the proposals that are wrongly scheduled",
+      "content": "Using a `batch` call, this Referendum aims to cancel proposals that have been approved by the community but have failed to enact on time due to UI misconfiguration.\n\nNamely, as we started to navigate OpenGov, it was brought to our attention that a misinterpretation of the parameter `after`, which is NOT an absolute block number but a delay expressed in blocks, implied that after approval, these referenda would take years to enact.\n\nAmong others, Referenda: [4](https://kusama.subsquare.io/referenda/referendum/4), [5](https://kusama.subsquare.io/referenda/referendum/5), [6](https://kusama.subsquare.io/referenda/referendum/6), [7](https://kusama.subsquare.io/referenda/referendum/7), [9](https://kusama.subsquare.io/referenda/referendum/9), [10](https://kusama.subsquare.io/referenda/referendum/10), [11](https://kusama.subsquare.io/referenda/referendum/11), currently sitting in the scheduler, are expected to be approved from 1025-1100 days from now.\n\nHowever, as the teams have already resubmitted their proposals with the updated parameters (see [referenda history](https://kusama.subsquare.io/referenda) of various tracks), I am bringing forward the following call to cancel the proposals and avoid any complications in the future.\n\n![](https://i.postimg.cc/zGG0cDTX/Screenshot-2023-02-06-at-14-43-33.png)",
+      "createdAt": "2023-03-09T15:52:24.990Z",
+      "updatedAt": "2023-03-09T15:59:46.575Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-03-09T15:51:48.000Z",
+        "description": "",
+        "index": 122,
+        "origin": "Root",
+        "proposer": "D8DtYYJUUBoACJwJrLNyn8aYArumdViVWAcZRUKcxnSoV9D",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x70c6d383bb7917692d20699ac5ed21a4a78f75b030a394c73527c2121679d067",
+        "voteMetrics": {
+          "nay": {
+            "count": 3,
+            "value": "1043649791433553"
+          },
+          "aye": {
+            "count": 274,
+            "value": "497361195550759867"
+          },
+          "support": {
+            "value": "616325963965526101"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-03-23T18:47:36.001Z",
+        "preparePeriodEndsAt": "2023-03-09T17:51:48.000Z"
+      },
+      "publicUser": {
+        "id": 3102,
+        "username": "otar",
+        "profileScore": 140.5,
+        "addresses": [
+          "5CccEECRr7AsQYVVY9XL5pmaPaafxxgY38KsAmCN9AZx4KWr"
+        ],
+        "rank": 20,
+        "createdAt": "2021-12-01T12:10:49.051Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "sig2LK9HxmoDcl7PkbfI",
+      "index": 114,
+      "userId": 4455,
+      "title": "Untitled Post",
+      "content": "This is a referendum whose proposer address (DrQ3WAwSyMsZpaUvwP11j63QJC2wmGUH3BWPoxj5kqgA3A1) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2023-03-01T21:40:30.766Z",
+      "updatedAt": "2023-03-01T21:40:30.766Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-03-01T21:39:54.000Z",
+        "description": "",
+        "index": 114,
+        "origin": "Root",
+        "proposer": "DrQ3WAwSyMsZpaUvwP11j63QJC2wmGUH3BWPoxj5kqgA3A1",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x646867d55557da92d87117d213183cc19cf16940262a5e90027c99c815046a65",
+        "voteMetrics": {
+          "nay": {
+            "count": 97,
+            "value": "16613425119331191"
+          },
+          "aye": {
+            "count": 124,
+            "value": "11933872100824872"
+          },
+          "support": {
+            "value": "9104698734269949"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-03-01T23:39:54.000Z"
+      },
+      "publicUser": {
+        "id": 4455,
+        "username": "bittensor",
+        "profileScore": 1.5,
+        "addresses": [
+          "5DLnPBq4pcLwpAm3AEZx7mj3Fhuo96THpfLm19gmbxdBQqEy",
+          "5FZeLP7KVakyiCGQYwPkwg7TdE6M2XnbPK2wboy8QrwXJQXB"
+        ],
+        "rank": 3122,
+        "createdAt": "2023-01-04T20:41:00.173Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "1bSan9Jyauksol11Xz7Q",
+      "index": 101,
+      "userId": 3102,
+      "title": "Kusama Auctions for 2023",
+      "content": "Kusama auctions are scheduled using the Scheduler Pallet and its recurring feature. This pallet offers two options: the frequency of execution (in blocks) and the number of times it should be executed. Unfortunately, as the scheduled auctions queued on Scheduler by [Referendum 72](https://kusama.subsquare.io/referenda/referendum/72) and [Referendum 81](https://kusama.subsquare.io/referenda/referendum/81) have been misconfigured and subsequently cancelled, it has become necessary to propose this Referendum with the right parameters to ensure that all auctions are properly scheduled throughout the year and the Kusama community can continue including new parachains and allowing those already up and running to renew their slots in 2023.\n\nPlease note that from the original schedule, originally approved by the community, two auctions have been submitted via the Auction admin track\n\n- [ https://kusama.polkassembly.io/referenda/91](https://kusama.polkassembly.io/referenda/91)\n- [https://kusama.polkassembly.io/referenda/96](https://kusama.polkassembly.io/referenda/96)\n\nAnd a third one will also be submitted via the same track. After this one, if approved, the 2023 schedule will continue as stated [here](https://docs.google.com/spreadsheets/d/1KyNq6IGrzrfx0ZiMuRY0gMZSqv6la1fNjWF3rOD1zkU/edit?usp=sharing).\n\nThe preimage submission can be seen [here](https://kusama.subscan.io/extrinsic/16647098-2).\n\nThe image can be found [here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x1804201d0281edbd9bec51fc9d78be1dc45e65c7c97ff25d8fb0df5e190e559181831249fb4c6e010101508b010004000000004800e2a50100701d022e1895be3594bbbd39f330a843f221425b680653652b26fc1320533d8eecbf7b00ac0701018051010007000000004800f1d2741d023f695d577cd80ceab19696358d0965bd903a4a4622380a564dc6b9783b756a0e80e61001018051010007000000004800f1d2781d02f8a869528ddc7c0d40aeceda15497713ebb931c931424043f9a4df89af4a1ac900211a01018051010007000000004800f1d27c1d020b80ba0c51368b431d999fc5bab0cea73c5f8cb2520e4eb41c7c309b68d2cdf5805b2301018051010007000000004800f1d2801d02630ed60985a63f89b71e168f8cbcec645b27e37f1840f4e81d96c7fa248e63ee00962c01018051010007000000004800f1d2841d027e65636788051a7e026b57a4fa11c8854e181e5dcfd688dbe25bb449b0555c2680d03501018051010007000000004800f1d2881d022e7dae2f2fd127478f7d20a0da689b7f8abbb0b5f2f2a65ed18d31c9815f8404000b3f01018051010007000000004800f1d28c)\n\nPlease make sure to review and cast your votes!",
+      "createdAt": "2023-02-15T13:58:12.963Z",
+      "updatedAt": "2023-02-15T13:59:42.475Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-02-15T13:57:36.000Z",
+        "description": "",
+        "index": 101,
+        "origin": "Root",
+        "proposer": "D8DtYYJUUBoACJwJrLNyn8aYArumdViVWAcZRUKcxnSoV9D",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x60766127d46ef5a3fd655bcf197513a306a34bbb5ea8a1097a58b3381b6d079b",
+        "voteMetrics": {
+          "nay": {
+            "count": 24,
+            "value": "1518825960086077"
+          },
+          "aye": {
+            "count": 298,
+            "value": "1392484831376560766"
+          },
+          "support": {
+            "value": "1591216531203008363"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-03-02T18:29:54.000Z",
+        "preparePeriodEndsAt": "2023-02-15T15:57:36.000Z"
+      },
+      "publicUser": {
+        "id": 3102,
+        "username": "otar",
+        "profileScore": 140.5,
+        "addresses": [
+          "5CccEECRr7AsQYVVY9XL5pmaPaafxxgY38KsAmCN9AZx4KWr"
+        ],
+        "rank": 20,
+        "createdAt": "2021-12-01T12:10:49.051Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "UTlHRn1tidBggiLHFSZS",
+      "index": 86,
+      "userId": 2243,
+      "title": "Untitled Post",
+      "content": "This is a referendum whose proposer address (HHJrycDzgkRqQpw5oWUw7iGQMppuNud6LkQdtkxPXhiWQ5i) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2023-01-31T17:56:12.804Z",
+      "updatedAt": "2023-01-31T17:56:12.804Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 3,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-31T17:55:36.001Z",
+        "description": "",
+        "index": 86,
+        "origin": "Root",
+        "proposer": "HHJrycDzgkRqQpw5oWUw7iGQMppuNud6LkQdtkxPXhiWQ5i",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x9b9d807676c6edd3e91450728a4bbf9f106f0ce29e801a5226d258727b2a8d54",
+        "voteMetrics": {
+          "nay": {
+            "count": 8,
+            "value": "1751499812433553"
+          },
+          "aye": {
+            "count": 328,
+            "value": "838661379690264942"
+          },
+          "support": {
+            "value": "765369709561947345"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-02-17T10:26:06.000Z",
+        "preparePeriodEndsAt": "2023-01-31T19:55:36.001Z"
+      },
+      "publicUser": {
+        "id": 2243,
+        "username": "amitrovich",
+        "profileScore": 79.75,
+        "addresses": [
+          "5GmhCfGMNKjW5m1VK6hS3AMGFmYb6i6SdxufFEUzujVDmFJZ"
+        ],
+        "rank": 46,
+        "createdAt": "2023-01-19T07:48:44.133Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "U7n4WCTwtImbca5SUaAZ",
+      "index": 81,
+      "userId": 2274,
+      "title": "2 Auctions using scheduled after (Root): scheduling 2 more auction to replace the three missed auctions meant to be scheduled by referendum 72",
+      "content": "Auctions on Kusama are scheduled using the Scheduler Pallet. [Referendum 72](https://kusama.polkassembly.io/referenda/72) was proposed on Kusama through root Track given that the Scheduler Pallet can’t be called by the Auctions Admin (this PR will change that). Due to voting turnout, Referendum 72 will not be executed before the first scheduled call, set to happen at block height #16_367_188. This means that the first batch of auctions for LP27 will not be executed, as the scheduler pallet does not allow the execution of an action in a past block (the other batches will be scheduled).\n\nIn order to alleviate the demand of auctions (teams that need to renovate their slot during LP27 to keep uptime of their parachains will not be able to do so, therefore having to interrupt their service to the community) we have proposed the following two referenda, up for vote now and scheduling 3 auctions from next week:\n\nThis referendum aims to schedule the following 2 auctions (after [the 1st one scheduled by [this proposal](https://kusama.polkassembly.io/referenda/80)) using the scheduler pallet via **Root Caller**. The new Scheduler call will need to execute before block #16_568_788. If submitted today (27/Jan), then it should work for every case scenario, based on the current support percentages. \n\nCall\n\n- Scheduler: Root Admin\n\n- Auction Parameters: `auctions.newAuction(duration: 14400, leasePeriodIndex: 27)`\n\n- Encoded call Data: [0x1804041d0251a37492c47ff0c069dad8080818b5303493eb91feb718cc4cee7e3ebe39978ed4d1fc000102000000c089010000480001e16c](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x1804041d0251a37492c47ff0c069dad8080818b5303493eb91feb718cc4cee7e3ebe39978ed4d1fc000102000000c089010000480001e16c)",
+      "createdAt": "2023-01-27T16:06:13.533Z",
+      "updatedAt": "2023-01-27T16:08:21.333Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-27T16:05:36.004Z",
+        "description": "",
+        "index": 81,
+        "origin": "Root",
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "status": "Cancelled",
+        "type": "ReferendumV2",
+        "hash": "0xb39648e071d4ff5d93a70cf9fd34504b6f3bf43b34d5683eeb25f115ae816890",
+        "voteMetrics": {
+          "nay": {
+            "count": 18,
+            "value": "33296735111433553"
+          },
+          "aye": {
+            "count": 264,
+            "value": "949314516758433877"
+          },
+          "support": {
+            "value": "934408714873412425"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-02-11T19:00:42.001Z",
+        "preparePeriodEndsAt": "2023-01-27T18:05:36.004Z"
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "hq5Wqnnf4Tpf3wPMlMAh",
+      "index": 72,
+      "userId": 2274,
+      "title": "New Batch of Auctions for 2023: from LP27 to LP35 (Replacing Referendum 71)",
+      "content": "At Fellowship request, we have submitted the new batch of auctions for 2023, from LP27 to LP35, this time on root track. The Fellowship members are working on [a PR](https://github.com/paritytech/polkadot/pull/6573/files) to include the use of Scheduler in Auctions Admin track: for now, root track is the only track that will execute this call successfully. \n\nContextual information below: \n\nAfter the successful enactment of [motion 438](https://kusama.polkassembly.io/motion/438), scheduling 32 auctions in 2022 from LP21 to LP26, the Kusama community aims to continue including new parachains and allowing those already up and running to renew their slots in 2023. This proposals aims to schedule a new batch of auctions: \n\n- from LP27 to LP35\n- For a total of 57 auctions until January 2024\n- For LP27: 3 auctions on LP26\n- For LP28: 5 auctions on LP27 and 28\n- For LP29: 7 auctions on LP28 and 29\n- For LP30: 7 auctions on LP29 and 30\n- For LP31: 7 auctions on LP30 and 31\n- For LP32: 7 auctions on LP31 and 32\n- For LP33: 7 auctions on LP32 and 33\n- For LP34: 7 auctions on LP33 and 34\n- For LP35: 7 auctions on LP34 and 35\n\nThe complete schedule for this year can be found [HERE](https://docs.google.com/spreadsheets/d/1KyNq6IGrzrfx0ZiMuRY0gMZSqv6la1fNjWF3rOD1zkU/edit#gid=1973973152) from line 17 on: please note the first two auctions for LP27 already happened. \n\nCall data for this proposal: \n\n```\n0x1804241d0251a37492c47ff0c069dad8080818b5303493eb91feb718cc4cee7e3ebe39978e54bef9000103000000508b0100004800e2a501006c1d028557b8b9b1177d169c1e675aebde9685c2c141f0e32dadf13c9ca8d70b16dc06fce2ff000105000000508b0100004800e2a50100701d02227b91c3edcc0775442d0b24d507766ecb73d3f4c5f91ae16a78fa027685cfc100ac0701010700000080510100004800f1d2741d029ca55d18392de86b9c464ab3224bea70ceccc54f25feab22ed6c38fa8fabaff180e61001010700000080510100004800f1d2781d02f9c1800fd16e1bb758f29193e2db9555c386499ea0fa479a9f667ef930a05e3100211a01010700000080510100004800f1d27c1d0212f0110cec745116c8801f9c1f44770e3f82976793db821cee4364d4e256aaa6805b2301010700000080510100004800f1d2801d024fb5addef23974b6a5c78cf2bac108aefc41603a04e8e8447fe6e4c6cd511b9500962c01010700000080510100004800f1d2841d02e4739bb1095c94cc172c4f320aebfc71c69f2d1102f4592bed81a687f86cdbc880d03501010700000080510100004800f1d2881d020e4d6cfd138a715673efe7d70d7f2680b3531a04b1bc3052bb34f6c39234cf74000b3f01010700000080510100004800f1d28c\n```\n\nMake sure to review and vote at your convenience!\n",
+      "createdAt": "2023-01-17T20:16:20.118Z",
+      "updatedAt": "2023-01-17T20:21:24.501Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-17T20:15:42.000Z",
+        "description": "",
+        "index": 72,
+        "origin": "Root",
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x247e86b620be5f42bcda5d2265ae006174149644a0ea91ed876106c700229634",
+        "voteMetrics": {
+          "nay": {
+            "count": 3,
+            "value": "1033137291433553"
+          },
+          "aye": {
+            "count": 309,
+            "value": "2102080661132635395"
+          },
+          "support": {
+            "value": "2327003731349530386"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-02-01T18:53:00.009Z",
+        "preparePeriodEndsAt": "2023-01-17T22:15:42.000Z"
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "UIqrWgjiTHGY6OpsLGXC",
+      "index": 59,
+      "userId": 4429,
+      "title": "I submitted wrong track. Please VOTE AGAINST IT!",
+      "content": "This is a referendum whose proposer address (Eovc1HjhjVDi4xwrJUgCjhHgqS78s4kDoFgSAxoaw7VkXeA) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2023-01-12T03:22:42.932Z",
+      "updatedAt": "2023-01-12T04:53:59.651Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-12T03:22:06.000Z",
+        "description": "",
+        "index": 59,
+        "origin": "Root",
+        "proposer": "Eovc1HjhjVDi4xwrJUgCjhHgqS78s4kDoFgSAxoaw7VkXeA",
+        "status": "Cancelled",
+        "type": "ReferendumV2",
+        "hash": "0xf395c123f114649a8e2acf49746995ed87ac3746834fbdf0c7425cf269e36824",
+        "voteMetrics": {
+          "nay": {
+            "count": 172,
+            "value": "11192654956468072"
+          },
+          "aye": {
+            "count": 13,
+            "value": "88650200000000"
+          },
+          "support": {
+            "value": "38900200000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5EJJwgws5NUHxR9W5bfdJnLHYF9sLCFZmRQw3Wgr78u11Y8F",
+            "amount": "2400000000000000",
+            "assetId": null
+          }
+        ],
+        "preparePeriodEndsAt": "2023-01-12T05:22:06.000Z"
+      },
+      "publicUser": {
+        "id": 4429,
+        "username": "CrisOpenGuild",
+        "profileScore": 59.5,
+        "addresses": [
+          "5EJJwgws5NUHxR9W5bfdJnLHYF9sLCFZmRQw3Wgr78u11Y8F"
+        ],
+        "rank": 71,
+        "createdAt": "2023-01-30T02:16:38.531Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "lsKizSgmfv1mxriQEaTH",
+      "index": 48,
+      "userId": 4455,
+      "title": "Untitled Post",
+      "content": "This is a referendum whose proposer address (DrQ3WAwSyMsZpaUvwP11j63QJC2wmGUH3BWPoxj5kqgA3A1) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2023-01-02T20:25:13.297Z",
+      "updatedAt": "2023-01-02T20:25:13.297Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-02T20:24:36.000Z",
+        "description": "",
+        "index": 48,
+        "origin": "Root",
+        "proposer": "DrQ3WAwSyMsZpaUvwP11j63QJC2wmGUH3BWPoxj5kqgA3A1",
+        "status": "Cancelled",
+        "type": "ReferendumV2",
+        "hash": "0x4bdd1d956c24c6dc9ce1c07f6c3cc1a82d5db63dc6d895bdd5a035f60ef58006",
+        "voteMetrics": {
+          "nay": {
+            "count": 60,
+            "value": "77474085829782954"
+          },
+          "aye": {
+            "count": 210,
+            "value": "22631023054946176"
+          },
+          "support": {
+            "value": "16223118674841370"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-01-02T22:24:36.000Z"
+      },
+      "publicUser": {
+        "id": 4455,
+        "username": "bittensor",
+        "profileScore": 1.5,
+        "addresses": [
+          "5DLnPBq4pcLwpAm3AEZx7mj3Fhuo96THpfLm19gmbxdBQqEy",
+          "5FZeLP7KVakyiCGQYwPkwg7TdE6M2XnbPK2wboy8QrwXJQXB"
+        ],
+        "rank": 3122,
+        "createdAt": "2023-01-04T20:41:00.173Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

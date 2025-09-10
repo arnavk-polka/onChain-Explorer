@@ -1,0 +1,591 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:46:48.851252",
+  "total_items": 8,
+  "items": [
+    {
+      "id": "",
+      "index": 398,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5Ec4AhPZwyfDwMzswsWzbiHF1xDUbrj8tYKys2Naz8U1mjzq.",
+      "createdAt": "2024-05-20T16:40:36.001Z",
+      "updatedAt": "2024-05-20T16:40:36.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-05-20T16:40:36.001Z",
+        "description": "",
+        "index": 398,
+        "origin": "GeneralAdmin",
+        "proposer": "F7fq1jSaLg9h1pKiaL3VfeFAYViQXYKLvAjFgeYTvgWX4a3",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x5e5ee46ffac4d16ea9a51df4d688b08bc0e6296cf2beaca0c89e0995310bdf69",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 102,
+            "value": "83645101342696067"
+          },
+          "support": {
+            "value": "31492250178262459"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-06-03T19:30:06.000Z",
+        "preparePeriodEndsAt": "2024-05-20T18:40:36.001Z"
+      }
+    },
+    {
+      "id": "aAjV0Xx0CTkkQZ6ObOq4",
+      "index": 351,
+      "userId": 2744,
+      "title": "HRMP channel between Encointer and Asset Hub",
+      "content": "One step towards: sybil-resilient faucets (on Encointer) for any fungible token (on Asset Hub)  \n[Context and tracking issue](https://github.com/encointer/pallets/issues/311)  \n  \nMoreover, this HRMP channel will be an onramp to the wider ecosystem for people who get their ED++ on Encointer and move funds to Asset Hub and other parachains from there",
+      "createdAt": "2024-02-26T13:17:30.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "history": [
+        {
+          "content": "One step towards: sybil-resilient faucets (on Encointer) for any fungible token (on Asset Hub)  \n[Context and tracking issue](https://github.com/encointer/pallets/issues/311)",
+          "title": "HRMP channel between Encointer and Asset Hub",
+          "createdAt": {
+            "_seconds": 1708954609,
+            "_nanoseconds": 724000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-02-26T13:17:30.001Z",
+        "description": "",
+        "index": 351,
+        "origin": "GeneralAdmin",
+        "proposer": "EyXct79ZDWdQfcSgJTG5texKM9wJj3quyh1ugPDVSkSt3Xm",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xcf11c4139050c19097f58f273f0b99c658f62c482e8c6c6d98dc780fe58262bf",
+        "voteMetrics": {
+          "nay": {
+            "count": 7,
+            "value": "58712842659438"
+          },
+          "aye": {
+            "count": 178,
+            "value": "103945004215330885"
+          },
+          "support": {
+            "value": "40113989313314462"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-03-11T15:17:42.000Z",
+        "preparePeriodEndsAt": "2024-02-26T15:17:30.001Z"
+      },
+      "publicUser": {
+        "id": 2744,
+        "username": "encointer",
+        "profileScore": 61.25,
+        "addresses": [
+          "5ETuxZmGvrVhf1nzubeDBwHxAkshW4EfTbrGX27G1eXx99QD",
+          "5HbEfHL3EQZMR6sJun4iwZg6S34vm4EjQoEC6tYKAsqV55Ut"
+        ],
+        "rank": 68,
+        "createdAt": "2020-09-02T11:09:37.426Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 347,
+      "title": "Open HRMP channel between Kreivo and AssetHub",
+      "content": "Kreivo is a hub for payments of real world goods&services for decentralized communities. The tokenless parachain will heavily rely on AssetHub to be the \"source of truth\" for all assets used by commercial communities.",
+      "createdAt": "2024-02-15T15:44:48.000Z",
+      "updatedAt": "2024-02-15T15:58:30.819Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-02-15T15:44:48.000Z",
+        "description": "",
+        "index": 347,
+        "origin": "GeneralAdmin",
+        "proposer": "EDVirtoiVjAv8HFZwSGbiBcY6P4kDFba9VKsBS911Aw8evX",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x1802083c07e8030000e9080000e8030000009001003c07e9080000e8030000e803000000900100",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "32054510566020"
+          },
+          "aye": {
+            "count": 248,
+            "value": "105415183670079052"
+          },
+          "support": {
+            "value": "43589611015271999"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "decisionPeriodEndsAt": "2024-02-29T17:45:30.000Z",
+        "preparePeriodEndsAt": "2024-02-15T17:44:48.000Z"
+      },
+      "publicUser": {
+        "id": 2544,
+        "username": "olanod",
+        "profileScore": 57.25,
+        "createdAt": "2021-01-11T10:32:02.743Z",
+        "rank": 73,
+        "addresses": [
+          "5CzRiZYLwDugzTBm6fwfBMh34MQbM32mwRmt83Q7piE5vtiC",
+          "5Dht4YYw68iFAUTooEdDhkpcPW6pwYSR7meaUXABXCxSPfLF",
+          "5ERBgGSw1SpJ82U9NRjihwh1kwF5rXa2saobhyFLVVop4XJs",
+          "5EZSRMwtdtWexkaYpQH5aNBhsQ6tHUoBR9ETxmvvbsoQJnax",
+          "5F3VMLLVBYyhYetC3CsDc5xFZjtJ4ZqGJB6dPRMu3e2RXoVL"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "wM8Z7OP0HK2kTj4TX8q2",
+      "index": 336,
+      "userId": 3044,
+      "title": "Open HRMP channels between Integritee and Asset Hub",
+      "content": "We'd like to bring TEER as foreignAsset to Asset Hub",
+      "createdAt": "2024-01-29T10:46:36.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-01-29T10:46:36.000Z",
+        "description": "",
+        "index": 336,
+        "origin": "GeneralAdmin",
+        "proposer": "EZwaNLfEwAMYcEdbp7uKYFCjnsn43S85pm6BumT5UwvZQvB",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x02f75d479093fd652df895108f9a25628069faffcb7a9ba624d386288feda959",
+        "voteMetrics": {
+          "nay": {
+            "count": 9,
+            "value": "961880000000000"
+          },
+          "aye": {
+            "count": 285,
+            "value": "115433043184229438"
+          },
+          "support": {
+            "value": "50221438811612403"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-02-13T08:30:12.000Z",
+        "preparePeriodEndsAt": "2024-01-29T12:46:36.000Z"
+      },
+      "publicUser": {
+        "id": 3044,
+        "username": "integritee",
+        "profileScore": 8.25,
+        "addresses": [
+          "5E4Kv3znca9RnxRBq7JrRatCbCbYFNcwdSvLoFVVbgjRpduh"
+        ],
+        "rank": 638,
+        "createdAt": "2021-10-26T18:04:48.697Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "GQcZFwUPd8bg11p1dl73",
+      "index": 327,
+      "userId": 2,
+      "title": "Polkassembly Registrar Application for kusama",
+      "content": "Polkassembly is an integral part of Polkadot and Kusama governance. It is dedicated to fostering transparent governance and active participation within the Kusama and Polkadot ecosystems. The team is excited to announce its application to become a registrar on Kusama **after our registrar application and success on Polkadot.**Please refer to this tweet for details on our [Polkadot Registrar Statistics](https://twitter.com/polk_gov/status/1735702644965122179). Why are identity verifications important?\n\n— On-chain identities in the Polkadot ecosystem are crucial for trust, accountability, and interoperability. An on-chain identity fosters a reliable and verifiable framework for participants within the Kusama ecosystem. It enables seamless integration and collaboration between different projects and stakeholders.\n\n— It also builds accountability as the participants are vetted and there are multiple points of contact for an individual/team. Hence, when requesting funds or proposing changes, the network and its resources have an additional layer of protection via the verification process.\n\n— The goal of setting an on-chain identity is to enhance transparency, security, and the overall ease of interaction between the participants of the Kusama ecosystems.  \nProblems in current on chain identity system\n\n-   — The current process for verifying the identity is extremely fragmented\n-   — The process requires a heavy reliance on navigating through PolkadotJS, which can be overwhelming to those who are new to the ecosystem\n-   — The process is also broken away from the governance and proposal creation interface, which makes it difficult for a lot of the community as they need to adapt to multiple tools for serving different use cases.\n\n**Objective for Registrar Application**\n\n-   — The primary objective of creating the registrar application is to build an easy and integrated governance experience for all users within Polkassembly.\n-   — This involves building for automation of proposal creation, addition of education nudges on proposal evaluation, verification of on chain identities and comprehensive user level profiling with leaderboards and gamification for governance participants\n-   — Taking the onus for ensuring verification of users and building security for funds requested from treasury\n-   — All teams requesting funds should be able to create an onchain identity, verify themselves and use our product suite to create a multisig (via Polkasafe or any other publicly available multisig SDK) when requesting for funds\n\nAs mentioned in our Polkadot Proposal, which went live earlier this year\n\n-   — The time required for identity registration and verification will be reduced by more than 75%, enhancing the adoption of the feature and enabling a more robust and secure treasury management.\n-   — The number 75% was deduced by using the average time difference between the two methods for 3 unique users\n-   — The time required by the earlier method was 20-25 mins, and via Polkassembly will be approximately 5 mins\n\n**How will Polkassemby enable users to apply for on chain identity verification?**  \nAttached below is a step wise explanation of how Polkassembly plans to receive and process on chain delegations  \nStep 1 -\n\n-   — Discovery on on chain identity setup\n-   — Users will be provided with contextual nudges on Polkassembly for setting up on chain identity\n\n![](https://i.ibb.co/hKpMxLb/Screenshot-2023-12-16-at-2-30-30-PM-1.png)\n\nStep 2 -\n\n-   — Educating users on what is on-chain identity and why is it important\n-   — Explaining the process of setting up and on chain identity and how verification works\n-   — Helping users understand how to identify users with a valid on chain identity\n-   — Clear communication on the total amount required (Please note the amount mentioned is representative and may vary based on market conditions)\n-   — The breakdown of the feed will also be provided\n\n![](https://i.ibb.co/87pmx0B/image-47.png)\n\nStep 3 -\n\n-   — Providing the user with an interface to share all their social and contact information\n-   — The user will be allowed to choose any one of their address which they want to verify\n-   — They can choose their legal and display name\n-   — They can identify their social handles for further communication with the community\n-   — They are informed about the bond, which is mandatory while setting up an on chain identity\n-   — They are also informed about the fees charged for setting up or changing the social handles, which will be the fee per handle \\* # of handles being verified\n\n![](https://i.ibb.co/ysBfFdX/image-48.png)\n\nStep 4 -\n\n-   — Confirming the fees and initiating the step by step identity verification process\n-   — Each social handle will need to be independently verified after the input is provided\n-   — Once all verifications are completed the success states will be provided\n\n![](https://i.ibb.co/nwPY5HJ/image-49.png)\n\n![](https://i.ibb.co/0fRV6vv/image-51.png)\n\nOther detailed steps and complete proposal can be found [here](https://docs.google.com/document/d/1wYkC09wMjC6KstW2E9VtHLgoRd1bV_GLhYoTOQ8gv8U/edit). We look forward to feedback from the community, suggestions to improve the product flow and support on our efforts to challenge the complex UX challenges of the Kusama ecosystem.Stats regarding our performance and details can be found in our latest tweet [here](https://twitter.com/polk_gov/status/1735702644965122179)\n\nRegards,  \nPolkassembly Team",
+      "createdAt": "2023-12-25T12:47:33.943Z",
+      "tags": [
+        {
+          "value": "identity",
+          "lastUsedAt": "2023-12-25T12:47:33.943Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2621",
+        "proposalType": "Discussion"
+      },
+      "topic": "generalAdmin",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-25T12:43:18.000Z",
+        "description": "",
+        "index": 327,
+        "origin": "GeneralAdmin",
+        "proposer": "F1wAMxpzvjWCpsnbUMamgKfqFM7LRvNdkcQ44STkeVbemEZ",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x5fbb2596418195548539176c86e724ad01cc33139f873831e1b01da33f6a1dbd",
+        "voteMetrics": {
+          "nay": {
+            "count": 7,
+            "value": "195986341549078"
+          },
+          "aye": {
+            "count": 391,
+            "value": "113090538332751736"
+          },
+          "support": {
+            "value": "52803541111367988"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-01-08T14:43:30.001Z",
+        "preparePeriodEndsAt": "2023-12-25T14:43:18.000Z"
+      },
+      "publicUser": {
+        "id": 2,
+        "username": "Polkassembly",
+        "profileScore": 136.5,
+        "addresses": [
+          "5EWKW3cxNZiaTB4LpmYXsixfgf4sXm7CBNmefQAWGrH6unBd"
+        ],
+        "rank": 21,
+        "createdAt": "2021-06-15T12:12:29.047Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "GrxRtGVH4YJCps5tQYRB",
+      "index": 303,
+      "userId": 4454,
+      "title": "Kusama Welcomes Cardano Partner Chain",
+      "content": "Is Kusama(ie. Polkadot) actually open to collaboration with interested parties or still hung up on petty tribalism? Canary in the coal mine.",
+      "createdAt": "2023-11-08T20:47:48.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "history": [
+        {
+          "content": "This referendum is an experiment aimed at demonstrating the spirit of Kusama. Charles Hoskinson has said some nice things recently about Polkadot and Substrate. This is an attempt to return those positive vibes, if that is how token holders feel. Hopefully this isn't too confusing. We will see what happens.",
+          "title": "Kusama Welcomes Cardano Partner Chain",
+          "createdAt": {
+            "_seconds": 1699478187,
+            "_nanoseconds": 28000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 3,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-08T20:47:48.000Z",
+        "description": "",
+        "index": 303,
+        "origin": "GeneralAdmin",
+        "proposer": "GP7LidBTZy2Fet3M7h8NkUdYx6gRTHokFhx4RpJrqBLpo99",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x0a691f3a12832a0ed5249a7609f40e68814b2960f09e65674003a5e2454d3be2",
+        "voteMetrics": {
+          "nay": {
+            "count": 140,
+            "value": "22193761438021745"
+          },
+          "aye": {
+            "count": 247,
+            "value": "97816712579164511"
+          },
+          "support": {
+            "value": "66998618433902652"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-12-04T15:34:24.000Z",
+        "preparePeriodEndsAt": "2023-11-08T22:47:48.000Z"
+      },
+      "publicUser": {
+        "id": 4454,
+        "username": "Pheeb",
+        "profileScore": 54.5,
+        "addresses": [
+          "5FsVgQHJqCx6W14baQt5Uo7dQMpScnUdHssCfmYMP2xr5sm5"
+        ],
+        "rank": 79,
+        "createdAt": "2023-01-29T18:25:00.397Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "hjncwVOsz7pxrfFIjC7e",
+      "index": 52,
+      "userId": 2396,
+      "title": "Make chaos | for testing some abnormal situation of Gov V2",
+      "content": "\nHappy New Years, all Dotsama community members!\n\n\nAfter a holiday we've seen a lot of community discussion and voting, I'm sorry for not clarifying in time and causing confusion! At the same time, we are very grateful to every community member for actively voting and expressing opinions . We are so lucky to develop in such an active, friendly and responsible ecosystem!\n\n\nThe submission of this proposal is because Subscan is developing `Gov V2` related functions. We found that there are some abnormal situations that are not described in detail in the document, and there is not enough on-chain data - we desperately need a \"REAL\" test environment. Based on Kusama is an `Expect Chaos` network, we made a bold attempt. We have already realized that this is not a responsible behavior, however, based on the existing process , it may not be an accident in the future that the community have to vote for proposals that lacks value - this proposal has not added the decision deposit - just my personal opinion, welcome to discuss :)\n\n\nAt present, the explorer functions related to Gov V2 have basically been developed, we will complete the test ASAP and cancel this proposal (this is also a part of the test). Related functions will be officially released next week, welcome to experience, give feedback and discuss with us!\n\n\nBTW, as many friends have noticed, the type of this proposal is `identity.addRegistrar`. It’s no coincidence and it’s already on our to-do list for 2023, perhaps that’s why it popped into my head first when I submitting the proposal and choosing the origin. Subscan hope to provide the community with a more convenient, cheaper, and more decentralized identity service. Currently, the relevant plan is being revised and will be officially announced in due course!\n\n\nCheers for Chaos!\n\n\n\n\nBest wishes,\n\nYakio｜Subscan",
+      "createdAt": "2023-01-05T10:26:43.405Z",
+      "updatedAt": "2023-01-10T18:34:31.809Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 14,
+          "dislike": 0
+        },
+        "comments": 13
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-05T10:26:06.001Z",
+        "description": "",
+        "index": 52,
+        "origin": "GeneralAdmin",
+        "proposer": "Fzs6WWFcAuJhxAVyZa4EN2suxggjidJjV3AzJxKbRHjh2Jc",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x20d34b62f489bb549358261a1cf0ffcb9277fa5e8671f178e7bad2ec35d1bcce",
+        "voteMetrics": {
+          "nay": {
+            "count": 194,
+            "value": "85233247869412464"
+          },
+          "aye": {
+            "count": 70,
+            "value": "4667157660000000"
+          },
+          "support": {
+            "value": "3582307400000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-01-05T12:26:06.001Z"
+      },
+      "publicUser": {
+        "id": 2396,
+        "username": "SUBSCAN_IO",
+        "profileScore": 48,
+        "addresses": [
+          "5CSUBE1Rao6k9dJuPwccBqhXpynLBVAzPU5hbMTr3Xb9siaf",
+          "5DwBbsFJ2AxgdYRTeWzQhC6FnS9RRUCQevf9TJEMosuHsMyX",
+          "5FVFSCANyotNxJM4Crm1LQfsmNQSw3p8H7CRbegN7d5Ex91y",
+          "5G7sX62apM3RHAzP4H2jiHCmJD61m8KmNQXeehdwyhzrcCx4",
+          "5GVu23D3qfCAi297y9b396Qay6Zw3FNdZN4k4fMSP3QVYJmG"
+        ],
+        "rank": 86,
+        "createdAt": "2021-02-04T10:33:01.477Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 0,
+      "title": "The First OpenGov Referendum: EXPECT CHAOS!",
+      "content": "This referendum registers as remark on-chain: \"Expect Chaos.\"",
+      "createdAt": "2022-11-21T16:00:12.021Z",
+      "updatedAt": "2022-11-21T16:06:55.008Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 19,
+          "dislike": 0
+        },
+        "comments": 22
+      },
+      "onChainInfo": {
+        "createdAt": "2022-11-21T16:00:12.021Z",
+        "description": "",
+        "index": 0,
+        "origin": "GeneralAdmin",
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0xb54d0e07521b04f5d3ef54bf3c4cc4c0866b65873b38eafe58d3d754cb08bf89",
+        "voteMetrics": {
+          "nay": {
+            "count": 32,
+            "value": "132030760176079098"
+          },
+          "aye": {
+            "count": 763,
+            "value": "108082948108529261"
+          },
+          "support": {
+            "value": "46157291462146854"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2022-12-05T16:01:00.011Z",
+        "preparePeriodEndsAt": "2022-11-21T18:00:12.021Z"
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "rank": 1,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "network": "polkadot",
+  "timestamp": "2025-09-03T23:34:46.212497",
+  "total_items": 4,
+  "items": [
+    {
+      "id": "HhgwIfInGEpdRwsBi3J2",
+      "index": 1014,
+      "userId": 12522,
+      "title": "Further decentralize collators set on Polkadot System Parachains - Resubmission of #1008",
+      "content": "Resubmission of [#1008](https://polkadot.polkassembly.io/referenda/1008) with a safer and more accurate call\n\nThis proposal aims to decentralize the following System Parachain: Polkadot People. This change was collectively discussed and agreed by many of the ecosystem collators and it is consistent with [Framework for Collators on System Parachains](https://docs.google.com/document/d/1H2T1Nx90HkSAYF_CaOPLG-o3LS7h_QAa2WLDdcSJMs0/edit#) that was written as a collective effort.\n\nThe proposed call will do the following:\n\n**Polkadot People**\n\n1) <ins>Set Candidacy Bond to 1000 DOT</ins> (aligning it with other Polkadot System Parachains)\n2) <ins>Set Desired Candidates to 7</ins> (opening of 7 permissionless slots)\n\n\nThe new permissionless slots will be opened to any new collator by placing a minimum bond of 1000 DOT once this referendum is enacted.\n\nBest Regards,\n\nLuca from 🧊 Iceberg Nodes 🧊, on behalf of System Parachains Collators",
+      "createdAt": "2024-07-20T00:16:36.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 3,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2024-07-20T00:16:36.000Z",
+        "description": "",
+        "index": 1014,
+        "origin": "StakingAdmin",
+        "proposer": "14icei1ZMoG9QtKBFDk4y1eMR756q2TREuRAi2BanJ9MJVPL",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x9d49b0d64e11c81dc718cbdc5bb38587f92c048719dcf1f5d6739256cd465694",
+        "voteMetrics": {
+          "nay": {
+            "count": 20,
+            "value": "182838439414981427"
+          },
+          "aye": {
+            "count": 35,
+            "value": "378497968163460149"
+          },
+          "support": {
+            "value": "122619170773735111"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-08-17T17:50:54.000Z",
+        "preparePeriodEndsAt": "2024-07-20T02:16:36.000Z"
+      },
+      "publicUser": {
+        "id": 12522,
+        "username": "IcebergNodes",
+        "profileScore": 1.75,
+        "addresses": [
+          "5ECzzPfYrvuuXXZrPqDcfryxsjbxZ4ivsZu3fDenHU7nN4r6",
+          "5FnKWNkVW1zfyMJfHah4prpCZV5T8iuHAQggYjCEED7q7zYA"
+        ],
+        "rank": 2914,
+        "createdAt": "2023-10-03T18:01:11.504Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "wsrNm4mJ0YF7Jj5lP8zv",
+      "index": 1008,
+      "userId": 12522,
+      "title": "Please vote NAY - Resubmitted as #1014",
+      "content": "Resubmitted as [#1014](https://polkadot.polkassembly.io/referenda/1014)",
+      "createdAt": "2024-07-19T12:40:30.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "This proposal aims to decentralize the following System Parachain: Polkadot People. This change was collectively discussed and agreed by many of the ecosystem collators and it is consistent with [Framework for Collators on System Parachains](https://docs.google.com/document/d/1H2T1Nx90HkSAYF_CaOPLG-o3LS7h_QAa2WLDdcSJMs0/edit#) that was written as a collective effort.\n\nThe proposed call will do the following:\n\n**Polkadot People**\n\n1) <ins>Set Candidacy Bond to 1000 DOT</ins> (aligning it with other Polkadot System Parachains)\n2) <ins>Set Desired Candidates to 7</ins> (opening of 7 permissionless slots)\n\n\nThe new permissionless slots will be opened to any new collator by placing a minimum bond of 1000 DOT once this referendum is enacted.\n\nBest Regards,\n\nLuca from 🧊 Iceberg Nodes 🧊, on behalf of System Parachains Collators",
+          "title": "Further decentralize collators set on Polkadot System Parachains",
+          "createdAt": {
+            "_seconds": 1721402464,
+            "_nanoseconds": 781000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-07-19T12:40:30.000Z",
+        "description": "",
+        "index": 1008,
+        "origin": "StakingAdmin",
+        "proposer": "14icei1ZMoG9QtKBFDk4y1eMR756q2TREuRAi2BanJ9MJVPL",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0x7b69697edc70cac0681a4210c6176a63c7b0ca20b88211fa62b6421bdecd88c3",
+        "voteMetrics": {
+          "nay": {
+            "count": 53,
+            "value": "209921803544350654"
+          },
+          "aye": {
+            "count": 2,
+            "value": "52500000000000"
+          },
+          "support": {
+            "value": "110732109956411"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-08-16T15:44:54.000Z",
+        "preparePeriodEndsAt": "2024-07-19T14:40:30.000Z"
+      },
+      "publicUser": {
+        "id": 12522,
+        "username": "IcebergNodes",
+        "profileScore": 1.75,
+        "addresses": [
+          "5ECzzPfYrvuuXXZrPqDcfryxsjbxZ4ivsZu3fDenHU7nN4r6",
+          "5FnKWNkVW1zfyMJfHah4prpCZV5T8iuHAQggYjCEED7q7zYA"
+        ],
+        "rank": 2914,
+        "createdAt": "2023-10-03T18:01:11.504Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "o8APWPYuUumSt40Jqw4I",
+      "index": 590,
+      "userId": 4485,
+      "title": "Nomination Pool: Remove max pool and max member limits",
+      "content": "Total nomination pool members and number of pools have been limited when pools was introduced as a preventive measure against any unforeseen bugs. Since pools has been running for more than 500 days now, I propose to remove these limits.\n\nThe number of pool members is also approaching quickly towards the current limit of 49,152 (current count is 44,143 at the time of writing). \n\nThis proposal changes the following values:\n- MaxPools => Current value: 512 → New value: None (unlimited)\n- MaxPoolMembers => Current value: 49,152 → New value: None (unlimited)\n\nThis was also announced previously on [polkadot forum](https://forum.polkadot.network/t/next-revision-of-increasing-nomination-pool-limits/2498/12).",
+      "createdAt": "2024-03-20T12:38:42.001Z",
+      "tags": [
+        {
+          "value": "staking",
+          "lastUsedAt": "2024-03-20T12:38:42.001Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-03-20T12:38:42.001Z",
+        "description": "",
+        "index": 590,
+        "origin": "StakingAdmin",
+        "proposer": "16aQgRVKfD22NehdzZD2VPoenP2hvx8RS2gUirfk6abiCies",
+        "status": "ExecutionFailed",
+        "type": "ReferendumV2",
+        "hash": "0x4b574b601f5336754334f0c73b4d6f7bb6594bdd6585f4b920d43442f0ffa087",
+        "voteMetrics": {
+          "nay": {
+            "count": 3,
+            "value": "280000000000"
+          },
+          "aye": {
+            "count": 92,
+            "value": "964931661800451384"
+          },
+          "support": {
+            "value": "833398148056658147"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-04-17T21:40:54.000Z",
+        "preparePeriodEndsAt": "2024-03-20T14:38:42.001Z"
+      },
+      "publicUser": {
+        "id": 4485,
+        "username": "ank4n",
+        "profileScore": 1.75,
+        "addresses": [
+          "5He7Y6EFoRkYw7h82vA2MEyVvm34EeaHMXwzZZgPYVaC2Mm7"
+        ],
+        "rank": 2914,
+        "createdAt": "2023-01-31T23:59:08.162Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 84,
+      "title": "Update System Collator Sets and Configurations",
+      "content": "This referendum updates the collator sets and configurations for all Polkadot system parachains. For Asset Hub, it adds five new \"invulnerables\" to the existing two, and changes the number of candidates from six to seven.\n\nFor Collectives and Bridge Hub both, it initializes the candidate deposit to 1,000 DOT (same as Asset Hub), opens up seven candidate positions, and also sets seven invulnerables per chain.\n\nThe seven invulnerables per chain were chosen by a group of node operators who have self-organized around providing collation services and demonstrated the ability to run nodes on other system parachains.\n\nFor more details on the motivation of adding so many invulnerables, see [Fellowship RFC-7](https://github.com/polkadot-fellows/RFCs/pull/7).",
+      "createdAt": "2023-07-19T11:04:18.003Z",
+      "updatedAt": "2023-07-19T11:08:44.510Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 5,
+          "dislike": 0
+        },
+        "comments": 8
+      },
+      "onChainInfo": {
+        "createdAt": "2023-07-19T11:04:18.003Z",
+        "description": "",
+        "index": 84,
+        "origin": "StakingAdmin",
+        "proposer": "15DCWHQknBjc5YPFoVj8Pn2KoqrqYywJJ95BYNYJ4Fj3NLqz",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x81539c86a37a75af7a53335efe963c9020b22b3ba43b2ee7d71d50ce814cfc2f",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "448536472740836"
+          },
+          "aye": {
+            "count": 152,
+            "value": "38128233020713116"
+          },
+          "support": {
+            "value": "19490536648587683"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-08-16T13:48:12.000Z",
+        "preparePeriodEndsAt": "2023-07-19T13:04:18.003Z"
+      },
+      "publicUser": {
+        "id": 10041,
+        "username": "JoePetrowski",
+        "profileScore": 10,
+        "createdAt": "2023-07-01T12:19:09.396Z",
+        "rank": 532,
+        "addresses": [
+          "5GGuMx9gvQU8e1Njqrg8FdCAxDsBrgPADeLhP5YwWAhXC64E"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

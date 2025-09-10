@@ -1,0 +1,1525 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:46:34.411848",
+  "total_items": 19,
+  "items": [
+    {
+      "id": "UaVkVkOVIOY4EaZgKi5I",
+      "index": 528,
+      "userId": 24521,
+      "title": "Tip request for adding Polkadot-JS account support to Subxt",
+      "content": "I am asking for a tip for my merged subxt pull request \"Support loading keys from Polkadot-JS accounts\". https://github.com/paritytech/subxt/pull/1661 It is very common for users to create their Polkadot accounts using the Polkadot-JS browser extension. Subxt is the primary library for implementing Rust programs that sign and submit extrinsics for Polkadot chains, but it did not support this popular account file format. I examined the Polkadot-JS source code to determine the encoding. The password is hashed with Scrypt and then the ciphertext is decrypted with XSalsa20Poly1305. I would greatly appreciate a tip of 32 KSM. Is this reasonable?",
+      "createdAt": "2025-05-23T05:10:27.498Z",
+      "tags": [
+        {
+          "value": "polkadot",
+          "lastUsedAt": "2025-05-23T05:10:27.498Z",
+          "network": "kusama"
+        },
+        {
+          "value": "subxt",
+          "lastUsedAt": "2025-05-23T05:10:27.498Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2667",
+        "proposalType": "Discussion"
+      },
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-23T10:41:42.000Z",
+        "description": "",
+        "index": 528,
+        "origin": "BigTipper",
+        "proposer": "Hv5k1kkGDntEigtcZFkDkKxdhUNe1AWQNaqj5aYLsQKX324",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xbc23bb9c340a855148a939b34cd78fea3a6af4e3308eb6183d70479cb879e18f",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "30002029855998177"
+          },
+          "aye": {
+            "count": 27,
+            "value": "203864693839989151"
+          },
+          "support": {
+            "value": "73198381340290169"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5HQU5hQsdrmxV4sSqrShKnxxV7C8qLMKwzk6LRJas5Bpmxaz",
+            "amount": "32000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2025-05-30T11:16:36.000Z",
+        "preparePeriodEndsAt": "2025-05-23T10:51:42.000Z"
+      },
+      "publicUser": {
+        "id": 24521,
+        "username": "jbrown",
+        "profileScore": 7,
+        "addresses": [
+          "5DV3QBwhs7djHop5WEcUQ1BMFSmsqvqnDhrYh343x495AL4v",
+          "5HQU5hQsdrmxV4sSqrShKnxxV7C8qLMKwzk6LRJas5Bpmxaz"
+        ],
+        "rank": 778,
+        "createdAt": "2024-12-23T09:52:15.002Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "nYnB4cUOGck9Juv6kGJX",
+      "index": 515,
+      "userId": 24981,
+      "title": "PolkaTalent: Recruiting Web3 freelance devs for early user journey interviews",
+      "content": "![](https://i.ibb.co/Dgfyxqz4/Green-Rustic-Organic-Stamp-Textured-Circle-Sticker-4.png)\n\nWe’re excited to officially introduce PolkaTalent, a new project developed by [Kunveno](https://kunveno.xyz/) in collaboration with the amazing [Virto](https://virto.network/) crew—the builders behind Kreivo, one of the most forward-thinking networks in the Kusama ecosystem focused on simplifying the creation and management of decentralised organisations.\n\nAll of this feeds directly into our [white paper](https://cloud.disroot.org/s/S9F8qEJj973tggb), where we detail how PolkaTalent fits into the broader work3spaces vision—a decentralised marketplace designed to connect freelancers with companies seeking top-tier talent, built on fair reputation, transparent value, and trustless coordination.\n\nPolkaTalent is part of our broader mission to unlock new pathways for freelance professionals in Web3. Think of it as a decentralised talent engine that starts by listening to those who know the industry best—you.\n\nWe’re currently recruiting Web3 freelance developers active in the Polkadot and Kusama ecosystems to join us for early user journey interviews. Your insights will help us design intuitive UX flows tailored to real dev needs and workflows in this space.\n\n📆 Interviews will run from April 7 to April 11.\n\n💰You’ll be compensated with 4 KSM for a 45–60 minute call.\n\nIf you are a Web3 developer excited to shape the future of decentralised work and co-create with us from day 1, [apply here](https://blocksurvey.io/polkatalent-developer-ux-journey-u2jumdYtQ0W7nV3a574B2g?v=o) before April 7.\n\nLet’s build something incredible, together.",
+      "createdAt": "2025-04-07T12:42:49.358Z",
+      "tags": [
+        {
+          "value": "recruiting",
+          "lastUsedAt": "2025-04-07T12:42:49.358Z",
+          "network": "kusama"
+        },
+        {
+          "value": "ux",
+          "lastUsedAt": "2025-04-07T12:42:49.358Z",
+          "network": "kusama"
+        },
+        {
+          "value": "devs",
+          "lastUsedAt": "2025-04-07T12:42:49.358Z",
+          "network": "kusama"
+        },
+        {
+          "value": "virto",
+          "lastUsedAt": "2025-04-07T12:42:49.358Z",
+          "network": "kusama"
+        },
+        {
+          "value": "kunveno",
+          "lastUsedAt": "2025-04-07T12:42:49.358Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2661",
+        "proposalType": "Discussion"
+      },
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2025-04-07T12:42:48.000Z",
+        "description": "",
+        "index": 515,
+        "origin": "BigTipper",
+        "proposer": "EG8QYoJADxEpdqyLw6FSZgT13W5SP7CiSBAEqCqUUjKATcw",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x3d626bb4e457005cffe8a63185e515e789a25f0e144015a731a470a4c8a85b1b",
+        "voteMetrics": {
+          "nay": {
+            "count": 11,
+            "value": "134141682481189101"
+          },
+          "aye": {
+            "count": 19,
+            "value": "138654151590514102"
+          },
+          "support": {
+            "value": "33259381196838034"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5DkWkETRXrwK4z2XaEHCYcKSrTDqdiJ2G4LQrAvszgWpRLxG",
+            "amount": "32000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2025-04-14T15:51:36.000Z",
+        "preparePeriodEndsAt": "2025-04-07T12:52:48.000Z"
+      },
+      "publicUser": {
+        "id": 24981,
+        "username": "sukiko",
+        "profileScore": 0,
+        "addresses": [
+          "5DkWkETRXrwK4z2XaEHCYcKSrTDqdiJ2G4LQrAvszgWpRLxG"
+        ],
+        "rank": 8543,
+        "createdAt": "2025-02-10T22:14:35.861Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 411,
+      "title": "Funding an account used for common-good activities",
+      "content": "Dear community,\n\nI am engaging you for support to fund [an account](https://kusama.subscan.io/account/Gch4VxQ79WhjgQqHomvJbqF3Woza5g5cYgM8SVQdDb9szz1) that's used for various purposes which include community good activities such as: \n\n1. Payouts for community validators\n2. Clearing submission and decision deposits on Kusama and its fellowship counterpart\n\nThe funding is expected to last approximately 4 months given validator payees growth from 168 (current) to 200.\n\nA few related notes:\n- The scripts used for clearing Kusama's submission deposits require updating after one of the previous runtime upgrade.  This should be completed within the next week.\n- Efforts are made to reduce flooding of payouts at the end of an era\n- I've worked on [a branch](https://github.com/turboflakes/crunch/tree/payout_adjustments) to support \"grouped payouts\" on Crunch. \n\nThe public is welcomed to examine the accounts [transaction history](https://kusama.subscan.io/account/Gch4VxQ79WhjgQqHomvJbqF3Woza5g5cYgM8SVQdDb9szz1).\n\nKind Regards,\nWill | Paradox",
+      "createdAt": "2024-06-26T22:53:48.000Z",
+      "updatedAt": "2024-06-26T23:43:02.071Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2024-06-26T22:53:48.000Z",
+        "description": "",
+        "index": 411,
+        "origin": "BigTipper",
+        "proposer": "J11Rp4mjz3vRb2DL51HqRGRjhuEQRyXgtuFskebXb8zMZ9s",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x352814673d202371eded4f137283e9def22b7ffe45684c285c1a0bf543a126b2",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "20000000000000"
+          },
+          "aye": {
+            "count": 67,
+            "value": "141848627549596072"
+          },
+          "support": {
+            "value": "47327419344919664"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5G75QBcXUnVmz2bPX6xsQeUEtvXkmQruAAqbjnDT9RNf8n7R",
+            "amount": "33000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2024-07-03T23:03:48.000Z",
+        "preparePeriodEndsAt": "2024-06-26T23:03:48.000Z"
+      }
+    },
+    {
+      "id": "eeU8WAtUL14OxQJncJtK",
+      "index": 311,
+      "userId": 13494,
+      "title": "Vote Nay",
+      "content": "Vote Nay",
+      "createdAt": "2023-11-23T14:28:03.916Z",
+      "tags": [
+        {
+          "value": "ignore",
+          "lastUsedAt": "2023-11-23T14:28:03.916Z",
+          "network": "kusama"
+        },
+        {
+          "value": "votenay",
+          "lastUsedAt": "2023-11-23T14:28:03.916Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-23T14:28:00.000Z",
+        "description": "",
+        "index": 311,
+        "origin": "BigTipper",
+        "proposer": "F58hECZ3YcN1PqExzrSXhcBBg4pyofiAAJDEAVuBgCR5HYV",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x223fb8e102683c9a169d3745293524a6b3aa9fe2f27e6c967af2b2b23b4dd79b",
+        "voteMetrics": {
+          "nay": {
+            "count": 366,
+            "value": "125056329687104930"
+          },
+          "aye": {
+            "count": 6,
+            "value": "91005723096891"
+          },
+          "support": {
+            "value": "225747118191076"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5EZX2urgRBbSFk1oCJ3PdkFB35nbB8rXhnTTqWDwhsyvLC2j",
+            "amount": "100000000000",
+            "assetId": null
+          },
+          {
+            "address": "5Fgjcao16stJpFY7pDz2VPZAZFrRVrMiWjFyppjav3gmQbm2",
+            "amount": "1130000000000",
+            "assetId": null
+          }
+        ],
+        "preparePeriodEndsAt": "2023-11-23T14:38:00.000Z"
+      },
+      "publicUser": {
+        "id": 13494,
+        "username": "polkateam",
+        "profileScore": 28.75,
+        "addresses": [
+          "5EZX2urgRBbSFk1oCJ3PdkFB35nbB8rXhnTTqWDwhsyvLC2j",
+          "5H11LoyKY8bjtVtk2zeBr3qALdu9Yvjby42QqjEoXP5sWMPA"
+        ],
+        "rank": 157,
+        "createdAt": "2023-11-17T12:32:59.461Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "aND4zauKlt5X5PpPrc7H",
+      "index": 310,
+      "userId": 9404,
+      "title": "BigTipper",
+      "content": "This is a tip created by the [tip-bot](https://github.com/paritytech/substrate-tip-bot/).\n\n### Details\n\n- **Repository:** [polkadot-sdk](https://github.com/paritytech/polkadot-sdk)\n- **PR:** [#1985](https://github.com/paritytech/polkadot-sdk/pull/1985)\n- **Contributor:** [eagr](https://github.com/eagr)\n- **Tip Size:** medium (16 KSM)\n",
+      "createdAt": "2023-11-23T11:19:24.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-23T11:19:24.000Z",
+        "description": "",
+        "index": 310,
+        "origin": "BigTipper",
+        "proposer": "G1vFzWj69uQRrw8GmGqzLr1JycokGgdzc34E7WEgjhknQV9",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x12030b0000514a8d0e0094587245defc436cd2969e96dc8e66190a03ce36184372637a9977eef38df653",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 277,
+            "value": "94410382526729043"
+          },
+          "support": {
+            "value": "35999369235410638"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "decisionPeriodEndsAt": "2023-11-30T14:15:12.001Z",
+        "preparePeriodEndsAt": "2023-11-23T11:29:24.000Z"
+      },
+      "publicUser": {
+        "id": 9404,
+        "username": "4d7064e4ae674cb3ae5216a14",
+        "profileScore": 0,
+        "addresses": [
+          "5FWJbgArTntUgD7gW4To6PV1APLZwbsTYECJqTEHCwVG3RAP"
+        ],
+        "rank": 8543,
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 307,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FWJbgArTntUgD7gW4To6PV1APLZwbsTYECJqTEHCwVG3RAP.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2023-11-14T18:39:42.000Z",
+        "description": "",
+        "index": 307,
+        "origin": "BigTipper",
+        "proposer": "G1vFzWj69uQRrw8GmGqzLr1JycokGgdzc34E7WEgjhknQV9",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x12030b0000514a8d0e008c38cc141f47a5e16a07f8bfe82d61989e9f7177d43bfef3a04229dafbc68569",
+        "voteMetrics": {
+          "nay": {
+            "count": 7,
+            "value": "61600000000000"
+          },
+          "aye": {
+            "count": 301,
+            "value": "42224241811447284"
+          },
+          "support": {
+            "value": "22497053526267500"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "decisionPeriodEndsAt": "2023-11-22T10:34:18.000Z",
+        "preparePeriodEndsAt": "2023-11-14T18:49:42.000Z"
+      },
+      "publicUser": {
+        "id": 9404,
+        "username": "4d7064e4ae674cb3ae5216a14",
+        "profileScore": 0,
+        "rank": 8543,
+        "addresses": [
+          "5FWJbgArTntUgD7gW4To6PV1APLZwbsTYECJqTEHCwVG3RAP"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "XL21ZqOKtLweso1jTEO5",
+      "index": 292,
+      "userId": 9404,
+      "title": "BigTipper",
+      "content": "This is a tip created by the [tip-bot](https://github.com/paritytech/substrate-tip-bot/).\n\n### Details\n\n- **Repository:** [polkadot-sdk](https://github.com/paritytech/polkadot-sdk)\n- **PR:** [#1918](https://github.com/paritytech/polkadot-sdk/pull/1918)\n- **Contributor:** [eagr](https://github.com/eagr)\n- **Tip Size:** medium (16 KSM)\n",
+      "createdAt": "2023-10-18T16:54:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-18T16:54:06.000Z",
+        "description": "",
+        "index": 292,
+        "origin": "BigTipper",
+        "proposer": "G1vFzWj69uQRrw8GmGqzLr1JycokGgdzc34E7WEgjhknQV9",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x12030b0000514a8d0e0094587245defc436cd2969e96dc8e66190a03ce36184372637a9977eef38df653",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "20000000000000"
+          },
+          "aye": {
+            "count": 238,
+            "value": "77952784472271011"
+          },
+          "support": {
+            "value": "40828353019827522"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "decisionPeriodEndsAt": "2023-10-26T09:12:18.000Z",
+        "preparePeriodEndsAt": "2023-10-18T17:04:06.000Z"
+      },
+      "publicUser": {
+        "id": 9404,
+        "username": "4d7064e4ae674cb3ae5216a14",
+        "profileScore": 0,
+        "addresses": [
+          "5FWJbgArTntUgD7gW4To6PV1APLZwbsTYECJqTEHCwVG3RAP"
+        ],
+        "rank": 8543,
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "mPxIng6hkrdW6AJxZAft",
+      "index": 274,
+      "userId": 3164,
+      "title": "Advancing Decentralization:  @asteeber's Educational Video on Runtime Upgrade",
+      "content": "A few months ago, Adam Clay Steeber undertook significant efforts with [Ref235](235), addressing hodler concerns and pioneering the first community-led runtime upgrade. This process is thoroughly documented in [this video](https://www.youtube.com/watch?v=HlxjSstvsmM).\n\nI'm proposing a modest tip to recognize the hard work and contribution to decentralizing the ecosystem with [Referendum 274](https://kusama.subsquare.io/referenda/274) treasury spend of 15.79 Kusama (KSM) tokens.",
+      "createdAt": "2023-09-18T22:27:48.000Z",
+      "tags": [
+        {
+          "value": "education",
+          "lastUsedAt": "2023-09-18T22:27:48.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "runtime",
+          "lastUsedAt": "2023-09-18T22:27:48.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "upgrade",
+          "lastUsedAt": "2023-09-18T22:27:48.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "video",
+          "lastUsedAt": "2023-09-18T22:27:48.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "educational",
+          "lastUsedAt": "2023-09-18T22:27:48.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-09-18T22:27:48.000Z",
+        "description": "",
+        "index": 274,
+        "origin": "BigTipper",
+        "proposer": "EtommijqrHDFWFvBxP515oUbkXx9vK2qohzrmwpCXbU7Yx2",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x44f76c4f74dfa32ceacdeb4c44fac4620e4a3fa492641559952e925c6ed559f6",
+        "voteMetrics": {
+          "nay": {
+            "count": 11,
+            "value": "185699400000000"
+          },
+          "aye": {
+            "count": 255,
+            "value": "83686178330007044"
+          },
+          "support": {
+            "value": "34473192309427142"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5GKaNnyZctdLR9WfnFdbV4BDoFqqhe7AJqNfKnJsNezg2JnW",
+            "amount": "15790000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-09-25T22:37:54.000Z",
+        "preparePeriodEndsAt": "2023-09-18T22:37:48.000Z"
+      },
+      "publicUser": {
+        "id": 3164,
+        "username": "tommi",
+        "profileScore": 12,
+        "addresses": [
+          "5EPC7TNsDVGHVrSURFa278SUTAFiMFVrPRsFU7frijNyNNMF"
+        ],
+        "rank": 425,
+        "createdAt": "2022-01-17T16:57:09.687Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "xF1vWGa7Pb4YtKKiWyP7",
+      "index": 267,
+      "userId": 4549,
+      "title": "Introducing Imbue Grants",
+      "content": "Hey Everyone,\n\n_**UPDATE:**_  We decided to go down the big tipper track to keep things simple. See [comment](../post/2600#jhMYwkbfxhpPu7PHt7sD)\n\nSam Elamin from Imbue. We have been very busy since receiving funding from the treasury and have shipped almost all our milestones  \n  \nOne thing we did notice over the past few months has been the tension around treasury spending. We think Imbue is set up perfectly to solve issues around accountability and funding and have built out the Imbue [grants](https://www.imbue.network/blogs/imbue-grants) \n\nWe also did a live demo of it on [AAG](https://twitter.com/thekusamarian/status/1693704945717870736?s=46&t=zgh35N80b7sSgM--juphNw) with our chain on Rococo\n\nWhat we want to do next is do a demo of what this process looks like on Kusama. \n\n**The goal of the demo is to showcase refunds going back into the treasury** \n\nWe will be launching a grant for 10 KSM with 2 milestones\n\n1) Milestone 1 for 1 KSM (10%). This will get approved  \n**2) Milestone 2 for 9 KSM (90%). This will get refunded back to the treasury**\n\nWe have 5 approvers lined up\n\n1.  Giles, an engineer @ parity and part of the fellowship\n2.  Daniel from Parity and part of the SBP\n3.  Bryan: Polkadot fellow and co-founder of Acala\n    \n4.  Sam: Polkadot fellow and co-founder of Imbue Network\n    \n5.  Beatrice: Imbue core team member\n    \n\nA demo like this should ideally be going through the small/big tipper track but that is not currently possible because the treasury — currently - does not support XCM transfers,\n\nWe believe the treasury should support xcm transfers going through the different treasury tracks, this demo will be further evidence of that need\n\nBecause of this we will have to transfer the funds to the parachain soverign account then do a proposal on Imbue to allocate the funds to the grant escrow addres\n\nWe strongly believe this is the best way to ensure accountability and transparency while still remaining flexible enough to support different curators for different grants/projects\n\nKusama was meant for expermintation and to drive innovation, and this is a perfect example of this.\n\nImbue grants was built to solve a key community need, as such we would love your feedback on both this proposed demo as well as how we can best serve the community's requirements",
+      "createdAt": "2023-08-25T18:53:09.849Z",
+      "tags": [
+        {
+          "value": "treasury",
+          "lastUsedAt": "2023-08-25T18:53:09.849Z",
+          "network": "kusama"
+        },
+        {
+          "value": "xcm",
+          "lastUsedAt": "2023-08-25T18:53:09.849Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2600",
+        "proposalType": "Discussion"
+      },
+      "topic": "root",
+      "history": [
+        {
+          "content": "Hey Everyone,\n\n_**UPDATE:**_  We decided to go down the big tipper track to keep things simple. See [comment](../post/2600#jhMYwkbfxhpPu7PHt7sD)\n\nSam Elamin from Imbue. We have been very busy since receiving funding from the treasury and have shipped almost all our milestones  \n  \nOne thing we did notice over the past few months has been the tension around treasury spending. We think Imbue is set up perfectly to solve issues around accountability and funding and have built out the Imbue [grants](https://www.imbue.network/blogs/imbue-grants) \n\nWe also did a live demo of it on [AAG](https://twitter.com/thekusamarian/status/1693704945717870736?s=46&t=zgh35N80b7sSgM--juphNw) with our chain on Rococo\n\nWhat we want to do next is do a demo of what this process looks like on Kusama. \n\n**The goal of the demo is to showcase refunds going back into the treasury** \n\nWe will be launching a grant for 10 KSM with 2 milestones\n\n1) Milestone 1 for 1 KSM (10%). This will get approved  \n\\*2) Milestone 2 for 9 KSM (90%). This will get refunded back to the treasury\\* \n\nWe have 5 approvers lined up\n\n1.  Giles, an engineer @ parity and part of the fellowship\n2.  Daniel from Parity and part of the SBP\n3.  Bryan: Polkadot fellow and co-founder of Acala\n    \n4.  Sam: Polkadot fellow and co-founder of Imbue Network\n    \n5.  Beatrice: Imbue core team member\n    \n\nA demo like this should ideally be going through the small/big tipper track but that is not currently possible because the treasury — currently - does not support XCM transfers,\n\nWe believe the treasury should support xcm transfers going through the different treasury tracks, this demo will be further evidence of that need\n\nBecause of this we will have to transfer the funds to the parachain soverign account then do a proposal on Imbue to allocate the funds to the grant escrow addres\n\nWe strongly believe this is the best way to ensure accountability and transparency while still remaining flexible enough to support different curators for different grants/projects\n\nKusama was meant for expermintation and to drive innovation, and this is a perfect example of this.\n\nImbue grants was built to solve a key community need, as such we would love your feedback on both this proposed demo as well as how we can best serve the community's requirements",
+          "title": "Introducing Imbue Grants",
+          "createdAt": {
+            "_seconds": 1694026632,
+            "_nanoseconds": 331000000
+          }
+        },
+        {
+          "content": "Hey Everyone,\n\nUPDATE: We decided to go down the big tipper track to keep things simple. See comment\n\nSam Elamin from Imbue. We have been very busy since receiving funding from the treasury and have shipped almost all our milestones\n\nOne thing we did notice over the past few months has been the tension around treasury spending. We think Imbue is set up perfectly to solve issues around accountability and funding and have built out the Imbue grants\n\nWe also did a live demo of it on AAG with our chain on Rococo\n\nWhat we want to do next is do a demo of what this process looks like on Kusama.\n\nThe goal of the demo is to showcase refunds going back into the treasury\n\nWe will be launching a grant for 10 KSM with 2 milestones\n\n1) Milestone 1 for 1 KSM (10%). This will get approved  \n2) Milestone 2 for 9 KSM. This will get refunded\n\nWe have 5 approvers lined up\n\n1.  Giles, an engineer @ parity and part of the fellowship\n2.  Daniel from Parity and part of the SBP\n3.  Bryan: Polkadot fellow and co-founder of Acala\n4.  Sam: Polkadot fellow and co-founder of Imbue Network\n5.  Beatrice: Imbue core team member\n\nA demo like this should ideally be going through the small/big tipper track but that is not currently possible because the treasury — currently - does not support XCM transfers,\n\nWe believe the treasury should support xcm transfers going through the different treasury tracks, this demo will be further evidence of that need\n\nBecause of this we will have to transfer the funds to the parachain soverign account then do a proposal on Imbue to allocate the funds to the grant escrow addres\n\nWe strongly believe this is the best way to ensure accountability and transparency while still remaining flexible enough to support different curators for different grants/projects\n\nKusama was meant for expermintation and to drive innovation, and this is a perfect example of this.\n\nImbue grants was built to solve a key community need, as such we would love your feedback on both this proposed demo as well as how we can best serve the community's requirements",
+          "title": "Introducing Imbue Grants",
+          "createdAt": {
+            "_seconds": 1694026395,
+            "_nanoseconds": 114000000
+          }
+        },
+        {
+          "content": "Hey Everyone,\n\n_**UPDATE:**_  We decided to go down the big tipper track to keep things simple. See [comment](../post/2600#jhMYwkbfxhpPu7PHt7sD)\n\nSam Elamin from Imbue. We have been very busy since receiving funding from the treasury and have shipped almost all our milestones  \n  \nOne thing we did notice over the past few months has been the tension around treasury spending. We think Imbue is set up perfectly to solve issues around accountability and funding and have built out the Imbue [grants](https://www.imbue.network/blogs/imbue-grants) \n\nWe also did a live demo of it on [AAG](https://twitter.com/thekusamarian/status/1693704945717870736?s=46&t=zgh35N80b7sSgM--juphNw) with our chain on Rococo\n\nWhat we want to do next is do a demo of what this process looks like on Kusama. \n\nThe goal of the demo is to showcase refunds going back into the treasury \n\nWe will be launching a grant for 10 KSM with 2 milestones\n\n1) Milestone 1 for 1 KSM (10%). This will get approved  \n2) Milestone 2 for 9 KSM. This will get refunded \n\nWe have 4 approvers lined up\n\n1) Giles, an engineer @ parity and part of the fellowship  \n2) Daniel from Parity and part of the SBP\n\nThe remaining 2 are from the Imbue team themselves, but if there is someone who would like to be involved in this demo then please do get in touch\n\nA demo like this should ideally be going through the small/big tipper track but that is not currently possible because the treasury — currently - does not support XCM transfers, so as an interim solution we can use the utility pallet \\`dispatchAs\\` to do a reserve asset transfer from the treasury account to the grant escrow address \n\nWhile initially this needs to go through root because only root has rights to sign transactions on behalf of the treasury.\n\nHowever, we believe the treasury _should_ support xcm transfers going through the different treasury tracks, this demo will be further evidence of that need \n\nBefore we launch the proposal we thought it best to raise a discussion to gauge interest in funding proposals/bounties this way, through milestones and approvers\n\nWe strongly believe this is the best way to ensure accountability and transparency while still remaining flexible enough to support different curators for different grants/projects\n\nKusama was meant for expermintation and to drive innovation, and this is a perfect example of this.\n\nImbue grants was built to solve a key community need, as such we would love your feedback on both this proposed demo as well as how we can best serve the community's requirements",
+          "title": "Introducing Imbue Grants",
+          "createdAt": {
+            "_seconds": 1694025356,
+            "_nanoseconds": 17000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2023-09-06T18:25:18.000Z",
+        "description": "",
+        "index": 267,
+        "origin": "BigTipper",
+        "proposer": "G4koKt6BuioTrbHSaTqCJ5edqbQV6u39LJKcFvQNvBsszS7",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xcd5c76ea16d85659ed42b195d3d3133702cae7be704f613c849c5d4fcac01610",
+        "voteMetrics": {
+          "nay": {
+            "count": 23,
+            "value": "472659000000000"
+          },
+          "aye": {
+            "count": 206,
+            "value": "104686950012289315"
+          },
+          "support": {
+            "value": "37312239643165075"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5Ec4AhP1tWtCrFZiZF2bkN1wUpEsY7RZ8pxat1zgP92uYaMY",
+            "amount": "10600000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-09-13T18:35:18.000Z",
+        "preparePeriodEndsAt": "2023-09-06T18:35:18.000Z"
+      },
+      "publicUser": {
+        "id": 4549,
+        "username": "c451f55fa09345349810607af",
+        "profileScore": 3,
+        "addresses": [
+          "5FZ991YDZYhsiCmqfsenJLieVFKAgS5rgxTaDbeSu7yP96Bs"
+        ],
+        "rank": 1791,
+        "createdAt": "2023-02-22T13:40:04.858Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "6ETyLY98cTvGCf3MVMVL",
+      "index": 223,
+      "userId": 2188,
+      "title": "For 7 Kusama treasury proposal Audits",
+      "content": "**Dear Kusama community,**\n\n**This proposal was opened 8 days ago for discussion [here](https://kusama.polkassembly.io/post/2584)**\n\nAs a sequel to my onboarding as a proposal auditor, (whose referendum was passed [here](https://kusama.subsquare.io/referenda/referendum/165)), I’ve conducted audits on a regular basis for Kusama proposals. Some of these audits were in the discussion phase, with others being in the referendum phase. \n\nThis proposal request for the funding of these audit reports using the rate of $50/hour for 2 hours in each proposal. This is in accordance with the OpenCommunity Governance referenda which got passed [here](https://kusama.subsquare.io/treasury/proposal/315). \n\nSince the onboarding period, a total of 9 high-quality audits were made on Kusama treasury proposals. These audits were made using the proposal audit template provided by **Referendum 67** and can be found in [table 1](https://docs.google.com/document/d/1y2zVGTl-r81sNwDXjYvCiVGjhZgfi-9ok3rxq4-Alfk/edit#bookmark=kix.c22cdf9jhuud) of this proposal's [document](https://docs.google.com/document/d/1y2zVGTl-r81sNwDXjYvCiVGjhZgfi-9ok3rxq4-Alfk/edit#).\n\nThese audits including all previous audits can also be tracked [here](https://airtable.com/shrZVJF7j4l5oUPVu).\n\nHowever, to ensure that this proposal sticks to the “tipper” tracks of the on-chain treasury, only 7 audits will be rewarded at this time. \n\nMore information including the list of the audits for whom a tip is requested can be found in the [proposal document.](https://docs.google.com/document/d/1y2zVGTl-r81sNwDXjYvCiVGjhZgfi-9ok3rxq4-Alfk/edit#).\n\nThank you!\n\n",
+      "createdAt": "2023-06-19T10:47:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "history": [
+        {
+          "content": "**Dear Kusama community,**\n\n**This proposal was opened for 8 days for discussion [here](https://kusama.polkassembly.io/post/2584)**\n\nAs a sequel to my onboarding as a proposal auditor, (whose referendum was passed [here](https://kusama.subsquare.io/referenda/referendum/165)), I’ve conducted audits on a regular basis for Kusama proposals. Some of these audits were in the discussion phase, with others being in the referendum phase. \n\nThis proposal request for the funding of these audit reports using the rate of $50/hour for 2 hours in each proposal. This is in accordance with the OpenCommunity Governance referenda which got passed [here](https://kusama.subsquare.io/treasury/proposal/315). \n\nSince the onboarding period, a total of 9 high-quality audits were made on Kusama treasury proposals. These audits were made using the proposal audit template provided by **Referendum 67** and can be found in [table 1](https://docs.google.com/document/d/1y2zVGTl-r81sNwDXjYvCiVGjhZgfi-9ok3rxq4-Alfk/edit#bookmark=kix.c22cdf9jhuud) of this proposal's [document](https://docs.google.com/document/d/1y2zVGTl-r81sNwDXjYvCiVGjhZgfi-9ok3rxq4-Alfk/edit#).\n\nThese audits including all previous audits can also be tracked [here](https://airtable.com/shrZVJF7j4l5oUPVu).\n\nHowever, to ensure that this proposal sticks to the “tipper” tracks of the on-chain treasury, only 7 audits will be rewarded at this time. \n\nMore information including the list of the audits for whom a tip is requested can be found in the [proposal document.](https://docs.google.com/document/d/1y2zVGTl-r81sNwDXjYvCiVGjhZgfi-9ok3rxq4-Alfk/edit#).\n\nThank you!\n\n",
+          "title": "For 7 Kusama treasury proposal Audits",
+          "createdAt": {
+            "_seconds": 1687171773,
+            "_nanoseconds": 943000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-06-19T10:47:06.000Z",
+        "description": "",
+        "index": 223,
+        "origin": "BigTipper",
+        "proposer": "HBtJ7Poz9ya9pzS8AXK16tAqJ1qxXbVspkM9E6p57BJ1hJs",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x6d257bf017e93e9bbf873b3eda3591d35032fa3a5fa86c52a8967065e3235f0a",
+        "voteMetrics": {
+          "nay": {
+            "count": 35,
+            "value": "25172202841716701"
+          },
+          "aye": {
+            "count": 170,
+            "value": "55929493553085188"
+          },
+          "support": {
+            "value": "23531841240475201"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5GgGdo3wMnxeQBAzMTiG79XAghjc9rnKRSubkZprbJxoGch6",
+            "amount": "31070000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-06-26T10:57:06.000Z",
+        "preparePeriodEndsAt": "2023-06-19T10:57:06.000Z"
+      },
+      "publicUser": {
+        "id": 2188,
+        "username": "Abdbee",
+        "profileScore": 72.25,
+        "addresses": [
+          "5GgGdo3wMnxeQBAzMTiG79XAghjc9rnKRSubkZprbJxoGch6"
+        ],
+        "rank": 52,
+        "createdAt": "2021-12-29T20:50:27.007Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 185,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5GeahrX1xHdJzWDcfP18ZXEHidNYVQCmPvP8RQ852x7DWW42.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2023-05-08T16:06:54.000Z",
+        "description": "",
+        "index": 185,
+        "origin": "BigTipper",
+        "proposer": "HACNArtaeeEkA34S5pBTUbHsDenJ51wrJDsp4Q2WkKiFTy7",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xf5e6606ad3e515737250b94d45506d8d1d9547a676d1d944362908af822d37c9",
+        "voteMetrics": {
+          "nay": {
+            "count": 38,
+            "value": "10712782576814333"
+          },
+          "aye": {
+            "count": 172,
+            "value": "62589616642399616"
+          },
+          "support": {
+            "value": "29794554727865732"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5Co5ujUEA6bErhcbRKNTjUuPV6ZTWzD1JXBF4DPP13a1orvZ",
+            "amount": "33000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-05-15T16:17:00.000Z",
+        "preparePeriodEndsAt": "2023-05-08T16:16:54.000Z"
+      }
+    },
+    {
+      "id": "9QzY6Dh0qtnAEYd1PLxO",
+      "index": 184,
+      "userId": 97,
+      "title": "Tip for Polkabeat: Measuring the decentralization of Parachains",
+      "content": "Description: This is a tip to reward the efforts of Phil (https://twitter.com/ph\\_lux) for creating the Polkabeat platform. Polkabeat website / intro: https://polkabeat.org/2023/04/24/introducing-polkabeat/ Polkabeat Twitter: https://twitter.com/polkabeat\\_org",
+      "createdAt": "2023-05-08T15:49:18.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 7
+      },
+      "onChainInfo": {
+        "createdAt": "2023-05-08T15:49:18.001Z",
+        "description": "",
+        "index": 184,
+        "origin": "BigTipper",
+        "proposer": "CrbJuFZWjY3yft424EMTY9hdbWoU878DFs74v3a8nNDeKJD",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0xe25756fb69bda5e4f68e0d182fa35e4d4531ccf4ea80ff8606782d299baec5fc",
+        "voteMetrics": {
+          "nay": {
+            "count": 226,
+            "value": "79267990478068409"
+          },
+          "aye": {
+            "count": 8,
+            "value": "3496738471540818"
+          },
+          "support": {
+            "value": "1257048204948119"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-05-15T15:59:18.000Z",
+        "preparePeriodEndsAt": "2023-05-08T15:59:18.001Z"
+      },
+      "publicUser": {
+        "id": 97,
+        "username": "leemo",
+        "profileScore": 71.5,
+        "addresses": [
+          "5CLyeaugtNX8E24cFMRJZanhV1EZfTHwkt2MgFmcez9iuEe4"
+        ],
+        "rank": 53,
+        "createdAt": "2021-10-17T10:30:00.318Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "bxxDeKmVYg6kMQDqPSoJ",
+      "index": 174,
+      "userId": 2610,
+      "title": "6mths funding for Polkachu's Payout Bot",
+      "content": "Hey All,\n\nDuring a recent discussion with Polkachu he mentioned that he required some help to pay for his [public payout bot (Payout Guard)](https://polkachu.com/payout_guard).  He operates this service on behalf of the community and has self-funded it for most of its existence. I would like to lend him a show of support with a tip of 10 KSM which funds ~ 6 months of service.\n\nI hope the community shares the sentiment.\n\nRegards,\nParadox",
+      "createdAt": "2023-04-26T23:51:48.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-26T23:51:48.000Z",
+        "description": "",
+        "index": 174,
+        "origin": "BigTipper",
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xdb72721b2553303af8a26acf4c8e2becfd7b47cb9d72379d70bc65450ddb950f",
+        "voteMetrics": {
+          "nay": {
+            "count": 17,
+            "value": "1127159435124351"
+          },
+          "aye": {
+            "count": 222,
+            "value": "42993186400196963"
+          },
+          "support": {
+            "value": "19069179168995055"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5Df9ULAfL6WKhXRYzTgYoHhvkYZuXY1nQvC9hjtUbZrekQkS",
+            "amount": "10000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-05-04T00:08:24.000Z",
+        "preparePeriodEndsAt": "2023-04-27T00:01:48.000Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "fhxQCT8Xebzdh9Wmw9rq",
+      "index": 165,
+      "userId": 2188,
+      "title": "Proposal auditor onboarding for Referenda #67 extension",
+      "content": "Dear community,\n\nHaving met the requirements for onboarding as a proposal auditor as a sequel to Referendum #67's [extension](https://docs.google.com/document/d/1RcWEpT5C1u4dNUH4EWCaJfpQ4qOGV19AMXPwj8qSWeY/edit#), I'm opening up my onboarding proposal for community discussions.\n\nThe discussion post for this referendum can be found [here](https://kusama.polkassembly.io/post/2548)\n\n## Context\n\nTo decentralize and improve the auditing process, it was proposed to extend **Referendum 67** by onboarding new members with the necessary skills and experience to become auditors.\n\nAs a candidate seeking to join the auditor team, I have demonstrated my auditing skills by conducting ten (10) thorough audits, showcasing my ability to assess the quality of treasury proposals objectively. Details of these audits can be found in [Table 1 of this proposal's document](https://docs.google.com/document/d/1PeGpwRv0gBTklsEpihJvvFMGXog2MmPUIPKzUgKKikM/edit#bookmark=kix.c22cdf9jhuud)\n\n**Getting onboarded as an auditor is the primary aim of this proposal, but the KSM value that will be tipped on this proposal is a token of gratitude for the audit work done so far. (At a rate of 1KSM/audit for a total of 10 audits, details of which are in the proposal document)**\n\nDetails of the proposal can be found [here](https://docs.google.com/document/d/1PeGpwRv0gBTklsEpihJvvFMGXog2MmPUIPKzUgKKikM/edit#). \n\nThank you!",
+      "createdAt": "2023-04-19T10:23:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 10,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-19T10:23:06.000Z",
+        "description": "",
+        "index": 165,
+        "origin": "BigTipper",
+        "proposer": "HBtJ7Poz9ya9pzS8AXK16tAqJ1qxXbVspkM9E6p57BJ1hJs",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x81ad9bd5629968a4b3f6f98c9983cf887ae89107d911f74ad9001f0d3950dbaf",
+        "voteMetrics": {
+          "nay": {
+            "count": 18,
+            "value": "1266506340204879"
+          },
+          "aye": {
+            "count": 196,
+            "value": "38450765945824356"
+          },
+          "support": {
+            "value": "27566580359155970"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5GgGdo3wMnxeQBAzMTiG79XAghjc9rnKRSubkZprbJxoGch6",
+            "amount": "10000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-04-26T10:33:06.000Z",
+        "preparePeriodEndsAt": "2023-04-19T10:33:06.000Z"
+      },
+      "publicUser": {
+        "id": 2188,
+        "username": "Abdbee",
+        "profileScore": 72.25,
+        "addresses": [
+          "5GgGdo3wMnxeQBAzMTiG79XAghjc9rnKRSubkZprbJxoGch6"
+        ],
+        "rank": 52,
+        "createdAt": "2021-12-29T20:50:27.007Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 156,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5GeahrX1xHdJzWDcfP18ZXEHidNYVQCmPvP8RQ852x7DWW42.",
+      "createdAt": "2023-04-12T21:18:30.000Z",
+      "updatedAt": "2023-04-12T21:18:30.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-12T21:18:30.000Z",
+        "description": "",
+        "index": 156,
+        "origin": "BigTipper",
+        "proposer": "HACNArtaeeEkA34S5pBTUbHsDenJ51wrJDsp4Q2WkKiFTy7",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x958db042b64a446141c4dfd3efcfb4d3309270a316af858b4c4fefdb256250d2",
+        "voteMetrics": {
+          "nay": {
+            "count": 45,
+            "value": "11098686400976855"
+          },
+          "aye": {
+            "count": 152,
+            "value": "37641771222273363"
+          },
+          "support": {
+            "value": "39058599876138425"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5GKaNnyZctdLR9WfnFdbV4BDoFqqhe7AJqNfKnJsNezg2JnW",
+            "amount": "25000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-04-19T21:28:30.000Z",
+        "preparePeriodEndsAt": "2023-04-12T21:28:30.000Z"
+      }
+    },
+    {
+      "id": "zCYJCZHTQdKOmldLf6Bm",
+      "index": 152,
+      "userId": 4422,
+      "title": "Tip for Goku",
+      "content": "Hello,\n\nThis is a tip request for @0xgoku_'s efforts on twitter in doing a treasury audit and putting together the excel spreadsheet of past KSM proposals under both gov1 and opengov.\n\nhttps://twitter.com/0xgoku_/status/1644282582786351104\n\nhttps://docs.google.com/spreadsheets/d/1uBtitC7l3_7iZt4y_l3q0ZLmleGsW7OMhEuDYYIIlKg/edit#gid=0\n\nThanks!\n\n",
+      "createdAt": "2023-04-10T13:42:24.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 3,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-10T13:42:24.001Z",
+        "description": "",
+        "index": 152,
+        "origin": "BigTipper",
+        "proposer": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x308777911f88edc0e8e9ac3970f2ec20cc47d16ef7631d95ebd1e157e106c857",
+        "voteMetrics": {
+          "nay": {
+            "count": 17,
+            "value": "1139477003538944"
+          },
+          "aye": {
+            "count": 205,
+            "value": "144642912396070017"
+          },
+          "support": {
+            "value": "63169543213992810"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5EU81RLWapR3aGWJ84ZwkMAe1bod9KGvvagURN4LW1inGkjQ",
+            "amount": "10000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-04-17T13:52:24.001Z",
+        "preparePeriodEndsAt": "2023-04-10T13:52:24.001Z"
+      },
+      "publicUser": {
+        "id": 4422,
+        "username": "HERTW_fafdU",
+        "profileScore": 72.5,
+        "addresses": [
+          "5GiooCDSSCor9t3nuoERmNiwsXExpnGUmn7K1mL1tiWAqb2E"
+        ],
+        "rank": 51,
+        "createdAt": "2022-12-19T15:54:01.893Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "wAErLoGeVaNyRj1gyJA6",
+      "index": 58,
+      "userId": 2610,
+      "title": "For analysis of Open Gov parameters ",
+      "content": "Dear Community,\n\nI am proposing this tip with multiple goals, in brief they are:\n\n1. To provide a reward to Adam (8 KSM)\n2. To test the use of batch statements to issue rewards\n3. Fund [an account](https://kusama.subscan.io/account/Gch4VxQ79WhjgQqHomvJbqF3Woza5g5cYgM8SVQdDb9szz1?tab=extrinsic) used for public validator payouts as a `finder's fee` (2 KSM)\n\nThe main recipient of funding from this tip is Adam Steebar for compiling and maintaining [details related to Open Governance](https://docs.google.com/spreadsheets/d/1DHgjfaV0bvYVlsQswEM0EltuYnpYl7GJdg24H-sFpiM/edit#gid=663805148) with recent runtime releases.  He has also engaged in discussion on github relating to same [here ](https://github.com/paritytech/polkadot/pull/6398)and [here](https://github.com/paritytech/polkadot/pull/6409).  Despite the outcome I appreciate that he applied his Economics skill set to aid the community.\n\nAdditionally, I am taking an opportunity to test batch calls for issuing tips.  In the previous governance model the system required a single primary recipient of tip funding, this test allows for a split of tips among different parties.  If this executes successfully it establishes a model for future payments requiring such action.\n\nFinally, I am directing 20% of this 'Tip' to an account used by a public staking reward payout bot.  This fee is the equivalent of the now debunked finder's fee of the old governance while awarding the recipient the maximum of what would have been a small tip.  \n\nI look forward to a successful test.\n\nRegards,\n\n\n\n\n",
+      "createdAt": "2023-01-11T21:01:25.295Z",
+      "updatedAt": "2023-01-14T15:05:53.427Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 8,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-11T21:00:48.000Z",
+        "description": "",
+        "index": 58,
+        "origin": "BigTipper",
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xd3a23d3f4278de019ca85063bb9ad3d3f34c3ecf914678665eb781d920db5c2b",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "28746000000000"
+          },
+          "aye": {
+            "count": 215,
+            "value": "13912376271740028"
+          },
+          "support": {
+            "value": "10983719527636758"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5GKaNnyZctdLR9WfnFdbV4BDoFqqhe7AJqNfKnJsNezg2JnW",
+            "amount": "8000000000000",
+            "assetId": null
+          },
+          {
+            "address": "5G75QBcXUnVmz2bPX6xsQeUEtvXkmQruAAqbjnDT9RNf8n7R",
+            "amount": "2000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2023-01-18T21:10:48.000Z",
+        "preparePeriodEndsAt": "2023-01-11T21:10:48.000Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "JP9099QIrFcYxCfFUJyW",
+      "index": 44,
+      "userId": 4420,
+      "title": "[Big Tipper] - Tip request for videos in Spanish",
+      "content": "Hello, it's me Claudio again, \n\nI'd like to please request a total of **24 KSM** (approx **$605.76** for the current KSM price of **$25.24**) in tips for the following 3 videos which I have produced and haven't been paid by WagMedia due to being out of funds after I already spent the research time and effort to create the videos.\n\nOne of the videos is dubbed by one of the ladies I work with for the Spanish material and 2 are original.\n\n**1.** [Polkadot vs Cosmos (comparison video)](https://www.youtube.com/watch?v=X10U4P_WABs&ab_channel=WagMediaenEspa%C3%B1ol)\n\n**2.** [Subwallet tutorial](https://www.youtube.com/watch?v=BIMKRdykrDI&ab_channel=WagMediaenEspa%C3%B1ol) \n\n**3.** [Mangata X Tutorial](https://www.youtube.com/watch?v=vsa-iyZEupo&ab_channel=WagMediaenEspa%C3%B1ol) (dubbed tutorial)\n\nAlso for transparency, feel free to check the description of each of these videos to find that this beneficiary address matches with the one in the description.\n\nThanks in advance,\n\nClaudio\n\n",
+      "createdAt": "2022-12-23T16:26:37.279Z",
+      "updatedAt": "2022-12-23T16:33:53.259Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 7
+      },
+      "onChainInfo": {
+        "createdAt": "2022-12-23T16:26:00.033Z",
+        "description": "",
+        "index": 44,
+        "origin": "BigTipper",
+        "proposer": "FLKBjcL1hXtX7PHF5zrVwQTWQSKg7PCMQ5w6ZU7qvQGsvZR",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0xa23070caaa7a8f2f2c90ad276f67f07cd6213323c086f65fd4b1a941635aef39",
+        "voteMetrics": {
+          "nay": {
+            "count": 157,
+            "value": "19854345802187437"
+          },
+          "aye": {
+            "count": 31,
+            "value": "1958213290000000"
+          },
+          "support": {
+            "value": "1396516900000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5EphXRGTPLWxmTZqUPBobz3TMpA5sSa1u2FBhuCAN8Bn8sLC",
+            "amount": "24000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2022-12-30T16:36:06.007Z",
+        "preparePeriodEndsAt": "2022-12-23T16:36:00.033Z"
+      },
+      "publicUser": {
+        "id": 4420,
+        "username": "kryptoschain",
+        "profileScore": 327.5,
+        "addresses": [
+          "5EphXRGTPLWxmTZqUPBobz3TMpA5sSa1u2FBhuCAN8Bn8sLC"
+        ],
+        "rank": 4,
+        "createdAt": "2022-12-16T10:52:54.491Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "mr1s8O1qm6zwWJFhHqDw",
+      "index": 7,
+      "userId": 2726,
+      "title": "Gov2 - Batch delegation step guide.",
+      "content": "Math Crypto, has put together a batch delegation [steps guide](https://www.math-crypto.com/opengov/batch-delegate/ ) and [web page](https://backend-opengov.math-crypto.com/) with a delegation hash generator for OpenGov / Gov2 on Kusama.\n\nThis is helpful to anyone that wants to delegate the votes of all gov2 tracks to a single account in a single transaction.\n\n\n---\n\n\nFrom my side as the proponent of this Referenda (apart from tipping a fellow 1KV member for the work done) I also wanted to open a Tip under the new gov2 in a track that hasn't been used before and see it unfold, nonetheless gov2 is here and ready to be used!",
+      "createdAt": "2022-12-02T12:59:05.366Z",
+      "updatedAt": "2022-12-02T14:19:09.418Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 7,
+          "dislike": 0
+        },
+        "comments": 9
+      },
+      "onChainInfo": {
+        "createdAt": "2022-12-02T12:57:00.013Z",
+        "description": "",
+        "index": 7,
+        "origin": "BigTipper",
+        "proposer": "H1tAQMm3eizGcmpAhL9aA9gR844kZpQfkU7pkmMiLx9jSzE",
+        "status": "Confirmed",
+        "type": "ReferendumV2",
+        "hash": "0x2284d92dd612055f3511de51111055f7dfdc801c16c7f2c30e124cf6f9372a30",
+        "voteMetrics": {
+          "nay": {
+            "count": 42,
+            "value": "433961923780700"
+          },
+          "aye": {
+            "count": 195,
+            "value": "10715864923974252"
+          },
+          "support": {
+            "value": "9936586314355408"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5Deojt8SSB2scPWm9GvopEbPWH5w6jhPfLpzV16UzJfN5Hud",
+            "amount": "5000000000000",
+            "assetId": null
+          }
+        ],
+        "decisionPeriodEndsAt": "2022-12-09T12:58:06.016Z",
+        "preparePeriodEndsAt": "2022-12-02T13:07:00.013Z"
+      },
+      "publicUser": {
+        "id": 2726,
+        "username": "turboflakes",
+        "profileScore": 37,
+        "addresses": [
+          "5FWYiXrZtKRJ1BtsMUSW8SZcRE4axvtrUgtLHoUeXR34Ysaf",
+          "5GWGW61tRHi4WxxNPzX6gCngGXmpwu1EDNdNS6VQEYjezEpC"
+        ],
+        "rank": 117,
+        "createdAt": "2021-06-21T22:05:44.581Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

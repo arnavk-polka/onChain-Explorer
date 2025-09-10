@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.endpoints import router as api_router
 from app.routers.health import router as health_router
-from app.logging import setup_logging
+from app.logger import setup_logging
 from app.db import init_db, close_pool
 
 # Setup logging

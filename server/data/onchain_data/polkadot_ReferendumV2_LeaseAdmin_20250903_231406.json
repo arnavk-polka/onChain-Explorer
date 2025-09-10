@@ -1,0 +1,82 @@
+{
+  "network": "polkadot",
+  "timestamp": "2025-09-03T23:29:54.682394",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "OOzrTyfDaQk0V7x04JWW",
+      "index": 524,
+      "userId": 2933,
+      "title": "Transfer the Lease of Bifrost Parachain 3356 to Bifrost Parachain 2030 to avoid downtime",
+      "content": "# Summary\n\nBifrost secured the lease for 16-23 through crowdloan paraid: 3356. Yet, Bifrost's current lease for para 2030 is for lease 15. Given there is no overlap between periods 15 and 16-23, an interruption in block production for para 2030 during the lease swap is inevitable. Even in the most ideal result, para 2030 will still face a pause in block production for approximately 4-8 hours.\n\nIn summary, we suggest executing in the Lease Admin governance track, clearing the lease of para 3356, and adding the corresponding lease period to para 2030.\n\n# Regarding the Para Swap\n\nTests have shown that the para swap solution cannot effectively avoid the situation of block stopping (or the solution will lead to an increase in live slots and must be executed by root track governance and other problems)\n\n# Suggested Solution\n\nAfter testing, we suggest using the Lease Admin Track to clear Lease 16-23 for para 3356, and then add these Leases to para 2030. Here are the detailed steps:\n\nCall data:\n\n`0x1a020847011c0d00004700ee0700006d6f646c70792f6366756e64520000000000000000000000000000000000000072ee6b882837010000000000000000001000000008000000`\n\n![Untitled](https://i.ibb.co/7kWgpNS/Untitled.png)\n\nConstruction Analysis:\n\n- slots.clearAllLeases: Clear all leases held by Bifrost para 3356: lease16-23.\n    - (This process will release the reserved DOT in the corresponding Crowdloan.)\n\n- slots.forceLeases: Append the leases 16-23 cleared in the previous step to the Bifrost para 2030.\n    - (This process will re-reserve the DOTs released in the previous Crowdloan.)\n\n- After governance execution, the Bifrost parachain will obtain a complete and continuous renewal lease and no further operations are needed, while 3356 will be scrapped.\n\n### Governance Track\n\nThe main parameters of Lease Admin Track are:\n\n- Concurrent capacity: 10\n- **Confirm Period: 3 hrs**\n- **Prepare Period: 2 hrs**\n- **Decision Period: 28 days**\n- **Min Enact Period: 10 mins**\n- **Decision Deposit: 5000 DOT**\n\nThis track has a larger capacity than the root track (which allows for immediate governance initiation to avoid not having enough time to complete governance), and requires less DOT to be locked up for initiating governance (5000 DOT).\n\n### Governance Logic Analysis\n\nThis governance action will destroy the 3356 leasing rights of Bifrost and reissue them in 2030. The entire process only involves a reasonable transfer within the sovereignty of Bifrost, without generating extra relay chain resource consumption and waste. This operation is carried out to avoid the situation where the ecological parachain users encounter the suspension of service due to the parachain stop producing blocks, we believe that the initiation reason is in line with the interests of users and the community.\n\n# Potential Risk Analysis\n\nDue to the manual modification of the lease, it is uncertain whether it will affect the normal expiration and unlocking of the two crowdloans of 2030 & 3356. We preliminarily judge that the unlocking of the crowdloan is an independent logic, and after the expiration, the DOT of the corresponding fund can also be unlocked normally with the expiration of the Lease. Therefore, it is assessed that it will not affect the normal unlocking. However, further confirmation from Parity developers is still needed.",
+      "createdAt": "2024-02-26T03:41:22.139Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2153",
+        "proposalType": "Discussion"
+      },
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2024-02-26T03:35:00.001Z",
+        "description": "",
+        "index": 524,
+        "origin": "LeaseAdmin",
+        "proposer": "133VgJJgp1s9wxLqgCFxYx6T873hZQNchJM9tmbU6NkYaaqW",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x5802b149f5ecef19f1455352524538c191e9aec9132d4dac4a26ff930470d6ab",
+        "voteMetrics": {
+          "nay": {
+            "count": 3,
+            "value": "220000000000"
+          },
+          "aye": {
+            "count": 124,
+            "value": "46109833255636037"
+          },
+          "support": {
+            "value": "40705419400839183"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-03-26T08:33:54.001Z",
+        "preparePeriodEndsAt": "2024-02-26T05:35:00.001Z"
+      },
+      "publicUser": {
+        "id": 2933,
+        "username": "Lurpis",
+        "profileScore": 16.25,
+        "addresses": [
+          "5E7CXy3cxEbgWRLKiZCxQoGJGV43s6pUcocfjUc7YHj2QLSJ",
+          "5FtEEfxEdXX5nM5gekhuoWcwWfhW66TtDdcJiBDaCezpF6ex"
+        ],
+        "rank": 297,
+        "createdAt": "2021-08-20T13:13:21.273Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

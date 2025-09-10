@@ -10,6 +10,12 @@ class Settings(BaseSettings):
     # Database Configuration (Neon PostgreSQL)
     db_connection_string: str = "postgresql://username:password@ep-xxx-xxx-xxx.region.aws.neon.tech/database_name?sslmode=require"
     
+    # OpenAI Configuration
+    openai_api_key: str = ""
+    
+    # Cohere Configuration
+    cohere_api_key: str = ""
+    
     # Logging
     log_level: str = "INFO"
     log_format: str = "json"

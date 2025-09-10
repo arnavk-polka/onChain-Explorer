@@ -1,0 +1,326 @@
+{
+  "network": "polkadot",
+  "timestamp": "2025-09-03T23:27:54.847647",
+  "total_items": 4,
+  "items": [
+    {
+      "id": "hzRGO27aXwELjBonPbol",
+      "index": 817,
+      "userId": 4773,
+      "title": "Proposal: Adding More Auctions For LP18 On Polkadot",
+      "content": "This proposal is submitted on Auction Admin track: coretime is already scheduled to be enacted during LP17 and this proposal aims to have a safeguard for a more cautious approach and schedule 8 auctions during LP17 for LP18 in case coretime is not ready in time. If coretime enacts successfully (as in Kusama Network) these auctions **won’t be needed** and their cancellation will happen directly with the next runtime upgrade, which includes the migration to coretime. \n\nThese will be 8 auctions for LP18, auctions happening on LP17.\n\n![image](https://i.ibb.co/mFJvkXX/4773-rtti5220-1716972653572.png)\n\nSchedule hash: `15cc5a33781f3b0514473401a7ca5806a74c9123502d22f6bbc7b978b3fe337c`\n\nProposal Hash: `0x4031a089a8ca3a085d53387fc9a1a510d9a1371be578fe99ccef8307a5220556`\n\nPreimage is submitted: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-polkadot.luckyfriday.io#/extrinsics/decode/0x0a00e81a0404010287a871b4d621f0b973475aafcc32610bd7688f1502338acd00ee488ac3620f4c00d5470101491e020008000000004800e2a5010048\n\nPlease make sure to review and vote at your convenience!",
+      "createdAt": "2024-05-29T08:49:54.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "This proposal is submitted on Auction Admin track: coretime is already scheduled to be enacted during LP17 and this proposal aims to have a safeguard for a more cautious approach and schedule 8 auctions during LP17 for LP18 in case coretime is not ready in time. If coretime enacts successfully (as in Kusama Network) these auctions **won’t be needed** and their cancellation will happen directly with the next runtime upgrade, which includes the migration to coretime. \n\nThese will be 8 auctions for LP18, auctions happening on LP17.\n\n![image](https://i.ibb.co/mFJvkXX/4773-rtti5220-1716972653572.png)\n\nSchedule hash: `15cc5a33781f3b0514473401a7ca5806a74c9123502d22f6bbc7b978b3fe337c`\nProposal Hash: `0x4031a089a8ca3a085d53387fc9a1a510d9a1371be578fe99ccef8307a5220556`\n\nPreimage is submitted: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-polkadot.luckyfriday.io#/extrinsics/decode/0x0a00e81a0404010287a871b4d621f0b973475aafcc32610bd7688f1502338acd00ee488ac3620f4c00d5470101491e020008000000004800e2a5010048\n\nPlease make sure to review and vote at your convenience!",
+          "title": "Proposal: Adding More Auctions For LP18 On Polkadot",
+          "createdAt": {
+            "_seconds": 1716973104,
+            "_nanoseconds": 489000000
+          }
+        },
+        {
+          "content": "This proposal is submitted on Auction Admin track: coretime is already scheduled to be enacted during LP17 and this proposal aims to have a safeguard for a more cautious approach and schedule 8 auctions during LP17 for LP18 in case coretime is not ready in time. If coretime enacts successfully (as in Kusama Network) these auctions **won’t be needed** and their cancellation will happen directly with the next runtime upgrade, which includes the migration to coretime. \n\nThese will be 8 auctions for LP18, auctions happening on LP17.\n\n![image](https://i.ibb.co/mFJvkXX/4773-rtti5220-1716972653572.png)\n\nProposal Hash: `0x4031a089a8ca3a085d53387fc9a1a510d9a1371be578fe99ccef8307a5220556`\n\nPreimage is submitted: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-polkadot.luckyfriday.io#/extrinsics/decode/0x0a00e81a0404010287a871b4d621f0b973475aafcc32610bd7688f1502338acd00ee488ac3620f4c00d5470101491e020008000000004800e2a5010048\n\nPlease make sure to review and vote at your convenience!",
+          "title": "Proposal: Adding More Auctions For LP18 On Polkadot",
+          "createdAt": {
+            "_seconds": 1716972742,
+            "_nanoseconds": 755000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2024-05-29T08:49:54.000Z",
+        "description": "",
+        "index": 817,
+        "origin": "AuctionAdmin",
+        "proposer": "1hCMdtRsaRA4ZTEKpPKPvEjK9rZpGhyFnRHSDhqFMCEayRL",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x15cc5a33781f3b0514473401a7ca5806a74c9123502d22f6bbc7b978b3fe337c",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 75,
+            "value": "861854292929243437"
+          },
+          "support": {
+            "value": "311132182851043317"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-06-26T10:50:36.000Z",
+        "preparePeriodEndsAt": "2024-05-29T10:49:54.000Z"
+      },
+      "publicUser": {
+        "id": 4773,
+        "username": "rtti5220",
+        "profileScore": 391.5,
+        "addresses": [
+          "5CkuDJdN1o9gd2SiNBLKFmQaTXrv7y9qBHgoGviUhGAiQe7i"
+        ],
+        "rank": 2,
+        "createdAt": "2020-08-28T11:41:33.354Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 335,
+      "title": "Proposed Polkadot Auction Schedule 2024",
+      "content": "This proposal seeks to establish a defined schedule for the next year's Lease Periods 16 and 17, each consisting of seven auctions, taking into consideration the potential integration of Agile cortime.  In the event that Agile cortime is successfully integrated before the planned auction dates, the proposal suggests the option to cancel the remaining auctions. Further details about the auction configuration for 2024 along with the call hash can be found [here](https://docs.google.com/spreadsheets/d/1BGjZlOdcj4Jmwn7AToByRVh54RW5s0Rpthj5M3jNoeY/edit#gid=1201445856).",
+      "createdAt": "2023-12-05T10:30:48.000Z",
+      "updatedAt": "2023-12-05T10:32:09.750Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-05T10:30:48.000Z",
+        "description": "",
+        "index": 335,
+        "origin": "AuctionAdmin",
+        "proposer": "14z2CnmqMX2kcWGp5VT68sovjKXZipjkNUPtaMMnz6cjXW3q",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x926d0e362d57a247d0da3be136596e8a52b31f1b1e8d807f1375d66d30f9251b",
+        "voteMetrics": {
+          "nay": {
+            "count": 12,
+            "value": "543206865210526"
+          },
+          "aye": {
+            "count": 162,
+            "value": "311169718628397738"
+          },
+          "support": {
+            "value": "106966203613650109"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-01-03T14:46:18.001Z",
+        "preparePeriodEndsAt": "2023-12-05T12:30:48.000Z"
+      },
+      "publicUser": {
+        "id": 1740,
+        "username": "Otar",
+        "profileScore": 10.25,
+        "createdAt": "2023-01-26T16:27:10.000Z",
+        "rank": 512,
+        "addresses": [
+          "5G3j4TWmVjmHAyGJ7rQ5ziymshXv2XBcHyfQR4NSS1bDM23B"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "7VjFhSJtbD3uXmRN2dJp",
+      "index": 56,
+      "userId": 1740,
+      "title": "Canceling Remaining Auctions and Introducing New Ones",
+      "content": "In recent developments of OpenGov, we have faced issues with the existing auction system, resulting in the failure of the auction due to `BadOrigin`.  In response, [referendum 53](https://polkadot.subsquare.io/referenda/referendum/53) has been proposed to address this problem and propose a new auction as an immediate solution.\n\nOn the other hand, to prevent further failures, this referendum proposes to reject the remaining at-risk current schedule and introduce new auctions for LP14 and LP15, in a similar way as the approved schedule by the community, to prevent future instances of `BadOrigin.`\n\n",
+      "createdAt": "2023-07-04T08:00:00.001Z",
+      "tags": [
+        {
+          "value": "opengov",
+          "lastUsedAt": "2023-07-04T08:00:00.001Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "auctions",
+          "lastUsedAt": "2023-07-04T08:00:00.001Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "In recent developments of OpenGov, we have faced issues with the existing auction system, resulting in the failure of the auction due to `BadOrigin`.  In response, [referendum 53](https://polkadot.subsquare.io/referenda/referendum/53) has been proposed to address this problem and propose a new auction as an immediate solution.\n\nOn the other hand, to prevent further failures, this referendum proposes to reject the remaining at-risk current schedule and introduce two new ones (LP14 and LP15) to prevent future instances of `BadOrigin`\n",
+          "title": "Canceling Remaining Auctions and Introducing New Ones",
+          "createdAt": {
+            "_seconds": 1688457669,
+            "_nanoseconds": 198000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 5,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-07-04T08:00:00.001Z",
+        "description": "",
+        "index": 56,
+        "origin": "AuctionAdmin",
+        "proposer": "14z2CnmqMX2kcWGp5VT68sovjKXZipjkNUPtaMMnz6cjXW3q",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x8316a1de4b34ca27ba2342e4d6cd842357eb0192d320c553fd615201fd3e0a45",
+        "voteMetrics": {
+          "nay": {
+            "count": 1,
+            "value": "61000000000000"
+          },
+          "aye": {
+            "count": 133,
+            "value": "397766500784273704"
+          },
+          "support": {
+            "value": "369301647295578957"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-08-01T16:40:54.000Z",
+        "preparePeriodEndsAt": "2023-07-04T10:00:00.001Z"
+      },
+      "publicUser": {
+        "id": 1740,
+        "username": "Otar",
+        "profileScore": 10.25,
+        "addresses": [
+          "5G3j4TWmVjmHAyGJ7rQ5ziymshXv2XBcHyfQR4NSS1bDM23B"
+        ],
+        "rank": 512,
+        "createdAt": "2023-01-26T16:27:10.000Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 53,
+      "title": "Start an Auction",
+      "content": "Due to the scheduled auction failing to start, this referendum starts one.",
+      "createdAt": "2023-07-02T15:29:36.000Z",
+      "updatedAt": "2023-07-02T15:30:43.668Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-07-02T15:29:36.000Z",
+        "description": "",
+        "index": 53,
+        "origin": "AuctionAdmin",
+        "proposer": "15DCWHQknBjc5YPFoVj8Pn2KoqrqYywJJ95BYNYJ4Fj3NLqz",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x6cff124b317b2c0f95365a48024ce648b06c184ffa5bd1fb22034e86c9d8e06e",
+        "voteMetrics": {
+          "nay": {
+            "count": 2,
+            "value": "2005000000000"
+          },
+          "aye": {
+            "count": 131,
+            "value": "1638817829889826837"
+          },
+          "support": {
+            "value": "1804690795181424302"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-07-30T19:38:12.000Z",
+        "preparePeriodEndsAt": "2023-07-02T17:29:36.000Z"
+      },
+      "publicUser": {
+        "id": 10041,
+        "username": "JoePetrowski",
+        "profileScore": 10,
+        "createdAt": "2023-07-01T12:19:09.396Z",
+        "rank": 532,
+        "addresses": [
+          "5GGuMx9gvQU8e1Njqrg8FdCAxDsBrgPADeLhP5YwWAhXC64E"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

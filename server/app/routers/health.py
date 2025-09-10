@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from app.db import test_connection
-from app.logging import get_logger
+from app.logger import get_logger
 
 logger = get_logger(__name__)
 

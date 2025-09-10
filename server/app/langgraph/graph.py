@@ -1,7 +1,7 @@
 from typing import Dict, Any, List
 from dataclasses import dataclass, field
 from langgraph.graph import StateGraph, END
-from app.logging import get_logger
+from app.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -90,10 +90,18 @@ def create_graph() -> StateGraph:
     workflow.add_node("rerank", rerank)
     workflow.add_node("composer", composer)
     
-    # Add edges
-    workflow.add_edge("router", "sql_agent")
-    workflow.add_edge("router", "retrieval")
-    workflow.add_edge("router", "composer")
+    # Add conditional edges from router
+    workflow.add_conditional_edges(
+        "router",
+        router,
+        {
+            "sql_agent": "sql_agent",
+            "retrieval": "retrieval", 
+            "composer": "composer"
+        }
+    )
+    
+    # Add edges from processing nodes
     workflow.add_edge("sql_agent", "rerank")
     workflow.add_edge("retrieval", "rerank")
     workflow.add_edge("rerank", "composer")

@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Optional, List
 from contextlib import asynccontextmanager
 from app.config import settings
-from app.logging import get_logger
+from app.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -190,9 +190,12 @@ async def store_embedding(proposal_id: str, embedding: List[float]) -> bool:
 
 async def search_proposals_semantic(query_embedding: List[float], limit: int = 10) -> List[dict]:
     """Semantic search using vector similarity"""
+    # Convert embedding to PostgreSQL vector format
+    embedding_str = '[' + ','.join(map(str, query_embedding)) + ']'
+    
     query = """
     SELECT p.*, 
-           (pe.embedding <=> $1) as similarity
+           (pe.embedding <=> $1::vector) as similarity
     FROM proposals p
     JOIN proposals_embeddings pe ON p.id = pe.proposal_id
     ORDER BY similarity ASC
@@ -200,7 +203,7 @@ async def search_proposals_semantic(query_embedding: List[float], limit: int = 1
     """
     
     async with get_session() as conn:
-        results = await conn.fetch(query, query_embedding, limit)
+        results = await conn.fetch(query, embedding_str, limit)
         return [dict(row) for row in results]
 
 

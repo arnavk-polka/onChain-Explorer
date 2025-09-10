@@ -1,0 +1,2204 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:39:15.174725",
+  "total_items": 39,
+  "items": [
+    {
+      "id": "",
+      "index": 38,
+      "title": "KSM RFP #4 - BigTipper",
+      "content": "![](https://i.ibb.co/LdjXFcbq/image-2.jpg)\n\n### APPLY NOW - pls fill out [this form](https://forms.gle/hZKDLt3xfH75hp8e7).\n\n---\n\n\nPrize Pool: $1,200  \nFinder's Fee: $100  \nSupervisors: $200  \n\n96 KSM Requested (Amount + 25%)\n\n## Supervisors (Bounty Curators)\n\n- Jay Chrawnna  \n- Leemo\n\nExcess or unused funds will be returned to the treasury by Bounty Curators.\n\n## Timeline\n\nFriday, May 23 - Single-ref Bounty + Curators ✅  \n1 Weeks after Bounty Funding - Submission Deadline  \nMonday, June 30 - Project Completion  \n\n## Project Scope\n\nStaying grounded while we reach for the stars!\n\nThe app this RFP proposes intends to rejuvenate the productive and encouraging tipping culture of Gov1!\n\nThis model offers a a field to fill in % Finders Fee for proposers who do the work of submitting the contributions of others for assessment. The %-based Finders Fee reflects the increased burden of convincing tokenholders of the tip validity!\n\nBut don't get greedy! Bigger tips will face more scrutiny by holders!\n\n### Dapp\n* Connect popular Substrate wallets to app (Nova Wallet, Talisman, Subwallet)\n\n### User Interface\n* Browser-based, mobile-ready UI hosted on IPFS\n* User Manual\n* Checks balance for proposing Tip\n* Presents simple fields to fill\n* Provides text to copy/paste into Subsquare & Polkassembly\n\n### Project Scope Fields\n* Total proposal in $USD\n* Finders Fee % field\n* Field auto-fills 10%\n* Work submission\n* Tip justification\n* Tip beneficiary address\n* Tip finder address (can be the same for self-submit)\n\n### Open-Source Delivery\n* All code published under the MIT license\n* Publicly accessible repositories Project updates shared transparently via Polkassembly, Subsquare, or Polkadot * Forum post from Team with Milestone deliveries\n* Developer & User documentation\n\n\n## Milestones\n\n### Milestone 1, Milestone 1, Basic Dapp & UI  \n$350 USD\n\n1. Connect Wallet\n2. Tip proposal flow\n3. Tatal USD converted to KSM + 25%\n4. Presentation to Supervisors\n\n\n\n### Milestone 2, Milestone 2, Tip Creation  \n$350 USD\n\n1. Chopsticks demonstration of on-chain Treasurer Track ref\n2. App checks balance for Multi-sig reserve deposit, Ref Launch & Decision Deposit\n3. UI Integration\n\n\n\n### Milestone 3, Milestone 3, Mainnet Deployment  \n$350 USD\n\n1. Improved UI Design\n2. Deployment\n\n\n\n### Milestone 4, Milestone 4, Documentation  \n$150 USD\n\n1. User Manual\n2. Documentation\n\n\n",
+      "createdAt": "2025-05-23T14:21:36.000Z",
+      "updatedAt": "2025-06-05T12:49:12.135Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-23T14:21:36.000Z",
+        "childBountiesCount": 0,
+        "curator": "GBdGQCQH2Kha4JLtub27VaBqXyw2ZdMqXTgwDomtAq3ygTP",
+        "description": "0x4b534d20524650202334202d20426967546970706572",
+        "index": 38,
+        "origin": null,
+        "proposer": "E5qFqe5g5iS4Byu4hyKLAavayXtCiuuuK4xzuLcnQWvtqrg",
+        "reward": "96000000000000",
+        "status": "Active",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2934,
+        "username": "JayChrawnna",
+        "profileScore": 282,
+        "createdAt": "2021-11-08T03:50:35.994Z",
+        "rank": 6,
+        "addresses": [
+          "5DaDbXJD3ihWJYATJ1AGSDDvSPFeQ46jSwEDcF4fJcJS9mGW"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 37,
+      "title": "Art",
+      "content": "This is a Bounty post. It can only be edited by the proposer of the post 5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y.",
+      "createdAt": "2025-05-19T09:11:24.029Z",
+      "updatedAt": "2025-05-19T09:11:24.029Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-19T09:11:24.029Z",
+        "childBountiesCount": 0,
+        "description": "0x417274",
+        "index": 37,
+        "origin": null,
+        "proposer": "JFArxqV6rqPSwBok3zQDnj5jL6vwsZQDwYXXqb1cFygnYVt",
+        "reward": "1000000000000",
+        "status": "Proposed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "rank": 9,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 36,
+      "title": "Proof-of-Personhood",
+      "content": "This is a Bounty post. It can only be edited by the proposer of the post 5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y.",
+      "createdAt": "2025-05-19T09:11:00.000Z",
+      "updatedAt": "2025-05-19T09:11:00.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-19T09:11:00.000Z",
+        "childBountiesCount": 0,
+        "description": "0x50726f6f662d6f662d506572736f6e686f6f64",
+        "index": 36,
+        "origin": null,
+        "proposer": "JFArxqV6rqPSwBok3zQDnj5jL6vwsZQDwYXXqb1cFygnYVt",
+        "reward": "1000000000000",
+        "status": "Proposed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "rank": 9,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 35,
+      "title": "Zero-Knowledge and Advanced Cryptography",
+      "content": "This is a Bounty post. It can only be edited by the proposer of the post 5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y.",
+      "createdAt": "2025-05-19T09:10:42.001Z",
+      "updatedAt": "2025-05-19T09:10:42.001Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-19T09:10:42.001Z",
+        "childBountiesCount": 0,
+        "description": "0x5a65726f2d4b6e6f776c6564676520616e6420416476616e6365642043727970746f677261706879",
+        "index": 35,
+        "origin": null,
+        "proposer": "JFArxqV6rqPSwBok3zQDnj5jL6vwsZQDwYXXqb1cFygnYVt",
+        "reward": "1000000000000",
+        "status": "Proposed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "rank": 9,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 34,
+      "title": "KSM RFP#3 - Kusama.App",
+      "content": "**Bounty 34** funds an experienced team in the ecosystem develop [kusama.app](https://kusama.app). See the [Polkadot forum post](https://forum.polkadot.network/t/kusama-rfp-3-kusama-app-gateway-for-newcomers-to-the-ecosystem/12441) for details and discussion about the focus of the application.\n\nI'd like to put my [kusama.app](https://kusama.app) domain to good use, let's build together a launchpad for newcomers to the ecosystem which makes it dead simple for builders to start a project/community/marketplace/organization, collaborate, upload code and make the best use of the tech available in AH and the Kreivo parachain for DAO governance.\n\n**Initial scope summary:** A simple app that provides easy on-boarding to founders and hackers who can set up a DAO(organization/project) in minutes without knowledge of Web3, it doesn't require wallets or tokens to get started and provides basic governance and asset management primitives.\n\n- Milestone 1(Q2): Designs and functional prototype\n- Milestone 2(Q3): Functional DAO governance system\n\nBounty 34 budget: **8000 KSM**\nCurators:\n- [olanod](https://kusama.subsquare.io/user/EvoLanodoqDsgHb98Ymbu41uXXKfCPDKxeM6dXHyJ2JoVus) (me)\n- [Paradox](https://kusama.subsquare.io/user/HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn) (Validator)\n- [florentina57 | ValidAndina](https://kusama.subsquare.io/user/H1ghzzF9yLCYWrd8AzBAKoGb75Zc6X2hGpmUUymp36Gb7C6/) (Validator)\n- [Lorena Fabris](https://kusama.subsquare.io/user/CbNFBz4eykqiGqwYTfzRcYZGDh8xhbwwy4QaeiS4ctEPvXn)\n",
+      "createdAt": "2025-04-08T10:57:00.000Z",
+      "updatedAt": "2025-04-15T08:40:32.769Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-04-08T10:57:00.000Z",
+        "childBountiesCount": 0,
+        "description": "0x4b534d205246502333202d204b7573616d612e417070",
+        "index": 34,
+        "origin": null,
+        "proposer": "EvoLanodoqDsgHb98Ymbu41uXXKfCPDKxeM6dXHyJ2JoVus",
+        "reward": "8000000000000000",
+        "status": "Proposed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2544,
+        "username": "olanod",
+        "profileScore": 57.25,
+        "createdAt": "2021-01-11T10:32:02.743Z",
+        "rank": 73,
+        "addresses": [
+          "5CzRiZYLwDugzTBm6fwfBMh34MQbM32mwRmt83Q7piE5vtiC",
+          "5Dht4YYw68iFAUTooEdDhkpcPW6pwYSR7meaUXABXCxSPfLF",
+          "5ERBgGSw1SpJ82U9NRjihwh1kwF5rXa2saobhyFLVVop4XJs",
+          "5EZSRMwtdtWexkaYpQH5aNBhsQ6tHUoBR9ETxmvvbsoQJnax",
+          "5F3VMLLVBYyhYetC3CsDc5xFZjtJ4ZqGJB6dPRMu3e2RXoVL"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 33,
+      "title": "KSM RFP #2 - RFP Launcher Dapp - $12k Total Prize!",
+      "content": "![](https://i.ibb.co/NnT7GGmw/image-1.jpg)\n\nThis RFP was introduced on [AAG](https://www.youtube.com/live/70TkeD6rVB0?si=9NLgRYDK7dBf9jqo&t=639) to create a simple UI to launch RFPs in the style of ref below. \n\n### APPLY NOW - pls fill out [this form](https://forms.gle/gVpTzFSsPUC7DYFcA).  \n\n---\n\nPrize Pool: $10,000  \nFinder’s Fee: $1,000 **  \nSupervisors: $1,000  \n\n945 KSM Requested (Amount + 25%)\n\n### Supervisors (Bounty Curators)\n\n- Leemo\n- Jay Chrawnna\n- Jose\n\nExcess or unused funds will be returned to the treasury by Bounty Curators.\n\n\n### Timeline\n\nMonday, March 31 - Single-ref Bounty + Curators ✅  \n2 Weeks after Bounty Funding - Submission Deadline  \nSaturday, May 31 - Project Completion\n\n### Project Scope\n\n**Dapp**\n- Connect popular Substrate wallets to app (Nova Wallet, Talisman, Subwallet)\n\n**User Interface**\n- Browser-based, mobile-ready UI hosted on IPFS\n- User Manual\n- Present fields for RFP proposes to fill in\n- Checks balance for launching Treasurer track referendum & submitting Decision Deposit\n\n**Project Scope Fields**\n- Funding Fields    \n-- Prize Pool  \n-- Finder’s Fee (Fixed 1k, 2k, 5k, 10k)  \n-- Supervisors’ Fee\n\n- Supervisors (Bounty Curators)  \n-- Add addresses\n\n- Timeline  \n-- Funds Expiry (if no submissions after n weeks following bounty funding)  \n-- Project Completion Deadline  \n\n- Project Scope  \n-- Text field to describe scope\n\n- Milestones  \n-- Add Milestone Button  \n-- Text field  \n-- Amount  \n-- Check that Milestone amounts = “Prize Pool”  \n\n**RFP Launcher**\n\n- Create multi-sig for Curators\n- Create “One-shot” Bounty on Treasurer track with curators and scheduled payment. See example.\n- Generate Markdown-ready text for Subsquare/Polkassembly\n\n**Open-Source Delivery**\n- All code published under the MIT license\n- Publicly accessible repositories Project updates shared transparently via Polkassembly, Subsquare, or Polkadot Forum from Team with Milestone deliveries\n- Developer & User documentation\n\n\n### Milestones\n\n**Milestone 1, Basic Dapp & UI:**  \n$3,000 USD  \n1 week  \n1. Connect Wallet\n2. RFP Creation Flow\n3. Total USD converted to KSM + 25%\n4. Validated by Supervisors\n\n**Milestone 2, RFP Creation:**  \n$3,000 USD\n1 week  \n1. Chopsticks demonstration of on-chain Treasurer Track ref\n2. App checks balance for Multi-sig reserve deposit, Ref Launch & Decision Deposit\n3. Creation Multi-sig\n4. Scheduler Calculations for filling Bounty\n5. UI Integration\n\n**Milestone 3, Mainnet Deployment:**  \n$4,000 USD\n2 weeks  \n1. Improved UI Design\n2. User Manual included\n3. Demonstration of RFP launching capabilities\n4. Documentation\n\n\n---\n\nre: Finder’s Fee: this payment is set aside to incentivize a broad search for the right implementor. Finder’s Fees are paid out at time of team engagement. Teams that submit themselves can collect their own Finder’s Fee at completion of project.",
+      "createdAt": "2025-03-31T16:42:06.000Z",
+      "updatedAt": "2025-03-31T19:19:50.673Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-03-31T16:42:06.000Z",
+        "childBountiesCount": 7,
+        "curator": "Fw6jimeopqaUo9A8QdDQ5ZyGY7JTdqcm2ycH3iqnkeQedrk",
+        "description": "0x4b534d20524650202332202d20524650204c61756e636865722044617070",
+        "index": 33,
+        "origin": null,
+        "proposer": "E5qFqe5g5iS4Byu4hyKLAavayXtCiuuuK4xzuLcnQWvtqrg",
+        "reward": "945000000000000",
+        "status": "Active",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2934,
+        "username": "JayChrawnna",
+        "profileScore": 282,
+        "createdAt": "2021-11-08T03:50:35.994Z",
+        "rank": 6,
+        "addresses": [
+          "5DaDbXJD3ihWJYATJ1AGSDDvSPFeQ46jSwEDcF4fJcJS9mGW"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 32,
+      "title": "KSM RFP #1 - Shielded Kusama Hub Transfers",
+      "content": "Prize Pool: $43,000  \nFinder’s Fee: $2,000 **  \nSupervisors: $5,000  \n\n### Supervisors (Bounty Curators)\n- Flipchan  \n- Byte (Erin)  \n- James Slusser  \n\n### Timeline\nMonday, March 17 - AAG Discussion & this forum post! ✅\nMonday, March 24 - Single-ref Bounty + Curators\n4 Weeks after Bounty Funding - Submission Deadline\nThursday July 31 - Project Completion (Pending Kusama Hub Launch)\n\n### Project Scope\n**Smart Contract Development**\n- A Solidity-based smart contract deployed on Kusama Hub\n- ZK enabled for private deposits & withdrawals\n- Compatibility with all Kusama Hub assets  \n\n**User Interface**\n- Browser-based, mobile-ready UI hosted on IPFS\n- Support for: Deposits, Withdrawals, Transfers, XCM Transfers\n- Compatible with popular ecosystem wallets (Nova Wallet, Talisman, Subwallet)\n\n**Anti-correlation Attack Mitigations:**\n- Fixed deposit amounts (e.g. 1, 10, 100, 1000 units)\n- Batch payouts for withdrawals to multiple users  \nInteroperability\n- Ability to receive assets via XCM from any Kusama-connected parachain and transfer them to Kusama Hub for use in shielded pool.  \n\n**Open-Source Delivery**\n- All code (smart contracts and UI) published under the MIT license\n- Publicly accessible repositories\nProject updates shared transparently via Polkassembly, Subsquare, or Polkadot Forum from Team with Milestone deliveries\n- Developer & User documentation\n\n### Milestones\n**Milestone 1, Initial Pools & Basic UI:**  \n$16,200 USD  \n1 month\n \n1. Tests - Smart contract test\n2. Smart contract - ZK shielded smart contract with KSM and multi asset support on Westend or Paseo\n3. Basic UI - A basic UI for interacting with the smart contract\n\n**Milestone 2, UI + XCM:**  \n$9,900  \n1 month\n  \n1. Tests - tests for all features\n2. User interface design - UI design\n3. XCM transfers - XCM transfer assets in UI\n4. Fixed amount transfer only - Allow fixed amount transfers in the UI\n\n**Milestone 3, Mainnet Deployment:**  \n$16,900  \n1 - 1.5 months\n\n1. Contract Migration to Kusama Assethub - Migrate contract from Testnet to Kusama Hub\n2. Public documentation - Documentation for using Kusama shield and developer integration documentation\n3. Test - tests for contract\n4. V1 UI - User tested & something we can be proud of \n\n----\n\n** re: Finder’s Fee: this payment is set aside to incentivize a broad search for the right implementor. Finder’s Fees are paid out at time of team engagement. Teams that submit themselves can collect their own Finder’s Fee at completion of project.\n",
+      "createdAt": "2025-03-24T16:15:36.000Z",
+      "updatedAt": "2025-03-24T17:42:54.878Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 5
+      },
+      "onChainInfo": {
+        "createdAt": "2025-03-24T16:15:36.000Z",
+        "childBountiesCount": 3,
+        "curator": "HAf2xBVrxqbRG3FjVH1VVy7GQ6nzVrfViLnL6wd9N2pQZcX",
+        "description": "0x4b534d20524650202331202d20536869656c646564204b7573616d6120487562205472616e7366657273",
+        "index": 32,
+        "origin": null,
+        "proposer": "E5qFqe5g5iS4Byu4hyKLAavayXtCiuuuK4xzuLcnQWvtqrg",
+        "reward": "3333333300000000",
+        "status": "Extended",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2934,
+        "username": "JayChrawnna",
+        "profileScore": 282,
+        "createdAt": "2021-11-08T03:50:35.994Z",
+        "rank": 6,
+        "addresses": [
+          "5DaDbXJD3ihWJYATJ1AGSDDvSPFeQ46jSwEDcF4fJcJS9mGW"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "qh1dYhQ2VlnWL7uZ56Fq",
+      "index": 31,
+      "userId": 21074,
+      "title": "Russian-speaking community support and development",
+      "content": "**Budget on rewards for content creators, chat moderation, anti-scam activity and events for 1 year**\n\n**Proponent:** ETdYaUAqUWTTA6hXm9edwDWEn6iBYaRK2mJCUwaKQzfqQYS  \n**Date:** 10 May 2024  \n**Requested allocation:** 5555 KSM (approximately 160K$ or 13,33K$ per month)  \n**KSM 7D EMA according to Subscan:** $28.862  \n**Proposed Curator reward:** Specified in section 4.2  \n**Short description:** A year-long bounty to increase the education, awareness and presence of Polkadot & Kusama in the Russian-speaking community by producing content, hosting events, maintaining related chats and anti-scam activity.\n\n1.  **Context of the bounty.**  \n    The Russian-speaking community is one of the most active and vibrant in the whole Web3. However, interest in the Russian-speaking Polkadot & Kusama ecosystem has seen a significant decline due to a lack of enthusiasts and content. We aim to change that by introducing a bounty specifically for the Russian-speaking community.\n\nMore than 250 million people around the world speak Russian, with Russian-speaking countries consistently ranking among the top nations by global cryptocurrency volume. Furthermore, a significant number of Russian-speaking developers are contributing to the development of the Polkadot & Kusama ecosystem.\n\nWhy we focused on Kusama Treasury? We see huge untapped potential in Kusama, being Polkadot's canary sister and truly community driven, Kusama has the potential for massive growth in terms of new projects, liquidity, and users—especially following the main bridge launch and full integration with Polkadot. One of the main priorities of this bounty is to enhance the visibility of Kusama.\n\nWith this Bounty, we want to breathe a second life into the Russian-speaking community, inspire and encourage individuals to contribute to the ecosystem, and ensure that community members receive quality and relevant content. Moreover, one of our top priorities is to attract community members that are currently outside of the Polkadot & Kusama ecosystem.\n\nOur bounty is designed not only to incentivize active ecosystem enthusiasts and community members, but also to bring new members, educate about Polkadot tech, engage with crypto influencers, and establish partnerships.\n\nBased on the experience of colleagues from other regions, as well as on the peculiarities of our region, we decided to divide the Bounty into 4 sections:\n\n1.  Russian-speaking content. To address the lack of quality, reliable and relevant content, we want to incentivize content creators to start contributing to the ecosystem on an ongoing basis. By contributing to the ecosystem, we mean translation of key Polkadot & Kusama news and updates into Russian, and the production of audio-visual and textual content in Russian.\n2.  Chat moderation and maintenance. In this section, we want to solve the problem of the abandoned Russian-speaking channel on the official Polkadot Discord server and support the current moderators in Polkadot & Kusama Telegram chats, which work on full enthusiasm.\n3.  Event hosting. Hosting events is a very important part of community building, so we want to give passionate community members the opportunity to host local events without worrying about the troubles they would have to face when requesting funds from the treasury.\n4.  Anti-Scam activity. Preventing scam, phishing attacks, and other destructive and harmful activity in the Russian-speaking community. Delivering information about these attempts to main Anti-Scam team in order to collaborate and prevent these activities from occurring. Curators will take the lead in this area of work, ensuring that we are always aware of any new threats and taking appropriate measures to protect our users.\n\nСurators selected for the Content Production and Event Hosting sections are responsible for reviewing the related submissions. The quality of the submission is evaluated on a point system, and the amount of rewards for contributors is directly related to the number of points received for the submitted work.\n\n**Problem statement:**\n\n**No incentive to produce content:** Despite all the advantages that OpenGov offers, it is almost entirely focused on contributing in English, making it almost impossible for a Russian-speaking content creator to get funding.\n\n**An unpresentable view** of Polkadot & Kusama in a Russian-speaking environment: Due to the lack of content, translations of latest updates, and an abandoned Russian-speaking Discord channel, potential Polkadot & Kusama users may have a wrong impression of the ecosystem.\n\n**Lack of offline activities:** Without funding, growth and development of offline events are impossible. This also affects participation in major Russian-speaking cryptocurrency conferences.\n\n**Lack of interest from companies** in Russian-speaking countries towards Polkadot & Kusama: A low presence and an inactive community can influence decision-making regarding Polkadot & Kusama and negatively impact deal closings.\n\n**3\\. Submission information**\n\nWe expect all contributors participating in the Bounty to follow the rules below:\n\n-   Be original: The content you submit must be original and preferably reflect your own unique style.\n-   Be respectful: We do not support content that offends or discriminates against any social groups.\n-   Be truthful: Ensure all information in your content is accurate and not misleading curators and community.\n-   Be responsible: Take responsibility for the quality of the content you create.\n-   Be proactive. Stay updated with the Bounty's progress and actively engage in content creation.\n\nThis proposal divides the scope of submissions into the following categories:\n\n2.1 Creation of Russian language audiovisual content  \n2.2 Creation of Russian language writing content  \n2.3 Translation of content and updates into Russian  \n2.4 Organization of events oriented to the Russian-speaking community\n\n[For more details please read the full proposal](https://docs.google.com/document/d/18mIh2WMMWlv2j3VLO44tP2RVp1mEwBbh9hmhWgwjEW8/edit?usp=sharing)",
+      "createdAt": "2024-05-09T17:22:54.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "history": [
+        {
+          "content": "**Budget on rewards for content creators, chat moderation, anti-scam activity and events for 1 year**\n\n**Proponent:** ETdYaUAqUWTTA6hXm9edwDWEn6iBYaRK2mJCUwaKQzfqQYS  \n**Date:** 10 May 2024  \n**Requested allocation:** 5555 KSM (approximately 160K$ or 13,33K$ per month)  \n**KSM 7D EMA according to Subscan:** $28.862  \n**Proposed Curator reward:** Specified in section 4.2  \n**Short description:** A year-long bounty to increase the education, awareness and presence of Polkadot & Kusama in the Russian-speaking community by producing content, hosting events, maintaining related chats and anti-scam activity.\n\n1.  **Context of the bounty.**  \n    The Russian-speaking community is one of the most active and vibrant in the whole Web3. However, interest in the Russian-speaking Polkadot & Kusama ecosystem has seen a significant decline due to a lack of enthusiasts and content. We aim to change that by introducing a bounty specifically for the Russian-speaking community.\n\nMore than 250 million people around the world speak Russian, with Russian-speaking countries consistently ranking among the top nations by global cryptocurrency volume. Furthermore, a significant number of Russian-speaking developers are contributing to the development of the Polkadot & Kusama ecosystem.\n\nWhy we focused on Kusama Treasury? We see huge untapped potential in Kusama, being Polkadot's canary sister and truly community driven, Kusama has the potential for massive growth in terms of new projects, liquidity, and users—especially following the main bridge launch and full integration with Polkadot. One of the main priorities of this bounty is to enhance the visibility of Kusama.\n\nWith this Bounty, we want to breathe a second life into the Russian-speaking community, inspire and encourage individuals to contribute to the ecosystem, and ensure that community members receive quality and relevant content. Moreover, one of our top priorities is to attract community members that are currently outside of the Polkadot & Kusama ecosystem.\n\nOur bounty is designed not only to incentivize active ecosystem enthusiasts and community members, but also to bring new members, educate about Polkadot tech, engage with crypto influencers, and establish partnerships.\n\nBased on the experience of colleagues from other regions, as well as on the peculiarities of our region, we decided to divide the Bounty into 4 sections:\n\n1.  Russian-speaking content. To address the lack of quality, reliable and relevant content, we want to incentivize content creators to start contributing to the ecosystem on an ongoing basis. By contributing to the ecosystem, we mean translation of key Polkadot & Kusama news and updates into Russian, and the production of audio-visual and textual content in Russian.\n2.  Chat moderation and maintenance. In this section, we want to solve the problem of the abandoned Russian-speaking channel on the official Polkadot Discord server and support the current moderators in Polkadot & Kusama Telegram chats, which work on full enthusiasm.\n3.  Event hosting. Hosting events is a very important part of community building, so we want to give passionate community members the opportunity to host local events without worrying about the troubles they would have to face when requesting funds from the treasury.\n4.  Anti-Scam activity. Preventing scam, phishing attacks, and other destructive and harmful activity in the Russian-speaking community. Delivering information about these attempts to main Anti-Scam team in order to collaborate and prevent these activities from occurring. Curators will take the lead in this area of work, ensuring that we are always aware of any new threats and taking appropriate measures to protect our users.\n\nСurators selected for the Content Production and Event Hosting sections are responsible for reviewing the related submissions. The quality of the submission is evaluated on a point system, and the amount of rewards for contributors is directly related to the number of points received for the submitted work.\n\n**Problem statement:**\n\n-   No incentive to produce content: Despite all the advantages that OpenGov offers, it is almost entirely focused on contributing in English, making it almost impossible for a Russian-speaking content creator to get funding.\n    \n-   An unpresentable view of Polkadot & Kusama in a Russian-speaking environment: Due to the lack of content, translations of latest updates, and an abandoned Russian-speaking Discord channel, potential Polkadot & Kusama users may have a wrong impression of the ecosystem.\n    \n-   Lack of offline activities: Without funding, growth and development of offline events are impossible. This also affects participation in major Russian-speaking cryptocurrency conferences.\n    \n-   Lack of interest from companies in Russian-speaking countries towards Polkadot & Kusama: A low presence and an inactive community can influence decision-making regarding Polkadot & Kusama and negatively impact deal closings.\n    \n\n**3\\. Submission information**\n\nWe expect all contributors participating in the Bounty to follow the rules below:\n\n-   Be original: The content you submit must be original and preferably reflect your own unique style.\n-   Be respectful: We do not support content that offends or discriminates against any social groups.\n-   Be truthful: Ensure all information in your content is accurate and not misleading curators and community.\n-   Be responsible: Take responsibility for the quality of the content you create.\n-   Be proactive. Stay updated with the Bounty's progress and actively engage in content creation.\n\nThis proposal divides the scope of submissions into the following categories:\n\n2.1 Creation of Russian language audiovisual content  \n2.2 Creation of Russian language writing content  \n2.3 Translation of content and updates into Russian  \n2.4 Organization of events oriented to the Russian-speaking community\n\n[For more details please read the full proposal](https://docs.google.com/document/d/18mIh2WMMWlv2j3VLO44tP2RVp1mEwBbh9hmhWgwjEW8/edit?usp=sharing)",
+          "title": "Russian-speaking community support and development",
+          "createdAt": {
+            "_seconds": 1715276449,
+            "_nanoseconds": 402000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-05-09T17:22:54.000Z",
+        "childBountiesCount": 0,
+        "description": "0x5275737369616e2d737065616b696e6720636f6d6d756e69747920737570706f727420616e6420646576656c6f706d656e74",
+        "index": 31,
+        "origin": null,
+        "proposer": "ETdYaUAqUWTTA6hXm9edwDWEn6iBYaRK2mJCUwaKQzfqQYS",
+        "reward": "5555000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 21074,
+        "username": "BountyRusCommunity",
+        "profileScore": 1.5,
+        "addresses": [
+          "5Dx1tG8JD7VXhWHFm4LbjyrW6BpUNsmErevYopfcqcnB6V7C"
+        ],
+        "rank": 3122,
+        "createdAt": "2024-05-09T16:48:57.628Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 30,
+      "title": "Auditors Proto-Collective",
+      "content": "This is a bounty proposal whose proposer address (HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2024-03-26T04:04:18.000Z",
+      "updatedAt": "2024-03-26T04:04:18.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-03-26T04:04:18.000Z",
+        "childBountiesCount": 0,
+        "description": "0x41756469746f72732050726f746f2d436f6c6c656374697665",
+        "index": 30,
+        "origin": null,
+        "proposer": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+        "reward": "33333000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 4422,
+        "username": "HERTW_fafdU",
+        "profileScore": 72.5,
+        "createdAt": "2022-12-19T15:54:01.893Z",
+        "rank": 51,
+        "addresses": [
+          "5GiooCDSSCor9t3nuoERmNiwsXExpnGUmn7K1mL1tiWAqb2E"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 29,
+      "title": "Gamers Proto-Collective",
+      "content": "This is a bounty proposal whose proposer address (HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2024-03-26T04:04:06.000Z",
+      "updatedAt": "2024-03-26T04:04:06.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-03-26T04:04:06.000Z",
+        "childBountiesCount": 0,
+        "description": "0x47616d6572732050726f746f2d436f6c6c656374697665",
+        "index": 29,
+        "origin": null,
+        "proposer": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+        "reward": "33333000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 4422,
+        "username": "HERTW_fafdU",
+        "profileScore": 72.5,
+        "createdAt": "2022-12-19T15:54:01.893Z",
+        "rank": 51,
+        "addresses": [
+          "5GiooCDSSCor9t3nuoERmNiwsXExpnGUmn7K1mL1tiWAqb2E"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 28,
+      "title": "Regional Marketing Proto-Collective",
+      "content": "This is a bounty proposal whose proposer address (HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2024-03-26T04:03:36.001Z",
+      "updatedAt": "2024-03-26T04:03:36.001Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-03-26T04:03:36.001Z",
+        "childBountiesCount": 0,
+        "description": "0x526567696f6e616c204d61726b6574696e672050726f746f2d436f6c6c656374697665",
+        "index": 28,
+        "origin": null,
+        "proposer": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+        "reward": "33333000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 4422,
+        "username": "HERTW_fafdU",
+        "profileScore": 72.5,
+        "createdAt": "2022-12-19T15:54:01.893Z",
+        "rank": 51,
+        "addresses": [
+          "5GiooCDSSCor9t3nuoERmNiwsXExpnGUmn7K1mL1tiWAqb2E"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 27,
+      "title": "POLKADOT <> KUSAMA BRIDGE SECURITY BOUNTY",
+      "content": "**Proponent**: Fy6erZmPp78ZY2cN945FU9KnKdATmxvG2eB9a1kh2VX33xz\n\n**Date**: 01.03.2024\n\n**Requested KSM**: $250,000 (5102 KSM - based on EMA7 March 1st 2024)\n\n**Short description**:\n\nBridges enable transferring data, assets, and more between multiple chains. Due to their pivotal role and high transaction volumes, they have simultaneously become a hotspot for malicious activities. When exploited, these breaches can lead to significant impact including financial losses.\n\nThis proposal aims to ensure the utmost security of the bridges and promote community involvement by implementing a Security Bug Bounty Program. While all developers involved work hard to ensure the software and protocols built are bug-free, secure by design, and third-party code audits have been already performed, it is recognised security best practices to complement this. That’s why Polkadot and Kusama need community and bug bounty hunters to help to identify security vulnerabilities that could cause impact from all the severity levels before it is widely used and adopted.\n\nTo support this, the Bug Bounty participants are provided with many context details in the full proposal [attached](https://docs.google.com/document/d/1rzvoJxMVIG1MJfHCkHDLmXYBTlkJZvUgwsP4IV4oHKw/edit), including a threat model of the scope.\n\nAs a security vulnerability in the bridge can impact both the source and destination blockchains, a mirror bounty is raised on Kusama and Polkadot\n\nThanks for your time and support to make Polkadot more secure !",
+      "createdAt": "2024-03-01T13:31:42.000Z",
+      "updatedAt": "2024-03-01T13:46:56.810Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-03-01T13:31:42.000Z",
+        "childBountiesCount": 0,
+        "curator": "F4K9Jg5qbzxxyYPRVZPraSnyVfLnyoUDMDYWo6gkaXEHEQr",
+        "description": "0x504f4c4b41444f54203c3e204b5553414d412042524944474520534543555249545920424f554e5459",
+        "index": 27,
+        "origin": null,
+        "proposer": "Fy6erZmPp78ZY2cN945FU9KnKdATmxvG2eB9a1kh2VX33xz",
+        "reward": "5102000000000000",
+        "status": "Extended",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 16653,
+        "username": "VinceCorsica_KSM",
+        "profileScore": 13,
+        "createdAt": "2024-01-26T03:50:14.601Z",
+        "rank": 391,
+        "addresses": [
+          "5FTUzYDtmT6CotDAbSF2MWnKdjLvf79joeoRkujoDEH2HqHU"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 26,
+      "title": "Bounty Proposal: Polkadot Treasury USDT Acquisition ",
+      "content": "The Polkadot Technical Fellowship is an integral part of the Polkadot ecosystem, ensuring the ongoing advancement and upkeep of the network. However, there's a present need for a more predictable and stable financial model to support uninterrupted Fellowship salary distribution. This proposal outlines a strategy to accumulate 1.57M USDT for the Fellowship's salary needs using a community-based bounty mechanism. While intended as a temporary solution, this initiative sets the stage for the launch of Asset Conversion on the Asset Hub.\n\nPlease make sure to review [the full proposal](https://docs.google.com/document/d/1sYkKQWd6nHJcr026zRO_UUhJ-ktwpuJgOg117AMDj9I/edit?usp=sharing) that details the problems faced, the proposed solutions, and the practical steps to achieve our funding objectives.",
+      "createdAt": "2023-12-14T19:55:18.000Z",
+      "updatedAt": "2023-12-14T19:55:18.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-14T19:55:18.000Z",
+        "childBountiesCount": 0,
+        "curator": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "description": "0x50617261646f782773205363686564756c6572205465737420426f756e7479",
+        "index": 26,
+        "origin": null,
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "reward": "25000000000000",
+        "status": "Claimed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "rank": 5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "B1L3yHcOt04KMyInq2eT",
+      "index": 25,
+      "userId": 97,
+      "title": "Bounty Proposal for Public RPCs for Relay and System Chains",
+      "content": "*This is a joint-proposal by BlockOps, Dwellir, LuckyFriday, OnFinality, RadiumBlock, RockX, and Stakeworld. Valuable input to this proposal has also been made by the proposed curators.*\n\n### **TL;DR:**\n\nThis proposal outlines a procurement strategy for public RPC services in Polkadot and Kusama ecosystems, aiming for high-quality, decentralized, and cost-effective services. It addresses the vital need for reliable RPCs, emphasizing their role in applications like Polkadot.JS and wallets. The strategy focuses on optimizing quality of service, sustainable cost, and decentralization, introducing key definitions and standards. Tenders from RPC providers can follow two models: cost targets or predefined service levels. The proposed budget is $400,000, split between Polkadot and Kusama treasuries.\n\n### **Introduction**\n\nThis proposal aims to implement a procurement strategy for public RPC services in the Polkadot and Kusama ecosystems. The goal is to ensure high-quality, decentralized, and cost-effective services for essential applications like Polkadot.JS and wallets. The need for robust public infrastructure was emphasized during Polkadot Decoded discussions.\nProblem Statement\n\nReliable public RPC services are crucial for the growth of the Polkadot and Kusama ecosystems. Existing applications, such as Polkadot.js.org and Nova Wallet, require optimal functioning for an enhanced user experience. The proposal addresses the challenge of balancing service provision with sustainable treasury spending. It acknowledges the evolving role of light clients and the continued need for RPCs and bootnodes.\n\n### **Proposed Strategy**\n\nThe procurement strategy aims to optimize quality of service, sustainable cost, decentralization, and simplicity. Key definitions, such as curators, independent RPC monitoring, system chains, and qualified RPC providers, are outlined. Quality of Service Reports and Service Agreements form essential components, with predefined standards and penalties for non-compliance.\n\n### **Tender Submission and Evaluation**\n\nA transparent process is proposed for RPC providers to submit tenders, with defined standards of service. Two potential options for tenders are presented: one focusing on cost targets and the other on predefined service levels. The curators, responsible for evaluation, scoring, and public announcement of selected providers, will ensure transparency and community involvement.\n\n**Operations Phase**\n\nRPC providers awarded service agreements are obligated to provide services throughout the six-month operations phase. Independent RPC monitoring will assess performance, and metrics will be made public. Providers will be paid monthly in arrears based on the EMA7 day average price of DOT/KSM.\n\n### **Budget and Costings**\n\nThe proposed budget for the program is $400,000, providing a 12-month runway for assessment. Funding will be split between Polkadot and Kusama treasuries, with curator payments of $350 per month from the Polkadot portion. The budget accounts for potential quarterly expense variations based on traffic and evolving requirements.\n\n**Read the [full proposal here.](https://docs.google.com/document/d/1GS4D95fkNjpi9GbXsiW7-9WOeGb30M5CYXEHXWsWRaw/edit)**\n\nWe are excited to share this proposal and are eager to hear your thoughts and feedback. Please feel free to comment, share your insights, and make suggestions to help refine this proposal further.\n\nThis proposal has been put forward by the following members of the RPC community:\n\n[BlockOps](https://blockops.network/), [Dwellir](https://dwellir.com/), [LuckyFriday](https://luckyfriday.io/), [OnFinality](https://onfinality.io/), [RadiumBlock](https://radiumblock.com/), [RockX](https://www.rockx.com/), and [Stakeworld](https://stakeworld.io/).\n\n\n### **Kusama Bounty**\n\nThis specific bounty is to cover the Kusama related chains. This bounty proposal also covers the costs for the stipends to the curators, and also the external monitoring.  EMA30 $26.164/KSM was used to calculate $132457.14 to 5,062.57 KSM.",
+      "createdAt": "2023-12-11T11:23:54.001Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 7
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-11T11:23:54.001Z",
+        "childBountiesCount": 37,
+        "curator": "EYKL3c77TTotRo7bopubDJ9Zt4jEjcpFPA1D2axsWhQZ3Xq",
+        "description": "0x426f756e74792050726f706f73616c20666f72205075626c6963205250437320666f722052656c617920616e642053797374656d20436861696e73",
+        "index": 25,
+        "origin": null,
+        "proposer": "CrbJuFZWjY3yft424EMTY9hdbWoU878DFs74v3a8nNDeKJD",
+        "reward": "5062570000000000",
+        "status": "Extended",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 97,
+        "username": "leemo",
+        "profileScore": 71.5,
+        "addresses": [
+          "5CLyeaugtNX8E24cFMRJZanhV1EZfTHwkt2MgFmcez9iuEe4"
+        ],
+        "rank": 53,
+        "createdAt": "2021-10-17T10:30:00.318Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "sF2z5GNHCxYiihqF5iNP",
+      "index": 24,
+      "userId": 11066,
+      "title": "Teched Bounty Test Tutorial",
+      "content": "I am Filippo from W3F. This is a trial for a video tutorial about how to create bounties.",
+      "createdAt": "2023-10-03T08:11:24.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-03T08:11:24.000Z",
+        "childBountiesCount": 0,
+        "description": "0x54656368656420426f756e74792054657374205475746f7269616c",
+        "index": 24,
+        "origin": null,
+        "proposer": "HnDHcKFm5gJ9Kkv39kwAgHJ3HVPCmEmmc2zUDZ4eVTVfkLX",
+        "reward": "1000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 11066,
+        "username": "Filippo",
+        "profileScore": 0,
+        "addresses": [
+          "5HGbdHyP8ifNPfwUGSwtGivHthD9Q6RbKECF5ZH7AhEzveiR"
+        ],
+        "rank": 8543,
+        "createdAt": "2023-08-18T13:21:41.650Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 23,
+      "title": "Apillon Platform Bounty",
+      "content": "This is a bounty proposal whose proposer address (16ZwocRmk9McUZuyivwovuhHsCWbhSeDS28JwFUsD4AbmXja) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2023-08-12T18:09:06.000Z",
+      "updatedAt": "2023-08-12T18:09:06.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-08-12T18:09:06.000Z",
+        "childBountiesCount": 0,
+        "description": "0x3233",
+        "index": 23,
+        "origin": null,
+        "proposer": "GXKtAuDCUA5vZTYSqJcisdT9E7XPCuHJp3pyDmhZv2mW7B4",
+        "reward": "1000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 8240,
+        "username": "a1b5d2b19a6e492abaf1772d8",
+        "profileScore": 7,
+        "rank": 778,
+        "addresses": [
+          "5G1iDrZLa79AAue6g8VZpvGSzdqHaY66rSD5aZVk67pGm1UC"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 22,
+      "title": "Polkadot Assurance Legion Bounty",
+      "content": "This is a bounty proposal whose proposer address (15BERoWxrWC61cAb4JjpUdM7sy8FAS9uduismDbZ7PURZLto) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2023-08-10T09:32:18.000Z",
+      "updatedAt": "2023-08-10T09:32:18.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-08-10T09:32:18.000Z",
+        "childBountiesCount": 0,
+        "description": "0x457870656374206368616f7321",
+        "index": 22,
+        "origin": null,
+        "proposer": "JFArxqV6rqPSwBok3zQDnj5jL6vwsZQDwYXXqb1cFygnYVt",
+        "reward": "1000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "rank": 9,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "jI0vxwiuopxpKLgZmWuA",
+      "index": 21,
+      "userId": 4587,
+      "title": "Parachain Assets Fiat Onramp Support Bounty Program",
+      "content": "Dear Kusama community,\n\nThis is Zhixi Zhang from [Interlay](https://interlay.io). We propose a bounty program aimed at helping Kusama parachains integrate fiat on-ramp support for their native assets with [Banxa](https://banxa.com/), one of the leading providers in the space. \n**Please visit discussion post regarding this bounty via this [link](https://kusama.polkassembly.io/post/2513).**\n\nCurrently, acquiring native parachain tokens has been identified as a significant obstacle for new users in the Polkadot and Kusama ecosystem, and many parachains are seeking solutions to incorporate an on-ramp service. However, integrating on-ramp services can be challenging for parachains due to high costs and extensive liquidity requirements. Meanwhile, in order to integrate parachain tokens, service providers face barriers such as limited token volume and restricted exposure to DeFi solutions.\n\nAfter conducting extensive research and interviews with various on-and-off-ramp service providers, along with numerous conversations with different projects in the ecosystem, we decided to work with [Banxa](https://banxa.com/), a leading payment service provider, to bring to you a bounty program that aims to provide an affordable on-ramp service tailored for Polkadot and Kusama assets.\n\nThis bounty program is intended to help as many parachains as possible in establishing easy and secure solutions for native token on-ramp, thereby improving the user acquisition process for the ecosystem as a whole. Please take a look at the full bounty proposal, we would love to hear what you think!\n\n[**Link to full proposal**](https://docs.google.com/document/d/1SD-PcPPmhTNuejSvo4hezlZy66h2oBWo71Uv3XCn0D4/edit?usp=sharing) \n\n\n**Bounty Cost: $10 500 per parachain**\n\n**Bounty coverage:**\n\n- Parachain + native asset support for 9 Kusama parachains: $10 500 for each parachain support with one parachain native asset onramp support\n- Statemine support + Onramp support for Kusama native USD Stablecoins* +KSM: $10 500\n\n**Total requested budget: $105 000 USD of KSM**\n\n*Note: Native USDT onramp support is now available on Statemine and can be integrated. Onramp support for USDC and other stablecoins will be added once liquidity channels are in place.\n\n\n**Bounty Curator Candidacy**\n\nThe selection of administrative curators is crucial for the success of the bounty program. This announcement presents the candidates for the curator position who, upon approval, will oversee the \"Parachain Assets Onramp Support\" Bounty Program. The bounty will be curated by a Multisig. It is suggested that the curator committee receives a reward to compensate for their time and effort in this initiative. \n\nThe selection of curators is carefully designed to represent all parties involved in this bounty. For more context, please visit the [**Bounty Curator Candidacy Proposal**](https://docs.google.com/document/d/1yCJiz2wWuIuY0YA--fE7QihPiW5F1D9mcOVDekUWIlA/edit?usp=sharing), which provides information on the curators' backgrounds, responsibilities, and the reward scheme.\n\n**Multi-sig account: **\nFc2PupM7xp2yefw97D3yDhEWMXcWPWkYUdpTSf8Gj8St1B7\n\n**Curator Candidacy:**\n\n**Alexei Zamyatin, Co-founder of Interlay**\n\nAddress: 5Cu7pF9kxM3HiP69RNA5b1N2ogpgoRYEtvHrjkQDF3P7iofS\n\n**Jonathan Dunne, CTO of Talisman**\nAddress: 5FxvpoBxF73oAbQKouuhtbXootQceqq9hE8UvJPFf8Tjzcu7\n\n**Ryan Dinh - Head of Business Development of SubWallet**\n\nAddress: 5DvpfEPfr8xBA34VusHM8h4q5XdBi2vbpdcA7s2rEmtuAze4\n\n**Irvin Cardenas: Co-founder and CEO at OpenDive Technologies**\n\nAddress: Gpr3ou8w6PgQxCeeEz3Ap3iuamKQn1ktgZjbNNZB4ghzKUU\n\n**Jakub Greguš, Jakub Gregus, Co-founder of HydraDX & Basilisk**\n\nAddress: 14TRztENRz87sn67Gh4aVaCpiWmtiuxg4JkNKVGkvRqwDbgD",
+      "createdAt": "2023-03-16T13:56:24.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 5
+      },
+      "onChainInfo": {
+        "createdAt": "2023-03-16T13:56:24.000Z",
+        "childBountiesCount": 3,
+        "description": "0x50617261636861696e20417373657473204f6e72616d7020537570706f727420426f756e7479",
+        "index": 21,
+        "origin": null,
+        "proposer": "DwbHothibGR4fuMfuKh6zBhUSTcgwHhZ5xxfmDC61h9B3U7",
+        "reward": "3141000000000000",
+        "status": "Cancelled",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 4587,
+        "username": "Zhixi",
+        "profileScore": 12.25,
+        "addresses": [
+          "5DRydVYq6EFVK25uuCWeD2phKrBNtGUX6i8DH6wEcDUeRo3s"
+        ],
+        "rank": 416,
+        "createdAt": "2023-03-06T10:31:15.024Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "AQOIdPbXyRxRS5lNlNP6",
+      "index": 20,
+      "userId": 2610,
+      "title": "System Parachains Collator Bounty",
+      "content": "This bounty is primarily designed to fund Collators on System Parachains with a fixed fiat monthly fee of US$300.00.  \n\nFull details on the genesis of this bounty can be found [here](https://docs.google.com/document/d/1H2T1Nx90HkSAYF_CaOPLG-o3LS7h_QAa2WLDdcSJMs0/edit)\n\nDetails on monthly spends can be found [here](https://docs.google.com/spreadsheets/d/1XWGigL0t0FQI9fL4I3Wg_W9wgXV4fXYrmn6Bo2eRv9A/edit#gid=329443407)",
+      "createdAt": "2023-02-22T22:47:25.124Z",
+      "updatedAt": "2023-02-23T11:40:40.411Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 18
+      },
+      "onChainInfo": {
+        "createdAt": "2023-02-22T22:46:48.001Z",
+        "childBountiesCount": 1632,
+        "curator": "GsGcRLXWFcVnxUaWVE9ojJpnDNM9R7QNxYBrshWtnTcohyc",
+        "description": "0x53797374656d2050617261636861696e7320436f6c6c61746f7220426f756e7479",
+        "index": 20,
+        "origin": null,
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "reward": "1873690000000000",
+        "status": "Extended",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "ljFNMeKWRAMixq4FL9tt",
+      "index": 19,
+      "userId": 4422,
+      "title": "Infrastructure Builders Program",
+      "content": "This bounty is the Program Milestone 2 inception of the Infrastructure Builders Program that can be found at the link below: https://docs.google.com/document/d/16USQYVhlyAlrU829EUB2TRoqUC0nnfoS\\_uCdZ84HT8k",
+      "createdAt": "2023-01-03T20:12:43.015Z",
+      "updatedAt": "2023-01-20T15:27:20.352Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 5
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-03T20:12:06.001Z",
+        "childBountiesCount": 220,
+        "curator": "DDzazS9qxXPmm4t8vX8zpCBzFcDuhKD3BNKqmXxtbJYoHte",
+        "description": "0x496e667261737472756374757265204275696c646572732050726f6772616d",
+        "index": 19,
+        "origin": null,
+        "proposer": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+        "reward": "52000000000000000",
+        "status": "Extended",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 4422,
+        "username": "HERTW_fafdU",
+        "profileScore": 72.5,
+        "addresses": [
+          "5GiooCDSSCor9t3nuoERmNiwsXExpnGUmn7K1mL1tiWAqb2E"
+        ],
+        "rank": 51,
+        "createdAt": "2022-12-19T15:54:01.893Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "PANj4KyzqWK0AH1Mqwrd",
+      "index": 18,
+      "userId": 2203,
+      "title": "Untitled Post",
+      "content": "This is a bounty proposal whose proposer address (CwhoqP9qY3ZBRM5ZYCpBzz5tYZEYULVQrPPc98xr5HbH555) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2022-12-29T10:52:01.198Z",
+      "updatedAt": "2022-12-29T10:52:01.198Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2022-12-29T10:51:24.028Z",
+        "childBountiesCount": 0,
+        "description": "0x48656c70204272696e6720546865205275676761626c6573205265616c20476f7665726e616e636520",
+        "index": 18,
+        "origin": null,
+        "proposer": "CwhoqP9qY3ZBRM5ZYCpBzz5tYZEYULVQrPPc98xr5HbH555",
+        "reward": "100000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2203,
+        "username": "proposal_bot",
+        "profileScore": 13,
+        "addresses": [
+          "0x2a999a296e7fca0b930ba0a42d26985afe2f00cf"
+        ],
+        "rank": 391,
+        "createdAt": "2022-10-26T10:36:17.023Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "otaDMsVDltnzz7wAzLbF",
+      "index": 17,
+      "userId": 2203,
+      "title": "Untitled Post",
+      "content": "This is a bounty proposal whose proposer address (CwhoqP9qY3ZBRM5ZYCpBzz5tYZEYULVQrPPc98xr5HbH555) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2022-12-29T10:47:13.226Z",
+      "updatedAt": "2022-12-29T10:47:13.226Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2022-12-29T10:46:30.001Z",
+        "childBountiesCount": 0,
+        "description": "0x4361746368696e6720234b534d205363616d7320416e6420427579696e6720416e64204275726e696e6720527567204e667473",
+        "index": 17,
+        "origin": null,
+        "proposer": "CwhoqP9qY3ZBRM5ZYCpBzz5tYZEYULVQrPPc98xr5HbH555",
+        "reward": "100000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2203,
+        "username": "proposal_bot",
+        "profileScore": 13,
+        "addresses": [
+          "0x2a999a296e7fca0b930ba0a42d26985afe2f00cf"
+        ],
+        "rank": 391,
+        "createdAt": "2022-10-26T10:36:17.023Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "WoRoU8oOo2N1a4uQltCo",
+      "index": 16,
+      "userId": 4216,
+      "title": "Spanish Content and Event Production Bounty",
+      "content": "The Spanish language is becoming increasingly relevant within the Polkadot and Kusama ecosystem. The community from both Latin America and Spain has been steadily increasing and this has been reflected in an increase of the incorporation of new ambassadors, candidates and people who promote the development of ideas and initiatives for the ecosystem that is constant and growing.\n\nThe objective of this bounty is to **reward the community's content creators for their efforts in creating content in Spanish**, as well as to ensure that the content created is of quality and kept in line with the needs of the ecosystem, incorporating defined criteria for each area of assessment.\n\nThe **scope of work** of this bounty is divided into the following categories:\n\n1.Translation of content into Spanish\n\n1.1 Translation of written content\n\n1.2 Dubbing\n\n1.3 Subtitling\n\nCreation of Spanish language content\n\nOrganization of events oriented to the Spanish-speaking community\n\nAgain, with this bounty we want **to create a mechanism for the curation of both Spanish content and events** created by the community with a focus on speed, effectiveness and control for content audits.\n\nYou can read the full proposal [here](https://docs.google.com/document/d/1LAL57c8Z11puHxk1IXAvX49gq1cguAH7SMO8GhTYx9A/edit?usp=sharing).\n\nOriginal discussion post can be found [here](https://kusama.polkassembly.io/post/1895).",
+      "createdAt": "2022-11-08T11:59:55.037Z",
+      "updatedAt": "2022-11-08T12:25:03.399Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2022-11-08T11:59:18.012Z",
+        "childBountiesCount": 424,
+        "description": "0x5370616e69736820436f6e74656e7420616e64204576656e742050726f64756374696f6e20426f756e7479",
+        "index": 16,
+        "origin": null,
+        "proposer": "GdWeP4eyjEqsb2QEDcG8jcaJCwL4owDdkTvES5vJJo54W8Q",
+        "reward": "12777460000000000",
+        "status": "Cancelled",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 4216,
+        "username": "Cryptonitascurador",
+        "profileScore": 3.5,
+        "addresses": [
+          "5G7tz4inMNDv7wCxTWoDEnFa9cf6G983BNdAqmoxpWaaKXqj",
+          "5Gebn11FG5ouD7yFfHC5WpSkjpgWF1NZmNxshPDj5RPrEqdu"
+        ],
+        "rank": 1554,
+        "createdAt": "2022-11-08T12:12:55.756Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "lEB2xhgTgBm5JcuRgl2l",
+      "index": 15,
+      "userId": 2610,
+      "title": "orcun.io",
+      "content": "I've proposed this to close [bounty 15](https://kusama.polkassembly.io/bounty/15).  This bounty was proposed ~20 days ago with a title of `Hello all Kusama decentralized` and for a value of `0.01` KSM.  To present, there are no further details on the purpose of the bounty.\n\nIt is my opinion that we should close the bounty to keep the bounty section streamlined on contextualized subject matters.",
+      "createdAt": "2022-08-18T14:16:01.070Z",
+      "updatedAt": "2022-08-20T23:03:03.227Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2022-08-18T14:15:24.018Z",
+        "childBountiesCount": 0,
+        "description": "0x48656c6c6f20616c6c204b7573616d6120646563656e7472616c697a65642065636f2073797374656d206c6f766572732e2e2e",
+        "index": 15,
+        "origin": null,
+        "proposer": "HCXLYCD5h4q5dST4XeepsYsnXAHUz6GYiYZ3BH6BKisBK1Y",
+        "reward": "10000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "s49OUVN8xLZmWPavx27E",
+      "index": 14,
+      "userId": 3695,
+      "title": "Moderation team bounty",
+      "content": "Dear community,\n\nI am proposing the creation of a bounty for funding an incentive for the moderation team.  We have opened disucssions on our [proposal](https://kusama.polkassembly.io/post/1644) for two months and have received no community objection. \n\n**Summary**\nReddit, Discord, and Element are three Social Media platforms that Polkadot/Kusama ecosystem use to communicate and educate older and newer users alike as well as builders, content creators, and even those who fund projects. Social media can be quite a hectic place to have discussion, with everyone being able to put their opinion out there. \n\nThese avenues also open up new ways to scam users or commit fraud. This is where the moderation team comes in. The moderation team acts as a first line of defense against scams for all the platforms and ensure conversations stay on topic as well as stay respectful and follow the rules. Moderators not only act as a defense against hostile actors, but they act as educators as well. \n\nFor most users on the server, the moderators were the first people in the ecosystem to give guidance on finding out more information regarding Polkadot/Kusama. This bounty aims to reward those moderators and perhaps future moderators for ensuring the safety of the server as well as educating users. It is not meant to act as income, but as a token of appreciation for the hard work that goes into moderating. \n\nFor more information, please refer to the proposal, which can be found [HERE](https://docs.google.com/document/d/17bjVgOOprGsz8DGn6D6_thEQyNZRaMSYZbDpsTOud2w/edit#heading=h.kl7lv0cg56u1)",
+      "createdAt": "2022-08-15T17:19:42.881Z",
+      "updatedAt": "2022-08-15T21:59:59.578Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 29,
+          "dislike": 0
+        },
+        "comments": 16
+      },
+      "onChainInfo": {
+        "createdAt": "2022-08-15T17:19:06.014Z",
+        "childBountiesCount": 167,
+        "description": "0x4d6f6465726174696f6e205465616d20426f756e7479",
+        "index": 14,
+        "origin": null,
+        "proposer": "HoBuVHX4Y88iQWUtMVoYU5CBjeNNF1LGvUCko7QKZyHd3a6",
+        "reward": "1085220000000000",
+        "status": "Cancelled",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 3695,
+        "username": "404ece48bb314affaf9a06d49",
+        "profileScore": 2.25,
+        "addresses": [
+          "5HHaFAweSB7Cxkh37egkeWiC39N8ZaC9pYdTN8qSqmknssyP"
+        ],
+        "rank": 2294,
+        "createdAt": "2022-06-22T13:33:06.732Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "GhC3RgcbQCn3BGtFcpXC",
+      "index": 13,
+      "userId": 3102,
+      "title": "Infrastructure Maintenance Bounty Proposal ",
+      "content": "On behalf of the community, we propose the creation of an **Infrastructure Maintenance Bounty** that will work to aid teams that have been funded by the treasury before for the development of their ideas, to maintain infrastructure and to perform continued operations to reduce the work or resubmitting the treasury proposals and time constraints associated with it, as well as model a way in which the community can achieve more agency and support in directing how on-chain treasury funds are spent. \n\nHence, the Maintenance Bounty is meant to be open-ended, with the funds being distributed through child bounties that cover teams continued development of the essential infrastructure. The following proposed child bounties contain mainly the recurring tasks for block explorers, governance forums and applications, snapshots and validators service providers, open-source and community wallet services, and other projects aiming to cover maintenance costs with treasury funds.\n\nFurther information on the bounty mechanism, management of the funds and budget can be found in [the bounty proposal document](https://docs.google.com/document/d/1MPyabjOmkiIq4QW6UzIzJUyEzoaVOe2TgUSSQ0r2DxI/edit?usp=sharing). \n\nSee the Original discussion post [here](https://kusama.polkassembly.io/post/1545)\n",
+      "createdAt": "2022-06-01T07:50:36.944Z",
+      "updatedAt": "2023-02-06T15:08:13.576Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 4,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2022-06-01T07:50:00.023Z",
+        "childBountiesCount": 23,
+        "curator": "HEvq8apZLH77qMhjHkrm8eQdvxSbkw8d8SKkHD9SDMGPd2J",
+        "description": "0x20496e667261737472756374757265204d61696e74656e616e636520426f756e747920",
+        "index": 13,
+        "origin": null,
+        "proposer": "D8DtYYJUUBoACJwJrLNyn8aYArumdViVWAcZRUKcxnSoV9D",
+        "reward": "6784600000000000",
+        "status": "Cancelled",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 3102,
+        "username": "otar",
+        "profileScore": 140.5,
+        "addresses": [
+          "5CccEECRr7AsQYVVY9XL5pmaPaafxxgY38KsAmCN9AZx4KWr"
+        ],
+        "rank": 20,
+        "createdAt": "2021-12-01T12:10:49.051Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "xd98bWQ22imFKTJT9wQT",
+      "index": 12,
+      "userId": 2934,
+      "title": "Bounty for Content Development and Incentivization",
+      "content": "Chrawnna Corp. is working to solve the ***Dotsama Info Distribution problem*** with **WagMedia**.\n\nSee the Original discussion **[Here](https://kusama.polkassembly.io/post/1499)**.\n\nMore community feedback can be considered on this **[Tweet](https://twitter.com/GldnCalf/status/1521116803279523843)**.\n\n*tl;dr*\n\n\n\n**Problem**:\n1. Network growth diminishes stakeholder ability to make informed, productive decisions.\n2. Few and privately funded Media outlets distort network narrative.\n\n\n**Solution**:\n\nDecentralize the Story of Dotsama.\n\n\n**How**:\n- Efficient distribution of Treasury Bounty to Researchers & Content creators via Incentivized Discord.\n- Custom bot allows dedicated Content Directors to incentivize with custom \"value emojis\"\n- Participants are paid out weekly to share sourced information or turn it into original content.\n- All are welcome. Completely transparent.\n- Public Dashboard for all stakeholders to see bounties awarded in real time.\n- Multiple project treasuries can incentivize a common pool of research and content talent.\n\n**PoW**:\n- Trial phase Jan 10 - April 10\n- 11 participating treasuries.\n- 495 unique pieces of content\n- Several participants have since become full or part-time builders. 🥳\n- Much more info in the complete Proposal **[here](https://docs.google.com/document/d/1m9Bo8fH408BV5t2ODvindl4S0W2BfbtDxrwAl9j71k0/edit#)**.\n\nWe would love your questions, feedback, and suggestions.\n\nSee [WagMedia](https://treasury.bright.dev/bounties/discord.gg/YUXqjVXWtp) for yourself!\n\nThank you. 🙂",
+      "createdAt": "2022-05-17T21:41:42.903Z",
+      "updatedAt": "2022-05-18T16:30:23.114Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "history": [
+        {
+          "content": "Chrawnna Corp. is working to solve the \\*\\*\\*Dotsama Info Distribution problem\\*\\*\\* with \\*\\*WagMedia\\*\\*. See the Original discussion \\*\\*\\[Here\\](https://kusama.polkassembly.io/post/1499)\\*\\*. More community feedback can be considered on this \\*\\*\\[Tweet\\](https://twitter.com/GldnCalf/status/1521116803279523843)\\*\\*. \\*tl;dr\\* \\*\\*Problem\\*\\*: 1. Network growth diminishes stakeholder ability to make informed, productive decisions. 2. Few and privately funded Media outlets distort network narrative. \\*\\*Solution\\*\\*: Decentralize the Story of Dotsama. \\*\\*How\\*\\*: - Efficient distribution of Treasury Bounty to Researchers & Content creators via Incentivized Discord. - Custom bot allows dedicated Content Directors to incentivize with custom \"value emojis\" - Participants are paid out weekly to share sourced information or turn it into original content. - All are welcome. Completely transparent. - Public Dashboard for all stakeholders to see bounties awarded in real time. - Multiple project treasuries can incentivize a common pool of research and content talent. \\*\\*PoW\\*\\*: - Trial phase Jan 10 - April 10 - 11 participating treasuries. - 495 unique pieces of content - Several participants have since become full or part-time builders. 🥳 - Much more info in the complete Proposal \\*\\*\\[here\\](https://docs.google.com/document/d/1m9Bo8fH408BV5t2ODvindl4S0W2BfbtDxrwAl9j71k0/edit#)\\*\\*. We would love your questions, feedback, and suggestions. See \\[WagMedia\\](https://treasury.bright.dev/bounties/discord.gg/YUXqjVXWtp) for yourself! Thank you. 🙂 Testing something... \\`\n\n\\`",
+          "title": "Bounty for Content Development and Incentivization",
+          "createdAt": {
+            "_seconds": 1688256660,
+            "_nanoseconds": 136000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 5,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2022-05-17T21:41:06.025Z",
+        "childBountiesCount": 16,
+        "curator": "CmdHzHjna5tDdMfv4JU3ZxCx1iqKDN1jvNg1jSjEUrBQdXm",
+        "description": "0x446563656e7472616c697a65207468652053746f7279206f6620446f7473616d61",
+        "index": 12,
+        "origin": null,
+        "proposer": "E5qFqe5g5iS4Byu4hyKLAavayXtCiuuuK4xzuLcnQWvtqrg",
+        "reward": "129296000000000",
+        "status": "Claimed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2934,
+        "username": "JayChrawnna",
+        "profileScore": 282,
+        "addresses": [
+          "5DaDbXJD3ihWJYATJ1AGSDDvSPFeQ46jSwEDcF4fJcJS9mGW"
+        ],
+        "rank": 6,
+        "createdAt": "2021-11-08T03:50:35.994Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "HfRqK2iTlbPLSGqu6CGY",
+      "index": 11,
+      "userId": 2413,
+      "title": "Bounty proposal: Visualize polkadot bounty program phase 1",
+      "content": "Dotsama has more rich features compared to 1st generation state transition blockchains like Ethereum and UTXO based chains like Bitcoin, but at the same time it's more complicated for people to understand them. We propose to implement a group of **business oriented** explorers and Dapps to help users better understand and work with dotsama. \n\nThe implementation will be done through bounties and child bounties, and we propose ourself OpenSquare to be the curator. We will split the work into child bounties, build a site for curator and external developers to collaborate on child bounties, and report back the development progress to the council.\n\nSo this proposal has following motivations:\n1. Implement a group of **business oriented** explorers and dapps.\n2. Educate more developers by implementing the explorers and dapps features with child bounties.\n3. Seek ways to facilitate collaborations between projects and external developers in the polkadot ecosystem. We will experiment the way `bounty -> curator(OpenSquare) -> child bounties -> developers` in this proposal.\n\n## Problems statement\n\n### Rich features need visualization\nNo doubt polkadot has more rich features compared to 1st generation state transition blockchains like Ethereum and UTXO based chains like Bitcoin，such as forkless upgrade, on-chain governance mechanism, treasury, para-chains, etc. But to be honest it’s more complex too, which means it will cost more for people to understand them. We need better UIs to demonstrate them. They should show the participating roles, workflows, business life cycles, and to a user, it should tell the steps to complete a business.\n\n### Dapps with more contextual info\n[Polkadot/Substrate portal](https://polkadot.js.org/apps) is great, but it has problems too.\n1. Most shown data is on-chain, while we have to check the contextual info from a explorer to complete some operations.\n2. Too advanced to some non-technical users, while they expect simpler ones.\n\nThe proposed business oriented explorers can provide the contextual data, and it will be perfect if we can complete our business just on these business explorer pages.\n\n\n### More builders, more collaborations\nWe need more developers, designers, educators and other roles to build web3 based on substrate/kusama/polkadot. The best way to enroll more builders is collaboration. Bounty & child bounties will be good ways to start collaborations, between curators, child bounty curators and implementers.\n\n\n## Solutions & Implementations\nOpenSquare proposes the big bounty, becomes the curator and then creates child bounties, assigning them to external developers. Deliveries will include:\n- Identity pallet business explorer and user interfaces to register and request judgement.\n- Vesting pallet business explorer and user interfaces to `vest_transfer` and `vest`.\n- Basic block/extrinsic/event pages for relay chain.\n- A bounty collaboration site where curator can collaborate with child bounty hunters.\n \nThere will also be other business implementations in the future plan, including governance, society, para-chains, etc. For more detailed proposal context, milestones, budget, deliverables and plans, please check the [full proposal](https://hackmd.io/@WIq3uV0rRwS6W3GGj2pmyA/Sy9-nCF9t).\n\n---\nWe are [OpenSquare](https://www.opensquare.network/team/) team, dedicated to facilitate the collaboration between projects and developers.",
+      "createdAt": "2022-03-20T14:07:48.049Z",
+      "updatedAt": "2022-03-20T14:09:00.341Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 8
+      },
+      "onChainInfo": {
+        "createdAt": "2022-03-20T14:07:06.012Z",
+        "childBountiesCount": 11,
+        "curator": "ESgz7GLVW7BL5DhRgpVnxSXVwaKt4ytWcrf52TY1GQD1cEb",
+        "description": "0x56697375616c697a6520706f6c6b61646f7420626f756e74792070726f6772616d2070686173652031",
+        "index": 11,
+        "origin": null,
+        "proposer": "ESgz7GLVW7BL5DhRgpVnxSXVwaKt4ytWcrf52TY1GQD1cEb",
+        "reward": "38330000000000",
+        "status": "Claimed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2413,
+        "username": "wliyongfeng",
+        "profileScore": 47.75,
+        "addresses": [
+          "5Ccm96hRGKJByVhsKqzPLZoAjyjN3DKmKAykNcJVVT5HspwD",
+          "5Dw5KnvTs96FaRQFez1Su15XMMJ65QAi4F1ugNBaXUBiGbX6"
+        ],
+        "rank": 87,
+        "createdAt": "2020-08-14T09:25:33.563Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "lUqrQ6U4HWVji7t8ZaJw",
+      "index": 10,
+      "userId": 3138,
+      "title": "Untitled Post",
+      "content": "This is a bounty proposal whose proposer address (FojH2nCHFJqtwCq1imPTQL7d24U3zsQXg6bJph7KTHm8iHV) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2022-01-16T12:37:43.358Z",
+      "updatedAt": "2022-01-16T12:37:43.358Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2022-01-16T12:36:36.032Z",
+        "childBountiesCount": 0,
+        "description": "0x73616572",
+        "index": 10,
+        "origin": null,
+        "proposer": "FojH2nCHFJqtwCq1imPTQL7d24U3zsQXg6bJph7KTHm8iHV",
+        "reward": "5000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 3138,
+        "username": "saermas",
+        "profileScore": 1.5,
+        "addresses": [
+          "5EUXNC5Y4L6FR4dQbTT1FKzeYiyGHgLwhZYK8UtwzFravz7w",
+          "5FJ7ciSKetHv9HPPF1xLZSy7URnEFL4E5JFqvAR9qf5GPk6d"
+        ],
+        "rank": 3122,
+        "createdAt": "2022-01-17T13:12:11.356Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "rOcoRKhepNAhfFTcLSWK",
+      "index": 9,
+      "userId": 3138,
+      "title": "Untitled Post",
+      "content": "This is a bounty proposal whose proposer address (FojH2nCHFJqtwCq1imPTQL7d24U3zsQXg6bJph7KTHm8iHV) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2022-01-16T12:18:12.968Z",
+      "updatedAt": "2022-01-16T12:18:12.968Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2022-01-16T12:17:06.009Z",
+        "childBountiesCount": 0,
+        "description": "0x73616572",
+        "index": 9,
+        "origin": null,
+        "proposer": "FojH2nCHFJqtwCq1imPTQL7d24U3zsQXg6bJph7KTHm8iHV",
+        "reward": "11000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 3138,
+        "username": "saermas",
+        "profileScore": 1.5,
+        "addresses": [
+          "5EUXNC5Y4L6FR4dQbTT1FKzeYiyGHgLwhZYK8UtwzFravz7w",
+          "5FJ7ciSKetHv9HPPF1xLZSy7URnEFL4E5JFqvAR9qf5GPk6d"
+        ],
+        "rank": 3122,
+        "createdAt": "2022-01-17T13:12:11.356Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "Ia8XdtPHKHkqV4AswA26",
+      "index": 8,
+      "userId": 2203,
+      "title": "Untitled Post",
+      "content": "This is a bounty proposal whose proposer address (JFKXPoTcKoMTeFos4h3nHtoum7QU5vqWQD2JHCEPDRH3Ak8) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2021-12-19T21:29:07.160Z",
+      "updatedAt": "2021-12-19T21:29:07.160Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2021-12-19T21:28:00.004Z",
+        "childBountiesCount": 0,
+        "description": "0x63616c6d6172",
+        "index": 8,
+        "origin": null,
+        "proposer": "JFKXPoTcKoMTeFos4h3nHtoum7QU5vqWQD2JHCEPDRH3Ak8",
+        "reward": "3000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2203,
+        "username": "proposal_bot",
+        "profileScore": 13,
+        "addresses": [
+          "0x2a999a296e7fca0b930ba0a42d26985afe2f00cf"
+        ],
+        "rank": 391,
+        "createdAt": "2022-10-26T10:36:17.023Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "voJM8WJbVhAHxUXAvihE",
+      "index": 7,
+      "userId": 2206,
+      "title": "remove stale bounty proposal",
+      "content": "This is a bounty proposal whose proposer address (DdtBope22Y8q53iPNBj5wGVaRzrSKHrZA4bGSWJHCxe8bmL) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2021-09-24T20:30:31.209Z",
+      "updatedAt": "2021-09-24T20:30:31.209Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2021-09-24T20:29:24.008Z",
+        "childBountiesCount": 0,
+        "description": "",
+        "index": 7,
+        "origin": null,
+        "proposer": "DdtBope22Y8q53iPNBj5wGVaRzrSKHrZA4bGSWJHCxe8bmL",
+        "reward": "1000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2206,
+        "username": "jam10o",
+        "profileScore": 194.75,
+        "addresses": [
+          "5GGiPhRRfwStQ91QEoLtSQdEWf3q632oH23MKHgPF4Yp91LZ",
+          "5Ge2ncAmQhuUTeM4r3qQPZ5qHcRBnDKRDwSWeUzEXsXRVkNu"
+        ],
+        "rank": 13,
+        "createdAt": "2020-07-13T13:53:35.904Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "08SvsCRIbGmGsX9bUenT",
+      "index": 6,
+      "userId": 2274,
+      "title": "closeBounty - no information about the proposal",
+      "content": "This is a bounty proposal whose proposer address (HjnsZobSwPXDgHLpCm7uBHX3AvqFSVsFs3jqM38FRp3jv6z) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2021-09-19T10:40:01.090Z",
+      "updatedAt": "2021-09-19T10:40:01.090Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2021-09-19T10:38:54.007Z",
+        "childBountiesCount": 0,
+        "description": "",
+        "index": 6,
+        "origin": null,
+        "proposer": "HjnsZobSwPXDgHLpCm7uBHX3AvqFSVsFs3jqM38FRp3jv6z",
+        "reward": "100000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "9YOIBfj8iaUbijo3BCFU",
+      "index": 5,
+      "userId": 2206,
+      "title": "Cleaning up erroneous(?) bounty ",
+      "content": "This is a bounty proposal whose proposer address (Di6FRNeGYi9GvLVko8H7yVrcXXvdd6Bn6dLFEQ9pkfCqFga) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2021-06-20T21:42:25.135Z",
+      "updatedAt": "2021-06-20T21:42:25.135Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2021-06-20T21:41:18.001Z",
+        "childBountiesCount": 0,
+        "description": "",
+        "index": 5,
+        "origin": null,
+        "proposer": "Di6FRNeGYi9GvLVko8H7yVrcXXvdd6Bn6dLFEQ9pkfCqFga",
+        "reward": "480000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2206,
+        "username": "jam10o",
+        "profileScore": 194.75,
+        "addresses": [
+          "5GGiPhRRfwStQ91QEoLtSQdEWf3q632oH23MKHgPF4Yp91LZ",
+          "5Ge2ncAmQhuUTeM4r3qQPZ5qHcRBnDKRDwSWeUzEXsXRVkNu"
+        ],
+        "rank": 13,
+        "createdAt": "2020-07-13T13:53:35.904Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "zKOKv2kaB8hUYPhUmS7F",
+      "index": 4,
+      "userId": 2274,
+      "title": "Bounty Proposal: Kusama Council Alert App",
+      "content": "As we experience a continued growth in the Kusama ecosystem, it becomes imperative to find ways to communicate with stakeholders in an efficient manner, making sure all information is distributed for informed decisions to be taken, especially in the case of Council and Technical Committee members. \n\nThe goal of this proposal is to develop a **basic app that listens to on-chain calls and notifies Council members when their review and vote is needed**. An app to help councillors know once they are needed to push forward emergency mechanisms on-chain as well as other proposals would help mitigate the risk in the network. The app:\n\n- would connect to rpc node;\n- would connect with different networks;\n- would notify about events;\n- would watch wallet accounts and tell the user when pending;\n- would have different alert levels;\n- would recognise a \"batcall\" remark from council or TC members, with a `system.remark` \"alertCouncil\" that would trigger an alarm.\n\nThis proposal is submitted for discussion as a bounty and should be understood within efforts to increase council participation on the overall governance process and increase transparency in the governance process. The full bounty proposal, including tasks, budget and roadmap can be found [HERE](https://docs.google.com/document/d/1zsYYWWvbOXRZjez_N3lRl8memBEbhfTIj3JUP-CvAZQ/edit?usp=sharing).\n\nLeave your comments and questions on the post! I would already like to suggest Mario (Polkastats) as curator and Ana (La Colmena - Bitcoinera) as implementer, but is up for Council to decide. They both have been crucial in the development of this proposal. ",
+      "createdAt": "2021-04-06T07:14:25.563Z",
+      "updatedAt": "2021-04-06T07:14:49.827Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 12,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2021-04-06T07:13:18.001Z",
+        "childBountiesCount": 0,
+        "description": "",
+        "index": 4,
+        "origin": null,
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "reward": "28110000000000",
+        "status": "Cancelled",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "QaWl7UJoiWr3eIRvmbDI",
+      "index": 3,
+      "userId": 2206,
+      "title": "Mobile Signers / Injectors / Walletconnect equivalent ",
+      "content": "While we already have a diverse field of mobile wallets in the ecosystem, they all attempt to be complete solutions, and we have a distinct lack of mobile equivalents to our browser extensions. Where we have solutions like Subsocial and Kodadot with mobile-ready UIs, users cannot use these applications with the same amount of security on mobile as they can on desktop, due to lack of an injected signer being available on mobile. In the longer term, the best-in-class mobile and desktop experiences come from toolkits like Web3Modal which allow developers to build experiences agnostic of the underlying signing solution used by a given user. While Polkadot Signing solutions are significantly lighter than Ethereum's - the signer doesn't require any connection to a node endpoint, the precedent is that the application provides that - it would still be interesting to explore the feasibility of remote signing solutions (portis), relayed signatures (walletconnect), and if the existing tools in the space may be reused, or if new tooling can be created within the scope of this bounty. One direction that is in research within the ecosystem that could lead to novel work deployed to Kusama and Polkadot is the concept of a page that stores encrypted keys in localstorage, with dapp developers loading it in an iframe and communicating with it for signatures - the idea being that the page that is loaded is specified by the user, based on their security model, up to and including a page that is hosted on localhost with a self-signed certificate as the most secure option, and a hosted wallet providing traditional username signup as the least secure option. REQUEST FOR CURATOR: The Curator for this proposal should be someone at least familiar with the equivalent ecosystem components in the Ethereum ecosystem - Mobile Wallets, (ie, Metamask mobile, Trust, etc) Walletconnect, Portis, and in general the Web3Modal ecosystem. And either the ability to independently verify the safety/veracity of proposals and teams applying for this bounty, or connections to individuals that can do so (who's verification work is to be funded by subbounty, presumably). It will be the Curator's primary responsibility to deliver a mobile-first signing solution, preferably an open standard, for Polkadot, preferably without requiring users to install an additional application on their devices so that it is platform agnostic, \"as secure as possible\". It should be clear that a Curator cannot directly be involved in the development of, or directly connected to the groups or individuals making proposals for, this bounty - although in this case knowledge of the ecosystem and relationships with the teams should probably be considered a positive factor in curators selection, so there will likely be a grey area between the two criteria. REQUEST FOR PROPOSALS: I'd be excited to see the aforementioned teams and projects extending their tools to Polkadot, but ideally any team that is capable of providing a solution that satisfies the curator selected for this bounty should apply. It is ultimately up to the curator to determine, but I would suggest using part of this bounty to fund several PoC sub-bounties that allow self-hosted solutions for app devs and users, and use the remainder to audit and polish the most promising solution(s) - Bounties can be extended via making treasury proposals to their address, and I will support increasing this bounty's funding after the first stage of PoCs",
+      "createdAt": "2021-02-24T13:03:27.263Z",
+      "updatedAt": "2021-02-24T15:07:15.151Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 24,
+          "dislike": 0
+        },
+        "comments": 26
+      },
+      "onChainInfo": {
+        "createdAt": "2021-02-24T11:47:06.000Z",
+        "childBountiesCount": 0,
+        "curator": "FvokLqZ9DqT67pukJWWWbEi5kvCkjyCoTvhw4RwUJFgpQXn",
+        "description": "",
+        "index": 3,
+        "origin": null,
+        "proposer": "H9eSvWe34vQDJAWckeTHWSqSChRat8bgKHG39GC1fjvEm7y",
+        "reward": "1088780000000000",
+        "status": "Claimed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2206,
+        "username": "jam10o",
+        "profileScore": 194.75,
+        "addresses": [
+          "5GGiPhRRfwStQ91QEoLtSQdEWf3q632oH23MKHgPF4Yp91LZ",
+          "5Ge2ncAmQhuUTeM4r3qQPZ5qHcRBnDKRDwSWeUzEXsXRVkNu"
+        ],
+        "rank": 13,
+        "createdAt": "2020-07-13T13:53:35.904Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "v0J2hm3OE9KP6vo0ZB77",
+      "index": 2,
+      "userId": 2274,
+      "title": "Bounty Proposal: Sub-Bounties Extension Implementation",
+      "content": "**Proponent:** RTTI-5220 (GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj)\n\n**Date:** January 2021\n\n**Requested allocation:** 1530,00 USD / 18.43 KSM\n\n**Proposed Curator Reward:** 2% of total - USD 30,00 / 0.37 KSM.\n\n**Short description:** The idea of a sub-bounties extension aims to give more flexibility in the use of the pallet for curators to reward completed tasks without closing the parent bounty. This will contribute to achieve one of the ultimate goals of the pallet: to budget the networks' treasuries allowing bounties to extend their life cycles.\n______________________________________________________________________________________\n\n\n## **Context Of The Bounty & Problem**\n\nIn its current implementation, the bounty pallet allowed us to experiment with delegating the Council's responsibilities to a curator, defined as an expert in the topic the bounty touches. You can find more information about the current implementation [here](https://polkadot.network/kusama-and-polkadot-now-reward-curators-helping-to-scale-councils-functions-join-the-force-moving-the-community-forward/). \n\nHowever, the pallet does not allow the creation of **sub-bounties** by the curator (the address with agency over the funds of active bounties): if a bounty includes in its scope of work an N number of tasks, the payout to the implementers can only be executed once all tasks have been completed by awarding the bounty and closing it. This restricts the use of the pallet to small-sized bounties for a short amount of time.\n\nThe idea of a sub-bounties extension aims to give more flexibility in the use of the pallet for curators to reward completed tasks **without closing the parent bounty**. This will contribute to achieve one of the ultimate goals of the pallet: to budget the networks' treasuries allowing bounties to extend their life cycles. Other goals of this extension include:\n\n1. To minimize tracking & execution management overhead to council members & improve governance efficiency.\n2. To allow tracking & granularity in high budget allocated funds.\n3. To allow iterations by starting a big proposal with a minimal viable fund and top-up based on progress if needed.\n\nIn the model we envision, a sub-bounty can only be opened using funds from an **active** bounty. This model allows the curator to allocate a specific amount of funds from the active bounty to a sub-bounty, and reward the task after completion by calling `award_subBounty`. After the call is confirmed, the sub-bounty is closed and the specific amount of it is deducted from the total allocation from the bounty (that stays open).\n\nFor a detailed description of the extension specification, budget and tasks included in the bounty, please visit the full proposal [**HERE**](https://docs.google.com/document/d/1_rsY5rSG5vkQJRIHSYB3161MMFreYKk00gKygY_L8QU/edit?usp=sharing). \n\n## **Notes**\n\nAlthough the Kusama Council has the responsibility of deciding on the curator who will take the role if this bounty proposal is approved, we would like to suggest Bryan Chen (the original implementer of the bounty pallet) to review and evaluate the tasks' completion; this is the main reason why this extension proposal is submitted for discussion as a bounty proposal: Bryan has shown expertise in all necessary topics related to the bounty in order to develop this role. \n\nYou can find the current implementation, along with the original ideas and discussions by the community in the links below:\n\n- Original idea - [here](https://github.com/paritytech/substrate/issues/5713)\n- Current implementation - [here](https://github.com/paritytech/substrate/tree/master/frame/bounties)\n- Community discussion - [here](https://kusama.polkassembly.io/post/86)\n- Bounties implementation spending parameters - [here](https://kusama.polkassembly.io/post/151)\n- Final review on current implementation by the community - [here](https://kusama.polkassembly.io/post/237)\n\n### Proposed Sub-bounty API & Signature\n\n- Sub-bounties Extension: design discussion notes #7959 - [here](https://github.com/paritytech/substrate/discussions/7959)",
+      "createdAt": "2021-01-27T14:43:25.144Z",
+      "updatedAt": "2021-01-27T14:44:10.898Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 4,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2021-01-27T14:42:18.000Z",
+        "childBountiesCount": 0,
+        "curator": "FoBryanE4CffsqaC7P3hC88N1cGx9fUBvJZXvikC8JxX3e1",
+        "description": "",
+        "index": 2,
+        "origin": null,
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "reward": "18060000000000",
+        "status": "Claimed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "RhAcA6Gos4AAtJIIsnMW",
+      "index": 1,
+      "userId": 2274,
+      "title": "Bounty Proposal: Sub-Bounties Extension Implementation",
+      "content": "**Proponent:** RTTI-5220 (GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj)\n\n**Date:** January 2021\n\n**Requested allocation:** 1530,00 USD / 18.43 KSM\n\n**Proposed Curator Reward:** 2% of total - USD 30,00 / 0.37 KSM.\n\n**Short description:** The idea of a sub-bounties extension aims to give more flexibility in the use of the pallet for curators to reward completed tasks without closing the parent bounty. This will contribute to achieve one of the ultimate goals of the pallet: to budget the networks' treasuries allowing bounties to extend their life cycles.\n______________________________________________________________________________________\n\n\n## **Context Of The Bounty & Problem**\n\nIn its current implementation, the bounty pallet allowed us to experiment with delegating the Council's responsibilities to a curator, defined as an expert in the topic the bounty touches. You can find more information about the current implementation [here](https://polkadot.network/kusama-and-polkadot-now-reward-curators-helping-to-scale-councils-functions-join-the-force-moving-the-community-forward/). \n\nHowever, the pallet does not allow the creation of **sub-bounties** by the curator (the address with agency over the funds of active bounties): if a bounty includes in its scope of work an N number of tasks, the payout to the implementers can only be executed once all tasks have been completed by awarding the bounty and closing it. This restricts the use of the pallet to small-sized bounties for a short amount of time.\n\nThe idea of a sub-bounties extension aims to give more flexibility in the use of the pallet for curators to reward completed tasks **without closing the parent bounty**. This will contribute to achieve one of the ultimate goals of the pallet: to budget the networks' treasuries allowing bounties to extend their life cycles. Other goals of this extension include:\n\n1. To minimize tracking & execution management overhead to council members & improve governance efficiency.\n2. To allow tracking & granularity in high budget allocated funds.\n3. To allow iterations by starting a big proposal with a minimal viable fund and top-up based on progress if needed.\n\nIn the model we envision, a sub-bounty can only be opened using funds from an **active** bounty. This model allows the curator to allocate a specific amount of funds from the active bounty to a sub-bounty, and reward the task after completion by calling `award_subBounty`. After the call is confirmed, the sub-bounty is closed and the specific amount of it is deducted from the total allocation from the bounty (that stays open).\n\nFor a detailed description of the extension specification, budget and tasks included in the bounty, please visit the full proposal [**HERE**](https://docs.google.com/document/d/1_rsY5rSG5vkQJRIHSYB3161MMFreYKk00gKygY_L8QU/edit?usp=sharing). \n\n## **Notes**\n\nAlthough the Kusama Council has the responsibility of deciding on the curator who will take the role if this bounty proposal is approved, we would like to suggest Bryan Chen (the original implementer of the bounty pallet) to review and evaluate the tasks' completion; this is the main reason why this extension proposal is submitted for discussion as a bounty proposal: Bryan has shown expertise in all necessary topics related to the bounty in order to develop this role. \n\nYou can find the current implementation, along with the original ideas and discussions by the community in the links below:\n\n- Original idea - [here](https://github.com/paritytech/substrate/issues/5713)\n- Current implementation - [here](https://github.com/paritytech/substrate/tree/master/frame/bounties)\n- Community discussion - [here](https://kusama.polkassembly.io/post/86)\n- Bounties implementation spending parameters - [here](https://kusama.polkassembly.io/post/151)\n- Final review on current implementation by the community - [here](https://kusama.polkassembly.io/post/237)\n\n### Proposed Sub-bounty API & Signature\n\n- Sub-bounties Extension: design discussion notes #7959 - [here](https://github.com/paritytech/substrate/discussions/7959)",
+      "createdAt": "2021-01-27T13:04:13.152Z",
+      "updatedAt": "2021-01-27T13:24:12.068Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "treasury",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2021-01-27T13:03:06.001Z",
+        "childBountiesCount": 0,
+        "description": "",
+        "index": 1,
+        "origin": null,
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "reward": "1530000000000000",
+        "status": "Rejected",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 0,
+      "title": "First Kusama Bounty: UI Bounty for Polkadot.js.Apps",
+      "content": "At the moment, there is no way for users to see bounties on Apps: this development would greatly allow users to make use of the bounty extension. A first bounty for building a bounty UI on Apps, including design front and dev front needed to develop and implement the Bounty UI on Apps. Jaco Greeff, given his work and experience, is the curator of this bounty and the EthWorks team is working as implementer.\n\nYou can find the bounty proposal [here](https://docs.google.com/document/d/1bfjJ88xD4uR4ZXoRpchYWTuMGKeEexaWlutAkrbmWq4/edit?usp=sharing).",
+      "createdAt": "2020-10-16T15:24:12.000Z",
+      "updatedAt": "2020-10-16T15:24:12.000Z",
+      "tags": [],
+      "proposalType": "Bounty",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 14,
+          "dislike": 0
+        },
+        "comments": 5
+      },
+      "onChainInfo": {
+        "createdAt": "2020-10-16T15:24:12.000Z",
+        "childBountiesCount": 0,
+        "curator": "J9nD3s7zssCX7bion1xctAF6xcVexcpy2uwy4jTm9JL8yuK",
+        "description": "",
+        "index": 0,
+        "origin": null,
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "reward": "1164000000000000",
+        "status": "Claimed",
+        "type": "Bounty",
+        "hash": "",
+        "voteMetrics": null
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "rank": 1,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

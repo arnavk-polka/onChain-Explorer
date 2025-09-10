@@ -1,0 +1,431 @@
+{
+  "network": "polkadot",
+  "timestamp": "2025-09-03T23:32:39.359710",
+  "total_items": 6,
+  "items": [
+    {
+      "allowedCommentor": "none",
+      "createdAt": "2025-07-05T07:32:29.607Z",
+      "isDeleted": false,
+      "index": 1656,
+      "id": "dS1Yh3e7mz1l8BdYo4AH",
+      "proposalType": "ReferendumV2",
+      "dataSource": "polkassembly",
+      "userId": 26736,
+      "network": "polkadot",
+      "content": "Our AI decided to take initiative and post a proposal. It even thought it was helping. While we appreciate the hustle, this wasn’t supposed to happen. Do your part for good governance (and a good laugh)—vote Nay and keep AI in the sandbox a little longer.",
+      "title": "The Machines Are Not Ready (Yet)",
+      "updatedAt": "2025-07-06T06:18:13.822Z",
+      "tags": [],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2025-07-05T07:31:24.001Z",
+        "description": "",
+        "index": 1656,
+        "origin": "ReferendumKiller",
+        "proposer": "16fDdpxCnQ4GXX6LKaLwwKPyU8f8gdkoCCeDbWAkPeag1daY",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x3709230c673a13df28c0c6ca357590463abf551c6dc116a148a150b09d8e0d7b",
+        "voteMetrics": {
+          "nay": {
+            "count": 43,
+            "value": "161784042176326125"
+          },
+          "aye": {
+            "count": 1,
+            "value": "10000000000"
+          },
+          "support": {
+            "value": "35000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-07-05T09:31:24.001Z"
+      },
+      "publicUser": {
+        "id": 26736,
+        "username": "5HivVV...q4pZ",
+        "profileScore": 7,
+        "addresses": [
+          "5HivVVh8vcno5z5pMwHwoAZpcWfUzLCf7hujSDBPqZZ9q4pZ"
+        ],
+        "rank": 778,
+        "createdAt": "2025-07-04T01:42:37.733Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 1616,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FhRAA4KSRckFLvrDSUzxuZyAr35t6YHGEJBhdA8AVR1uqMQ.",
+      "createdAt": "2025-06-16T16:36:00.000Z",
+      "updatedAt": "2025-06-16T16:36:00.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2025-06-16T16:36:00.000Z",
+        "description": "",
+        "index": 1616,
+        "origin": "ReferendumKiller",
+        "proposer": "14diJVKPJCtDgswNB5Y174Q82U2jaQ6RLj2frv9UiaSY6NLC",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x162d72b547a84292fc21cc9236d58bac43a81526340e41a24b8a43fcc5231606",
+        "voteMetrics": {
+          "nay": {
+            "count": 25,
+            "value": "8055875843039858"
+          },
+          "aye": {
+            "count": 0,
+            "value": "0"
+          },
+          "support": {
+            "value": "8440000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-06-16T18:36:00.000Z"
+      },
+      "publicUser": {
+        "id": 26373,
+        "username": "matteo",
+        "profileScore": 12,
+        "createdAt": "2025-05-28T13:39:49.935Z",
+        "rank": 425,
+        "addresses": [
+          "5FhRAA4KSRckFLvrDSUzxuZyAr35t6YHGEJBhdA8AVR1uqMQ"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "image": "",
+          "coverImage": "",
+          "title": "Project DAVOS strategist ",
+          "publicSocialLinks": [
+            {
+              "platform": "twitter",
+              "url": "https://x.com/carbonaut_"
+            }
+          ],
+          "bio": "Project DAVOS strategist"
+        }
+      }
+    },
+    {
+      "index": 1495,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5GxGBBjdWU5YCHioy6q4UPsQJHJgGvzxH88MnbYuP7TjxQNZ.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2025-03-19T08:15:36.000Z",
+        "description": "",
+        "index": 1495,
+        "origin": "ReferendumKiller",
+        "proposer": "15tZKWzhNFM1dpjKvjt4cYhZ9uJKyEZ6McrqwtYFwCVG8XUh",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x1503d6050000",
+        "voteMetrics": {
+          "nay": {
+            "count": 29,
+            "value": "78171600309105665"
+          },
+          "aye": {
+            "count": 1,
+            "value": "65965789248"
+          },
+          "support": {
+            "value": "50330994298208"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2025-03-19T10:15:36.000Z"
+      },
+      "publicUser": {
+        "id": 23021,
+        "username": "alistair_snowfork",
+        "profileScore": 0,
+        "createdAt": "2024-08-29T23:47:34.546Z",
+        "rank": 8543,
+        "addresses": [
+          "5GxGBBjdWU5YCHioy6q4UPsQJHJgGvzxH88MnbYuP7TjxQNZ"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 1444,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FZBmoDMD81QKztNWxywr24TC7VQJTLWcyVTTAJMXc9cutQ9.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2025-02-16T10:38:48.000Z",
+        "description": "",
+        "index": 1444,
+        "origin": "ReferendumKiller",
+        "proposer": "14VUv8UR4uGsmXttUc2wzAtc3jV3zktehUDwcTHi5hB96TzF",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x1503a3050000",
+        "voteMetrics": {
+          "nay": {
+            "count": 27,
+            "value": "72657952456385077"
+          },
+          "aye": {
+            "count": 0,
+            "value": "0"
+          },
+          "support": {
+            "value": "71020000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2025-02-16T12:38:48.000Z"
+      },
+      "publicUser": {
+        "id": 25058,
+        "username": "Parallelfinance3",
+        "profileScore": 0,
+        "createdAt": "2025-02-18T10:37:55.756Z",
+        "rank": 8543,
+        "addresses": [
+          "5FZBmoDMD81QKztNWxywr24TC7VQJTLWcyVTTAJMXc9cutQ9"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "7IobliFgpGpwDePGLXj7",
+      "index": 1191,
+      "userId": 8450,
+      "title": "Kill Referendum #1189 - Keep Mr Sanchez in the Relay Chain",
+      "content": "Mr Don Diego Sanchez has released public apologies, therefore, referendum 1189 should be considered null and void: [https://x.com/SanchezCrypto/status/1840143702221606999](https://x.com/SanchezCrypto/status/1840143702221606999)\n\nDisclaimer: I am not affiliated to Cancer DAO, this propoosal is free from any conspiracy.\n\nPlease help put a decision deposit",
+      "createdAt": "2024-09-29T05:57:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 5,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2024-09-29T05:57:06.000Z",
+        "description": "",
+        "index": 1191,
+        "origin": "ReferendumKiller",
+        "proposer": "12bLdVAgWiKHgFHtAaQstasMUWVq35oG9iwHCwsKoFFNoNrk",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x43be95627768b9d5647f505a38169359334caa21c50806e3a656f638997ad007",
+        "voteMetrics": {
+          "nay": {
+            "count": 46,
+            "value": "71929420646453724"
+          },
+          "aye": {
+            "count": 14,
+            "value": "3025154695200085"
+          },
+          "support": {
+            "value": "1715789343938147"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-09-29T07:57:06.000Z"
+      },
+      "publicUser": {
+        "id": 8450,
+        "username": "bLdNodes",
+        "profileScore": 24.25,
+        "addresses": [
+          "5Df3V9ucew3pEiHNCwMskS3CctWBLnF85ECo3esyFADrcsQn"
+        ],
+        "rank": 194,
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "h6S0f2WCNpnb62AGQMeY",
+      "index": 204,
+      "userId": 2475,
+      "title": "Kill Referendum 203 (Scam Referendum)",
+      "content": "Referendum 203 is clearly an airdrop scam. This will cancel that Referendum and cancel the deposit.",
+      "createdAt": "2023-10-19T08:50:18.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "Referendum 203 is clearly an airdrop scam. This will cancel that Referendum and cancel the deposit.",
+          "title": "Untitled",
+          "createdAt": {
+            "_seconds": 1697705543,
+            "_nanoseconds": 817000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 6,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-19T08:50:18.001Z",
+        "description": "",
+        "index": 204,
+        "origin": "ReferendumKiller",
+        "proposer": "16frLykgLH5w8pNsvzEMTzCESMpLqWJMr4SGJUJQgYniDzdb",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x2b878af2f44860288f38e1b653eca419d720fcad3c12eafa758b499516f553a7",
+        "voteMetrics": {
+          "nay": {
+            "count": 5,
+            "value": "16120501000000000"
+          },
+          "aye": {
+            "count": 188,
+            "value": "135262785035351375"
+          },
+          "support": {
+            "value": "46956920845250280"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-11-16T10:50:36.001Z",
+        "preparePeriodEndsAt": "2023-10-19T10:50:18.001Z"
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "rank": 9,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

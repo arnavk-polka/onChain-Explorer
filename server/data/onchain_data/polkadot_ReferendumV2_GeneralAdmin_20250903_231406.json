@@ -1,0 +1,1406 @@
+{
+  "network": "polkadot",
+  "timestamp": "2025-09-03T23:29:48.537813",
+  "total_items": 16,
+  "items": [
+    {
+      "id": "9phTg5K3E5pKs1VhQsb7",
+      "index": 1525,
+      "userId": 22247,
+      "title": "Please vote NAY",
+      "content": "**We’re stepping back from this proposal.**\n\nOver the past few months, we shared parts of our roadmap with many people across the ecosystem. In those conversations, the idea of issuing usernames was occasionally mentioned and, at no point, did anyone raise a concern about it, or about the possibility of multiple authorities being an issue.\n\nBased on the current on-chain logic, and after testing that confirmed everything works as expected (including with Chopsticks), we moved forward in good faith. Only after the proposal went live did concerns emerge about a potential future change to enforce a single-authority model within the identity pallet.\n\nTo avoid unnecessary confusion, we’ve chosen to withdraw and decline the proposal.\n\nWe’re sincerely grateful to everyone who supported the initiative with votes, feedback, and encouragement. That support reflects the trust this community has placed in our vision.\n\n\\---\n\n**Proponents:**\n\n**WinterStamp**: HnvBKihg27L2n6ijV1hfvYQDESrd9kwnBB7KjSt5boR8iUL\n\n**Authority**: HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix (PolkaIdentity)\n\n**DOT requested: NONE**\n\nIf you haven't followed [PolkaIdentity](https://polkaidentity.com) progress so far, take a look at: \n\n[https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702](https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702)\n\n---\n\nInspired by the first username authority proposal made by Parity at [https://polkadot.polkassembly.io/referenda/1177](https://polkadot.polkassembly.io/referenda/1177) seeking to provide .DOT usernames through their new upcoming Polkadot mobile application, this proposal aims to make PolkaIdentity also an username authority.\n\nWe believe that PolkaIdentity has already demonstrated its success by being the first fully automated platform **focused exclusively on identities** at People Chain.\n\nWith that expertise, we believe we can accelerate the adoption of the usernames through the Polkadot ecosystem, allowing users to register their username and providing the necessary tools and clients for other services like mobile wallets and dApps can start using this feature.\n\n**Full proposal:** \n\n[https://docs.google.com/document/d/1vexc3tb\\_h0AklF\\_ymefvkDRHN6O0Hh0TwV1N6R5esJY](https://docs.google.com/document/d/1vexc3tb_h0AklF_ymefvkDRHN6O0Hh0TwV1N6R5esJY/edit?usp=sharing)\n\n---\n\n**About the proponents:**\n\n**WinterStamp** (Leonardo Custodio)\n\nAn accomplished software engineer with ten years of experience, joined the Polkadot ecosystem four years ago. He has recently graduated from the Polkadot Development Program offered by Sunset Labs and PUCPR in 2024 and has also graduated at the Polkadot Blockchain Academy, Wave 6. His active involvement includes participation in the 1KV Program and both cohorts of Decentralized Nodes.\n\nLeonardo is the creator of Polkadart [https://polkadart.dev](https://polkadart.dev) a library designed to simplify the development of hybrid applications using Flutter for Polkadot. His leadership has resulted in over six grants delivered to the Web3 Foundation, promoting easier access for developers.\n\nAdditionally, he founded PolkaIdentity [https://polkaidentity.com](https://polkaidentity.com) in Q3 2024, focused on enhancing trust within the Polkadot ecosystem through reliable identity solutions. Leonardo's dedication and contributions to the Polkadot community highlight his passion for advancing blockchain innovation.\n\n**Jay Stormy** (João Pedro Novochadlo)\n\nJoão is currently the Chief Marketing Officer (CMO) at DUX/Decentral, a fintech company focused on financial solutions for the creator economy. While rooted in Web2, the company explores Web3-native infrastructure and has received multiple grants—including from the Moonbeam parachain—for its on-chain innovations.\n\nPreviously, João was Project Manager for Innovation and Artificial Intelligence at the Secretariat of Economic Development of Curitiba (Brazil), where he led city-level strategies around AI, digital identity, and open innovation.\n\nHe also served as Head of Marketing at Socios.com (Chiliz) in Brazil, where he played a key role in expanding the platform’s presence across Latin America.\n\nJoão is a multi-awarded innovator, with his most recent recognition being the Future Maker award at the 2024 BRICS Solutions Awards, where he represented Brazil among over 1,300 global applicants.",
+      "createdAt": "2025-04-14T10:46:36.000Z",
+      "tags": [
+        {
+          "value": "people",
+          "lastUsedAt": "2025-04-14T10:46:36.000Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "username",
+          "lastUsedAt": "2025-04-14T10:46:36.000Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "polkadot",
+          "lastUsedAt": "2025-04-14T10:46:36.000Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "**Proponents:**\n\n**WinterStamp**: HnvBKihg27L2n6ijV1hfvYQDESrd9kwnBB7KjSt5boR8iUL\n\n**Authority**: HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix (PolkaIdentity)\n\n**DOT requested: NONE**\n\nIf you haven't followed [PolkaIdentity](https://polkaidentity.com) progress so far, take a look at: \n\n[https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702](https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702)\n\n---\n\nInspired by the first username authority proposal made by Parity at [https://polkadot.polkassembly.io/referenda/1177](https://polkadot.polkassembly.io/referenda/1177) seeking to provide .DOT usernames through their new upcoming Polkadot mobile application, this proposal aims to make PolkaIdentity also an username authority.\n\nWe believe that PolkaIdentity has already demonstrated its success by being the first fully automated platform **focused exclusively on identities** at People Chain.\n\nWith that expertise, we believe we can accelerate the adoption of the usernames through the Polkadot ecosystem, allowing users to register their username and providing the necessary tools and clients for other services like mobile wallets and dApps can start using this feature.\n\n**Full proposal:** \n\n[https://docs.google.com/document/d/1vexc3tb\\_h0AklF\\_ymefvkDRHN6O0Hh0TwV1N6R5esJY](https://docs.google.com/document/d/1vexc3tb_h0AklF_ymefvkDRHN6O0Hh0TwV1N6R5esJY/edit?usp=sharing)\n\n---\n\n**About the proponents:**\n\n**WinterStamp** (Leonardo Custodio)\n\nAn accomplished software engineer with ten years of experience, joined the Polkadot ecosystem four years ago. He has recently graduated from the Polkadot Development Program offered by Sunset Labs and PUCPR in 2024 and has also graduated at the Polkadot Blockchain Academy, Wave 6. His active involvement includes participation in the 1KV Program and both cohorts of Decentralized Nodes.\n\nLeonardo is the creator of Polkadart [https://polkadart.dev](https://polkadart.dev) a library designed to simplify the development of hybrid applications using Flutter for Polkadot. His leadership has resulted in over six grants delivered to the Web3 Foundation, promoting easier access for developers.\n\nAdditionally, he founded PolkaIdentity [https://polkaidentity.com](https://polkaidentity.com) in Q3 2024, focused on enhancing trust within the Polkadot ecosystem through reliable identity solutions. Leonardo's dedication and contributions to the Polkadot community highlight his passion for advancing blockchain innovation.\n\n**Jay Stormy** (João Pedro Novochadlo)\n\nJoão is currently the Chief Marketing Officer (CMO) at DUX/Decentral, a fintech company focused on financial solutions for the creator economy. While rooted in Web2, the company explores Web3-native infrastructure and has received multiple grants—including from the Moonbeam parachain—for its on-chain innovations.\n\nPreviously, João was Project Manager for Innovation and Artificial Intelligence at the Secretariat of Economic Development of Curitiba (Brazil), where he led city-level strategies around AI, digital identity, and open innovation.\n\nHe also served as Head of Marketing at Socios.com (Chiliz) in Brazil, where he played a key role in expanding the platform’s presence across Latin America.\n\nJoão is a multi-awarded innovator, with his most recent recognition being the Future Maker award at the 2024 BRICS Solutions Awards, where he represented Brazil among over 1,300 global applicants.",
+          "title": "Register PolkaIdentity as .DOT username authority",
+          "createdAt": {
+            "_seconds": 1744798483,
+            "_nanoseconds": 9000000
+          }
+        },
+        {
+          "content": "**Proponents:**\n\n**WinterStamp**: HnvBKihg27L2n6ijV1hfvYQDESrd9kwnBB7KjSt5boR8iUL\n\n**Authority**: HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix (PolkaIdentity)\n\n**DOT requested: NONE**\n\nIf you haven't followed [PolkaIdentity](https://polkaidentity.com) progress so far, take a look at: \n\n[https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702](https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702)\n\n---\n\nInspired by the first username authority proposal made by Parity at [https://polkadot.polkassembly.io/referenda/1177](https://polkadot.polkassembly.io/referenda/1177) seeking to provide .DOT usernames through their new upcoming Polkadot mobile application, this proposal aims to make PolkaIdentity also an username authority.\n\nWe believe that PolkaIdentity has already demonstrated its success by being the first fully automated platform **focused exclusively on identities** at People Chain.\n\nWith that expertise, we believe we can accelerate the adoption of the usernames through the Polkadot ecosystem, allowing users to register their username and providing the necessary tools and clients for other services like mobile wallets and dApps can start using this feature.\n\n**Full proposal:** \n\n[https://docs.google.com/document/d/1vexc3tb\\_h0AklF\\_ymefvkDRHN6O0Hh0TwV1N6R5esJY](https://docs.google.com/document/d/1vexc3tb_h0AklF_ymefvkDRHN6O0Hh0TwV1N6R5esJY/edit?usp=sharing)\n\n---\n\n**About the proponents:**\n\n**WinterStamp** (Leonardo Custodio)\n\nAn accomplished software engineer with ten years of experience, joined the Polkadot ecosystem four years ago. He has recently graduated from the Polkadot Development Program offered by Sunset Labs and PUCPR in 2024 and has also graduated at the Polkadot Blockchain Academy, Wave 6. His active involvement includes participation in the 1KV Program and both cohorts of Decentralized Nodes.\n\nLeonardo is the creator of Polkadart ([https://polkadart.dev),](https://polkadart.dev\\),) a library designed to simplify the development of hybrid applications using Flutter for Polkadot. His leadership has resulted in over six grants delivered to the Web3 Foundation, promoting easier access for developers.\n\nAdditionally, he founded PolkaIdentity ([https://polkaidentity.com)](https://polkaidentity.com\\)) in Q3 2024, focused on enhancing trust within the Polkadot ecosystem through reliable identity solutions. Leonardo's dedication and contributions to the Polkadot community highlight his passion for advancing blockchain innovation.\n\n**Jay Stormy** (João Pedro Novochadlo)\n\nJoão is currently the Chief Marketing Officer (CMO) at DUX/Decentral, a fintech company focused on financial solutions for the creator economy. While rooted in Web2, the company explores Web3-native infrastructure and has received multiple grants—including from the Moonbeam parachain—for its on-chain innovations.\n\nPreviously, João was Project Manager for Innovation and Artificial Intelligence at the Secretariat of Economic Development of Curitiba (Brazil), where he led city-level strategies around AI, digital identity, and open innovation.\n\nHe also served as Head of Marketing at Socios.com (Chiliz) in Brazil, where he played a key role in expanding the platform’s presence across Latin America.\n\nJoão is a multi-awarded innovator, with his most recent recognition being the Future Maker award at the 2024 BRICS Solutions Awards, where he represented Brazil among over 1,300 global applicants.",
+          "title": "Register PolkaIdentity as .DOT username authority",
+          "createdAt": {
+            "_seconds": 1744631125,
+            "_nanoseconds": 701000000
+          }
+        },
+        {
+          "content": "**Proponent:**\n\n**WinterStamp**: HnvBKihg27L2n6ijV1hfvYQDESrd9kwnBB7KjSt5boR8iUL\n\n**Authority**: HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix (PolkaIdentity)\n\n**DOT requested: NONE**\n\nIf you haven't followed [PolkaIdentity](https://polkaidentity.com) progress so far, take a look at: \n\n[https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702](https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702)\n\n---\n\nInspired by the first username authority proposal made by Parity at [https://polkadot.polkassembly.io/referenda/1177](https://polkadot.polkassembly.io/referenda/1177) seeking to provide .DOT usernames through their new upcoming Polkadot mobile application, this proposal aims to make PolkaIdentity also an username authority.\n\nWe believe that PolkaIdentity has already demonstrated its success by being the first fully automated platform completely focused on identities at People Chain.\n\nWith that expertise, we believe we can accelerate the adoption of the usernames through the Polkadot ecosystem, allowing users to register their username and providing the necessary tools and clients for other services like mobile wallets and dApps can start using this feature.\n\n**Full proposal:** \n\n[https://docs.google.com/document/d/1vexc3tb\\_h0AklF\\_ymefvkDRHN6O0Hh0TwV1N6R5esJY](https://docs.google.com/document/d/1vexc3tb_h0AklF_ymefvkDRHN6O0Hh0TwV1N6R5esJY/edit?usp=sharing)\n\n---\n\n**About the proponents:**\n\n**WinterStamp** (Leonardo Custodio)\n\nAn accomplished software engineer with ten years of experience, joined the Polkadot ecosystem four years ago. He has recently graduated from the Polkadot Development Program offered by Sunset Labs and PUCPR in 2024 and has also graduated at the Polkadot Blockchain Academy, Wave 6. His active involvement includes participation in the 1KV Program and both cohorts of Decentralized Nodes.\n\nLeonardo is the creator of Polkadart ([https://polkadart.dev),](https://polkadart.dev\\),) a library designed to simplify the development of hybrid applications using Flutter for Polkadot. His leadership has resulted in over six grants delivered to the Web3 Foundation, promoting easier access for developers.\n\nAdditionally, he founded PolkaIdentity ([https://polkaidentity.com)](https://polkaidentity.com\\)) in Q3 2024, focused on enhancing trust within the Polkadot ecosystem through reliable identity solutions. Leonardo's dedication and contributions to the Polkadot community highlight his passion for advancing blockchain innovation.\n\n**Jay Stormy** (João Pedro Novochadlo)\n\nJoão is currently the Chief Marketing Officer (CMO) at DUX/Decentral, a fintech company focused on financial solutions for the creator economy. While rooted in Web2, the company explores Web3-native infrastructure and has received multiple grants—including from the Moonbeam parachain—for its on-chain innovations.\n\nPreviously, João was Project Manager for Innovation and Artificial Intelligence at the Secretariat of Economic Development of Curitiba (Brazil), where he led city-level strategies around AI, digital identity, and open innovation.\n\nHe also served as Head of Marketing at Socios.com (Chiliz) in Brazil, where he played a key role in expanding the platform’s presence across Latin America.\n\nJoão is a multi-awarded innovator, with his most recent recognition being the Future Maker award at the 2024 BRICS Solutions Awards, where he represented Brazil among over 1,300 global applicants.",
+          "title": "Register PolkaIdentity as .DOT username authority",
+          "createdAt": {
+            "_seconds": 1744631013,
+            "_nanoseconds": 676000000
+          }
+        },
+        {
+          "content": "**Proponent:**\n\n**WinterStamp**: HnvBKihg27L2n6ijV1hfvYQDESrd9kwnBB7KjSt5boR8iUL\n\n**Authority**: HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix (PolkaIdentity)\n\n**DOT requested: NONE**\n\nIf you haven't followed [PolkaIdentity](https://polkaidentity.com) progress so far, take a look at: \n\n[https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702](https://forum.polkadot.network/t/polkaidentity-a-friendly-on-chain-identity-service/9702)\n\n---\n\nInspired by the first username authority proposal made by Parity at [https://polkadot.polkassembly.io/referenda/1177](https://polkadot.polkassembly.io/referenda/1177) seeking to provide .DOT usernames through their new upcoming Polkadot mobile application, this proposal aims to make PolkaIdentity also an username authority.\n\nWe believe that PolkaIdentity has already demonstrated its success by being the first fully automated platform completely focused on identities at People Chain.\n\nWith that expertise, we believe we can accelerate the adoption of the usernames through the Polkadot ecosystem, allowing users to register their username and providing the necessary tools and clients for other services like mobile wallets and dApps can start using this feature.\n\n**Full proposal:** \n\n[https://docs.google.com/document/d/1vexc3tb\\_h0AklF\\_ymefvkDRHN6O0Hh0TwV1N6R5esJY](https://docs.google.com/document/d/1vexc3tb_h0AklF_ymefvkDRHN6O0Hh0TwV1N6R5esJY/edit?usp=sharing)\n\n---\n\n**About the proponents:**\n\n**WinterStamp** (Leonardo Custodio)\n\nAn accomplished software engineer with ten years of experience, joined the Polkadot ecosystem four years ago. He has recently graduated from the Polkadot Development Program offered by Sunset Labs and PUCPR in 2024 and has also graduated at the Polkadot Blockchain Academy, Wave 6. His active involvement includes participation in the 1KV Program and both cohorts of Decentralized Nodes.\n\nLeonardo is the creator of Polkadart ([https://polkadart.dev),](https://polkadart.dev\\),) a library designed to simplify the development of hybrid applications using Flutter for Polkadot. His leadership has resulted in over six grants delivered to the Web3 Foundation, promoting easier access for developers.\n\nAdditionally, he founded PolkaIdentity ([https://polkaidentity.com)](https://polkaidentity.com\\)) in Q3 2024, focused on enhancing trust within the Polkadot ecosystem through reliable identity solutions. Leonardo's dedication and contributions to the Polkadot community highlight his passion for advancing blockchain innovation.\n\n**Jay Stormy** (João Pedro Novochadlo)\n\nJoão is currently the Chief Marketing Officer (CMO) at DUX/Decentral, a fintech company focused on financial solutions for the creator economy. While rooted in Web2, the company explores Web3-native infrastructure and has received multiple grants—including from the Moonbeam parachain—for its on-chain innovations.\n\nPreviously, João was Project Manager for Innovation and Artificial Intelligence at the Secretariat of Economic Development of Curitiba (Brazil), where he led city-level strategies around AI, digital identity, and open innovation.\n\nHe also served as Head of Marketing at Socios.com (Chiliz) in Brazil, where he played a key role in expanding the platform’s presence across Latin America.\n\nJoão is a multi-awarded innovator, with his most recent recognition being the Future Maker award at the 2024 BRICS Solutions Awards, where he represented Brazil among over 1,300 global applicants.",
+          "title": "Register PolkaIdentity as .DOT username authority",
+          "createdAt": {
+            "_seconds": 1744629837,
+            "_nanoseconds": 810000000
+          }
+        },
+        {
+          "content": "**Proponent:**\n\n**WinterStamp**: HnvBKihg27L2n6ijV1hfvYQDESrd9kwnBB7KjSt5boR8iUL\n\n**Authority**: HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix (PolkaIdentity)\n\n**DOT requested: NONE**\n\n---\n\nInspired by the first username authority proposal made by Parity at [https://polkadot.polkassembly.io/referenda/1177](https://polkadot.polkassembly.io/referenda/1177) seeking to provide .DOT usernames through their new upcoming Polkadot mobile application, this proposal aims to make PolkaIdentity also an username authority.\n\nWe believe that PolkaIdentity has already demonstrated its success by being the first fully automated platform completely focused on identities at People Chain.\n\nWith that expertise, we believe we can accelerate the adoption of the usernames through the Polkadot ecosystem, allowing users to register their username and providing the necessary tools and clients for other services like mobile wallets and dApps can start using this feature.\n\n**Full proposal:** \n\n[https://docs.google.com/document/d/1vexc3tb\\_h0AklF\\_ymefvkDRHN6O0Hh0TwV1N6R5esJY](https://docs.google.com/document/d/1vexc3tb_h0AklF_ymefvkDRHN6O0Hh0TwV1N6R5esJY/edit?usp=sharing)\n\n---\n\n**About the proponents:**\n\n**WinterStamp** (Leonardo Custodio)\n\nAn accomplished software engineer with ten years of experience, joined the Polkadot ecosystem four years ago. He has recently graduated from the Polkadot Development Program offered by Sunset Labs and PUCPR in 2024 and has also graduated at the Polkadot Blockchain Academy, Wave 6. His active involvement includes participation in the 1KV Program and both cohorts of Decentralized Nodes.\n\nLeonardo is the creator of Polkadart ([https://polkadart.dev),](https://polkadart.dev\\),) a library designed to simplify the development of hybrid applications using Flutter for Polkadot. His leadership has resulted in over six grants delivered to the Web3 Foundation, promoting easier access for developers.\n\nAdditionally, he founded PolkaIdentity ([https://polkaidentity.com)](https://polkaidentity.com\\)) in Q3 2024, focused on enhancing trust within the Polkadot ecosystem through reliable identity solutions. Leonardo's dedication and contributions to the Polkadot community highlight his passion for advancing blockchain innovation.\n\n**Jay Stormy** (João Pedro Novochadlo)\n\nJoão is currently the Chief Marketing Officer (CMO) at DUX/Decentral, a fintech company focused on financial solutions for the creator economy. While rooted in Web2, the company explores Web3-native infrastructure and has received multiple grants—including from the Moonbeam parachain—for its on-chain innovations.\n\nPreviously, João was Project Manager for Innovation and Artificial Intelligence at the Secretariat of Economic Development of Curitiba (Brazil), where he led city-level strategies around AI, digital identity, and open innovation.\n\nHe also served as Head of Marketing at Socios.com (Chiliz) in Brazil, where he played a key role in expanding the platform’s presence across Latin America.\n\nJoão is a multi-awarded innovator, with his most recent recognition being the Future Maker award at the 2024 BRICS Solutions Awards, where he represented Brazil among over 1,300 global applicants.",
+          "title": "Register PolkaIdentity as .DOT username authority",
+          "createdAt": {
+            "_seconds": 1744627924,
+            "_nanoseconds": 317000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2025-04-14T10:46:36.000Z",
+        "description": "",
+        "index": 1525,
+        "origin": "GeneralAdmin",
+        "proposer": "16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0x173b778e0a4441a0100ca62c823029ae0e564928b7bb1af04e01046daaae07a1",
+        "voteMetrics": {
+          "nay": {
+            "count": 78,
+            "value": "405735639140380371"
+          },
+          "aye": {
+            "count": 17,
+            "value": "1813209058206"
+          },
+          "support": {
+            "value": "113675177203376"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2025-05-14T10:12:12.000Z",
+        "preparePeriodEndsAt": "2025-04-14T12:46:36.000Z"
+      },
+      "publicUser": {
+        "id": 22247,
+        "username": "WinterStamp",
+        "profileScore": 0,
+        "addresses": [
+          "5HHJX1Nq3f6QH8HGxnCemyBQ4eAcpUwmKoLMw5AvboavPfrh"
+        ],
+        "rank": 8543,
+        "createdAt": "2024-07-13T19:48:54.475Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "PkJNY5MoVR3Fw6tNHPhQ",
+      "index": 1192,
+      "userId": 22247,
+      "title": "PolkaIdentity's Registrar Application",
+      "content": "**Application for Registrar**\n\n**Date**: 29th September 2024\n\n**Proponent**: 16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW (WinterStamp)\n\n**Polkadot Referendum:**  [https://polkadot.polkassembly.io/referenda/1192](1192)\n\n**Kusama Referendum:** [https://kusama.polkassembly.io/referenda/418](https://kusama.polkassembly.io/referenda/418)\n\n**Kusama Live Application**: [https://polkaidentity.com](https://polkaidentity.com)\n\n**Requested DOT: Nothing**\n\n**Proposal overview:** [https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ\\_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing](https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing)\n\n**About us:**\n\n**— WinterStamp (Leonardo)**\n\nRuns two validator at Kusama through the 1KV program\n\nCompleted two grants for W3F, with a third in development\n\nWorking in the ecosystem for the past three years now\n\n[https://github.com/w3f/Grants-Program/pull/1053](https://github.com/w3f/Grants-Program/pull/1053)\n\n[https://github.com/w3f/Grants-Program/pull/2004](https://github.com/w3f/Grants-Program/pull/2004)\n\n[https://github.com/leonardocustodio/polkadart](https://github.com/leonardocustodio/polkadart)\n\n**— Jay (João)**\n\nIs joining the Polkadot Ecosystem now but:\n\nHe is the CMO at Dux (a web3 company)\n\nProject Manager at Secretariat of Economic Development, Innovation and Artificial Intelligence of Curitiba City Hall\n\nFormer Head of Marketing at **Socios.com** / Chiliz\n\n**Live Application**\n\nYou can check out our live application at Kusama at: [**https://polkaidentity.com**](https://polkaidentity.com)\n\nFor any questions, please comment below in the discussion post or reach out via email at **[hello@polkaidentity.com](mailto:hello@polkaidentity.com)**",
+      "createdAt": "2024-07-13T20:52:49.910Z",
+      "tags": [
+        {
+          "value": "identity",
+          "lastUsedAt": "2024-07-13T20:52:49.910Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "registrar",
+          "lastUsedAt": "2024-07-13T20:52:49.910Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "2394",
+        "proposalType": "Discussion"
+      },
+      "history": [
+        {
+          "content": "**Application for Registrar**\n\n**Date**: 29th September 2024\n\n**Proponent**: 16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW (WinterStamp)\n\n**Polkadot Referendum:**  [https://polkadot.polkassembly.io/referenda/1192](1192)\n\n**Kusama Referendum:** [https://kusama.polkassembly.io/referenda/418](https://kusama.polkassembly.io/referenda/418)\n\n**Kusama Live Application**: [https://polkaidentity.com](https://polkaidentity.com)\n\n**Request DOT: Nothing**\n\n**About us:**\n\n**— WinterStamp (Leonardo)**\n\nRuns two validator at Kusama through the 1KV program\n\nCompleted two grants for W3F, with a third in development\n\nWorking in the ecosystem for the past three years now\n\n[https://github.com/w3f/Grants-Program/pull/1053](https://github.com/w3f/Grants-Program/pull/1053)\n\n[https://github.com/w3f/Grants-Program/pull/2004](https://github.com/w3f/Grants-Program/pull/2004)\n\n[https://github.com/leonardocustodio/polkadart](https://github.com/leonardocustodio/polkadart)\n\n**— Jay (João)**\n\nIs joining the Polkadot Ecosystem now but:\n\nHe is the CMO at Dux (a web3 company)\n\nProject Manager at Secretariat of Economic Development, Innovation and Artificial Intelligence of Curitiba City Hall\n\nFormer Head of Marketing at **Socios.com** / Chiliz\n\n**Live Application**\n\nYou can check out our live application at Kusama at: [**https://polkaidentity.com**](https://polkaidentity.com)\n\n**Proposal overview:** \n\n[https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ\\_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing](https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing)\n\nFor any questions, please comment below in the discussion post or reach out via email at **[hello@polkaidentity.com](mailto:hello@polkaidentity.com)**",
+          "title": "PolkaIdentity's Registrar Application",
+          "createdAt": {
+            "_seconds": 1727702333,
+            "_nanoseconds": 987000000
+          }
+        },
+        {
+          "content": "**Application for Registrar**\n\n**Date**: 29th September 2024\n\n**Proponent**: 16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW (WinterStamp)\n\n**Polkadot Referendum:**  [https://polkadot.polkassembly.io/referenda/1192](1192)\n\n**Kusama Referendum:** [https://kusama.polkassembly.io/referenda/418](https://kusama.polkassembly.io/referenda/418)\n\n**Kusama Live Application**: [https://polkaidentity.com](https://polkaidentity.com)\n\n**Request DOT: Nothing**\n\n**About us:**\n\n**— WinterStamp (Leonardo)**\n\nRuns two validator at Kusama through the 1KV program\n\nCompleted two grants for W3F, with a third in development\n\nWorking in the ecosystem for the past three years now\n\n[https://github.com/w3f/Grants-Program/pull/1053](https://github.com/w3f/Grants-Program/pull/1053)\n\n[https://github.com/w3f/Grants-Program/pull/2004](https://github.com/w3f/Grants-Program/pull/2004)\n\n[https://github.com/leonardocustodio/polkadart](https://github.com/leonardocustodio/polkadart)\n\n**— Jay (João)**\n\nIs joining the Polkadot Ecosystem now but:\n\nHe is the CMO at Dux (a web3 company)\n\nProject Manager at Secretariat of Economic Development, Innovation and Artificial Intelligence of Curitiba City Hall\n\nFormer Head of Marketing at **Socios.com** / Chiliz\n\nYou can check out our live application at Kusama at: https://polkaidentity.com\n\n**Proposal overview:** \n\n[https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ\\_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing](https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing)\n\nFor any questions, please comment below in the discussion post or reach out via email at **[hello@polkaidentity.com](mailto:hello@polkaidentity.com)**",
+          "title": "PolkaIdentity's Registrar Application",
+          "createdAt": {
+            "_seconds": 1727702255,
+            "_nanoseconds": 130000000
+          }
+        },
+        {
+          "content": "**Application for Registrar**\n\n**Date**: 29th September 2024\n\n**Proponent**: 16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW (WinterStamp)\n\n**Polkadot Referendum:**  [https://polkadot.polkassembly.io/referenda/1192](1192)\n\n**Kusama Referendum:** [https://kusama.polkassembly.io/referenda/418](https://kusama.polkassembly.io/referenda/418)\n\n**Kusama Live Application**: [https://polkaidentity.com](https://polkaidentity.com)\n\n**Request DOT: Nothing**\n\n**About us:**\n\n**— WinterStamp (Leonardo)**\n\nRuns two validator at Kusama through the 1KV program\n\nCompleted two grants for W3F, with a third in development\n\nWorking in the ecosystem for the past three years now\n\n[https://github.com/w3f/Grants-Program/pull/1053](https://github.com/w3f/Grants-Program/pull/1053)\n\n[https://github.com/w3f/Grants-Program/pull/2004](https://github.com/w3f/Grants-Program/pull/2004)\n\n[https://github.com/leonardocustodio/polkadart](https://github.com/leonardocustodio/polkadart)\n\n**— Jay (João)**\n\nIs joining the Polkadot Ecosystem now but:\n\nHe is the CMO at Dux (a web3 company)\n\nProject Manager at Secretariat of Economic Development, Innovation and Artificial Intelligence of Curitiba City Hall\n\nFormer Head of Marketing at **Socios.com** / Chiliz\n\nYou can check out our live application at Kusama at: https://polkaidentity.com\n\n**Proposal overview:** \n\n[https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ\\_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing](https://docs.google.com/document/d/199Kc8ZB7VPfN6Ub7vUJ_7nN3Tjz-JaEODz9VzZ1nOW8/edit?usp=sharing)\n\nFor any questions, please comment below in the discussion post or reach out via email at **[hello@polkaidentity.com](mailto:hello@polkaidentity.com)**",
+          "title": "PolkaIdentity's Registrar Application",
+          "createdAt": {
+            "_seconds": 1727702239,
+            "_nanoseconds": 890000000
+          }
+        },
+        {
+          "content": "**Application for Registrar**\n\n**Date**: 29th September 2024\n\n**Proponent**: 16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW\n\n**Polkadot Referendum:**  [https://polkadot.polkassembly.io/referenda/1192](1192)\n\n**Kusama Referendum:** [https://kusama.polkassembly.io/referenda/418](https://kusama.polkassembly.io/referenda/418)\n\n**Kusama Live Application**: [https://polkaidentity.com](https://polkaidentity.com)\n\n**Request DOT: Nothing**\n\n**Proposal Overview**\n\nAccount Identity is a key component in the governance of the Polkadot and Kusama networks. PolkaIdentity mission is to promote transparent governance and active participation within these ecosystems. We are pleased to announce our application to become a registrar.\n\n**Importance of On-Chain Identities**\n\nOn-chain identities in the Polkadot ecosystem are essential for building trust, accountability, and interoperability. By creating unique digital fingerprints, participants can securely engage within the network. An on-chain identity establishes a reliable and verifiable framework for participants governed by a defined set of rules, enabling seamless integration and collaboration between different projects and stakeholders. Furthermore, on-chain identities enhance accountability by vetting participants and providing multiple contact points for individuals or teams. This additional layer of protection is crucial when requesting funds or proposing changes, ensuring the network and its resources are safeguarded through the verification process.\n\n**Current Challenges with On-Chain Identity System**\n\n**Reliance on PolkadotJS**: The process heavily depends on navigating through PolkadotJS, which can be overwhelming for newcomers.\n\n**Manual Verification**: A few registrars are using manual verification for Twitter, Element, and email, which is cumbersome and dependent on the registrar's availability.\n\n**Maintainability**: Some also offer multiple other services, making it difficult to follow the chain upgrades. As seen with the new People parachain, it broke all current registrars without communication from their side or ETA for resuming the service.\n\n**Why PolkaIdentity is Uniquely Positioned**\n\n**User Adoption**: Focusing on on-chain identity, we leverage the right prompts and experiences to ensure teams adopt its features.\n\n**Enhanced Experience**: PolkaIdentity will continuously work on differentiating the experience for proposal creators, governance participants, and networks, making verifying on-chain identities a critical step toward success.\n\n**Our prototype:**\n\n**![](https://i.ibb.co/z6FnW9g/home.png)**\n\n**![](https://i.ibb.co/ZgVHrgR/basic.png)**\n\n**![](https://i.ibb.co/93NHRHF/request.png)**\n\nChanges in fees due to market conditions will be reflected in the user interface and communicated to users.\n\nFor any questions, please comment below in the discussion post or reach out via email at **[hello@polkaidentity.com](mailto:hello@polkaidentity.com)**",
+          "title": "PolkaIdentity's Registrar Application",
+          "createdAt": {
+            "_seconds": 1727609333,
+            "_nanoseconds": 228000000
+          }
+        },
+        {
+          "content": "**Application for Registrar**\n\n**Date**: 29th September 2024\n\n**Proponent**: 16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW\n\n**Polkadot Referendum:**  [https://polkadot.polkassembly.io/referenda/1192](1192)\n\n**Kusama Referendum:** [https://kusama.polkassembly.io/referenda/418](https://kusama.polkassembly.io/referenda/418)\n\n**Kusama Live Application**: https://polkaidentity.com\n\n**Request DOT: Nothing**\n\n**Proposal Overview**\n\nAccount Identity is a key component in the governance of the Polkadot and Kusama networks. PolkaIdentity mission is to promote transparent governance and active participation within these ecosystems. We are pleased to announce our application to become a registrar.\n\n**Importance of On-Chain Identities**\n\nOn-chain identities in the Polkadot ecosystem are essential for building trust, accountability, and interoperability. By creating unique digital fingerprints, participants can securely engage within the network. An on-chain identity establishes a reliable and verifiable framework for participants governed by a defined set of rules, enabling seamless integration and collaboration between different projects and stakeholders. Furthermore, on-chain identities enhance accountability by vetting participants and providing multiple contact points for individuals or teams. This additional layer of protection is crucial when requesting funds or proposing changes, ensuring the network and its resources are safeguarded through the verification process.\n\n**Current Challenges with On-Chain Identity System**\n\n**Reliance on PolkadotJS**: The process heavily depends on navigating through PolkadotJS, which can be overwhelming for newcomers.\n\n**Manual Verification**: A few registrars are using manual verification for Twitter, Element, and email, which is cumbersome and dependent on the registrar's availability.\n\n**Maintainability**: Some also offer multiple other services, making it difficult to follow the chain upgrades. As seen with the new People parachain, it broke all current registrars without communication from their side or ETA for resuming the service.\n\n**Why PolkaIdentity is Uniquely Positioned**\n\n**User Adoption**: Focusing on on-chain identity, we leverage the right prompts and experiences to ensure teams adopt its features.\n\n**Enhanced Experience**: PolkaIdentity will continuously work on differentiating the experience for proposal creators, governance participants, and networks, making verifying on-chain identities a critical step toward success.\n\n**Our prototype:**\n\n**![](https://i.ibb.co/z6FnW9g/home.png)**\n\n**![](https://i.ibb.co/ZgVHrgR/basic.png)**\n\n**![](https://i.ibb.co/93NHRHF/request.png)**\n\nChanges in fees due to market conditions will be reflected in the user interface and communicated to users.\n\nFor any questions, please comment below in the discussion post or reach out via email at **[hello@polkaidentity.com](mailto:hello@polkaidentity.com)**",
+          "title": "PolkaIdentity's Registrar Application",
+          "createdAt": {
+            "_seconds": 1727609298,
+            "_nanoseconds": 161000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 14
+      },
+      "onChainInfo": {
+        "createdAt": "2024-09-29T11:08:06.001Z",
+        "description": "",
+        "index": 1192,
+        "origin": "GeneralAdmin",
+        "proposer": "16DbfLdtuSMsifHnvRFev81YvGAGWnVuQJ4r6NAH9tcSZxWW",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x4cfe744a7b924aa8609a45c1c6e38b476b910271200eba406da90e78cabf4516",
+        "voteMetrics": {
+          "nay": {
+            "count": 32,
+            "value": "8706601955347701"
+          },
+          "aye": {
+            "count": 77,
+            "value": "75460885009478875"
+          },
+          "support": {
+            "value": "41919515372068256"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-11-05T14:02:18.000Z",
+        "preparePeriodEndsAt": "2024-09-29T13:08:06.001Z"
+      },
+      "publicUser": {
+        "id": 22247,
+        "username": "WinterStamp",
+        "profileScore": 0,
+        "addresses": [
+          "5HHJX1Nq3f6QH8HGxnCemyBQ4eAcpUwmKoLMw5AvboavPfrh"
+        ],
+        "rank": 8543,
+        "createdAt": "2024-07-13T19:48:54.475Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "x0bZtFCuabgO1tlKy3FL",
+      "index": 1177,
+      "userId": 3318,
+      "title": ".DOT Authority Registration for the Polkadot App",
+      "content": "![](https://i.ibb.co/dtrC11z/dot-authority.png)  \n  \nHello! This was previously raised with [#1162](1162), however I got the wallet address wrong :rip: Have raised this with the correct wallet address 🙃  \n  \nAs many of you may know, at Polkadot Decoded this year (2024) Björn Wagner teased the new Polkadot App. This is a very exciting product which has been a long time in the making and plans to deliver an easy, beginner-friendly mobile wallet (and more) for newcomers to crypto and Polkadot. One of the strategic aims for the product is to remove the need for wallet addresses and replace them with an easy to remember, short user name, specifically a .DOT username.\n\nSimilar to how we have seen .ETH gain traction in the Ethereum ecosystem, we’d like to use .DOT as a short username in the Polkadot ecosystem. This short username is administered by an on-chain ‘Authority’.\n\nThis proposal seeks to gain community support to register a new authority to issue .DOT short addresses for the Polkadot Mobile app.\n\nHow does this all work? Given the way the people chain is set up, an on-chain proposal is required for an individual or group to register as an Authority before short usernames can be issued using that specific domain.\n\nImagine authorities as nations providing specific local domains, .com.au for Australians or .co.uk for the Brits. Users will be able to request their specific short username to the authority, E.g. Birdo.Dot - The authority will then submit this on-chain, available for any dapp, wallet or product to query to match to a wallet address. As the user is onboarding to the Polkadot mobile app, the app will ask the user to choose a .DOT username, which the authority will register on-chain.\n\nUsers don’t need any funds, they can quickly sign up and get an on-chain .DOT short username without holding any crypto.\n\nOther products like Coinbase offer free ens (.ETH) usernames, however these are stored off-chain, our method is fully on-chain. 😎 The Authority will be maintained by Parity. Key management for the authority will also be maintained by Parity.\n\nThe split of responsibilities between the pallet functions and the authority functions are as per below. The pallet can add an authority which gives the authority the ability to add usernames. Removing usernames is not currently possible but will be added shortly. The authority itself is then responsible for the moderation / rules of the authority and any fee / revenue models they might want to implement.\n\nFull proposal: \n\n[https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing](https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing)",
+      "createdAt": "2024-09-20T19:21:22.953Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "![](https://i.ibb.co/dtrC11z/dot-authority.png)  \n  \nAs many of you may know, at Polkadot Decoded this year (2024) Björn Wagner teased the new Polkadot App. This is a very exciting product which has been a long time in the making and plans to deliver an easy, beginner-friendly mobile wallet (and more) for newcomers to crypto and Polkadot. One of the strategic aims for the product is to remove the need for wallet addresses and replace them with an easy to remember, short user name, specifically a .DOT username.\n\nSimilar to how we have seen .ETH gain traction in the Ethereum ecosystem, we’d like to use .DOT as a short username in the Polkadot ecosystem. This short username is administered by an on-chain ‘Authority’.\n\nThis proposal seeks to gain community support to register a new authority to issue .DOT short addresses for the Polkadot Mobile app.\n\nHow does this all work? Given the way the people chain is set up, an on-chain proposal is required for an individual or group to register as an Authority before short usernames can be issued using that specific domain.\n\nImagine authorities as nations providing specific local domains, .com.au for Australians or .co.uk for the Brits. Users will be able to request their specific short username to the authority, E.g. Birdo.Dot - The authority will then submit this on-chain, available for any dapp, wallet or product to query to match to a wallet address. As the user is onboarding to the Polkadot mobile app, the app will ask the user to choose a .DOT username, which the authority will register on-chain.\n\nUsers don’t need any funds, they can quickly sign up and get an on-chain .DOT short username without holding any crypto.\n\nOther products like Coinbase offer free ens (.ETH) usernames, however these are stored off-chain, our method is fully on-chain. 😎 The Authority will be maintained by Parity. Key management for the authority will also be maintained by Parity.\n\nThe split of responsibilities between the pallet functions and the authority functions are as per below. The pallet can add an authority which gives the authority the ability to add usernames. Removing usernames is not currently possible but will be added shortly. The authority itself is then responsible for the moderation / rules of the authority and any fee / revenue models they might want to implement.\n\nFull proposal: \n\n[https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing](https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing)",
+          "title": ".DOT Authority Registration for the Polkadot App",
+          "createdAt": {
+            "_seconds": 1726862309,
+            "_nanoseconds": 813000000
+          }
+        },
+        {
+          "content": "![image.png](https://i.ibb.co/Wnqm4Yg/image.png)",
+          "title": "hi",
+          "createdAt": {
+            "_seconds": 1726862168,
+            "_nanoseconds": 2000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2024-09-20T19:21:18.000Z",
+        "description": "",
+        "index": 1177,
+        "origin": "GeneralAdmin",
+        "proposer": "12s37eSMQPEN5cuVyBxk2UypUHntwumqBHy7sJkoKpZ1v3HV",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xe40f2d125ef07a8eb4cc632798a56ebbc3bdf9de22ccc6bb79f7ae9334e1d475",
+        "voteMetrics": {
+          "nay": {
+            "count": 2,
+            "value": "584151000000000"
+          },
+          "aye": {
+            "count": 124,
+            "value": "74340844505330292"
+          },
+          "support": {
+            "value": "45030231596596937"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-10-20T20:26:12.000Z",
+        "preparePeriodEndsAt": "2024-09-20T21:21:18.000Z"
+      },
+      "publicUser": {
+        "id": 3318,
+        "username": "birdo",
+        "profileScore": 89.75,
+        "addresses": [
+          "5DvjyKBHYbxte5tz1YujtL9fcfoFFcDh6oEdi1mSmjXVjnoD"
+        ],
+        "rank": 36,
+        "createdAt": "2022-07-11T05:57:29.549Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "gk8tWxZQ2P6DZlBeXKkV",
+      "index": 1162,
+      "userId": 3318,
+      "title": "Please Vote on #1177 (Deprecated -> .DOT Authority Registration for the Polkadot App)",
+      "content": "![image.png](https://i.ibb.co/Wnqm4Yg/image.png)",
+      "createdAt": "2024-09-12T13:26:27.292Z",
+      "tags": [
+        {
+          "value": "community",
+          "lastUsedAt": "2024-09-12T13:26:27.292Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "![](https://i.ibb.co/qMFSRwM/dot-authority.png)\n\nAs many of you may know, at Polkadot Decoded this year (2024) Björn Wagner [teased the new Polkadot App](https://youtu.be/dvXDTfR_wy0?si=aDLM5BRP4KUUT4vM&t=763). This is a very exciting product which has been a long time in the making and plans to deliver an easy, beginner-friendly mobile wallet (and more) for newcomers to crypto and Polkadot. One of the strategic aims for the product is to remove the need for wallet addresses and replace them with an easy to remember, short user name, specifically a .DOT username.\n\nSimilar to how we have seen .ETH gain traction in the Ethereum ecosystem, we’d like to use .DOT as a short username in the Polkadot ecosystem. This short username is administered by an on-chain ‘Authority’.\n\nThis proposal seeks to gain community support to register a new authority to issue .DOT short addresses for the Polkadot Mobile app.\n\n**How does this all work?**  \nGiven the way the people chain is set up, an on-chain proposal is required for an individual or group to register as an Authority before short usernames can be issued using that specific domain.\n\nImagine authorities as nations providing specific local domains, .com.au for Australians or .co.uk for the Brits. Users will be able to request their specific short username to the authority, E.g. Birdo.Dot - The authority will then submit this on-chain, available for any dapp, wallet or product to query to match to a wallet address. As the user is onboarding to the Polkadot mobile app, the app will ask the user to choose a .DOT username, which the authority will register on-chain.\n\nUsers don’t need any funds, they can quickly sign up and get an on-chain .DOT short username without holding any crypto.\n\nOther products like Coinbase offer free ens (.ETH) usernames, however these are stored off-chain, our method is fully on-chain. 😎 The Authority will be maintained by Parity. Key management for the authority will also be maintained by Parity.\n\nThe split of responsibilities between the pallet functions and the authority functions are as per below. The pallet can add an authority which gives the authority the ability to add usernames. Removing usernames is not currently possible but will be added shortly. The authority itself is then responsible for the moderation / rules of the authority and any fee / revenue models they might want to implement.\n\n![](https://i.ibb.co/Fx39HsB/Screenshot-2024-09-12-at-4-01-48-PM.png)\n\nFull proposal: \n\n[https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing](https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing)",
+          "title": ".DOT Authority Registration for the Polkadot App",
+          "createdAt": {
+            "_seconds": 1726150968,
+            "_nanoseconds": 675000000
+          }
+        },
+        {
+          "content": "![](https://i.ibb.co/qMFSRwM/dot-authority.png)\n\nAs many of you may know, at Polkadot Decoded this year (2024) Björn Wagner [teased the new Polkadot App](https://youtu.be/dvXDTfR_wy0?si=aDLM5BRP4KUUT4vM&t=763). This is a very exciting product which has been a long time in the making and plans to deliver an easy, beginner-friendly mobile wallet (and more) for newcomers to crypto and Polkadot. One of the strategic aims for the product is to remove the need for wallet addresses and replace them with an easy to remember, short user name, specifically a .DOT username.\n\nSimilar to how we have seen .ETH gain traction in the Ethereum ecosystem, we’d like to use .DOT as a short username in the Polkadot ecosystem. This short username is administered by an on-chain ‘Authority’.\n\nThis proposal seeks to gain community support to register a new authority to issue .DOT short addresses for the Polkadot Mobile app.\n\n**How does this all work?**  \nGiven the way the people chain is set up, an on-chain proposal is required for an individual or group to register as an Authority before short usernames can be issued using that specific domain.\n\nImagine authorities as nations providing specific local domains, .com.au for Australians or .co.uk for the Brits. Users will be able to request their specific short username to the authority, E.g. Birdo.Dot - The authority will then submit this on-chain, available for any dapp, wallet or product to query to match to a wallet address. As the user is onboarding to the Polkadot mobile app, the app will ask the user to choose a .DOT username, which the authority will register on-chain.\n\nUsers don’t need any funds, they can quickly sign up and get an on-chain .DOT short username without holding any crypto.\n\nOther products like Coinbase offer free ens (.ETH) usernames, however these are stored off-chain, our method is fully on-chain. 😎 The Authority will be maintained by Parity. Key management for the authority will also be maintained by Parity.\n\nThe split of responsibilities between the pallet functions and the authority functions are as per below. The pallet can add an authority which gives the authority the ability to add usernames. Removing usernames is not currently possible but will be added shortly. The authority itself is then responsible for the moderation / rules of the authority and any fee / revenue models they might want to implement.\n\n![](https://i.ibb.co/Fx39HsB/Screenshot-2024-09-12-at-4-01-48-PM.png)\n\nFull proposal: \n\n[https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing](https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing)",
+          "title": ".DOT Authority Registration for the Polkadot App",
+          "createdAt": {
+            "_seconds": 1726150955,
+            "_nanoseconds": 202000000
+          }
+        },
+        {
+          "content": "![](https://i.ibb.co/qMFSRwM/dot-authority.png)\n\nAs many of you may know, at Polkadot Decoded this year (2024) Björn Wagner [teased the new Polkadot App](https://youtu.be/dvXDTfR_wy0?si=aDLM5BRP4KUUT4vM&t=763). This is a very exciting product which has been a long time in the making and plans to deliver an easy, beginner-friendly mobile wallet (and more) for newcomers to crypto and Polkadot. One of the strategic aims for the product is to remove the need for wallet addresses and replace them with an easy to remember, search and sight short user name, specifically a .DOT username.\n\nSimilar to how we have seen .ETH gain traction in the Ethereum ecosystem, we’d like to use .DOT as a short username in the Polkadot ecosystem. This short username is administered by an on-chain ‘Authority’.\n\nThis proposal seeks to gain community support to register a new authority to issue .DOT short addresses for the Polkadot Mobile app.\n\n**How does this all work?**  \nGiven the way the people chain is set up, an on-chain proposal is required for an individual or group to register as an Authority before short usernames can be issued using that specific domain.\n\nImagine authorities as nations providing specific local domains, .com.au for Australians or .co.uk for the Brits. Users will be able to request their specific short username to the authority, E.g. Birdo.Dot - The authority will then submit this on-chain, available for any dapp, wallet or product to query to match to a wallet address. As the user is onboarding to the Polkadot mobile app, the app will ask the user to choose a .DOT username, which the authority will register on-chain.\n\nUsers don’t need any funds, they can quickly sign up and get an on-chain .DOT short username without holding any crypto.\n\nOther products like Coinbase offer free ens (.ETH) usernames, however these are stored off-chain, our method is fully on-chain. 😎 The Authority will be maintained by Parity. Key management for the authority will also be maintained by Parity.\n\nThe split of responsibilities between the pallet functions and the authority functions are as per below. The pallet can add an authority which gives the authority the ability to add usernames. Removing usernames is not currently possible but will be added shortly. The authority itself is then responsible for the moderation / rules of the authority and any fee / revenue models they might want to implement.\n\n![](https://i.ibb.co/Fx39HsB/Screenshot-2024-09-12-at-4-01-48-PM.png)\n\nFull proposal: \n\n[https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing](https://docs.google.com/document/d/1K1K-AC5Cdyz7Fcl0aGIKWkM6yYMRnM8Uum2jFByvdhE/edit?usp=sharing)",
+          "title": ".DOT Authority Registration for the Polkadot App",
+          "createdAt": {
+            "_seconds": 1726149745,
+            "_nanoseconds": 823000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 4,
+          "dislike": 0
+        },
+        "comments": 7
+      },
+      "onChainInfo": {
+        "createdAt": "2024-09-12T13:26:24.001Z",
+        "description": "",
+        "index": 1162,
+        "origin": "GeneralAdmin",
+        "proposer": "12s37eSMQPEN5cuVyBxk2UypUHntwumqBHy7sJkoKpZ1v3HV",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0x97a2968155fcad9ad0665d2a6c3e32383950a2edf0d3ea123569189cda606e95",
+        "voteMetrics": {
+          "nay": {
+            "count": 44,
+            "value": "177211163862860637"
+          },
+          "aye": {
+            "count": 71,
+            "value": "23084542657450810"
+          },
+          "support": {
+            "value": "9252119071162101"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-10-10T15:26:24.001Z",
+        "preparePeriodEndsAt": "2024-09-12T15:26:24.001Z"
+      },
+      "publicUser": {
+        "id": 3318,
+        "username": "birdo",
+        "profileScore": 89.75,
+        "addresses": [
+          "5DvjyKBHYbxte5tz1YujtL9fcfoFFcDh6oEdi1mSmjXVjnoD"
+        ],
+        "rank": 36,
+        "createdAt": "2022-07-11T05:57:29.549Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "9zZfV2xZ8sWu6gp5CGmz",
+      "index": 722,
+      "userId": 4234,
+      "title": "Open HRMP channels between AssetHub and SORA",
+      "content": "This proposal hereby requests to open a bi-directional channel between AssetHub (ParaID 1000) and SORA Polkadot Network (ParaID 2025) Opening an HRMP channel between the Polkadot Asset Hub and SORA Polkadot Network represents a strategic step towards enhancing the capabilities and reach of the Polkadot ecosystem, additionally, Polkadot community meme assets will be available on the Polkaswap decentralised exchange, along with other assets already available in the Asset Hub. This move not only facilitates broader interoperability and economic synergy but also underscores our commitment to fostering a secure, innovative, and community-driven blockchain environment. We invite the community and stakeholders to support this proposal, paving the way for a more interconnected and robust Polkadot network.",
+      "createdAt": "2024-04-29T12:38:24.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 86,
+          "dislike": 42
+        },
+        "comments": 30
+      },
+      "onChainInfo": {
+        "createdAt": "2024-04-29T12:38:24.001Z",
+        "description": "",
+        "index": 722,
+        "origin": "GeneralAdmin",
+        "proposer": "13m9X8g48Ej6gyy4BQGwFfTU3eLLwvvFWj177bUymWfBo6oT",
+        "status": "ExecutionFailed",
+        "type": "ReferendumV2",
+        "hash": "0xdf273cd7f1239a9236bab8be4e5ce61a1f13f3240ebe7bee8d82d027dc9acbea",
+        "voteMetrics": {
+          "nay": {
+            "count": 46,
+            "value": "22478030188100083"
+          },
+          "aye": {
+            "count": 59,
+            "value": "119009661571904778"
+          },
+          "support": {
+            "value": "31400477430200221"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-06-09T07:26:42.001Z",
+        "preparePeriodEndsAt": "2024-04-29T14:38:24.001Z"
+      },
+      "publicUser": {
+        "id": 4234,
+        "username": "Spicy",
+        "profileScore": 7,
+        "addresses": [
+          "5EprNoQzGTTdFSxYDmDw7WdKC2LhFdN7SEGcxJVdDRdfcig8"
+        ],
+        "rank": 778,
+        "createdAt": "2022-11-11T20:09:51.746Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "ahXxKhe1cmbMw7M4UrV9",
+      "index": 594,
+      "userId": 19303,
+      "title": "Open HRMP Channels between AssetHub and Mythos",
+      "content": "We propose to open bidirectional HRMP channels between AssetHub (paraId 1000) and Mythos (paraId 3369)",
+      "createdAt": "2024-03-20T17:24:48.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 5,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2024-03-20T17:24:48.000Z",
+        "description": "",
+        "index": 594,
+        "origin": "GeneralAdmin",
+        "proposer": "12QJEZyprySLEgobr7R11nt2kigcrqHgufmn7zipC5sSu6TP",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x197972315cf6110186ce6398f2666fcfacf78be3e50bc0a0fc3d788ef69be334",
+        "voteMetrics": {
+          "nay": {
+            "count": 5,
+            "value": "91223000000000"
+          },
+          "aye": {
+            "count": 117,
+            "value": "302833974417548113"
+          },
+          "support": {
+            "value": "122026620957531812"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-04-18T10:55:24.000Z",
+        "preparePeriodEndsAt": "2024-03-20T19:24:48.000Z"
+      },
+      "publicUser": {
+        "id": 19303,
+        "username": "Mythos",
+        "profileScore": 1,
+        "addresses": [
+          "5ChmKpsFUjMbtarTRQTqDTnmgyy8a2wo1arsMLL72hAwRZ72",
+          "5DU16Eim1CAro9o5tUMzse3su6gyAXjYqB3HxhjTdzqvidQJ"
+        ],
+        "rank": 4122,
+        "createdAt": "2024-03-20T17:33:56.053Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "C8occkTGsfwKwZtthKuk",
+      "index": 513,
+      "userId": 8867,
+      "title": "Open HRMP Channels between AssetHub and Crust Network",
+      "content": "We propose the opening of HRMP channels in both directions between AssetHub (ParaID 1000) and Crust Network (ParaID 2008). This initiative aims to enhance interoperability and facilitate asset exchange within the Polkadot ecosystem.\n\nAbout Crust Network:\n\nCrust Network offers decentralized cloud storage solutions, operating as a crucial incentive and service layer atop the IPFS ecosystem. It ensures data availability, accessibility, and redundancy, serving as a cornerstone for decentralized storage markets.\n\nRationale and Benefits:\n\nOur recent collaboration with Polkadot's first Meme project, Pink, underscores the need for direct integration with AssetHub, as Pink's assets are issued on AssetHub. Opening HRMP channels will allow Crust Network to participate more actively in the Polkadot ecosystem by distributing $Pink tokens in community activities, thereby fostering ecosystem growth.\n\nKey Advantages:\n\n1\\. Enhanced Ecosystem Integration: Seamless asset transfers between AssetHub and Crust Network will enrich the Polkadot ecosystem's functionality and user experience.\n\n2\\. Community Engagement: Access to $Pink tokens will enable Crust Network to incentivize participation and contribution within various community activities.\n\n3\\. Strengthened Data Solutions: The collaboration will leverage Crust's decentralized storage capabilities, offering robust and secure data storage options for AssetHub's digital assets.\n\n4\\. Ecosystem Growth: This integration supports the broader vision of Polkadot for a fully interoperable and scalable multi-chain ecosystem, driving innovation and adoption.\n\nWe believe that opening HRMP channels between AssetHub and Crust Network will significantly benefit both platforms and the wider Polkadot ecosystem. We look forward to your support and collaboration to make this integration a success.",
+      "createdAt": "2024-02-19T09:10:54.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 9,
+          "dislike": 0
+        },
+        "comments": 24
+      },
+      "onChainInfo": {
+        "createdAt": "2024-02-19T09:10:54.000Z",
+        "description": "",
+        "index": 513,
+        "origin": "GeneralAdmin",
+        "proposer": "1EKRJey3fBmXVZS5CpLkRrEN9HxxYrXKrm7rYTxuTDKKZTz",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xdb23211603c04b0a00d86e2ee5a384470e6aed35338304dec4f00f2f9331b1f9",
+        "voteMetrics": {
+          "nay": {
+            "count": 14,
+            "value": "365318376253017"
+          },
+          "aye": {
+            "count": 198,
+            "value": "53666208951266504"
+          },
+          "support": {
+            "value": "43112886421544113"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-03-18T11:12:00.000Z",
+        "preparePeriodEndsAt": "2024-02-19T11:10:54.000Z"
+      },
+      "publicUser": {
+        "id": 8867,
+        "username": "DCF",
+        "profileScore": 0.25,
+        "addresses": [
+          "5CJ2GyPuBsvJ5xYv7ZmLcH25WXJKGFJPFN2dhFUcMNBo97ss"
+        ],
+        "rank": 7002,
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "NxnXu91pnuocKmpd8rI0",
+      "index": 456,
+      "userId": 5999,
+      "title": "Open HRMP channels between AssetHub and Hashed Network",
+      "content": "This proposal is to open both directions channel between AssetHub (ParaID 1000) and Hashed Network (ParaID 2093).\n\nOpening a channel between AssetHub and Hashed Network is crucial as projects looking to operate on Hashed Network will be able to leverage stable coins like USDT, USDC, or other tokens. With the open channel, we see the potential for increased adoption of Polkadot native USDC and USDT and a stronger value proposition for Polkadot.\n\nHashed Network is strengthening the Polkadot ecosystem by helping web2 businesses innovate and/or transition into web3 companies with a customer-value-first approach. Please let us know if you have any questions.  \n  \n\nResubmitted with decision deposit.",
+      "createdAt": "2024-02-02T00:13:18.000Z",
+      "tags": [
+        {
+          "value": "polkadotassethub",
+          "lastUsedAt": "2024-02-02T00:13:18.000Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "hrmp",
+          "lastUsedAt": "2024-02-02T00:13:18.000Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 8,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2024-02-02T00:13:18.000Z",
+        "description": "",
+        "index": 456,
+        "origin": "GeneralAdmin",
+        "proposer": "14Pq1NSHw7mETiRL1NJynx981dPJmzJvS2uVevMxqPXxU8Ly",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x0b1f1971f5d91673c6e689587e479b4bedf5ffc15a34ad7b1aedc301a32a8df0",
+        "voteMetrics": {
+          "nay": {
+            "count": 13,
+            "value": "342294347398596"
+          },
+          "aye": {
+            "count": 177,
+            "value": "63030422574548912"
+          },
+          "support": {
+            "value": "47302821154999625"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-03-01T08:12:06.001Z",
+        "preparePeriodEndsAt": "2024-02-02T02:13:18.000Z"
+      },
+      "publicUser": {
+        "id": 5999,
+        "username": "AugustoLara",
+        "profileScore": 6.5,
+        "addresses": [
+          "5FTXs3BE5LVm2BQp3jFyeoJyA1Pf5gknMYB1VdNcHJWSHrNB"
+        ],
+        "rank": 853,
+        "createdAt": "2022-03-14T19:45:36.655Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "740PKRe69GQ3WP1A8M5c",
+      "index": 438,
+      "userId": 16166,
+      "title": "Open HRMP channels between AssetHub and Unique Network",
+      "content": "This proposal is to open HRMP channels in both directions between AssetHub (ParaID 1000) and Unique Network (ParaID 2037). Integration between AssetHub and Unique Network (an NFT parachain) is an essential piece of Polkadot ecosystem interoperability. It will open the stability and promise of persistence of AssetHub to Unique Network projects, and abundance of NFT features and flexibility offered by Unique Network to the rest of the ecosystem. The integration will also make USDT, USDC, and other currencies available to Unique Network projects, which will eventually result in increased TVL of the ecosystem overall.",
+      "createdAt": "2024-01-22T22:37:36.000Z",
+      "tags": [
+        {
+          "value": "hrmp",
+          "lastUsedAt": "2024-01-22T22:37:36.000Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2024-01-22T22:37:36.000Z",
+        "description": "",
+        "index": 438,
+        "origin": "GeneralAdmin",
+        "proposer": "14bEKMdGLwGKNTz4BtT7venXZ4RcXdGfBSdEYrJLPNoHRvoK",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xbd8c26d666bf4bf5a67b60f5d3809b1633bb18ea39d65de51d25c25449237b91",
+        "voteMetrics": {
+          "nay": {
+            "count": 18,
+            "value": "466981328023861"
+          },
+          "aye": {
+            "count": 175,
+            "value": "157474588765251240"
+          },
+          "support": {
+            "value": "73125821165064633"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-02-23T21:17:30.000Z",
+        "preparePeriodEndsAt": "2024-01-23T00:37:36.000Z"
+      },
+      "publicUser": {
+        "id": 16166,
+        "username": "UniqueNetworkParachain",
+        "profileScore": 2.75,
+        "addresses": [
+          "5FewB2NCV9zqvvyYEFQ7nVxNhSRxqKiX6wtkPZJyqHmmFX44"
+        ],
+        "rank": 1980,
+        "createdAt": "2024-01-19T16:37:17.144Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "p9U6Z7VndFVbKzrBQES0",
+      "index": 430,
+      "userId": 5999,
+      "title": "Open HRMP channels between AssetHub and Hashed Network",
+      "content": "This proposal is to open both directions channel between AssetHub (ParaID 1000) and Hashed Network (ParaID 2093).\n\nOpening a channel between AssetHub and Hashed Network is crucial as projects looking to operate on Hashed Network will be able to leverage stable coins like USDT, USDC, or other tokens. With the open channel, we see the potential for increased adoption of Polkadot native USDC and USDT and a stronger value proposition for Polkadot.\n\nHashed Network is strengthening the Polkadot ecosystem by helping web2 businesses innovate and/or transition into web3 companies with a customer-value-first approach. Please let us know if you have any questions.",
+      "createdAt": "2024-01-18T15:25:24.001Z",
+      "tags": [
+        {
+          "value": "hrmp",
+          "lastUsedAt": "2024-01-18T15:25:24.001Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "polkadotassethub",
+          "lastUsedAt": "2024-01-18T15:25:24.001Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 9,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2024-01-18T15:25:24.001Z",
+        "description": "",
+        "index": 430,
+        "origin": "GeneralAdmin",
+        "proposer": "14Pq1NSHw7mETiRL1NJynx981dPJmzJvS2uVevMxqPXxU8Ly",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x0b1f1971f5d91673c6e689587e479b4bedf5ffc15a34ad7b1aedc301a32a8df0",
+        "voteMetrics": {
+          "nay": {
+            "count": 38,
+            "value": "2997015466367117"
+          },
+          "aye": {
+            "count": 136,
+            "value": "40110458533452694"
+          },
+          "support": {
+            "value": "41234113233091303"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-01-18T17:25:24.001Z"
+      },
+      "publicUser": {
+        "id": 5999,
+        "username": "AugustoLara",
+        "profileScore": 6.5,
+        "addresses": [
+          "5FTXs3BE5LVm2BQp3jFyeoJyA1Pf5gknMYB1VdNcHJWSHrNB"
+        ],
+        "rank": 853,
+        "createdAt": "2022-03-14T19:45:36.655Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "2NGnPSJtjXOKORem6qNM",
+      "index": 414,
+      "userId": 101,
+      "title": "Open HRMP Channels Between AssetHub And InvArch",
+      "content": "This is a proposal to open bidirectional HRMP channels between AssetHub (ParaId 1000) and InvArch (ParaId 3340)",
+      "createdAt": "2024-01-12T14:05:36.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "This is a proposal to open bidirectional HRMP channels between AssetHub (ParaId 1000) and InvArch (ParaId 3340)",
+          "title": "Open HRMP Channels Between AssetHub And InvArch",
+          "createdAt": {
+            "_seconds": 1705068580,
+            "_nanoseconds": 243000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-01-12T14:05:36.001Z",
+        "description": "",
+        "index": 414,
+        "origin": "GeneralAdmin",
+        "proposer": "15ydCCiJb3AfbMQkFHikZxVpg2dUWz58Wtf7ScztD8RRkFAN",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x83478656e1be9b6639ac077b08f4bcb3f90e59fa8b378bb64f618a32531a14e8",
+        "voteMetrics": {
+          "nay": {
+            "count": 12,
+            "value": "485421172469272"
+          },
+          "aye": {
+            "count": 213,
+            "value": "162008412244344278"
+          },
+          "support": {
+            "value": "76345590930437469"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-02-17T09:02:42.000Z",
+        "preparePeriodEndsAt": "2024-01-12T16:05:36.001Z"
+      },
+      "publicUser": {
+        "id": 101,
+        "username": "Gabe",
+        "profileScore": 40.75,
+        "addresses": [
+          "5Eyqi15TTjGo4Kyho7ZLZVzwKYbbhSHfmN3Wok2hDrqZMHyb",
+          "5H3L3sTEjFuC9pQEHefkRoffpQdppgWzSPvdHL1Xf3PuZiRX",
+          "5HGabetgTWWsoRJxdZP11ns2yi1oVaenXEBprfKHp7tpw7NH"
+        ],
+        "rank": 106,
+        "createdAt": "2023-03-08T05:22:06.888Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "WLFkohiftUDNaL8zLxdU",
+      "index": 403,
+      "userId": 14043,
+      "title": "Re-submission: Open HRMP channels between AssetHub and Polimec",
+      "content": "We are re-submitting our proposal for opening HRMP channels between Polkadot Asset Hub and Polimec. [Our initial proposal passed with 99.7% in favour](https://polkadot.polkassembly.io/referenda/340), unfortunately the automatic execution of the channel opening caused an unforeseen error due to the need for the parachain sovereign accounts to have the existential deposit in addition to the channel deposit.\n\n[As per available documentation](https://wiki.polkadot.network/docs/build-hrmp-channels) the sovereign accounts of Polkadot Asset Hub and Polimec on Polkadot need 20 DOT reserves to execute a channel opening. This is in accordance with the current documentation available on Polkadot wiki. \n\nHowever with the move from root to general admin track these 2*20 DOT reserves can no longer be paid by root, but needs to be manually transferred by the proposer of the HRMP channel opening proposer. We did the manual transfer to the 2 sovereign accounts of 20 DOT which mimics the process described by the Polkadot wiki and in line with the proposal submitted by Zeitgeist. This process was tested and we performed trial runs of the call via the chopsticks tool which executed without any issue.\n\nHowever the execution of our proposal still failed to execute automatically. With the assistance of the Web3 Foundation and Parity we have found what the root cause of the error is. The cause was that the sovereign accounts now also need DOT to cover the existential deposit as well as estimated transaction fee for the channel opening.\n\nConsequently we have funded the sovereign account with additional 3 DOT to cover the existential deposit required as well as funding for fees for the execution of the HRMP channel opening extrinsic.\n\nWe are working with Web3 Foundation to update the wiki to reflect the current process\n\nUnfortunately there is no way to re-execute the already passed proposal. Hence we are therefore now submitting an identical proposal to our initial proposal for consideration for the Polkadot community. We once again ask for your support in opening the HRMP channels so that users on Polimec can transfer USDT, USDC or other tokens from Polkadot Asset Hub to Polimec in order to use these tokens to participate in funding rounds on Polimec.\n",
+      "createdAt": "2024-01-07T15:11:30.000Z",
+      "tags": [
+        {
+          "value": "hrmp",
+          "lastUsedAt": "2024-01-07T15:11:30.000Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "polkadotassethub",
+          "lastUsedAt": "2024-01-07T15:11:30.000Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2024-01-07T15:11:30.000Z",
+        "description": "",
+        "index": 403,
+        "origin": "GeneralAdmin",
+        "proposer": "16Y5W5TvxaAC91U6Zy1Jp7aFZJ3qzKh3zc7fLELM8tobkehs",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xe20539e11a229a79459fd0bb606efec325efc176a091047f8bb0fc51a8af5a05",
+        "voteMetrics": {
+          "nay": {
+            "count": 7,
+            "value": "61067953921460"
+          },
+          "aye": {
+            "count": 189,
+            "value": "330560192790820497"
+          },
+          "support": {
+            "value": "135699544785270853"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-02-04T19:08:54.001Z",
+        "preparePeriodEndsAt": "2024-01-07T17:11:30.000Z"
+      },
+      "publicUser": {
+        "id": 14043,
+        "username": "Polimec",
+        "profileScore": 2,
+        "addresses": [
+          "5HbnMkCs6ntihUTacKxJfxk6hg4CJ28uv7PBAwLzaon5aFAS"
+        ],
+        "rank": 2490,
+        "createdAt": "2023-12-05T18:06:33.179Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "pZvXiB3TV2PKzYDq64Kq",
+      "index": 340,
+      "userId": 14043,
+      "title": "Open HRMP channels between AssetHub and Polimec",
+      "content": "This is a proposal to open both directions channel between AssetHub (ParaID1000) and Polimec (ParaID3344) Opening a channel between AssetHub and Polimec is crucial as projects looking to fundraise on Polimec will do so in stable coins (USDT or USDC) or other tokens as decided by the project raising funds. With the open channel we see potential for significant increased usage of Polkadot native USDC and USDT, and an crucial element to make fundraising for the ecosystem via Polimec directly accessible and fair for all As this proposal increases the usage of Polkadot native stable coins on Polkadot we see this proposal as non controversial, but please let us know any feedback",
+      "createdAt": "2023-12-06T16:23:54.000Z",
+      "tags": [
+        {
+          "value": "hrmp",
+          "lastUsedAt": "2023-12-06T16:23:54.000Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "This is a proposal to open both directions channel between AssetHub (ParaID1000) and Polimec (ParaID3344) Opening a channel between AssetHub and Polimec is crucial as projects looking to fundraise on Polimec will do so in stable coins (USDT or USDC) or other tokens as decided by the project raising funds. With the open channel we see potential for significant increased usage of Polkadot native USDC and USDT, and an crucial element to make fundraising for the ecosystem via Polimec directly accessible and fair for all As this proposal increases the usage of Polkadot native stable coins on Polkadot we see this proposal as non controversial, but please let us know any feedback",
+          "title": "Open HRMP channels between AssetHub and Polimec",
+          "createdAt": {
+            "_seconds": 1701898821,
+            "_nanoseconds": 458000000
+          }
+        },
+        {
+          "content": "This is a proposal to open both directions channel between AssetHub (ParaID1000) and Polimec (ParaID3344) Opening a channel between AssetHub and Polimec is crucial as projects looking to fundraise on Polimec will do so in stable coins (USDT or USDC) or other tokens as decided by the project raising funds. With the open channel we see potential for significant increased usage of Polkadot native USDC and USDT, and an crucial element to make fundraising for the ecosystem via Polimec directly accessible and fair for all As this proposal increases the usage of Polkadot native stable coins on Polkadot we see this proposal as non controversial, but please let us know any feedback",
+          "title": "Open HRMP channels between AssetHub to Polimec",
+          "createdAt": {
+            "_seconds": 1701884613,
+            "_nanoseconds": 570000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 9,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-06T16:23:54.000Z",
+        "description": "",
+        "index": 340,
+        "origin": "GeneralAdmin",
+        "proposer": "16Y5W5TvxaAC91U6Zy1Jp7aFZJ3qzKh3zc7fLELM8tobkehs",
+        "status": "ExecutionFailed",
+        "type": "ReferendumV2",
+        "hash": "0xe20539e11a229a79459fd0bb606efec325efc176a091047f8bb0fc51a8af5a05",
+        "voteMetrics": {
+          "nay": {
+            "count": 19,
+            "value": "410256078432547"
+          },
+          "aye": {
+            "count": 167,
+            "value": "117846499169538477"
+          },
+          "support": {
+            "value": "42513216074234976"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-01-05T13:51:54.000Z",
+        "preparePeriodEndsAt": "2023-12-06T18:23:54.000Z"
+      },
+      "publicUser": {
+        "id": 14043,
+        "username": "Polimec",
+        "profileScore": 2,
+        "addresses": [
+          "5HbnMkCs6ntihUTacKxJfxk6hg4CJ28uv7PBAwLzaon5aFAS"
+        ],
+        "rank": 2490,
+        "createdAt": "2023-12-05T18:06:33.179Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "QCZuQ152uYTPXP5x4x8Y",
+      "index": 280,
+      "userId": 3246,
+      "title": "Open HRMP channels: AssetHub <> Composable Finance & AssetHub <> Zeitgeist",
+      "content": "This is a joint proposal between Composable Finance and Zeitgeist. The goal of this proposal is to open channels in both directions between AssetHub (formerly Statemint) and Composable Finance as well as between AssetHub and Zeitgeist.\n\nDuring Gov1 Composable Finance and Zeitgeist have been part of a [referendum](https://polkadot.polkassembly.io/referendum/123) with the above mentioned objective which eventually passed. Unfortunately, the forced channel opening failed, as both Composable Finance and Zeitgeist still had an open hrmp channel request to Statemint. Starting from [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), having open channels is [not a hindrance anymore](https://github.com/paritytech/polkadot/pull/7389).\n\nThe successful execution of this proposal depends on the deployment of [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), as it [elevates the privileges of the general admin origin](https://github.com/paritytech/polkadot/pull/7477) to be capable of managing hrmp channels.",
+      "createdAt": "2023-11-20T16:06:42.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-20T16:06:42.000Z",
+        "description": "",
+        "index": 280,
+        "origin": "GeneralAdmin",
+        "proposer": "1ZTGLab6NqXtggd2ff2N9oKbPuQjbeu6P78MCFb3XDc9SjT",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xde5945f1cdeeb20acea404c7185782d24e9d10a4a68841b3a22279bd90cef1e7",
+        "voteMetrics": {
+          "nay": {
+            "count": 5,
+            "value": "19631700000000100"
+          },
+          "aye": {
+            "count": 180,
+            "value": "121957790866246450"
+          },
+          "support": {
+            "value": "43257071277378494"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-12-18T18:51:24.000Z",
+        "preparePeriodEndsAt": "2023-11-20T18:06:42.000Z"
+      },
+      "publicUser": {
+        "id": 3246,
+        "username": "Zeitgeist",
+        "profileScore": 6.25,
+        "addresses": [
+          "5CdA81KXEba4T9g752c2DzyAjmum3J6m1tNeBuGEVSC5y1QV"
+        ],
+        "rank": 890,
+        "createdAt": "2023-02-04T10:00:23.516Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "5luE9zbKIFqgvpt8o3w1",
+      "index": 278,
+      "userId": 3246,
+      "title": "Open HRMP channels: AssetHub <> Composable Finance & AssetHub <> Zeitgeist",
+      "content": "**Please reject, call contains a force transfer that cannot be executed with the general admin origin**\n\nUpdated proposal: https://polkadot.polkassembly.io/referenda/280",
+      "createdAt": "2023-11-20T13:55:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "**Please reject, call contains a force transfer that cannot be executed with the general admin origin**\n\nThis is a joint proposal between Composable Finance and Zeitgeist. The goal of this proposal is to open channels in both directions between AssetHub (formerly Statemint) and Composable Finance as well as between AssetHub and Zeitgeist.\n\nDuring Gov1 Composable Finance and Zeitgeist have been part of a [referendum](https://polkadot.polkassembly.io/referendum/123) with the above mentioned objective which eventually passed. Unfortunately, the forced channel opening failed, as both Composable Finance and Zeitgeist still had an open hrmp channel request to Statemint. Starting from [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), having open channels is [not a hindrance anymore](https://github.com/paritytech/polkadot/pull/7389).\n\nThe successful execution of this proposal depends on the deployment of [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), as it [elevates the privileges of the general admin origin](https://github.com/paritytech/polkadot/pull/7477) to be capable of managing hrmp channels.",
+          "title": "Open HRMP channels: AssetHub <> Composable Finance & AssetHub <> Zeitgeist",
+          "createdAt": {
+            "_seconds": 1700490065,
+            "_nanoseconds": 125000000
+          }
+        },
+        {
+          "content": "**Please reject, call contains a force transfer that cannot be executed with this origin**\n\nThis is a joint proposal between Composable Finance and Zeitgeist. The goal of this proposal is to open channels in both directions between AssetHub (formerly Statemint) and Composable Finance as well as between AssetHub and Zeitgeist.\n\nDuring Gov1 Composable Finance and Zeitgeist have been part of a [referendum](https://polkadot.polkassembly.io/referendum/123) with the above mentioned objective which eventually passed. Unfortunately, the forced channel opening failed, as both Composable Finance and Zeitgeist still had an open hrmp channel request to Statemint. Starting from [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), having open channels is [not a hindrance anymore](https://github.com/paritytech/polkadot/pull/7389).\n\nThe successful execution of this proposal depends on the deployment of [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), as it [elevates the privileges of the general admin origin](https://github.com/paritytech/polkadot/pull/7477) to be capable of managing hrmp channels.",
+          "title": "Open HRMP channels: AssetHub <> Composable Finance & AssetHub <> Zeitgeist",
+          "createdAt": {
+            "_seconds": 1700490047,
+            "_nanoseconds": 8000000
+          }
+        },
+        {
+          "content": "This is a joint proposal between Composable Finance and Zeitgeist. The goal of this proposal is to open channels in both directions between AssetHub (formerly Statemint) and Composable Finance as well as between AssetHub and Zeitgeist.\n\nDuring Gov1 Composable Finance and Zeitgeist have been part of a [referendum](https://polkadot.polkassembly.io/referendum/123) with the above mentioned objective which eventually passed. Unfortunately, the forced channel opening failed, as both Composable Finance and Zeitgeist still had an open hrmp channel request to Statemint. Starting from [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), having open channels is [not a hindrance anymore](https://github.com/paritytech/polkadot/pull/7389).\n\nThe successful execution of this proposal depends on the deployment of [runtime v1.0.0](https://github.com/paritytech/polkadot/pull/7389), as it [elevates the privileges of the general admin origin](https://github.com/paritytech/polkadot/pull/7477) to be capable of managing hrmp channels.",
+          "title": "Open HRMP channels: AssetHub <> Composable Finance & AssetHub <> Zeitgeist",
+          "createdAt": {
+            "_seconds": 1700488649,
+            "_nanoseconds": 768000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-20T13:55:12.000Z",
+        "description": "",
+        "index": 278,
+        "origin": "GeneralAdmin",
+        "proposer": "1ZTGLab6NqXtggd2ff2N9oKbPuQjbeu6P78MCFb3XDc9SjT",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x75e61d0e2a079183170cda634d7ad92d1a0d0cf6e75fb9d8aa937bfd518dd4af",
+        "voteMetrics": {
+          "nay": {
+            "count": 91,
+            "value": "77235749123858963"
+          },
+          "aye": {
+            "count": 49,
+            "value": "3544266326709574"
+          },
+          "support": {
+            "value": "2935295267095762"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-11-20T15:55:12.000Z"
+      },
+      "publicUser": {
+        "id": 3246,
+        "username": "Zeitgeist",
+        "profileScore": 6.25,
+        "addresses": [
+          "5CdA81KXEba4T9g752c2DzyAjmum3J6m1tNeBuGEVSC5y1QV"
+        ],
+        "rank": 890,
+        "createdAt": "2023-02-04T10:00:23.516Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "fpfAewQz4glOjPH0xohm",
+      "index": 23,
+      "userId": 2,
+      "title": "Polkassembly's Registrar Application",
+      "content": "Polkassembly is an integral part of Polkadot and Kusama governance. It is dedicated to fostering transparent governance and active participation within the Kusama and Polkadot ecosystems. The team is excited to announce its application to become a registrar.\n\n- On-chain identities in the Polkadot ecosystem are crucial for trust, accountability, and interoperability. By establishing unique digital fingerprints, participants can securely interact within the network. An on-chain identity fosters a reliable and verifiable framework for participants within the Polkadot ecosystem, which is governed by a defined set of rules. It enables seamless integration and collaboration between different projects and stakeholders.\n- It also builds accountability as the participants are vetted and there are multiple points of contact for an individual/team. Hence, when requesting funds or proposing changes, the network and its resources have an additional layer of protection via the verification process. \n\nThe goal of setting an on-chain identity is to enhance transparency, security, and the overall ease of interaction between the participants of the Polkadot and Kusama ecosystems.\n\nProblems in current on chain identity system\n\n- The current process for verifying the identity is extremely fragmented\n- The process requires a heavy reliance on navigating through PolkadotJS, which can be overwhelming to those who are new to the ecosystem\n- Twitter, Element and email verification is done manually and the process is very complicated for any user. The verification process also relies on availability of the registrar, creating further friction in the process. \n- The process is also broken away from the governance and proposal creation interface, which makes it difficult for a lot of the community as they need to adapt to multiple tools for serving different use cases. \n\n**Objective for Registrar Application**\n\n- The primary objective of creating the registrar application is to build an easy and integrated governance experience for all users within Polkassembly. \n- This involves building for automation of proposal creation, addition of education nudges on proposal evaluation, verification of on chain identities and comprehensive user level profiling with leaderboards and gamification for governance participants\n- Taking the onus for ensuring verification of users and building security for funds requested from treasury\n- All teams requesting funds should be able to create an onchain identity, verify themselves and use our product suite to create a multisig (via Polkasafe or any other publicly available multisig SDK) when requesting for funds\n- The time required for identity registration and verification will be reduced by more than 75%, enhancing the adoption of the feature and enabling a more robust and secure treasury management. \n- The number 75% was deduced by using the average time difference between the two methods for 3 unique users\n- The time required by the earlier method was 20-25 mins, and via Polkassembly will be approximately 5 mins\n\n**How will Polkassemby enable users to apply for on chain identity verification?**\n\nAttached below is a step wise explanation of how Polkassembly plans to receive and process on chain delegations \n\nStep 1 - \n\n- Discovery on on chain identity setup\n- Users will be provided with contextual nudges on Polkassembly for setting up on chain identity\n\n![image](https://i.ibb.co/5Y7H1GM/2-premiurly-1686255544576.png)\n\nStep 2 - \n\n- Educating users on what is on-chain identity and why is it important\n- Explaining the process of setting up and on chain identity and how verification works\n- Helping users understand how to identify users with a valid on chain identity\n- Clear communication on the total amount required (Please note the amount mentioned is representative and may vary based on market conditions)\n- The breakdown of the feed will also be provided\n \n![image](https://i.ibb.co/SrPRbYt/2-premiurly-1686255581602.png)\n\nStep 3 - \n\n- Providing the user with an interface to share all their social and contact information\n- The user will be allowed to choose any one of their address which they want to verify\n- They can choose their legal and display name\n- They can identify their social handles for further communication with the community\n- They are informed about the bond, which is mandatory while setting up an on chain identity \n- They are also informed about the fees charged for setting up or changing the social handles, which will be the fee per handle * # of handles being verified \n\n![image](https://i.ibb.co/Nt9Z606/2-premiurly-1686255656060.png)\n\nStep 4 -\n\n- Confirming the fees and initiating the step by step identity verification process\n- Each social handle will need to be independently verified after the input is provided \n- Once all verifications are completed the success states will be provided\n\n ![image](https://i.ibb.co/54T72HK/2-premiurly-1686255690524.png)\n\n![image](https://i.ibb.co/MpmzBRY/2-premiurly-1686255723505.png)\n\nOther detailed steps and complete proposal can be found [here](https://docs.google.com/document/d/1wYkC09wMjC6KstW2E9VtHLgoRd1bV_GLhYoTOQ8gv8U/edit). \nWe look forward to feedback from the community, suggestions to improve the product flow and support on our efforts to challenge the complex UX challenges of the Polkadot ecosystem. \n\nRegards,\nPolkassembly Team",
+      "createdAt": "2023-06-21T16:57:46.936Z",
+      "tags": [
+        {
+          "value": "registrar",
+          "lastUsedAt": "2023-06-21T16:57:46.936Z",
+          "network": "polkadot"
+        },
+        {
+          "value": "identity",
+          "lastUsedAt": "2023-06-21T16:57:46.936Z",
+          "network": "polkadot"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "linkedPost": {
+        "indexOrHash": "1815",
+        "proposalType": "Discussion"
+      },
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 8
+      },
+      "onChainInfo": {
+        "createdAt": "2023-06-21T16:53:12.001Z",
+        "description": "",
+        "index": 23,
+        "origin": "GeneralAdmin",
+        "proposer": "13SceNt2ELz3ti4rnQbY1snpYH4XE4fLFsW8ph9rpwJd6HFC",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x9e00ac32be3f02dccf673200c52cea4e1db6144490144f36927f235f009d7a4a",
+        "voteMetrics": {
+          "nay": {
+            "count": 10,
+            "value": "506745001000000"
+          },
+          "aye": {
+            "count": 142,
+            "value": "35044551058423954"
+          },
+          "support": {
+            "value": "16551620551254832"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-07-19T19:46:42.001Z",
+        "preparePeriodEndsAt": "2023-06-21T18:53:12.001Z"
+      },
+      "publicUser": {
+        "id": 2,
+        "username": "Polkassembly",
+        "profileScore": 136.5,
+        "addresses": [
+          "5EWKW3cxNZiaTB4LpmYXsixfgf4sXm7CBNmefQAWGrH6unBd"
+        ],
+        "rank": 21,
+        "createdAt": "2021-06-15T12:12:29.047Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

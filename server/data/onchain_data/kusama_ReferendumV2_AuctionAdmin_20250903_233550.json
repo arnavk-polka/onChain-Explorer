@@ -1,0 +1,507 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:46:09.600714",
+  "total_items": 7,
+  "items": [
+    {
+      "id": "",
+      "index": 324,
+      "title": "Addressing LP37 Opening Block Error in Kusama Auctions",
+      "content": "In light of recent developments, we have identified an issue pertaining to the recently executed [Referendum 320](https://kusama.subsquare.io/referenda/320) and the Kusama auctions scheduled for 2024. Specifically, in Lease Period 37 (LP37), there is a discrepancy in the opening block number. While it was intended to be #22,118,400, the current representation reflects #21,118,400.\n\nTo rectify this issue promptly, this proposal involves the removal of LP37 from the current scheduler and the introduction of a fresh one, adhering to the initially planned start time. For more information about auctions in 2024 please make sure to review the following document [here](https://docs.google.com/spreadsheets/d/1BGjZlOdcj4Jmwn7AToByRVh54RW5s0Rpthj5M3jNoeY/edit#gid=1201445856).",
+      "createdAt": "2023-12-16T15:35:48.001Z",
+      "updatedAt": "2023-12-16T15:37:04.423Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-16T15:35:48.001Z",
+        "description": "",
+        "index": 324,
+        "origin": "AuctionAdmin",
+        "proposer": "D8DtYYJUUBoACJwJrLNyn8aYArumdViVWAcZRUKcxnSoV9D",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x30f67bb22958a223d94be1e071602af23840ec358bc79e9fafb667db94501cee",
+        "voteMetrics": {
+          "nay": {
+            "count": 2,
+            "value": "161186941549078"
+          },
+          "aye": {
+            "count": 322,
+            "value": "560162526456778017"
+          },
+          "support": {
+            "value": "841123442629196416"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-12-30T17:35:48.000Z",
+        "preparePeriodEndsAt": "2023-12-16T17:35:48.001Z"
+      },
+      "publicUser": {
+        "id": 3102,
+        "username": "otar",
+        "profileScore": 140.5,
+        "createdAt": "2021-12-01T12:10:49.051Z",
+        "rank": 20,
+        "addresses": [
+          "5CccEECRr7AsQYVVY9XL5pmaPaafxxgY38KsAmCN9AZx4KWr"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 320,
+      "title": "Proposed Kusama Auction Schedule 2024 on Auction Admin Track",
+      "content": "This proposal seeks to establish a defined schedule for the next year's Lease Periods 36 and 37, each consisting of seven auctions, taking into consideration the potential integration of Agile cortime.  In the event that Agile cortime is successfully integrated before the planned auction dates, the proposal suggests the option to cancel the remaining auctions. Further details about the auction configuration for 2024 along with the call hash can be found [here](https://docs.google.com/spreadsheets/d/1BGjZlOdcj4Jmwn7AToByRVh54RW5s0Rpthj5M3jNoeY/edit#gid=1201445856).",
+      "createdAt": "2023-12-05T10:26:36.000Z",
+      "updatedAt": "2023-12-05T10:27:48.389Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-05T10:26:36.000Z",
+        "description": "",
+        "index": 320,
+        "origin": "AuctionAdmin",
+        "proposer": "D8DtYYJUUBoACJwJrLNyn8aYArumdViVWAcZRUKcxnSoV9D",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x1ec6c5d11cadaaed94284f7be684bddde547cd418ff83e6d2ba0befc10ab1957",
+        "voteMetrics": {
+          "nay": {
+            "count": 1,
+            "value": "53000000000000"
+          },
+          "aye": {
+            "count": 358,
+            "value": "227640489929340948"
+          },
+          "support": {
+            "value": "347569562034484915"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-12-20T09:09:24.000Z",
+        "preparePeriodEndsAt": "2023-12-05T12:26:36.000Z"
+      },
+      "publicUser": {
+        "id": 3102,
+        "username": "otar",
+        "profileScore": 140.5,
+        "createdAt": "2021-12-01T12:10:49.051Z",
+        "rank": 20,
+        "addresses": [
+          "5CccEECRr7AsQYVVY9XL5pmaPaafxxgY38KsAmCN9AZx4KWr"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "cNChvbSlRLhkTzDvk3Yx",
+      "index": 103,
+      "userId": 2274,
+      "title": "The 3rd Kusama Auction (And Last On Auction Admin Track before the 2023 Schedule Enacts!)",
+      "content": "This third auction on Auction Admin track will replace the first auction for LP28 on [referendum 72](https://kusama.polkassembly.io/referenda/72). Given that the Root Track already has [a proposal](https://kusama.polkassembly.io/referenda/101) being voted for the 2023 auctions schedule, this needs to be done first to ensure the right cadence of auctions in Kusama. For the community to understand: the first three auctions of the original schedule are voted via Auction Admin track: the rest is scheduled via referendum 101 (Root Track).\n\nThis proposal represents the last one (hopefully) on Auction Admin Track before the 2023 schedule (originally presented [here](https://kusama.polkassembly.io/referenda/72)) enacts and starts running. \n\n- Encoded call data: [0x480001e170](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x480001e170) \n- Parameters: `auctions.newAuction(duration: 14400, leasePeriodIndex: 28)`\n- Proposal hash: `0xb190ec6496ffc0b1daba06328043ffcc036d309b99a268092a59810da9c9ec12`\n\nNote: as this needs to happen before the root track call in [referendum 101](https://kusama.polkassembly.io/referenda/101), this auction for LP28 will have a duration of 14,400 blocks to give more space until the start of the root call to ensure things go well.\n\nMake sure to vote at your convenience!",
+      "createdAt": "2023-02-20T15:10:25.114Z",
+      "updatedAt": "2023-02-20T15:14:56.354Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-02-20T15:09:48.000Z",
+        "description": "",
+        "index": 103,
+        "origin": "AuctionAdmin",
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xb190ec6496ffc0b1daba06328043ffcc036d309b99a268092a59810da9c9ec12",
+        "voteMetrics": {
+          "nay": {
+            "count": 6,
+            "value": "1045399791433553"
+          },
+          "aye": {
+            "count": 192,
+            "value": "984494989651603067"
+          },
+          "support": {
+            "value": "1188531184953240692"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-03-06T17:10:06.017Z",
+        "preparePeriodEndsAt": "2023-02-20T17:09:48.000Z"
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "QFZnde00F2Tz0i2eyxNl",
+      "index": 96,
+      "userId": 2274,
+      "title": "2nd Auction To Schedule on Auction Admin track (As We Wait for Root Track To Be Free)",
+      "content": "As the scheduled auctions queued on Scheduler by [referendum 72](https://kusama.polkassembly.io/referenda/72) and [referendum 81](https://kusama.polkassembly.io/referenda/81) have been cancelled, it is time to schedule the **second** auction of the year. Both mentioned proposals were cancelled as they were misconfigured and the two parameters on the scheduler pallet have been passed in the wrong way: For example, the first scheduler call will not create 2 auctions every 100_800 blocks, but rather 100_800 auctions every two blocks.\n\nThis proposal aims to schedule the second auction of the year in Kusama, with the following parameters:\n\n- `auctions.newAuction(duration: 14400, leasePeriodIndex: 27)` \n- Encoded call data: [0x480001e16c](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x480001e16c) \n\nOnce root track is available, we will be voting on a proposal with the right parameters that can schedule all auctions throughout the year. This proposal will replace the second auction on referendum 81. To avoid collusion of auctions, this auction should be proposed before block #16_619_120, and execute in block #16_674_233.\n\nMake sure to vote at your convenience!",
+      "createdAt": "2023-02-13T08:58:18.993Z",
+      "updatedAt": "2023-02-13T09:01:01.727Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-02-13T08:57:42.000Z",
+        "description": "",
+        "index": 96,
+        "origin": "AuctionAdmin",
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xc33a471f5e08871d2a0345dc0cf0a756dc1935d986800da0584c22e247d6bdc3",
+        "voteMetrics": {
+          "nay": {
+            "count": 1,
+            "value": "1026399791433553"
+          },
+          "aye": {
+            "count": 243,
+            "value": "930450745533496745"
+          },
+          "support": {
+            "value": "1242363560439324002"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-02-27T10:58:06.001Z",
+        "preparePeriodEndsAt": "2023-02-13T10:57:42.000Z"
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "SP5uwBv8gv6PA5ccEdw0",
+      "index": 91,
+      "userId": 2274,
+      "title": "New Auction To Schedule on Auction Admin track (As We Wait for Root Track To Be Free)",
+      "content": "As the scheduled auctions [queued on Scheduler by [referendum 72](https://kusama.polkassembly.io/referenda/72) and [referendum 81](https://kusama.polkassembly.io/referenda/81) have been cancelled, it is time to schedule the first auctions of the year. Both mentioned proposals were cancelled as they were misconfigured and the two parameters on the scheduler pallet have been passed in the wrong way: For example, the first scheduler call will not create 2 auctions every 100_800 blocks, but rather 100_800 auctions every two blocks.\n\nThis proposal aims to schedule the next auction on Kusama, with the following parameters:\n\n- `auctions.newAuction(duration: 14400, leasePeriodIndex: 27)` \n- Encoded call data: [0x480001e16c](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x480001e16c) \n\nOnce root track is available, we will be voting on a proposal with the right parameters that can schedule all auctions throughout the year. This proposal will replace the first auction on referendum 81. Given the support for [referendum 80](https://kusama.subsquare.io/referenda/referendum/80), and to avoid collusion of auctions, this auction should be proposed around block 16_497_487, and no later than block 16_547_187.\n\nMake sure to vote at your convenience!",
+      "createdAt": "2023-02-06T12:28:12.305Z",
+      "updatedAt": "2023-02-06T12:28:32.202Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-02-06T12:27:30.000Z",
+        "description": "",
+        "index": 91,
+        "origin": "AuctionAdmin",
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xc33a471f5e08871d2a0345dc0cf0a756dc1935d986800da0584c22e247d6bdc3",
+        "voteMetrics": {
+          "nay": {
+            "count": 5,
+            "value": "1047399813433553"
+          },
+          "aye": {
+            "count": 232,
+            "value": "1014612596172735773"
+          },
+          "support": {
+            "value": "1340555190501863809"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-02-20T14:27:36.000Z",
+        "preparePeriodEndsAt": "2023-02-06T14:27:30.000Z"
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "fiVeDBHUZRqt8x4Y6WUV",
+      "index": 80,
+      "userId": 2274,
+      "title": "Auction now (Auction Caller) - scheduling 1 auction to replace the first missed auction meant to be scheduled by referendum 72",
+      "content": "Auctions on Kusama are scheduled using the Scheduler Pallet. [Referendum 72](https://kusama.polkassembly.io/referenda/72) was proposed on Kusama through root Track given that the Scheduler Pallet can’t be called by the Auctions Admin (this PR will change that). Due to voting turnout, Referendum 72 will not be executed before the first scheduled call, set to happen at block height #16_367_188. This means that the first batch of auctions for LP27 will not be executed, as the scheduler pallet does not allow the execution of an action in a past block (the other batches will be scheduled).\n\nIn order to alleviate the demand of auctions (teams that need to renovate their slot during LP27 to keep uptime of their parachains will not be able to do so, therefore having to interrupt their service to the community) we have proposed the following two referenda, up for vote now and scheduling 3 auctions from next week:\n\nThis referendum aims to schedule **the first auction creation call** but through **auction admin track** without using the scheduler. The auction will be triggered shortly after approval. Max Target Block is the latest this can be submitted given the support it can have. If submitted today (27/Jan), then it will need at least a support of 3.85% for this solution to work. \n\n(The other two auctions are aimed to be scheduled by [this proposal](https://kusama.polkassembly.io/referenda/81)) - up for vote as well.\n\n**Call**\n\n- Auction: Auction Admin\n\n- Parameters: `auctions.newAuction(duration: 14400, leasePeriodIndex: 27)`\n\n- Encoded call Data: [0x480001e16c](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x480001e16c) ",
+      "createdAt": "2023-01-27T16:03:07.540Z",
+      "updatedAt": "2023-01-27T16:07:39.938Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-27T16:02:30.000Z",
+        "description": "",
+        "index": 80,
+        "origin": "AuctionAdmin",
+        "proposer": "GLVeryFRbg5hEKvQZcAnLvXZEXhiYaBjzSDwrXBXrfPF7wj",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xc33a471f5e08871d2a0345dc0cf0a756dc1935d986800da0584c22e247d6bdc3",
+        "voteMetrics": {
+          "nay": {
+            "count": 8,
+            "value": "1121841491433553"
+          },
+          "aye": {
+            "count": 226,
+            "value": "1035219939225412262"
+          },
+          "support": {
+            "value": "1354799025985449989"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-02-10T18:02:30.000Z",
+        "preparePeriodEndsAt": "2023-01-27T18:02:30.000Z"
+      },
+      "publicUser": {
+        "id": 2274,
+        "username": "rrtti-5220",
+        "profileScore": 587.5,
+        "addresses": [
+          "5FpszYdNoEf9waWUdro7tPZXQeFTusm1HcbUZCFE44StWHpW"
+        ],
+        "rank": 1,
+        "createdAt": "2020-05-18T12:26:02.419Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "F5fXwsw5KinBkHEIEFvJ",
+      "index": 39,
+      "userId": 2439,
+      "title": "Untitled Post",
+      "content": "This is a referendum whose proposer address (GcDZZCVPwkPqoWxx8vfLb4Yfpz9yQ1f4XEyqngSH8ygsL9p) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2022-12-20T08:12:37.293Z",
+      "updatedAt": "2022-12-20T08:12:37.293Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2022-12-20T08:12:00.012Z",
+        "description": "",
+        "index": 39,
+        "origin": "AuctionAdmin",
+        "proposer": "GcDZZCVPwkPqoWxx8vfLb4Yfpz9yQ1f4XEyqngSH8ygsL9p",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x0814589b75e643e7d1e21bc7c86c080ebb1ad514edf8163d37f597083c4c8cea",
+        "voteMetrics": {
+          "nay": {
+            "count": 1,
+            "value": "403014623741"
+          },
+          "aye": {
+            "count": 170,
+            "value": "1551883226778917232"
+          },
+          "support": {
+            "value": "1877750221889458616"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-01-03T10:16:00.007Z",
+        "preparePeriodEndsAt": "2022-12-20T10:12:00.012Z"
+      },
+      "publicUser": {
+        "id": 2439,
+        "username": "Joe",
+        "profileScore": 24.25,
+        "addresses": [
+          "5G6buErcmajU69hXBS7cSdhYXEhvAjCUc9QET8QUoLmC7zPK"
+        ],
+        "rank": 194,
+        "createdAt": "2020-10-26T10:51:47.159Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

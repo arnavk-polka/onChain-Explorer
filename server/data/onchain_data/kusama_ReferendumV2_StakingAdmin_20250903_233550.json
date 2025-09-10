@@ -1,0 +1,1075 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:48:28.246335",
+  "total_items": 13,
+  "items": [
+    {
+      "id": "",
+      "index": 533,
+      "title": "Increasing the Validator minimum commission from 10% to 15%",
+      "content": "Dear community,\n\nThis proposal seeks to increase the validator minimum commission from 10% to 15% with the goal of improving the sustainable operations of validator nodes.  It is believed that in doing so we are improving the security of the network by properly incentivizing validators.\n\nPresent revenue:\n\nAt present validators share a reward of ~800 KSM per 6 hour era, at 10% commission and a KSM rate of $16.50/KSM a validator is expected to earn -> (800 KSM / 1000 validators) * 10% * 4 eras * 30 days * $16.50 = $158.40 / mth.  \n\nProposed revenue:\n\nApplying the same calculation as above but replacing commission at 15%:\n (800 KSM / 1000 validators) * 15% * 4 eras * 30 days * $16.50 = $237.60 / mth.  \n\nI remain confident with research done in previous proposals that an ideal revenue for a Kusama Validator lies between $300 - $500 / mth, this affords enough revenue to cover expenses for a server, tooling, compensation for time invested and to afford the validator some profit (after tax).\n\nAt present rates, it is difficult for a validator to justify the need to operate a validator as revenue barely meets the cost of a to-spec server.   It is also difficult for individual validators to justify the desire to spend time and effort to gain nominations to become \"independent\", this activity takes several months and in my own experience years. \n\nThe proposal of 15% takes a conservative position which matches the maximum commission set by the Decentralized Nodes (DN) programme.  It gives existing validators an opportunity to reduce their exposure and some incentive for DN validators to gain some more revenue while also being competitive. I hope to complement this proposal with another (more drastic) proposal to increase inflation while locking some of the additional rewards.\n\nPrevious proposals:\n- The first successful proposal to [increase the minimum commission](https://kusama.subsquare.io/democracy/referenda/176) to 3%\n- The second successful proposal to [increase the minimum commission](https://kusama.subsquare.io/referenda/79) from 3% to 10%\n\nRegards,\nWill | Paradox | ParaNodes.io",
+      "createdAt": "2025-05-31T22:39:42.000Z",
+      "updatedAt": "2025-06-01T00:41:21.070Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 12
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-31T22:39:42.000Z",
+        "description": "",
+        "index": 533,
+        "origin": "StakingAdmin",
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xe2a958ebbe260a6734db540fb64110e249b9525c8a180ab7c8b776b995d3cfbe",
+        "voteMetrics": {
+          "nay": {
+            "count": 10,
+            "value": "75146890091420913"
+          },
+          "aye": {
+            "count": 46,
+            "value": "77569477612395772"
+          },
+          "support": {
+            "value": "24167123444435759"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2025-06-15T00:41:30.000Z",
+        "preparePeriodEndsAt": "2025-06-01T00:39:42.000Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "rank": 5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 532,
+      "title": "Vote Nay - Validator Min Commission Increase - Wrong Track",
+      "content": "Changing the minimum commission via staking configs requires use of the root track.  I've submitted [referendum 533](https://kusama.subsquare.io/referenda/533) in its place.",
+      "createdAt": "2025-05-31T19:20:36.000Z",
+      "updatedAt": "2025-05-31T22:45:58.640Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-31T19:20:36.000Z",
+        "description": "",
+        "index": 532,
+        "origin": "StakingAdmin",
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0xb9fcfe3f7b5ab4db9de1103a1b17227b9c4d69e714da5504b98d233d45a805b9",
+        "voteMetrics": {
+          "nay": {
+            "count": 42,
+            "value": "167194925011764597"
+          },
+          "aye": {
+            "count": 3,
+            "value": "50000000000000"
+          },
+          "support": {
+            "value": "171500000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2025-06-14T21:22:00.000Z",
+        "preparePeriodEndsAt": "2025-05-31T21:20:36.000Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "rank": 5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "baFNAkgNE8pf3Au3GCeu",
+      "index": 459,
+      "userId": 2610,
+      "title": "Cancel Deferred Slash 7126 - Due to application bug",
+      "content": "Dear community,\n\nI'm submitting this proposal to cancel a \"deferred\" slash for era 7126 which would be applied in era 7154.  The issue resulting in the slash was deemed to be [bug related](https://github.com/paritytech/polkadot-sdk/issues/5778) and the technical details are still being investigated.  Historically, deferred slashes due to bugs were cancelled.\n\nThe issue, in my simple interpretation is as follows:\n\n-   There was downtime due to hardware issues\n-   Before the downtime one of my nodes was due to issue a \"pre-vote\"\n-   When the node was online again, time passed and the prevote was no longer necessary.\n-   The node may have used the local (not sync'd) finalized block as reference and proceeded to issue the pre-vote\n-   Because the pre-vote already issued it resulted in an equivocation which is a slashable offence\n-   Ideally, the node should have determined that time passed and the pre-vote wasn't necessary anymore\n\nGiven the circumstances and if my interpretation is correct this can happen to any operator who may restart their nodes with a pre-vote \"in queue\" given a delay in finalized blocks.\n\nThe issue was reported immediately but because of the bug, the \"slash\" was reported some 24 later. Time was also lost while trying to get a technical verdict on whether this was a bug or operator related. Given these delays, it is unlikely to receive a cancellation of the deferral on time. I would however engage the community for a deferral in solidarity.\n\nI have already [compensated](https://kusama.subscan.io/extrinsic/0x1721218fbc11aef01268df4b8cdae452a90287f4e0f300eeee8a0e9a9fffa1c4) the slashed parties (rounding up) and I am working on another payout for those affected by any offline time.\n\nKind Regards,  \nWill | Paradox",
+      "createdAt": "2024-09-23T19:10:30.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "history": [
+        {
+          "content": "Dear community,\n\nI'm submitting this proposal to cancel a \"deferred\" slash for era 7126 which would be applied in era 7154.  The issue resulting in the slash was deemed to be [bug related](https://github.com/paritytech/polkadot-sdk/issues/5778) and the technical details are still being investigated.  Historically, deferred slashes due to bugs were cancelled.\n\nThe issue, in my simple interpretation is as follows:\n\n-   There was downtime due to hardware issues\n-   Before the downtime one of my nodes was due to issue a \"pre-vote\"\n-   When the node was online again, time passed and the prevote was no longer necessary.\n-   The node may have used the local (not sync'd) finalized block as reference and proceeded to issue the pre-vote\n-   Because the pre-vote was late or already issued it resulted in an equivocation which is a slashable offence\n-   Ideally, the node should have determined that time passed and the pre-vote wasn't necessary anymore\n\nGiven the circumstances and if my interpretation is correct this can happen to any operator who may restart their nodes with a pre-vote \"in queue\" given a delay in finalized blocks.\n\nThe issue was reported immediately but because of the bug, the \"slash\" was reported some 24 later. Time was also lost while trying to get a technical verdict on whether this was a bug or operator related. Given these delays, it is unlikely to receive a cancellation of the deferral on time. I would however engage the community for a deferral in solidarity.\n\nI have already [compensated](https://kusama.subscan.io/extrinsic/0x1721218fbc11aef01268df4b8cdae452a90287f4e0f300eeee8a0e9a9fffa1c4) the slashed parties (rounding up) and I am working on another payout for those affected by any offline time.\n\nKind Regards,  \nWill | Paradox",
+          "title": "Cancel Deferred Slash 7126 - Due to application bug",
+          "createdAt": {
+            "_seconds": 1727120528,
+            "_nanoseconds": 544000000
+          }
+        },
+        {
+          "content": "Dear community,\n\nI'm submitting this proposal to cancel a \"deferred\" slash for era 7126 which would be applied in era 7154.  The issue resulting in the slash was deemed to be [bug related](https://github.com/paritytech/polkadot-sdk/issues/5778) and the technical details are still being investigated.  Historically, deferred slashes due to bugs were cancelled.\n\nThe issue, in my simple interpretation is as follows:\n\n-   There was downtime due to hardware issues\n-   Before the downtime one of my nodes was due to issue a \"pre-vote\"\n-   When the node was online again, time passed and the prevote was no longer necessary.\n-   The node may have used the local (not sync'd) finalized block as reference and proceeded to issue the pre-vote\n-   Ideally, the node should have determined that time passed and the pre-vote wasn't necessary anymore\n\nGiven the circumstances and if my interpretation is correct this can happen to any operator who may restart their nodes with a pre-vote \"in queue\" given a delay in finalized blocks.\n\nThe issue was reported immediately but because of the bug, the \"slash\" was reported some 24 later. Time was also lost while trying to get a technical verdict on whether this was a bug or operator related. Given these delays, it is unlikely to receive a cancellation of the deferral on time. I would however engage the community for a deferral in solidarity.\n\nI have already [compensated](https://kusama.subscan.io/extrinsic/0x1721218fbc11aef01268df4b8cdae452a90287f4e0f300eeee8a0e9a9fffa1c4) the slashed parties (rounding up) and I am working on another payout for those affected by any offline time.\n\nKind Regards,  \nWill | Paradox",
+          "title": "Cancel Deferred Slash 7126 - Due to application bug",
+          "createdAt": {
+            "_seconds": 1727120433,
+            "_nanoseconds": 507000000
+          }
+        },
+        {
+          "content": "Dear community,\n\nI'm submitting this proposal to cancel a \"deferred\" slash for era 7126 which would be applied in era 7154.  The issue resulting in the slash was deemed to be bug related and the technical details are still being investigated.  Historically, deferred slashes [due to bugs](https://github.com/paritytech/polkadot-sdk/issues/5778) were cancelled.\n\nThe issue, in my simple interpretation is as follows:\n\n-   There was downtime due to hardware issues\n-   Before the downtime one of my nodes was due to issue a \"pre-vote\"\n-   When the node was online again, time passed and the prevote was no longer necessary.\n-   The node may have used the local (not sync'd) finalized block as reference and proceeded to issue the pre-vote\n-   Ideally, the node should have determined that time passed and the pre-vote wasn't necessary anymore\n\nGiven the circumstances and if my interpretation is correct this can happen to any operator who may restart their nodes with a pre-vote \"in queue\" given a delay in finalized blocks.\n\nThe issue was reported immediately but because of the bug, the \"slash\" was reported some 24 later. Time was also lost while trying to get a technical verdict on whether this was a bug or operator related. Given these delays, it is unlikely to receive a cancellation of the deferral on time. I would however engage the community for a deferral in solidarity.\n\nI have already [compensated](https://kusama.subscan.io/extrinsic/0x1721218fbc11aef01268df4b8cdae452a90287f4e0f300eeee8a0e9a9fffa1c4) the slashed parties (rounding up) and I am working on another payout for those affected by any offline time.\n\nKind Regards,  \nWill | Paradox",
+          "title": "Cancel Deferred Slash 7126 - Due to application bug",
+          "createdAt": {
+            "_seconds": 1727120243,
+            "_nanoseconds": 500000000
+          }
+        },
+        {
+          "content": "Dear community,\n\nI'm submitting this proposal to cancel a \"deferred\" slash for era 7126 which would be applied in era 7154.  The issue resulting in the slash was deemed to be bug related and the technical details are still being investigated.  Historically, deferred slashes [due to bugs](https://github.com/paritytech/polkadot-sdk/issues/5778) were cancelled.\n\nThe issue, in my simple interpretation is as follows:\n\n-   There was downtime due to hardware issues\n-   Before the downtime one of my nodes was due to issue a \"prevote\"\n-   When the node was online again, time passed and the prevote was no longer necessary.\n-   The node may have used the local (not sync'd) finalized block as reference and proceeded to issue the pre-vote\n-   Ideally, the node should have determined that time passed and the prevote wasn't necessary anymore\n\nGiven the circumstances and if my interpretation is correct this can happen to any operator who may restart their nodes with a prevote \"in queue\" given a delay in finalized blocks.\n\nThe issue was reported immediately but because of the bug, the \"slash\" was reported some 24 later. Time was also lost while trying to get a technical verdict on whether this was a bug or operator related. Given these delays, it is unlikely to receive a cancellation of the deferral on time. I would however engage the community for a deferral in solidarity.\n\nI have already [compensated](https://kusama.subscan.io/extrinsic/0x1721218fbc11aef01268df4b8cdae452a90287f4e0f300eeee8a0e9a9fffa1c4) the slashed parties (rounding up) and I am working on another payout for those affected by any offline time.\n\nKind Regards,  \nWill | Paradox",
+          "title": "Cancel Deferred Slash 7126 - Due to application bug",
+          "createdAt": {
+            "_seconds": 1727120197,
+            "_nanoseconds": 952000000
+          }
+        },
+        {
+          "content": "Dear community,\n\nI'm submitting this proposal to cancel a \"deferred\" slash for era 7126 which would be applied in era 7154.  The issue resulting in the slash was deemed to be bug related and the technical details are still being investigated.  Historically, deferred slashes [due to bugs](https://github.com/paritytech/polkadot-sdk/issues/5778) were cancelled.\n\nThe issue, in my simple interpretation is as follows:\n\n-   There was downtime due to hardware issues\n-   Before the downtime one of my nodes was due to issue a \"prevote\"\n-   When the node was online again, time passed and the prevote was no longer necessary.\n-   Instead of ensuring that the node was sync'd and looking at the current finalized block it may have been looking the node's local finalized block\n\nGiven the circumstances and if my interpretation is correct this can happen to any operator who may restart their nodes with a prevote \"in queue\" given a delay in finalized blocks.\n\nThe issue was reported immediately but because of the bug, the \"slash\" was reported some 24 later. Time was also lost while trying to get a technical verdict on whether this was a bug or operator related. Given these delays, it is unlikely to receive a cancellation of the deferral on time. I would however engage the community for a deferral in solidarity.\n\nI have already [compensated](https://kusama.subscan.io/extrinsic/0x1721218fbc11aef01268df4b8cdae452a90287f4e0f300eeee8a0e9a9fffa1c4) the slashed parties (rounding up) and I am working on another payout for those affected by any offline time.\n\nKind Regards,  \nWill | Paradox",
+          "title": "Cancel Deferred Slash 7126 - Due to application bug",
+          "createdAt": {
+            "_seconds": 1727120024,
+            "_nanoseconds": 3000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2024-09-23T19:10:30.001Z",
+        "description": "",
+        "index": 459,
+        "origin": "StakingAdmin",
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "status": "ExecutionFailed",
+        "type": "ReferendumV2",
+        "hash": "0x876d1b4b3c0d255f3b411877f55602cec4569bffe0ce0d7b878a7e3264b04f59",
+        "voteMetrics": {
+          "nay": {
+            "count": 3,
+            "value": "174734529729380"
+          },
+          "aye": {
+            "count": 62,
+            "value": "461663381824398163"
+          },
+          "support": {
+            "value": "177303784985856452"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-10-07T21:12:48.000Z",
+        "preparePeriodEndsAt": "2024-09-23T21:10:30.001Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "IWYkLiLO3C4BKtGICLUN",
+      "index": 458,
+      "userId": 2610,
+      "title": "Cancel Deferred Slash - Era 7126 - Vote Nay",
+      "content": "This was submitted with the era the slash took place.  However, upon advice and further investigations this should be submitted with the era the slash is due to be enacted.  \n  \nPlease vote nay and review the next referenda.",
+      "createdAt": "2024-09-23T18:45:12.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "none",
+      "isDeleted": false,
+      "topic": "general",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-09-23T18:45:12.001Z",
+        "description": "",
+        "index": 458,
+        "origin": "StakingAdmin",
+        "proposer": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xdaf5d5e13f24cb3405b76ff64e057eb438b790f9b092f39961e989fcb780c43f",
+        "voteMetrics": {
+          "nay": {
+            "count": 76,
+            "value": "103329857763613441"
+          },
+          "aye": {
+            "count": 2,
+            "value": "30100000000000"
+          },
+          "support": {
+            "value": "421000000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-09-23T20:45:12.001Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "q4FNUZtQazKj70V5vDzb",
+      "index": 421,
+      "userId": 12522,
+      "title": "Please vote NAY",
+      "content": "Please vote NAY, there were some changes, a new referenda will be submitted asap",
+      "createdAt": "2024-07-19T12:35:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "stakingAdmin",
+      "history": [
+        {
+          "content": "This proposal aims to decentralize the following System Parachains: Kusama People and Kusama Coretime. This change was collectively discussed and agreed by many of the ecosystem collators and it is consistent with [Framework for Collators on System Parachains](https://docs.google.com/document/d/1H2T1Nx90HkSAYF_CaOPLG-o3LS7h_QAa2WLDdcSJMs0/edit#) that was written as a collective effort.\n\nThe proposed call will do the following:\n\n**Kusama People**\n\n1) <ins>Remove the following invulnerable collators</ins> (this is done because the initial list of collators was mistakenly included in both the Kusama Coretime chain-specs file and the Kusama People chain-specs file, thus becoming active on both chains starting from their respective genesis blocks. Therefore, it was decided to reassign the invulnerable slots of Kusama People to other community collators, while leaving the list of invulnerable collators on Kusama Coretime unchanged. It is important to emphasize that there was NO negligence or misconduct on the part of the collators being removed; the same list was simply erroneously used for the two chain-spec files when the system chains was launched, so only for this reason, we are reassigning the slots now):\n   - LuckyFriday `HPUEzi4v3YJmhBfSbcGEFFiNKPAGVnGkfDiUzBNTR7j1CxT`\n   - Mile `HmatizNhXrZtXwQK2LfntvjCy3x1EuKs1WnRQ6CP3KkNfmA`\n   - Paranodes `J11Rp4mjz3vRb2DL51HqRGRjhuEQRyXgtuFskebXb8zMZ9s`\n   - TurboFlakes `H1tAQMm3eizGcmpAhL9aA9gR844kZpQfkU7pkmMiLx9jSzE`\n   - YellowFinTuna `DtuntvQBh9vajFTnd42aTTCiuCyY3ep6EVwhhPji2ejyyhW`\n   - bLd `CbLd7BdUr8DqD4TciR1kH6w12bbHBCW9n2MHGCtbxq4U5ty`\n2) <ins>Adding the following invulnerable collators</ins>:\n   - BestValidator `GHW6TB6awErp2VaySKN6dLdjmzKET1LzCKMMTYMnGMUXs7n`\n   - OpenBitlab `E8X4LxU9zEiNVAyM95ERDeomMmwwqn7RBCuRMEZCfgFm3J1`\n   - StakerSpace `DGHxPHM19z1C6tvRhf1tBARB38uV8tudHQsSm2a3bonuSU4`\n   - StakeWorld `Et9M3rrA7H2kHQEGRXHxufcp9HTEmFirMWtKHvjoJ85r1C9`\n   - MathCrypto `F7TKjT2EBVqfquyN5G4s4FLSxHM7nR3WbdRAgxQLeJYVG53`\n   - STKD `HWBh4YQ69iopm9G8x938dEivMENXeHaHZraannpg4U4aib2`\n3) <ins>Set Candidacy Bond to 50 KSM</ins> (aligning it with other Kusama System Parachains)\n4) <ins>Set Desired Candidates to 6</ins> (opening of 6 permissionless slots)\n\n\n**Kusama Coretime**\n\n1) <ins>Set Candidacy Bond to 50 KSM</ins> (aligning it with other Kusama System Parachains)\n2) <ins>Set Desired Candidates to 6</ins> (opening of 6 permissionless slots)\n\n\nThe new permissionless slots will be opened to any new collator by placing a minimum bond of 50 KSM once this referendum is enacted.\n\nBest Regards,\n\nLuca from 🧊 Iceberg Nodes 🧊, on behalf of System Parachains Collators",
+          "title": "Further decentralize collators set on Kusama System Parachains",
+          "createdAt": {
+            "_seconds": 1721404859,
+            "_nanoseconds": 210000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-07-19T12:35:06.000Z",
+        "description": "",
+        "index": 421,
+        "origin": "StakingAdmin",
+        "proposer": "Eicei1RVHvqHBPJAY2fZpLy2KtCMjY7Kwjo3svjmGLH7FmT",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x1adebdfc918fa6f871f6d9e1e0805f20e5d5fb9958f40b638831a4e47771f561",
+        "voteMetrics": {
+          "nay": {
+            "count": 40,
+            "value": "24523161394466936"
+          },
+          "aye": {
+            "count": 60,
+            "value": "48104342988219666"
+          },
+          "support": {
+            "value": "11356770536373326"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-08-02T16:10:24.001Z",
+        "preparePeriodEndsAt": "2024-07-19T14:35:06.000Z"
+      },
+      "publicUser": {
+        "id": 12522,
+        "username": "IcebergNodes",
+        "profileScore": 1.75,
+        "addresses": [
+          "5ECzzPfYrvuuXXZrPqDcfryxsjbxZ4ivsZu3fDenHU7nN4r6",
+          "5FnKWNkVW1zfyMJfHah4prpCZV5T8iuHAQggYjCEED7q7zYA"
+        ],
+        "rank": 2914,
+        "createdAt": "2023-10-03T18:01:11.504Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "pFjxemBCiSekiUtl2Afp",
+      "index": 379,
+      "userId": 5992,
+      "title": "[Invalid: Vote Nay] Staking Controller Account Deprecation",
+      "content": "This referendum will result in a failed execution - please vote Nay. An updated referendum for deprecating controller accounts will be posted at a later date.",
+      "createdAt": "2024-04-19T14:23:42.001Z",
+      "tags": [
+        {
+          "value": "staking",
+          "lastUsedAt": "2024-04-19T14:23:42.001Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "history": [
+        {
+          "content": "After a successful test run on Westend, this referendum completes the process of deprecating staking controller accounts on Kusama. No further action is needed for stakers. Given the referendum is executed successfully, the controller accounts provided in this referendum will be updated to the corresponding stash account. This referendum is a part of an ongoing process to remove controller accounts from the staking pallet. Users can refer to the tracking issue for more context at https://github.com/paritytech/polkadot-sdk/issues/2500. The full list of controller accounts included in this call can be found at https://github.com/rossbulat/polkadot-helper-scripts/blob/main/unique-kusama.json.",
+          "title": "Staking Controller Account Deprecation",
+          "createdAt": {
+            "_seconds": 1713538973,
+            "_nanoseconds": 541000000
+          }
+        },
+        {
+          "content": "After a successful test run on Westend, this referendum completes the process of deprecating staking controller accounts on Kusama. No further action is needed for stakers. Given the referendum is executed successfully, the controller accounts provided in this referendum will be updated to the corresponding stash account. This referendum is a part of an ongoing process to remove controller accounts from the staking pallet, and users can refer to the tracking issue for more context, at https://github.com/paritytech/polkadot-sdk/issues/2500. The full list of controller accounts included in this call can be found at https://github.com/rossbulat/polkadot-helper-scripts/blob/main/unique-kusama.json.",
+          "title": "Staking Controller Account Deprecation",
+          "createdAt": {
+            "_seconds": 1713537047,
+            "_nanoseconds": 74000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 3,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2024-04-19T14:23:42.001Z",
+        "description": "",
+        "index": 379,
+        "origin": "StakingAdmin",
+        "proposer": "FykhnPA3pn269LAcQ8VQKDgUQ8ieAaSLwJDhAVhu3dcokVR",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0xb162b574ae80e6f547dcc267586fe1b8ad390432bb5323bda8f46a4e79b759a0",
+        "voteMetrics": {
+          "nay": {
+            "count": 212,
+            "value": "815326750616535727"
+          },
+          "aye": {
+            "count": 66,
+            "value": "5105493996056774"
+          },
+          "support": {
+            "value": "3008991987019416"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "decisionPeriodEndsAt": "2024-05-03T16:23:54.001Z",
+        "preparePeriodEndsAt": "2024-04-19T16:23:42.001Z"
+      },
+      "publicUser": {
+        "id": 5992,
+        "username": "rossbulatksm",
+        "profileScore": 0.25,
+        "addresses": [
+          "5FU93U3HRTm6LVWiqhKSWMrgKorUqVmFtZTUJWDkRFR84esh"
+        ],
+        "rank": 7002,
+        "createdAt": "2022-03-12T09:14:12.410Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 315,
+      "title": "[Fix 308] Expand invulnerables set on Asset-Hub Kusama",
+      "content": "Hey everyone,\n\nI would like to propose this new referendum today as an amendment and follow-up on the previous [referendum #308](https://kusama.subsquare.io/referenda/308).\nAs stated before in referendum #308, the intention of the referendum is the promotion of 6 collators to invulnerables, these being:\n\n- TurboFlakes\n- LuckyFriday\n- ParaNodes\n- Polkadotters\n- Stake.Plus\n- IcebergNodes\n\nThe referendum was successfully executed on [block #20691161](https://kusama.subscan.io/block/20691161?tab=event&event=20691161-2), but unfortunately, not all colators were promoted as intended.\n\nAfter recapping my steps when creating the previous referendum, I realized that I must have made a mistake when manually creating the preimage. The issue on the [original call](https://kusama.subscan.io/referenda_v2/308) falls on two of the six collators being duplicated and two others missing.\n\nAfter discussing the issue with my peers, I would like to present this referenda to the community today. It intends to fix the previous issue and promote LuckyFriday and ParaNodes to invulnerables on Asset-Hub Kusama as per the intention of the previous referendum.\n\nOnce again, apologies to LuckyFriday and ParaNodes for wrongly being missed on the previous call.\n\nAnd thank you all for your time and vote,\nPaulo\n",
+      "createdAt": "2023-11-24T10:36:30.000Z",
+      "updatedAt": "2023-11-24T11:54:01.636Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-24T10:36:30.000Z",
+        "description": "",
+        "index": 315,
+        "origin": "StakingAdmin",
+        "proposer": "H1tAQMm3eizGcmpAhL9aA9gR844kZpQfkU7pkmMiLx9jSzE",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xf916f1c4c0810619906ad2e7f601e2452478a0a75f5b422b813993e337acba57",
+        "voteMetrics": {
+          "nay": {
+            "count": 2,
+            "value": "141000000000000"
+          },
+          "aye": {
+            "count": 333,
+            "value": "129326759762554360"
+          },
+          "support": {
+            "value": "51723311854265126"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-12-08T12:36:42.000Z",
+        "preparePeriodEndsAt": "2023-11-24T12:36:30.000Z"
+      },
+      "publicUser": {
+        "id": 2726,
+        "username": "turboflakes",
+        "profileScore": 37,
+        "createdAt": "2021-06-21T22:05:44.581Z",
+        "rank": 117,
+        "addresses": [
+          "5FWYiXrZtKRJ1BtsMUSW8SZcRE4axvtrUgtLHoUeXR34Ysaf",
+          "5GWGW61tRHi4WxxNPzX6gCngGXmpwu1EDNdNS6VQEYjezEpC"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 308,
+      "title": "[Fix 224] Expand invulnerables set on Asset-Hub Kusama",
+      "content": "Hey everyone,\n\nI’m proposing this referendum today, it aims to fix the only XCM instruction that failed to execute from the successful outcome of [referendum 224](https://kusama.subsquare.io/referenda/224). \n\n**Brief Summary**\nThe previous referenda 224 was all about decentralizing the collator set on both system chains  – Bridge-hub Kusama and Asset-hub Kusama with a call tabled with five XCM instructions. From these five instructions, four were successfully executed and only the call related to the expansion of the invulnerables set on Asset-Hub Kusama failed to execute. The reason for the failed instruction was due to the fact of missing onchain session keys from one of the collators by the time the referenda moved into the execution phase.\n\nAt the time, knowing that the runtime v1000000 would bring new extrinsics to better handle such cases and also facilitate add/remove invulnerables, was than discussed by all parties involved that would make sense to wait until the current runtime was active on chain to propose a new referenda that would fix the previous XCM instruction, and such referenda could also be used as an opportunity to try out the new extrinsic – collatorSelection.addInvulnerable. \n\nAs a result I’m proposing this referendum asking the community to vote on it.\n\n**What to expect from this referendum**\nWith the successful outcome we could expect the following:\n\n- 6 new invulnerables, changing the total number from 2 to 8 (Note: the following list of collators were the ones already previously selected on referenda 224)\nTurboFlakes: `H1tAQMm3eizGcmpAhL9aA9gR844kZpQfkU7pkmMiLx9jSzE`\nLuckyFriday: `HPUEzi4v3YJmhBfSbcGEFFiNKPAGVnGkfDiUzBNTR7j1CxT`\nParaNodes: `J11Rp4mjz3vRb2DL51HqRGRjhuEQRyXgtuFskebXb8zMZ9s`\nPolkadotters: `EPGHRDFaBbQz4uF8DgnuScxYp4rvvtpL5MTed7VvGprNQmm`\nStake.Plus: `E5G5qLNBF7nwhemokqNrNwUCQ7oHrLsBVjSc7XhTdRq8672`\nIcebergNodes: `Eicei1RVHvqHBPJAY2fZpLy2KtCMjY7Kwjo3svjmGLH7FmT`\n\n- 3 out of the 9 active permissionless collators will automatically switch to invulnerables with the remaining 6 keeping their active slot.\n\nThanks for your vote and time\npaulo // apps.turboflakes.io\n",
+      "createdAt": "2023-11-15T10:09:48.001Z",
+      "updatedAt": "2023-11-15T10:17:05.253Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-15T10:09:48.001Z",
+        "description": "",
+        "index": 308,
+        "origin": "StakingAdmin",
+        "proposer": "H1tAQMm3eizGcmpAhL9aA9gR844kZpQfkU7pkmMiLx9jSzE",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x1c71a6473c74d1cb3ef5de0e53f6d6adc55a47eb6ad60e39f50360b42cd7f511",
+        "voteMetrics": {
+          "nay": {
+            "count": 8,
+            "value": "991064510566020"
+          },
+          "aye": {
+            "count": 319,
+            "value": "93017079302186680"
+          },
+          "support": {
+            "value": "68434020664846518"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-11-29T12:10:12.000Z",
+        "preparePeriodEndsAt": "2023-11-15T12:09:48.001Z"
+      },
+      "publicUser": {
+        "id": 2726,
+        "username": "turboflakes",
+        "profileScore": 37,
+        "createdAt": "2021-06-21T22:05:44.581Z",
+        "rank": 117,
+        "addresses": [
+          "5FWYiXrZtKRJ1BtsMUSW8SZcRE4axvtrUgtLHoUeXR34Ysaf",
+          "5GWGW61tRHi4WxxNPzX6gCngGXmpwu1EDNdNS6VQEYjezEpC"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "O7Jkx5fxWyZYRP5qSCQS",
+      "index": 224,
+      "userId": 2439,
+      "title": "[Fix 214] Further decentralize collator set on Kusama system chains",
+      "content": "[Referendum 214](https://kusama.polkassembly.io/referenda/214) with call info that will work.",
+      "createdAt": "2023-06-19T15:37:12.000Z",
+      "tags": [
+        {
+          "value": "infra",
+          "lastUsedAt": "2023-06-19T15:37:12.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "parachains",
+          "lastUsedAt": "2023-06-19T15:37:12.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-06-19T15:37:12.000Z",
+        "description": "",
+        "index": 224,
+        "origin": "StakingAdmin",
+        "proposer": "GcDZZCVPwkPqoWxx8vfLb4Yfpz9yQ1f4XEyqngSH8ygsL9p",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x47531083b36cc87fad942adb73ae38d5e6c7ab2bddaeeb6255c93fdcc3d4902c",
+        "voteMetrics": {
+          "nay": {
+            "count": 5,
+            "value": "1776440470433553"
+          },
+          "aye": {
+            "count": 256,
+            "value": "90303116363954466"
+          },
+          "support": {
+            "value": "43003901888953645"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-07-03T17:37:42.000Z",
+        "preparePeriodEndsAt": "2023-06-19T17:37:12.000Z"
+      },
+      "publicUser": {
+        "id": 2439,
+        "username": "Joe",
+        "profileScore": 24.25,
+        "addresses": [
+          "5G6buErcmajU69hXBS7cSdhYXEhvAjCUc9QET8QUoLmC7zPK"
+        ],
+        "rank": 194,
+        "createdAt": "2020-10-26T10:51:47.159Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "vO7c19gIRscqWSAS6xPT",
+      "index": 214,
+      "userId": 2876,
+      "title": "Further decentralize collator set on Kusama system chains",
+      "content": "This proposal aims to decentralize the following system chains – Kusama Asset Hub (former Statemine) and Kusama Bridge Hub. This change was collectively discussed and agreed by many of the ecosystem collators and it is consistent with [Framework for Collators on System Parachains](https://docs.google.com/document/d/1H2T1Nx90HkSAYF_CaOPLG-o3LS7h_QAa2WLDdcSJMs0/edit#) that was written as a collective effort.\n\nThe proposed change will do the following\n\n- leave 2 Parity invulnerable collators on each chain\n- make 8 community collators on Asset Hub invulnerable\n- create an additional 6 permissionless slots on Asset Hub\n- do the same for the BridgeHub\n\nThese new 6 permissionless slots will be opened to any new collator by placing a bond of 50 KSM once this referendum is enacted. ",
+      "createdAt": "2023-06-02T07:16:42.000Z",
+      "tags": [
+        {
+          "value": "kusama",
+          "lastUsedAt": "2023-06-02T07:16:42.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "collator",
+          "lastUsedAt": "2023-06-02T07:16:42.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "history": [
+        {
+          "content": "This proposal aims to decentralize the following system chains – Kusama Asset Hub (former Statemine) and Kusama Bridge Hub. This change was collectively discussed and agreed by many of the ecosystem collators and it is consistent with [Framework for Collators on System Parachains](https://docs.google.com/document/d/1H2T1Nx90HkSAYF_CaOPLG-o3LS7h_QAa2WLDdcSJMs0/edit#) that was written as a collective effort.\n\nThe proposed change will do the following\n\n- leave 2 Parity invulnerable collators on each chain\n- make 8 community collators invulnerable on Asset Hub invulnerable\n- create an additional 6 permissionless slots on Asset Hub\n- do the same for the BridgeHub\n\nThese new 6 permissionless slots will be opened to any new collator by placing a bond of 50 KSM once this referendum is enacted. ",
+          "title": "Further decentralize collator set on Kusama system chains",
+          "createdAt": {
+            "_seconds": 1685691844,
+            "_nanoseconds": 448000000
+          }
+        },
+        {
+          "content": "This proposal aims to decentralize the following system chains – Kusama Asset Hub (former Statemine) and Kusama Bridge Hub. \n\nThe proposed change will do the following\n\n- leave 2 Parity invulnerable collators on each chain\n- make 8 community collators invulnerable on Asset Hub invulnerable\n- create an additional 6 permissionless slots on Asset Hub\n- do the same for the BridgeHub\n\nThese new 6 permissionless slots will be opened to any new collator by placing a bond of 50 KSM once this referendum is enacted. ",
+          "title": "Further decentralize collator set on Kusama system chains",
+          "createdAt": {
+            "_seconds": 1685690783,
+            "_nanoseconds": 245000000
+          }
+        },
+        {
+          "content": "This proposal aims to decentralize the following system chains – Kusama Asset Hub (former Statemine) and Kusama Bridge Hub. \n\nThis proposed change will do the following\n\n- leave 2 Parity invulnerable collators on each chain\n- make  8 community collators on Asset Hub invulnerable\n- create an additional 6 permissionless slots on Asset Hub\n- do the same for the BridgeHub\n\nThese new 6 permissionless slots will be opened to any new collator by placing a bond of 50 KSM once this referendum is enacted. ",
+          "title": "Further decentralize collator set on Kusama system chains",
+          "createdAt": {
+            "_seconds": 1685690642,
+            "_nanoseconds": 800000000
+          }
+        },
+        {
+          "content": "This proposal aims to decentralize the following system chains – Kusama Asset Hub (former Statemine) and Kusama Bridge Hub. \n\nThis proposed change will do the following\n\n- leave 2 Parity invulnerable collators on each chain\n- make  8 community collators on Asset Hub invulnerable\n- create an additional 6 permissionless slots on Asset Hub\n- do the same for the BridgeHub\n\nThese 6 permissionless slots will be opened to any new collator by placing a bond of 50 KSM once this referendum is enacted. ",
+          "title": "Further decentralize collator set on Kusama system chains",
+          "createdAt": {
+            "_seconds": 1685690632,
+            "_nanoseconds": 764000000
+          }
+        },
+        {
+          "content": "This proposal aims to decentralize the following system chains – Kusama Asset Hub (former Statemine) and Kusama Bridge Hub. \n\nThis proposed change will do the following\n\n- leave 2 Parity invulnerable collators on each chain\n- make  8 community collators on Asset Hub invulnerable\n- create an additional 6 permissionless slots on Asset Hub\n- do the same for the BridgeHub\n\nThese 6 permissionless slots will be opened to any new collator by placing bond of 50 KSM once this referendum is enacted. \n\n\nThis change leaves 2 Parity invulnerable collators on each chain, additionally setting 8 new invulnerable from the community and leaving last 6 slots permisionless to allow anyone to join as a collator by placing a bond. ",
+          "title": "Further decentralize collator set on Kusama system chains",
+          "createdAt": {
+            "_seconds": 1685690609,
+            "_nanoseconds": 135000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-06-02T07:16:42.000Z",
+        "description": "",
+        "index": 214,
+        "origin": "StakingAdmin",
+        "proposer": "ESQzLXFRon3h5hUfNN9QTSQQTEzto5XNTGxF3g1myZELwX6",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x343d09b5a49c89e4a2b9f0ded74af5118df2d44b810fdf1191a47e2f1c67b559",
+        "voteMetrics": {
+          "nay": {
+            "count": 24,
+            "value": "8974007154319525"
+          },
+          "aye": {
+            "count": 243,
+            "value": "96360965435425756"
+          },
+          "support": {
+            "value": "38870947012594514"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-06-16T09:17:00.000Z",
+        "preparePeriodEndsAt": "2023-06-02T09:16:42.000Z"
+      },
+      "publicUser": {
+        "id": 2876,
+        "username": "pmensik",
+        "profileScore": 125.25,
+        "addresses": [
+          "5DvoL2BNoSm7wRt2tfZ6WW5QFrxm68GLv5SCrPQ4JBLjbvpL",
+          "5FF1hcGN1oYHANfdvyt5unEkUmowhg7aS63Vcn8FYs49iJ5V"
+        ],
+        "rank": 26,
+        "createdAt": "2020-12-23T12:45:41.006Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "qdEyYc96jXMqFOeUk5dQ",
+      "index": 151,
+      "userId": 8233,
+      "title": "Update elections' minimum untrusted score",
+      "content": "On [2022-12-12](https://kusama.subsquare.io/referenda/referendum/16) this [referendum proposal](https://kusama.polkassembly.io/referenda/16) was executed to, among other things, lower the `min_untrusted_score` to deal with a [mass slashing incident](https://forum.polkadot.network/t/kusama-era-4543-slashing/1410) in Kusama.\n\nThis proposal aims at updating the current `min_unstrusted_score` in Kusama back to sensible values. The new minimum untrusted score was calculated by averaging the last 30 election scores and halving them (starting from election at block [#17416892](https://kusama.subscan.io/block/17416892)).\n\nWhen enacted, this proposal will change the current untrusted minimum score in Kusama from\n\n```\n{\n  minimalStake: '1,722,238,583,242,009',\n  sumStake: '2,171,296,385,410,646,127',\n  sumStakeSquared: '62,184,223,048,402,160,114,561,549,513,680,866'\n}\n```\n\nto\n```\n{\n  minimalStake: '2,957,640,724,907,066',\n  sumStake: '3,471,819,933,857,856,584',\n  sumStakeSquared: '78,133,097,080,615,021,100,202,963,085,417,458'\n}\n```\n\n--- \n\n## Why is this change important?\n\nThe [`MinimumUntrustedScore`](https://github.com/paritytech/substrate/blob/master/frame/election-provider-multi-phase/src/lib.rs#L1326) configuration defines the minimum election score that will be accepted by the elections pallet from off-chain staking miners. Increasing the minimum untrusted score ensures that weak election solutions will not be accepted. The proposed election score is more sensible and secure given the current state of the network. \n",
+      "createdAt": "2023-04-10T06:56:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 4,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-04-10T06:56:12.000Z",
+        "description": "",
+        "index": 151,
+        "origin": "StakingAdmin",
+        "proposer": "EShL6tEkak1cRyoicQoAH1o7MXNdf1x8e9giczPLN9XPUKj",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x1bd7c0d6bfffba077faac0dad95e43f8ea6b5d87d9cf28fa5efb1fa4d27ad882",
+        "voteMetrics": {
+          "nay": {
+            "count": 31,
+            "value": "1842040193256286"
+          },
+          "aye": {
+            "count": 240,
+            "value": "75772939312430285"
+          },
+          "support": {
+            "value": "60660502119882021"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-04-25T10:20:24.000Z",
+        "preparePeriodEndsAt": "2023-04-10T08:56:12.000Z"
+      },
+      "publicUser": {
+        "id": 8233,
+        "username": "gpestana2",
+        "profileScore": 1,
+        "addresses": [
+          "5Dw5fnYN8Dj5rnAMwubkGKenxmF8pzCmgGJwKxiRrZw2eCqW"
+        ],
+        "rank": 4122,
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "w8posVe8TKv09gWHE3hB",
+      "index": 79,
+      "userId": 3227,
+      "title": "Kusama Validator minimum commission rate",
+      "content": "\n**Short description:** This proposal seeks to adjust validator minimum commission rate from 3% to 10%\n\n**Project Category / Type:** Infrastructure\n\n**Discussion date:** 23.11.2022.  [https://kusama.polkassembly.io/post/1993](https://kusama.polkassembly.io/post/1993)\n\n**Onchain publish date:** 26.01.2023.\n\n**Governance referenda origin call:** staking_admin\n\n**Context**\n\nThis proposal seeks to adjust the validator minimum commission rate and keeps all other staking configurations unchanged. In the current market (last several months) validator income from the minimum commission can cover less than 50% of the server rent costs. In order to maintain a sustainable environment and prevent the network degradation I am passing this proposal to onchain voting.\n\n**Problem**\n\nThere were several topics regarding to the validator infrastructure expenses and operational costs that can be found here:\n\n[https://kusama.polkassembly.io/post/1980](https://kusama.polkassembly.io/post/1980)\n\n[https://kusama.polkassembly.io/post/1306](https://kusama.polkassembly.io/post/1306)\n\nA fully active validator operating at 3% commission can stand to earn:\n\n(800/1000)* 4 * 30 * 0.03 = 2.88 KSM/month. \nWith KSM priced at 34$ this equates to ~97.92 USD/month. \n\n\n**Proposal**\n\nThe proposed increase of minimum commission to 10% is trying to create a better and more sustainable network environment. With the numbers given above it is clear this is a small step towards this goal. Beside the commission, we would need KSM price to double and reach 50$ in order to earn ~480 USD/month which is still within the boundaries of operational costs.\n\nWith this proposal we are not influencing KSM inflation rate. We are asking the nominators to steer 1.36% of their staking APY towards the network, current returns are 18.88% and we anticipate it to be 17.52% all other factors being equal. We need to have a strong, reliable, secure and redundant blockchain network in order to process and secure multi million $ assets on it.\n\n\n**Objectives**\n\nValidator earnings and effects on staking rewards\n\nA fully active validator operating at 3% commission can stand to earn \n(800/1000)* 4 * 30 * 0.03 = 2.88 KSM/month. : \n\n- with KSM priced at 25$ this equates to ~ 72.00 USD/month.\n\n- with KSM priced at 34$ this equates to ~ 97.92 USD/month.\n\n- with KSM priced at 50$ this equates to ~ 144.00 USD/month.\n\nA fully active validator operating at 10% commission can stand to earn \n(800/1000)* 4 * 30 * 0.1 = 9.60 KSM/ month.\n\n- with KSM priced at 25$ this equates to ~ 240.00 USD/month.\n\n- with KSM priced at 34$ this equates to ~ 326.40 USD/month.\n\n- with KSM priced at 50$ this equates to ~ 480.00 USD/month.\n\n\n**Known constraints**\n\nA significant change of KSM price can have a positive or a negative impact to the changes proposed. This proposal is not trying to set permanent staking parameters i.e.  In a scenario where KSM hits $100 anyone can start a new proposal to decrease the commission rate.\n\n\n\n**[Full Proposal](https://docs.google.com/document/d/1sHrRM7wPv390GfhdPJeUKtfKD81X5ME5OIGrlDXqOXI/edit?usp=sharing)**",
+      "createdAt": "2023-01-26T12:59:06.826Z",
+      "updatedAt": "2023-01-26T13:06:24.770Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 16,
+          "dislike": 1
+        },
+        "comments": 9
+      },
+      "onChainInfo": {
+        "createdAt": "2023-01-26T12:58:30.000Z",
+        "description": "",
+        "index": 79,
+        "origin": "StakingAdmin",
+        "proposer": "GCMGu8sjEuEZuMZavo5PLvAhr8fJXAty76jDV1YPquG9erp",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x093e2ba5c16fd918b550e46c95b9e572e7299ce8421af857164a3df11e58df3e",
+        "voteMetrics": {
+          "nay": {
+            "count": 26,
+            "value": "9195582791159669"
+          },
+          "aye": {
+            "count": 252,
+            "value": "156990289063879335"
+          },
+          "support": {
+            "value": "73495212575489367"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-02-09T14:58:48.000Z",
+        "preparePeriodEndsAt": "2023-01-26T14:58:30.000Z"
+      },
+      "publicUser": {
+        "id": 3227,
+        "username": "coinstudio",
+        "profileScore": 233.25,
+        "addresses": [
+          "5Fgjcao16stJpFY7pDz2VPZAZFrRVrMiWjFyppjav3gmQbm2"
+        ],
+        "rank": 10,
+        "createdAt": "2023-03-08T09:59:55.927Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "5M6tYTheZILl4qkjpLz3",
+      "index": 16,
+      "userId": 2371,
+      "title": "Untitled Post",
+      "content": "This is a referendum whose proposer address (HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1) is shown in on-chain info below. Only this user can edit this description and the title. If you own this account, login and tell us more about your proposal.",
+      "createdAt": "2022-12-09T19:25:47.742Z",
+      "updatedAt": "2022-12-09T19:25:47.742Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2022-12-09T19:23:48.009Z",
+        "description": "",
+        "index": 16,
+        "origin": "StakingAdmin",
+        "proposer": "HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x50c138ebd69a4c866907f9fdc85998524131aff92709e5ea6ba967b774a7815e",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 240,
+            "value": "2262944996100000000"
+          },
+          "support": {
+            "value": "2544618714700000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2022-12-24T00:13:42.019Z",
+        "preparePeriodEndsAt": "2022-12-09T21:23:48.009Z"
+      },
+      "publicUser": {
+        "id": 2371,
+        "username": "kianenigma",
+        "profileScore": 56.25,
+        "addresses": [
+          "5CiAEq9xc8ZsYBdFRp6rDd5pkfW7TZbUvQNeiMQV7wHmAem5",
+          "5GBXac5ZDHWzhie3DCffFbfsnxXza1CKTyE96iKXyBSAaGf8",
+          "5GpWvvUFvMbFtCfKY6o9GZ8LAtJBDxoqWiu2pUm7Loe9JimL"
+        ],
+        "rank": 74,
+        "createdAt": "2022-02-22T06:39:18.608Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

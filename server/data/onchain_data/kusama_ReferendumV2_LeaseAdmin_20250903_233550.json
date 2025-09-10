@@ -1,0 +1,151 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:46:54.431281",
+  "total_items": 2,
+  "items": [
+    {
+      "id": "uJKBMdz6gOMKtszNIDm3",
+      "index": 286,
+      "userId": 2744,
+      "title": "System Chain Slot Renewal for Encointer",
+      "content": "Encointer's current lease will end with LP33 on Nov 14th 2023. We hereby propose to extend Encointer's system chain lease by 48 weeks.\n\nRecently, [RFC22](https://github.com/polkadot-fellows/RFCs/blob/main/text/0022-adopt-encointer-runtime.md) has been approved by the Polkadot Fellowship, formalizing the system chain status of Encointer.\n\nThe Encointer runtime will [move to the fellowship repo](https://github.com/polkadot-fellows/runtimes/pull/17) soon.\n\nHowever the funding situation of the Encointer Association may turn out, the team will keep the Encointer Network up and running for at least another year and we'd also like to thank our infrastructure supporters at IBP, onFinality, Stakeworld.\n",
+      "createdAt": "2023-10-10T08:28:42.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-10T08:28:42.001Z",
+        "description": "",
+        "index": 286,
+        "origin": "LeaseAdmin",
+        "proposer": "EyXct79ZDWdQfcSgJTG5texKM9wJj3quyh1ugPDVSkSt3Xm",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x567f90e31a32adab3b7cb9cd700063697242a27191b706a397d2310d57d5387f",
+        "voteMetrics": {
+          "nay": {
+            "count": 2,
+            "value": "10005037754754"
+          },
+          "aye": {
+            "count": 327,
+            "value": "69129554297567951"
+          },
+          "support": {
+            "value": "41870796735228215"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-10-24T10:29:00.000Z",
+        "preparePeriodEndsAt": "2023-10-10T10:28:42.001Z"
+      },
+      "publicUser": {
+        "id": 2744,
+        "username": "encointer",
+        "profileScore": 61.25,
+        "addresses": [
+          "5ETuxZmGvrVhf1nzubeDBwHxAkshW4EfTbrGX27G1eXx99QD",
+          "5HbEfHL3EQZMR6sJun4iwZg6S34vm4EjQoEC6tYKAsqV55Ut"
+        ],
+        "rank": 68,
+        "createdAt": "2020-09-02T11:09:37.426Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "iGwss14CfxSzqU5ja27s",
+      "index": 25,
+      "userId": 3102,
+      "title": "Extending Encointer's common good lease by 48 weeks",
+      "content": "The proposal aims to resubmit [Referendum 243](https://kusama.polkassembly.io/referendum/243) (already approved), this time using OpenGov in order to extend the lease of Encointer's Common Good Chain by eight lease periods. The last proposal failed to enact due to some changes in logic and scheduler that restricted the call. Hence this proposal aims to put forward the extension request once again.\n\nContextual information by Encointer can be found below:\n\n### Encointer's common good lease run out on Dec 12th 2022.\n\nBased on the following progress reports, we ask the community to appreciate our work done so far and grant us another 48 weeks.\n\n- [Our recent treasury proposal](https://docs.google.com/document/u/2/d/1eTyZGCTCzo7ZGonVtAmJmc5QYYI0qYHab6z8w56B_F0/edit) includes a detailed report on what we have achieved until June 2022 and what our plans are for the future.\n- Our [delivery report](https://kusama.polkassembly.io/motion/510#3f6f0d94-639f-49ec-a0ee-1f4ace1a37c8) on above treasury grant updates the information with achievements in the June-Sept 2022 period\n\nWe think Encointer has achieved a lot and is gaining momentum, both with its [pioneer community in Zurich](https://leu.zuerich/), but also with [newly launching communities worldwide.](https://trello.com/b/1Yhln6NT/encointer-community-leader-applications)\n\nOur original argumentation for the common good is still valid and can be found [here](https://kusama.polkassembly.io/post/610). What we'd like to add to our value proposition of pure sybil resistance is our approach for [inclusivity](https://polkadot.network/blog/introducing-encointer-making-web3-truly-inclusive/) which has resonated well in the community.\n\nThe initial passed referendum to register Encointer as common good is [here](https://kusama.polkassembly.io/referendum/158).\n\nWhile the Encointer team is aiming to diversify its funding sources, support by the Kusama treasury will be necessary for the upcoming period to continue working at the current pace. Therefore, we will submit our next treasury proposal soon.\n\nPreimage hash: `0x3249b18124aab52cd632f6759c7e46e10bac60b6f3411247e92b44babc67fd41`",
+      "createdAt": "2022-12-14T08:51:01.520Z",
+      "updatedAt": "2022-12-14T08:55:03.120Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2022-12-14T08:50:24.015Z",
+        "description": "",
+        "index": 25,
+        "origin": "LeaseAdmin",
+        "proposer": "D8DtYYJUUBoACJwJrLNyn8aYArumdViVWAcZRUKcxnSoV9D",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x3249b18124aab52cd632f6759c7e46e10bac60b6f3411247e92b44babc67fd41",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 122,
+            "value": "1202871330460000000"
+          },
+          "support": {
+            "value": "1557655348800000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2022-12-28T12:57:30.007Z",
+        "preparePeriodEndsAt": "2022-12-14T10:50:24.015Z"
+      },
+      "publicUser": {
+        "id": 3102,
+        "username": "otar",
+        "profileScore": 140.5,
+        "addresses": [
+          "5CccEECRr7AsQYVVY9XL5pmaPaafxxgY38KsAmCN9AZx4KWr"
+        ],
+        "rank": 20,
+        "createdAt": "2021-12-01T12:10:49.051Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

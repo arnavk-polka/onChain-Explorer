@@ -1,0 +1,419 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:47:38.635261",
+  "total_items": 5,
+  "items": [
+    {
+      "id": "",
+      "index": 545,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FeuHSRrxygRLAxiitpWLoactpT3RSwQVvbTKNxefDBYfQAU.",
+      "createdAt": "2025-06-24T15:25:36.001Z",
+      "updatedAt": "2025-06-24T15:25:36.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2025-06-24T15:25:36.001Z",
+        "description": "",
+        "index": 545,
+        "origin": "ReferendumKiller",
+        "proposer": "GAWwkmjbLhM5pnAVbdZEkwd3QjHE7kaxJSCi3Ec91Q3QSDW",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x150320020000",
+        "voteMetrics": {
+          "nay": {
+            "count": 20,
+            "value": "49494241000000000"
+          },
+          "aye": {
+            "count": 0,
+            "value": "0"
+          },
+          "support": {
+            "value": "413580368331419"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2025-06-24T17:25:36.001Z"
+      },
+      "publicUser": {
+        "id": 10252,
+        "username": "GAWwk_3QSDW",
+        "profileScore": 0,
+        "createdAt": "2023-07-11T10:15:52.822Z",
+        "rank": 8543,
+        "addresses": [
+          "5FeuHSRrxygRLAxiitpWLoactpT3RSwQVvbTKNxefDBYfQAU"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 476,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5E7CXy3cxEbgWRLKiZCxQoGJGV43s6pUcocfjUc7YHj2QLSJ.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2024-11-26T14:46:00.000Z",
+        "description": "",
+        "index": 476,
+        "origin": "ReferendumKiller",
+        "proposer": "EcpCHPVabccG59mVG21JkdJR5LHfmdf5BTR88t525wX9VBb",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x1503db010000",
+        "voteMetrics": {
+          "nay": {
+            "count": 18,
+            "value": "62851837169148241"
+          },
+          "aye": {
+            "count": 11,
+            "value": "467198559981779"
+          },
+          "support": {
+            "value": "1035498559981779"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2024-11-26T16:46:00.000Z"
+      },
+      "publicUser": {
+        "id": 2933,
+        "username": "Lurpis",
+        "profileScore": 16.25,
+        "createdAt": "2021-08-20T13:13:21.273Z",
+        "rank": 297,
+        "addresses": [
+          "5E7CXy3cxEbgWRLKiZCxQoGJGV43s6pUcocfjUc7YHj2QLSJ",
+          "5FtEEfxEdXX5nM5gekhuoWcwWfhW66TtDdcJiBDaCezpF6ex"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "6a0wLYfrT7soha7CYDJy",
+      "index": 296,
+      "userId": 12788,
+      "title": "Kill Referendum #295 & Slash Proposer's Deposit",
+      "content": "Referendum #295 tries to kill #287 & #289. People are disagreeing with each other tremendously, but they are still legit treasury proposals. Just vote Nay if you don't like it. Trying to kill them is clearly done in bad faith. So this is a counter referendum for referendum #295.",
+      "createdAt": "2023-10-20T20:09:18.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "history": [
+        {
+          "content": "Referendum #295 tries to kill #287 & #289. People are disagreeing with each other tremendously, but they are still legit treasury proposals. Just vote Nay if you don't like it. Trying to kill them is clearly done in bad faith. So this is a counter referendum for referendum #295.",
+          "title": "Kill Referendum 295 & Slash Proposer's Deposit",
+          "createdAt": {
+            "_seconds": 1697833559,
+            "_nanoseconds": 616000000
+          }
+        },
+        {
+          "content": "Referendum #295 tries to kill #287 & #289. People are disagreeing with each other tremendously, but they are legit treasury proposals. Just vote Nay if you don't like it. Trying to kill them is clearly done in bad faith. So this is a counter referendum for referendum #295.",
+          "title": "Kill Referendum 295 & Slash Proposer's Deposit",
+          "createdAt": {
+            "_seconds": 1697833471,
+            "_nanoseconds": 422000000
+          }
+        },
+        {
+          "content": "Referendum 295 tries to kill 287 & 289. People are disagreeing with each other tremendously, but they are legit treasury proposals. Just vote Nay if you don't like it. Trying to kill them is clearly done in bad faith. So this is a counter referendum for referendum #295.",
+          "title": "Kill Referendum 295 & Slash Proposer's Deposit",
+          "createdAt": {
+            "_seconds": 1697833447,
+            "_nanoseconds": 365000000
+          }
+        },
+        {
+          "content": "Referendum 295 which tries to kill 287 & 289. People are disagreeing with each other tremendously, but they are legit treasury proposals. Just vote Nay if you don't like it. Trying to kill them is clearly done in bad faith. So this is a counter referendum for referendum #295.",
+          "title": "Kill Referendum 295 & Slash Proposer's Deposit",
+          "createdAt": {
+            "_seconds": 1697833403,
+            "_nanoseconds": 721000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-20T20:09:18.001Z",
+        "description": "",
+        "index": 296,
+        "origin": "ReferendumKiller",
+        "proposer": "FiUFkJdgsjzbA1C8zVLME4csamHoZhSsPEo83rmjrqgzyAp",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x61f925c8facf14d6165cd270024f663f2dfeff20c25283d186bebdd7894059fc",
+        "voteMetrics": {
+          "nay": {
+            "count": 250,
+            "value": "119535237772454091"
+          },
+          "aye": {
+            "count": 92,
+            "value": "125076457106291187"
+          },
+          "support": {
+            "value": "45359709584083812"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-10-20T22:09:18.001Z"
+      },
+      "publicUser": {
+        "id": 12788,
+        "username": "fiaddress",
+        "profileScore": 0,
+        "addresses": [
+          "5FCrbRxm4Wj4qWBkNHgHTGhcizV3zttGR1Q3jPapG4dCG2gB"
+        ],
+        "rank": 8543,
+        "createdAt": "2023-10-20T20:11:33.210Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "wSFNgReOQZKLehLuPLcF",
+      "index": 295,
+      "userId": 2652,
+      "title": "Kill Referenda 287 & 289 Slashing Decent Partners' Benefactor",
+      "content": "This proposal aims to accomplish two things:\n\n1. Measure the ecosystem's support to slash Decent Partners' benefactor\n2. Enable whoever has the 1,667 KSM to make this slash actionable\n\nLet's see if the whales agree with the popular sentiment to punish Rich's behavior.\n\nExpect chaos.",
+      "createdAt": "2023-10-20T18:58:24.000Z",
+      "tags": [
+        {
+          "value": "treasury",
+          "lastUsedAt": "2023-10-20T18:58:24.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "slash",
+          "lastUsedAt": "2023-10-20T18:58:24.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "killer",
+          "lastUsedAt": "2023-10-20T18:58:24.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "malicious",
+          "lastUsedAt": "2023-10-20T18:58:24.000Z",
+          "network": "kusama"
+        },
+        {
+          "value": "rich",
+          "lastUsedAt": "2023-10-20T18:58:24.000Z",
+          "network": "kusama"
+        }
+      ],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "democracy",
+      "history": [
+        {
+          "content": "This proposal aims to accomplish two things:\n\n1. Measure the ecosystem's support to slash Decent Partner's benefactor\n2. Enable whoever has the 1,667 KSM to make this slash actionable\n\nLet's see if the whales agree with the popular sentiment to punish Rich's behavior.\n\nExpect chaos.",
+          "title": "Kill Referenda 287 & 289 Slashing Decent Partner Benefactor",
+          "createdAt": {
+            "_seconds": 1697828713,
+            "_nanoseconds": 120000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-20T18:58:24.000Z",
+        "description": "",
+        "index": 295,
+        "origin": "ReferendumKiller",
+        "proposer": "GqC37KSFFeGAoL7YxSeP1YDwr85WJvLmDDQiSaprTDAm8Jj",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x2531c39f40c10244e190d6890ed749a6c1ddc7617f0e7a1c4112992335d83ecb",
+        "voteMetrics": {
+          "nay": {
+            "count": 185,
+            "value": "30975348163369079"
+          },
+          "aye": {
+            "count": 147,
+            "value": "86751937952445149"
+          },
+          "support": {
+            "value": "25807371905279916"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-10-20T20:58:24.000Z"
+      },
+      "publicUser": {
+        "id": 2652,
+        "username": "asteeber",
+        "profileScore": 155,
+        "addresses": [
+          "5GKaNnyZctdLR9WfnFdbV4BDoFqqhe7AJqNfKnJsNezg2JnW"
+        ],
+        "rank": 17,
+        "createdAt": "2021-03-25T09:58:43.689Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 251,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5GiooCDSSCor9t3nuoERmNiwsXExpnGUmn7K1mL1tiWAqb2E.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2023-08-08T13:55:00.000Z",
+        "description": "",
+        "index": 251,
+        "origin": "ReferendumKiller",
+        "proposer": "HERTWZK4ZpmuXsEgW3UfL5x27XCdT5fE9x4QRbyNWifafdU",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x1cccef7c13212083206fe47786b314c271e523d68c5db290e7cf14a59cdeba4b",
+        "voteMetrics": {
+          "nay": {
+            "count": 216,
+            "value": "81203486451854039"
+          },
+          "aye": {
+            "count": 67,
+            "value": "16475237335925212"
+          },
+          "support": {
+            "value": "13452350340023982"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-08-08T15:55:00.000Z"
+      },
+      "publicUser": {
+        "id": 4422,
+        "username": "HERTW_fafdU",
+        "profileScore": 72.5,
+        "createdAt": "2022-12-19T15:54:01.893Z",
+        "rank": 51,
+        "addresses": [
+          "5GiooCDSSCor9t3nuoERmNiwsXExpnGUmn7K1mL1tiWAqb2E"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

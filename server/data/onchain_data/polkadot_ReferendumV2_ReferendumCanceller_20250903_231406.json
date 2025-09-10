@@ -1,0 +1,1847 @@
+{
+  "network": "polkadot",
+  "timestamp": "2025-09-03T23:32:32.932117",
+  "total_items": 25,
+  "items": [
+    {
+      "id": "",
+      "index": 1739,
+      "title": "[Referendum Canceller] Referendum #1739",
+      "content": "The call is wrong. Should have used `whitelist::dispatchWhitelistedCallWithPreimage`",
+      "createdAt": "2025-09-01T12:14:48.001Z",
+      "updatedAt": "2025-09-01T12:19:43.039Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-09-01T12:14:48.001Z",
+        "description": "",
+        "index": 1739,
+        "origin": "ReferendumCanceller",
+        "proposer": "14oHMAJ5btnDCusHrTWraw1wTsLJwZeqPDLxusm1R1Zh3Vxa",
+        "status": "Submitted",
+        "type": "ReferendumV2",
+        "hash": "0x1503ca060000",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "0"
+          },
+          "aye": {
+            "count": 0,
+            "value": "0"
+          },
+          "support": {
+            "value": "0"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2025-09-01T14:14:48.001Z"
+      },
+      "publicUser": {
+        "id": 18636,
+        "username": "serban300",
+        "profileScore": 0.5,
+        "createdAt": "2024-03-06T15:50:52.120Z",
+        "rank": 6245,
+        "addresses": [
+          "5FrzCq31k7WjmNrmtpTrSnBncFLfFG6hJicUkamervYAsBFX"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "allowedCommentor": "none",
+      "createdAt": "2025-07-05T07:24:06.948Z",
+      "isDeleted": false,
+      "index": 1655,
+      "id": "oGsmmum8G6l8uzoRLTl6",
+      "proposalType": "ReferendumV2",
+      "dataSource": "polkassembly",
+      "userId": 26736,
+      "network": "polkadot",
+      "title": "Please Vote Nay – This One Was Just a Test, Seriously",
+      "content": "Much like that \"Hello World\" you once pushed to prod, this proposal was an innocent test gone live. No policies, no politics—just a rogue automation script trying to impress us. Let’s all agree to vote Nay and pretend this never happened (we’ll make sure the AI gets a time-out).",
+      "updatedAt": "2025-07-06T06:15:39.680Z",
+      "tags": [],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-07-05T07:21:54.000Z",
+        "description": "",
+        "index": 1655,
+        "origin": "ReferendumCanceller",
+        "proposer": "16fDdpxCnQ4GXX6LKaLwwKPyU8f8gdkoCCeDbWAkPeag1daY",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x33f2ab74bb1f275c03900911847b1819e30bdc77ea68bce06edbdaa8d2466b6b",
+        "voteMetrics": {
+          "nay": {
+            "count": 46,
+            "value": "169143052176326125"
+          },
+          "aye": {
+            "count": 2,
+            "value": "10000000000"
+          },
+          "support": {
+            "value": "35000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-07-05T09:21:54.000Z"
+      },
+      "publicUser": {
+        "id": 26736,
+        "username": "5HivVV...q4pZ",
+        "profileScore": 7,
+        "addresses": [
+          "5HivVVh8vcno5z5pMwHwoAZpcWfUzLCf7hujSDBPqZZ9q4pZ"
+        ],
+        "rank": 778,
+        "createdAt": "2025-07-04T01:42:37.733Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "allowedCommentor": "all",
+      "createdAt": "2025-07-02T13:28:40.966Z",
+      "isDeleted": false,
+      "index": 1647,
+      "id": "tQeAcLJm2oOoqfpYoULi",
+      "proposalType": "ReferendumV2",
+      "dataSource": "polkassembly",
+      "userId": 6750,
+      "network": "polkadot",
+      "title": "Please vote nay ",
+      "content": "Please vote nay&#x20;\n\n\n\n(for background: Used this canceller to cancel [https://polkadot.polkassembly.io/referenda/1646](https://polkadot.polkassembly.io/referenda/1646) )",
+      "updatedAt": "2025-07-02T17:37:56.455Z",
+      "tags": [],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-07-02T12:57:36.001Z",
+        "description": "",
+        "index": 1647,
+        "origin": "ReferendumCanceller",
+        "proposer": "12h4KyK9qts4zMrgZgWPswnpVyhXU7XoZA5xDqoFAQ6JzkD4",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xa5d81f92dee28673cd11c91cb99fb34ea1b99c6ccbce76dcc77eba2958173c1e",
+        "voteMetrics": {
+          "nay": {
+            "count": 43,
+            "value": "162233194450720153"
+          },
+          "aye": {
+            "count": 2,
+            "value": "1000100000"
+          },
+          "support": {
+            "value": "50001000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-07-02T14:57:36.001Z"
+      },
+      "publicUser": {
+        "id": 6750,
+        "username": "Natalie",
+        "profileScore": 21.75,
+        "addresses": [
+          "5DkmBe45z7bbYprAc3TPjnxfeMhsmoyfUfMU4YotcK4npDdz"
+        ],
+        "rank": 220,
+        "createdAt": "2022-10-24T19:06:34.094Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "allowedCommentor": "all",
+      "createdAt": "2025-05-20T14:05:06.315Z",
+      "isDeleted": false,
+      "index": 1577,
+      "id": "eK9uRuGx1ilLfh6rApBZ",
+      "proposalType": "ReferendumV2",
+      "title": "Please cancel #1563",
+      "dataSource": "polkassembly",
+      "userId": 21492,
+      "content": "We are unable to move away funds from the multisig beneficiary on this referenda. We have created a new one and took measures so this can't happen again.",
+      "network": "polkadot",
+      "updatedAt": "2025-05-20T14:05:06.315Z",
+      "tags": [],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2025-05-20T14:02:18.000Z",
+        "description": "",
+        "index": 1577,
+        "origin": "ReferendumCanceller",
+        "proposer": "13dePGJmM3SDMhndSsoAEV1V43dXD8Vtv4p2qShaP3sd9S5M",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xca9d6e12a98f2997bed39c1255c9f0489cc8654e8decec199fce74c4990c4e72",
+        "voteMetrics": {
+          "nay": {
+            "count": 46,
+            "value": "91352913402727079"
+          },
+          "aye": {
+            "count": 12,
+            "value": "2401702566384047"
+          },
+          "support": {
+            "value": "952689207363502"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-05-20T16:02:18.000Z"
+      },
+      "publicUser": {
+        "id": 21492,
+        "username": "N3MUSNeal",
+        "profileScore": 4,
+        "addresses": [
+          "5EhMEw3hVGAjvAn7VEkA6LBLCRdsWpwkqa5Yg9iDpxr6xmWF"
+        ],
+        "rank": 1350,
+        "createdAt": "2024-05-29T12:59:01.603Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 1496,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5GxGBBjdWU5YCHioy6q4UPsQJHJgGvzxH88MnbYuP7TjxQNZ.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2025-03-19T08:17:48.000Z",
+        "description": "",
+        "index": 1496,
+        "origin": "ReferendumCanceller",
+        "proposer": "15tZKWzhNFM1dpjKvjt4cYhZ9uJKyEZ6McrqwtYFwCVG8XUh",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x1503d7050000",
+        "voteMetrics": {
+          "nay": {
+            "count": 19,
+            "value": "19890482531372259"
+          },
+          "aye": {
+            "count": 6,
+            "value": "490011285974704"
+          },
+          "support": {
+            "value": "548741285974704"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2025-03-19T10:17:48.000Z"
+      },
+      "publicUser": {
+        "id": 23021,
+        "username": "alistair_snowfork",
+        "profileScore": 0,
+        "createdAt": "2024-08-29T23:47:34.546Z",
+        "rank": 8543,
+        "addresses": [
+          "5GxGBBjdWU5YCHioy6q4UPsQJHJgGvzxH88MnbYuP7TjxQNZ"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 1443,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FZBmoDMD81QKztNWxywr24TC7VQJTLWcyVTTAJMXc9cutQ9.",
+      "createdAt": "2025-02-16T10:38:12.000Z",
+      "updatedAt": "2025-02-16T10:38:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2025-02-16T10:38:12.000Z",
+        "description": "",
+        "index": 1443,
+        "origin": "ReferendumCanceller",
+        "proposer": "14VUv8UR4uGsmXttUc2wzAtc3jV3zktehUDwcTHi5hB96TzF",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x1503a2050000",
+        "voteMetrics": {
+          "nay": {
+            "count": 25,
+            "value": "60968462456385077"
+          },
+          "aye": {
+            "count": 1,
+            "value": "0"
+          },
+          "support": {
+            "value": "50030000000000"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "preparePeriodEndsAt": "2025-02-16T12:38:12.000Z"
+      },
+      "publicUser": {
+        "id": 25058,
+        "username": "Parallelfinance3",
+        "profileScore": 0,
+        "createdAt": "2025-02-18T10:37:55.756Z",
+        "rank": 8543,
+        "addresses": [
+          "5FZBmoDMD81QKztNWxywr24TC7VQJTLWcyVTTAJMXc9cutQ9"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "eXwfBNxMBBCN3xiqdXRJ",
+      "index": 1235,
+      "userId": 12030,
+      "title": "Canceling referendum 1195",
+      "content": "Canceling referendum 1195",
+      "createdAt": "2024-10-16T09:02:30.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 4
+      },
+      "onChainInfo": {
+        "createdAt": "2024-10-16T09:02:30.001Z",
+        "description": "",
+        "index": 1235,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x6ba11a7e795beed391e479c113c1afe2b62ebc5b28820494a6ab2f7725baf3a6",
+        "voteMetrics": {
+          "nay": {
+            "count": 25,
+            "value": "76953962255387798"
+          },
+          "aye": {
+            "count": 22,
+            "value": "481787694115982420"
+          },
+          "support": {
+            "value": "160822333013173186"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-10-23T11:03:18.000Z",
+        "preparePeriodEndsAt": "2024-10-16T11:02:30.001Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "rv7ydGhNiVAwQODAZ3ji",
+      "index": 1214,
+      "userId": 12030,
+      "title": "Canceling referendum 1195",
+      "content": "Ambassador program was created on the root track. you can change the number of ambassadors or remove the ambassadors on the fellowship track but you cannot completely wipe out the program using fellowship track. So the second part of this proposal should be done on the root track",
+      "createdAt": "2024-10-08T16:30:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2024-10-08T16:30:12.000Z",
+        "description": "",
+        "index": 1214,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0x6ba11a7e795beed391e479c113c1afe2b62ebc5b28820494a6ab2f7725baf3a6",
+        "voteMetrics": {
+          "nay": {
+            "count": 44,
+            "value": "80427668892860400"
+          },
+          "aye": {
+            "count": 12,
+            "value": "70101737811974"
+          },
+          "support": {
+            "value": "167823459285047"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-10-15T18:30:30.000Z",
+        "preparePeriodEndsAt": "2024-10-08T18:30:12.000Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "f3h6voyJiJMj5Vz4bXGE",
+      "index": 1188,
+      "userId": 12030,
+      "title": "Canceling referendum 1186",
+      "content": "Ambassador program in its current format was approved with root referendum especially the number of 21 ambassadors. If you want to reduce the number of ambassadors you should either go on root or WFC. This is not the correct track",
+      "createdAt": "2024-09-28T05:43:30.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "Ambassador program in its current format was approved with root referendum especially the number of 21 ambassadors. If you want to reduce the number of ambassadors you should either go on root or WFC. This is not the correct track",
+          "title": "Canceling referendum 1186",
+          "createdAt": {
+            "_seconds": 1727502347,
+            "_nanoseconds": 480000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 8
+      },
+      "onChainInfo": {
+        "createdAt": "2024-09-28T05:43:30.001Z",
+        "description": "",
+        "index": 1188,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Rejected",
+        "type": "ReferendumV2",
+        "hash": "0xdbe17f61c22b9735599bb31cd006c6a5d269e0cd1539080a5b0ad812500a2e7b",
+        "voteMetrics": {
+          "nay": {
+            "count": 40,
+            "value": "62508981025827701"
+          },
+          "aye": {
+            "count": 10,
+            "value": "8530392731077561"
+          },
+          "support": {
+            "value": "7892147004345758"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-10-05T07:43:36.000Z",
+        "preparePeriodEndsAt": "2024-09-28T07:43:30.001Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 1003,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5FxRmu5NWCgBHz2BNyDkwzNn9LnHGRYWS6nU2KK5pJhPnuV4.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2024-07-16T20:04:24.001Z",
+        "description": "",
+        "index": 1003,
+        "origin": "ReferendumCanceller",
+        "proposer": "14tivELSMywejX2hLcGm69Cvzxmvxj6eWbWxBcJSNPiuyPdd",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x0b11a6934ed252a00a7eff47d6eb436a5e4d61f675916e2d832fcd1094572070",
+        "voteMetrics": {
+          "nay": {
+            "count": 21,
+            "value": "21408199085822371"
+          },
+          "aye": {
+            "count": 4,
+            "value": "16073211097973510"
+          },
+          "support": {
+            "value": "28388909199953768"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-07-16T22:04:24.001Z"
+      },
+      "publicUser": {
+        "id": 14075,
+        "username": "DecenteredStudio",
+        "profileScore": 6,
+        "createdAt": "2023-12-06T15:12:19.015Z",
+        "rank": 920,
+        "addresses": [
+          "5Fko89wAeknfmDvzZKGMoDTph3eyXFLR8MJKbCHe6HFAc9fH",
+          "5FxRmu5NWCgBHz2BNyDkwzNn9LnHGRYWS6nU2KK5pJhPnuV4"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "rdyXS8Ncea8VtMUkfVem",
+      "index": 929,
+      "userId": 12030,
+      "title": "Cancel 917",
+      "content": "Referendum 917 is not needed anymore since same curators took over existing Games Bounty",
+      "createdAt": "2024-06-29T06:18:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-06-29T06:18:06.000Z",
+        "description": "",
+        "index": 929,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x5a48133fcef6d71eec51619eef95f265e986206098a8a08618fa3288ac1ed71a",
+        "voteMetrics": {
+          "nay": {
+            "count": 10,
+            "value": "1678702049574174"
+          },
+          "aye": {
+            "count": 12,
+            "value": "326474007844570933"
+          },
+          "support": {
+            "value": "129806622178730802"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-07-06T08:18:18.000Z",
+        "preparePeriodEndsAt": "2024-06-29T08:18:06.000Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "2ItJ4mMCwOo7JhS4tMCG",
+      "index": 928,
+      "userId": 12030,
+      "title": "Cancel 923",
+      "content": "Referendum 923 is not needed anymore because the curators of bounty 923 have transferred power to a new set of curators that meets the criteria of an effective bounty",
+      "createdAt": "2024-06-28T17:46:54.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-06-28T17:46:54.001Z",
+        "description": "",
+        "index": 928,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xd8912c19a3e9150c55a3aa8a4b88f812e0596fb037235d6664e49e7847c8ec3d",
+        "voteMetrics": {
+          "nay": {
+            "count": 9,
+            "value": "986367601980858"
+          },
+          "aye": {
+            "count": 13,
+            "value": "313641332547285043"
+          },
+          "support": {
+            "value": "103900415319797754"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-07-05T19:47:18.001Z",
+        "preparePeriodEndsAt": "2024-06-28T19:46:54.001Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "CsfxgwIIAipWSPedFTuS",
+      "index": 913,
+      "userId": 12030,
+      "title": "Referendum 912 posted on the wrong track",
+      "content": "Referendum 912 posted on the wrong track",
+      "createdAt": "2024-06-24T16:40:42.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "Referendum posted on the wrong track",
+          "title": "Referendum posted on the wrong track",
+          "createdAt": {
+            "_seconds": 1719247436,
+            "_nanoseconds": 985000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "onChainInfo": {
+        "createdAt": "2024-06-24T16:40:42.000Z",
+        "description": "",
+        "index": 913,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x7cec0df2c580dbd39f1a8a02d7dc2885fb65b9e2b51d8f37c471f88f6428c167",
+        "voteMetrics": {
+          "nay": {
+            "count": 6,
+            "value": "173817366592061"
+          },
+          "aye": {
+            "count": 16,
+            "value": "305626616644347265"
+          },
+          "support": {
+            "value": "124665471911410713"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-07-01T18:41:12.000Z",
+        "preparePeriodEndsAt": "2024-06-24T18:40:42.000Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 870,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5Fc8uU6iobPxZeN9NzfRaPQavg7JnsUMTTgAUnSK7Yb2qNNh.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 0
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2024-06-13T17:33:18.001Z",
+        "description": "",
+        "index": 870,
+        "origin": "ReferendumCanceller",
+        "proposer": "14YS3oMnfNfS1BNfLdiRiYEjnJ6xVB2VXxQee5RffdcZ1xYy",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x6227ebcd55afb47f0185c553d23472632de563ef0c207b488b48282d4570844c",
+        "voteMetrics": {
+          "nay": {
+            "count": 2,
+            "value": "100000000000"
+          },
+          "aye": {
+            "count": 19,
+            "value": "213423020715913656"
+          },
+          "support": {
+            "value": "96980374130485603"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-06-20T19:33:36.000Z",
+        "preparePeriodEndsAt": "2024-06-13T19:33:18.001Z"
+      },
+      "publicUser": {
+        "id": 22451,
+        "username": "14YS3_Z1xYy",
+        "profileScore": 0,
+        "createdAt": "2024-07-25T14:20:51.354Z",
+        "rank": 8543,
+        "addresses": [
+          "5Fc8uU6iobPxZeN9NzfRaPQavg7JnsUMTTgAUnSK7Yb2qNNh"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "4KYf7JRrAUW5zZkj3a0G",
+      "index": 825,
+      "userId": 20409,
+      "title": " Cancelling treasury proposal #774",
+      "content": "\n\nHi Everyone; \n\nDue to the conditions that led to the presentation of the #774 proposal, its initial goals, and the interactions with the voting community, we decided to remove it.\n\nWhat went wrong?\n\nOne key goal was to begin building a community of users, but the opposite effect happened.  We were confident that the proposal would be well received by the Polkadot voting community, and that everyone would be eager to help and support us, which couldn’t be far from reality. \n\n\nWhat's next?\n\nWe continue aiming to offer content creators tools to produce streaming services. For now, we will be reflecting on the nature of the project, and on how to improve it. We are open to people's and groups' proposals to support online communities, anonymity in a social environment, and to be a point for AI-social interactions. To learn more about the project, participate or propose your ideas, join Kinera[ Discord channels. ](https://discord.gg/NSykaPAD)\n\nThank you.\n\n",
+      "createdAt": "2024-06-03T12:04:32.907Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "\n\nHi Everyone; \n\nDue to the conditions that led to the presentation of the #774 proposal, its initial goals, and the interactions with the voting community, we decided to remove it.\n\nWhat went wrong?\n\nOne key goal of proposal #774 was to begin building a community of users, but it had the opposite effect. \n\nWe were confident that the tools proposed “to change the video streaming landscape” would be well received by the Polkadot voting community, that everyone would be eager to help and support us, which couldn’t be far from reality. \n\n\nWhat's next?\n\nOur Textnet is being moved to Kusama. We continue aiming to offer content creators tools to produce streaming services. For now, we will reflect on the nature of the project. We are open to people's and groups' proposals to support online communities, anonymity in a social environment, and to be a point for AI-social interactions. To learn more about the project, participate or propose your ideas, join Kinera[ Discord channels. ](https://discord.gg/NSykaPAD)\n\nThank you.\n\n",
+          "title": " Cancelling treasury proposal #774",
+          "createdAt": {
+            "_seconds": 1717444336,
+            "_nanoseconds": 231000000
+          }
+        },
+        {
+          "content": "\n\nHi Everyone; \n\nDue to the conditions that led to the presentation of the #774 proposal, its initial goals, and the interactions with the voting community, we decided to remove it.\n\nWhat went wrong?\n\nOne key goal of proposal #774 was to begin building a community of users, but it had the opposite effect. \n\nWe were confident that the tools proposed “to change the video streaming landscape” would be well received by the Polkadot voting community, that everyone would be eager to help and support us, which couldn’t be far from reality. \n\n\nWhat's next?\n\nOur Textnet is being moved to Kusama. We continue aiming to offer content creators tools to produce streaming services. For now, we will reflect on the nature of the project. We want to be open to people and groups that want to build tools to support online communities, anonymity in a social environment, and to be a contact point for users and AI. To learn more about the project, participate or propose your ideas, join Kinera[ Discord channels. ](https://discord.gg/NSykaPAD)\n\nThank you.\n\n",
+          "title": " Cancelling treasury proposal #774",
+          "createdAt": {
+            "_seconds": 1717416711,
+            "_nanoseconds": 436000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-06-03T12:04:30.000Z",
+        "description": "",
+        "index": 825,
+        "origin": "ReferendumCanceller",
+        "proposer": "16CkbzjYiDyDouGZn1y5diYLueqqNQHScFEA7XkK4Mmcj2Mx",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x35a0388241408c6862dbca11b3d427062b6e2e4648f1dc9cdd14ed98f2fd9897",
+        "voteMetrics": {
+          "nay": {
+            "count": 4,
+            "value": "56412609611098"
+          },
+          "aye": {
+            "count": 37,
+            "value": "39508767834916605"
+          },
+          "support": {
+            "value": "36030489984617440"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-06-03T14:04:30.000Z"
+      },
+      "publicUser": {
+        "id": 20409,
+        "username": "Miguel",
+        "profileScore": 4.5,
+        "addresses": [
+          "5HGTTfUUrShkNNG3pNv5VZiC42rBg6jJXkVfxEkxWGk6YYoY"
+        ],
+        "rank": 1221,
+        "createdAt": "2024-04-24T11:12:47.113Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "HWsSHIydfemRdyB1KAk7",
+      "index": 787,
+      "userId": 12030,
+      "title": "Cancel root ref #693",
+      "content": "Cancel root ref #693",
+      "createdAt": "2024-05-18T01:52:36.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 3
+      },
+      "onChainInfo": {
+        "createdAt": "2024-05-18T01:52:36.000Z",
+        "description": "",
+        "index": 787,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x19f65406261e824b67f28a43b46aae5ede34b7a5c8b6edd7dbde7f9d79cb8812",
+        "voteMetrics": {
+          "nay": {
+            "count": 26,
+            "value": "364721977998145773"
+          },
+          "aye": {
+            "count": 17,
+            "value": "700974203697402242"
+          },
+          "support": {
+            "value": "204453857974022426"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-05-25T03:53:12.000Z",
+        "preparePeriodEndsAt": "2024-05-18T03:52:36.000Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "c7B3zBR35iKevzP2989P",
+      "index": 786,
+      "userId": 12030,
+      "title": "Cancel Chainanalysis ref",
+      "content": "The purpose of this referendum is to allow the community to democratically vote specifically on the fact of if it is acceptable to resubmit a proposal that recently failed \n\nThe factors to consider are: \n- The proposal lost by a very small minority, it was very close to 50/50\n- The proposal mostly lost because of DV. Of course DV is democratic but no DV is even more democratic, that's probably why W3F is not willing to delegate root track to DV. The most important track of all must be truly democratic \n- The new proposal has significant improvements\n\nThe idea is that it is more rational and effective to split the debate into two different referendums, one about the form (if the practice is acceptable) and one about the substance (if it is a good deal) \n\nInstead of mixing both into the single main referendum it's better to have two referendums, everyone can vote separately on the form (referendum canceler) and on the substance (main referendum) keeping both debates separate \n\nThis is more effective and more democratic",
+      "createdAt": "2024-05-17T18:03:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 5
+      },
+      "onChainInfo": {
+        "createdAt": "2024-05-17T18:03:12.000Z",
+        "description": "",
+        "index": 786,
+        "origin": "ReferendumCanceller",
+        "proposer": "1EpEiYpWRAWmte4oPLtR5B1TZFxcBShBdjK4X9wWnq2KfLK",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x215be001b912983cdb2d520f189347c9216cce4e3a6dadab19a3e46b2ba042e1",
+        "voteMetrics": {
+          "nay": {
+            "count": 15,
+            "value": "727038396542334895"
+          },
+          "aye": {
+            "count": 81,
+            "value": "754705491727266810"
+          },
+          "support": {
+            "value": "236584621028558951"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-05-24T20:04:24.001Z",
+        "preparePeriodEndsAt": "2024-05-17T20:03:12.000Z"
+      },
+      "publicUser": {
+        "id": 12030,
+        "username": "Giotto",
+        "profileScore": 109.5,
+        "addresses": [
+          "5CJX6PHkedu3LMdYqkHtGvLrbwGJustZ78zpuEAaxhoW9KbB"
+        ],
+        "rank": 29,
+        "createdAt": "2023-09-08T06:22:05.605Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "IyQZFP5pV0fDSN9bqIrk",
+      "index": 564,
+      "userId": 18552,
+      "title": "Cancelling DED Tech Proposal, and Deferring to DED Bounty Fund",
+      "content": "After discussing with the other members of the DOTisDED team, who initially provided feedback and supported this referendum, have later pivoted referendum funding strategy based on community sentiment from a _proposal by proposal_ approach to a DED Bounty Fund.  \n  \nThe community feedback has lead to Referendum #556.  \n  \nI agree DED cannot truly succeed with just this technical budget and tentative future contributor proposals that are not well received. Therefore i will cancel this referendum and allow for the DED Bounty Fund #556 to play out.\n\nA DED bounty fund will give DED the best chances of success, while retaining the core value of 100% fair distribution.   \n  \n$10m fund to aim for >$1bn value asset, is rational and reasonable odds. Dreaming of a zillion dollar token on bootstrap budget is a bad odds and waste of time and reputation.",
+      "createdAt": "2024-03-10T08:26:54.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 5
+      },
+      "onChainInfo": {
+        "createdAt": "2024-03-10T08:26:54.000Z",
+        "description": "",
+        "index": 564,
+        "origin": "ReferendumCanceller",
+        "proposer": "13KsrdjxiAYrK1SPeEJ4sFSL9tFZfHqn8xyGWG9REPzZsJJY",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xbf26ae106e01701d5d7e141eb5045af391251a4e7cfb4038d308f59f574cac8d",
+        "voteMetrics": {
+          "nay": {
+            "count": 39,
+            "value": "5942744879075688"
+          },
+          "aye": {
+            "count": 84,
+            "value": "40802272882983502"
+          },
+          "support": {
+            "value": "36758314330237786"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [
+          {
+            "address": "5FJBzh2SrNLsZqJ9j5FxyKfLXzbKzpBpeYzucQWiQM8Vao8D",
+            "amount": "312000000000000",
+            "assetId": null
+          }
+        ],
+        "preparePeriodEndsAt": "2024-03-10T10:26:54.000Z"
+      },
+      "publicUser": {
+        "id": 18552,
+        "username": "DEDTechMidwife",
+        "profileScore": 10,
+        "addresses": [
+          "5EPaiJUtrPHNsURsgbF4j6cBJGFuxzHe4UEnLyA4gJy3gq4X"
+        ],
+        "rank": 532,
+        "createdAt": "2024-03-05T10:56:25.907Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "index": 563,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5EPaiJUtrPHNsURsgbF4j6cBJGFuxzHe4UEnLyA4gJy3gq4X.",
+      "tags": [],
+      "dataSource": "polkassembly",
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "poll": null,
+      "onChainInfo": {
+        "createdAt": "2024-03-10T08:20:42.000Z",
+        "description": "",
+        "index": 563,
+        "origin": "ReferendumCanceller",
+        "proposer": "13KsrdjxiAYrK1SPeEJ4sFSL9tFZfHqn8xyGWG9REPzZsJJY",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x30c47df1484daef97c539391cd864461876e352b6f6aba9c05eee96e3af973ff",
+        "voteMetrics": {
+          "nay": {
+            "count": 68,
+            "value": "27988530172904589"
+          },
+          "aye": {
+            "count": 20,
+            "value": "3513545467962191"
+          },
+          "support": {
+            "value": "1436501222427044"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2024-03-10T10:20:42.000Z"
+      },
+      "publicUser": {
+        "id": 18552,
+        "username": "DEDTechMidwife",
+        "profileScore": 10,
+        "createdAt": "2024-03-05T10:56:25.907Z",
+        "rank": 532,
+        "addresses": [
+          "5EPaiJUtrPHNsURsgbF4j6cBJGFuxzHe4UEnLyA4gJy3gq4X"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "DTX1N7XuG5CHMbshKTX8",
+      "index": 444,
+      "userId": 1740,
+      "title": "Cancelling Referenda 416, 428, and 443 in a batch",
+      "content": "This referendum is a proactive response to address issues identified on Kusama, implementing preventive measures until fixes are introduced.\n\nThe decision to cancel three technical proposals in a batch is necessitated by configuration errors that have been observed. Specifically, this `batch` call encompasses:\n\n-   [Referendum 416](https://polkadot.subsquare.io/referenda/416), which scheduled a runtime upgrade to the v1.1.0 release but included an _XcmFeesToAccount fee manager_ compromising XCM execution, as reported [here](https://github.com/paritytech/polkadot-sdk/issues/3070).\n-   Additionally, [Referendum 428](https://polkadot.subsquare.io/referenda/428), intended to update Sufficient Asset minimum balances, however, recommended rejecting in order to make a new one to go with the Asset Hub upgrade that actually updates the ED.\n-   Lastly, [Referendum 443](443), submitted as a fix to reduce the existential deposit to 0.01 DOT, combined the call from Referendum 428, aiming to update the minimum balances of sufficient assets.\n\nPlease feel free to also downvote those referenda. These actions are taken proactively to address identified errors on Kusama and will be revisited upon the introduction of appropriate fixes.",
+      "createdAt": "2024-01-26T12:24:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "This referendum is a proactive response to address issues identified on Kusama, implementing preventive measures until fixes are introduced.\n\nThe decision to cancel three technical proposals in a batch is necessitated by configuration errors that have been observed. Specifically, this `batch` call encompasses:\n\n-   [Referendum 416](https://polkadot.subsquare.io/referenda/416), which scheduled a runtime upgrade to the v1.1.0 release but included an _XcmFeesToAccount fee manager_ compromising XCM execution, as reported [here](https://github.com/paritytech/polkadot-sdk/issues/3070).\n-   Additionally, [Referendum 428](https://polkadot.subsquare.io/referenda/428), intended to update Sufficient Asset minimum balances, contained an error.\n-   Lastly, [Referendum 443](443), submitted as a fix to reduce the existential deposit to 0.01 DOT, combined the call from Referendum 428, aiming to update the minimum balances of sufficient assets.\n\nPlease feel free to also downvote those referenda. These actions are taken proactively to address identified errors on Kusama and will be revisited upon the introduction of appropriate fixes.",
+          "title": "Cancelling Referenda 416, 428, and 443 in a batch",
+          "createdAt": {
+            "_seconds": 1706279436,
+            "_nanoseconds": 267000000
+          }
+        },
+        {
+          "content": "This referendum is a proactive response to address issues identified on Kusama, implementing preventive measures until fixes are introduced.\n\nThe decision to cancel three technical proposals in a batch is necessitated by configuration errors that have been observed. Specifically, this `batch` call encompasses:\n\n-   [Referendum 416](https://polkadot.subsquare.io/referenda/416), which scheduled a runtime upgrade to the v1.1.0 release but included an _XcmFeesToAccount fee manager_ compromising XCM execution, as reported [here](https://github.com/paritytech/polkadot-sdk/issues/3070).\n-   Additionally, [Referendum 428](https://polkadot.subsquare.io/referenda/428), intended to update Sufficient Asset minimum balances, contained an error.\n-   Lastly, [Referendum 443](443), submitted as a fix to reduce the existential deposit to 0.01 DOT, combined the call from Referendum 428, aiming to update the minimum balances of sufficient assets.\n\nPlease feel free to also downvote those referenda. These actions are taken proactively to address identified errors on Kusama and will be revisited upon the introduction of appropriate fixes.",
+          "title": "Cancelling Referenda 416, 428, and 433 in a batch",
+          "createdAt": {
+            "_seconds": 1706272945,
+            "_nanoseconds": 484000000
+          }
+        },
+        {
+          "content": "This referendum is a proactive response to address issues identified on Kusama, implementing preventive measures until fixes are introduced.\n\nThe decision to cancel three technical proposals in a batch is necessitated by configuration errors that have been observed. Specifically, this `batch` call encompasses:\n\n-   [Referendum 416](https://polkadot.subsquare.io/referenda/416), which scheduled a runtime upgrade to the v1.1.0 release but included an _XcmFeesToAccount fee manager_ compromising XCM execution, as reported [here](https://github.com/paritytech/polkadot-sdk/issues/3070).\n-   Additionally, [Referendum 428](https://polkadot.subsquare.io/referenda/428), intended to update Sufficient Asset minimum balances, contained an error.\n-   Lastly, [Referendum 443](443), submitted as a fix to reduce the existential deposit to 0.01 DOT, combined the call from Referendum 428, aiming to update the minimum balances of sufficient assets.\n\n  \nThese actions are taken proactively to address identified errors on Kusama and will be revisited upon the introduction of appropriate fixes.",
+          "title": "Cancelling Referenda 416, 428, and 433 in a batch",
+          "createdAt": {
+            "_seconds": 1706272286,
+            "_nanoseconds": 517000000
+          }
+        },
+        {
+          "content": "This referendum is a proactive response to address issues identified on Kusama, implementing preventive measures until fixes are introduced.\n\nThe decision to cancel three technical proposals in a batch is necessitated by configuration errors that have been observed. Specifically, this `batch` call encompasses [Referendum 416](https://polkadot.subsquare.io/referenda/416), which scheduled a runtime upgrade to the v1.1.0 release but included an _XcmFeesToAccount fee manager_ compromising XCM execution, as reported [here](https://github.com/paritytech/polkadot-sdk/issues/3070). Additionally, [Referendum 428](https://polkadot.subsquare.io/referenda/428), intended to update Sufficient Asset minimum balances, contained an error. Lastly, [Referendum 443](443), submitted as a fix to reduce the existential deposit to 0.01 DOT, combined the call from Referendum 428, aiming to update the minimum balances of sufficient assets.  \n  \nThese actions are taken proactively to address identified errors on Kusama and will be revisited upon the introduction of appropriate fixes.",
+          "title": "Cancelling Referenda 416, 428, and 433 in a batch",
+          "createdAt": {
+            "_seconds": 1706272166,
+            "_nanoseconds": 489000000
+          }
+        },
+        {
+          "content": "This referendum is a proactive response to address issues identified on Kusama, implementing preventive measures until fixes are introduced.\n\nThe decision to cancel three technical proposals in a batch is necessitated by configuration errors that have been observed. Specifically, this `batch` call encompasses [Referendum 416](https://polkadot.subsquare.io/referenda/416), which scheduled a runtime upgrade to the v1.1.0 release but included an _XcmFeesToAccount fee manager_ compromising XCM execution, as reported [here](https://github.com/paritytech/polkadot-sdk/issues/3070). Additionally, [Referendum 428](https://polkadot.subsquare.io/referenda/428), intended to update Sufficient Asset minimum balances, contained an error. Lastly, [Referendum 443](443), submitted as a fix to reduce the existential deposit to 0.01 DOT, combined the call from Referendum 428, aiming to update the minimum balances of sufficient assets.  \n  \nThese actions are taken proactively to address identified errors on Kusama and will be revisited upon the introduction of appropriate fixes.",
+          "title": "Cancelling Referenda 416, 428, and 433 in a batch",
+          "createdAt": {
+            "_seconds": 1706272005,
+            "_nanoseconds": 275000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2024-01-26T12:24:12.000Z",
+        "description": "",
+        "index": 444,
+        "origin": "ReferendumCanceller",
+        "proposer": "14z2CnmqMX2kcWGp5VT68sovjKXZipjkNUPtaMMnz6cjXW3q",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x0cd797bd1a3f896a34d4117e4847b140e7db48678d280544137bc93b4c2c9669",
+        "voteMetrics": {
+          "nay": {
+            "count": 5,
+            "value": "927870000000000"
+          },
+          "aye": {
+            "count": 43,
+            "value": "892876314415250031"
+          },
+          "support": {
+            "value": "786696640735525512"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2024-02-02T14:24:36.000Z",
+        "preparePeriodEndsAt": "2024-01-26T14:24:12.000Z"
+      },
+      "publicUser": {
+        "id": 1740,
+        "username": "Otar",
+        "profileScore": 10.25,
+        "addresses": [
+          "5G3j4TWmVjmHAyGJ7rQ5ziymshXv2XBcHyfQR4NSS1bDM23B"
+        ],
+        "rank": 512,
+        "createdAt": "2023-01-26T16:27:10.000Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "hh8bAut1BVpEwq87O9tt",
+      "index": 348,
+      "userId": 2610,
+      "title": "Cancel Ref 341 - Dolpha.com seeking 150,000 DOT ",
+      "content": "Dear community,\n\nThe Dolpha team has un-noted their preimage and [issued a public statement](https://x.com/TheDolpha/status/1733237071614029896?s=20) that they're retracting their proposal.\n\nReferendum 341 remains highly in favour with 16DG's support and given the potential risk that anyone can resubmit the preimage I am requesting support to officially cancel the referendum.\n\nRegards,\nWill | Paradox | Ecosystem Janitor / Night watchman.\n\n\n\n",
+      "createdAt": "2023-12-08T23:12:30.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 1,
+          "dislike": 0
+        },
+        "comments": 2
+      },
+      "onChainInfo": {
+        "createdAt": "2023-12-08T23:12:30.000Z",
+        "description": "",
+        "index": 348,
+        "origin": "ReferendumCanceller",
+        "proposer": "15D2JM548bqRuE45aDmeF2WqiKC56WtNnRmCxVSree9YKwVb",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x9f0cbc36128f9e148589a6539c07623397014c4620488b063bc614711feeb8dc",
+        "voteMetrics": {
+          "nay": {
+            "count": 18,
+            "value": "1839396872152575"
+          },
+          "aye": {
+            "count": 135,
+            "value": "103956023937789475"
+          },
+          "support": {
+            "value": "36112720956315681"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-12-18T10:45:30.000Z",
+        "preparePeriodEndsAt": "2023-12-09T01:12:30.000Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "iiqz15Bgd2Pe3TPJoM8Q",
+      "index": 266,
+      "userId": 2610,
+      "title": "Cancel Referendum 265 - Funding 999,999 DOT for meme coin in the name of Polkadot Marketing.",
+      "content": "Dear community,\n\nThis referendum gives the community an opportunity to prevent the enactment of referendum 265 under unscrupulous conditions.   I've opted to cancel as opposed to kill which does not slash the proposers deposit.  Imo, there is room (though little) to believe that this is not a scam or joke and under these circumstances one should not be punished for submitted a bad/unpopular referendum.\n\n[Referendum 265](https://polkadot.polkassembly.io/referenda/266) seeks to acquire 999,999 DOT for the purpose of supporting a meme coin $PINK to \"shill less tech and more pink\".  \n\nRegards,\nWill | Paradox | Ecosystem Janitor",
+      "createdAt": "2023-11-17T09:42:06.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "Dear community,\n\nThis referendum gives the community an opportunity to prevent the enactment of referendum 265 under unscrupulous conditions.   I've opted to cancel as opposed to kill which does not slash the proposers deposit.  Imo, there is room (though little) to believe that this is not a scam or joke and under these circumstances one should not be punished for submitted a bad/unpopular referendum.\n\n[Referendum 265](https://polkadot.polkassembly.io/referenda/266) seeks to acquire 999,999 DOT for the purpose of supporting a meme coin $PINK to \"shill less tech and more pink\".  \n\nRegards,",
+          "title": "Cancel Referendum 265 - Funding 999,999 DOT for meme coin in the name of Polkadot Marketing.",
+          "createdAt": {
+            "_seconds": 1700214780,
+            "_nanoseconds": 100000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 3,
+          "dislike": 0
+        },
+        "comments": 7
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-17T09:42:06.000Z",
+        "description": "",
+        "index": 266,
+        "origin": "ReferendumCanceller",
+        "proposer": "15D2JM548bqRuE45aDmeF2WqiKC56WtNnRmCxVSree9YKwVb",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xbaa3a74227ff9d43cb5b1821b020be58a9f7ded5864576e438e997a3e709e7cc",
+        "voteMetrics": {
+          "nay": {
+            "count": 7,
+            "value": "91350000000000"
+          },
+          "aye": {
+            "count": 133,
+            "value": "83883663518200514"
+          },
+          "support": {
+            "value": "39656281800803402"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-11-24T13:31:54.001Z",
+        "preparePeriodEndsAt": "2023-11-17T11:42:06.000Z"
+      },
+      "publicUser": {
+        "id": 2610,
+        "username": "paradox",
+        "profileScore": 285.5,
+        "addresses": [
+          "5GGjA1ozGpZxTh3Zcaie6sggrhCRQDLEhw2ioCTW6Z829UJK",
+          "5HKoxMMQW8WRxFPJJbib8B9MXcwfhUYJm7Y4GyjqJfQ9vQfL"
+        ],
+        "rank": 5,
+        "createdAt": "2021-02-16T17:29:48.055Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "UwNTKbwefZJNfqEzKemn",
+      "index": 246,
+      "userId": 2475,
+      "title": "Cancel Referendum 241 (runtime upgrade) due to XCM issue",
+      "content": "Due to an issue with Polkadot runtime 1'000'000 (seen after the equivalent runtime upgrade on Kusama), I am proposing this Referendum to cancel Referendum 241 proposing to upgrade Polkadot to it. Details: https://twitter.com/XiliangChen/status/1722546330382565572",
+      "createdAt": "2023-11-09T11:09:00.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 6
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-09T11:09:00.000Z",
+        "description": "",
+        "index": 246,
+        "origin": "ReferendumCanceller",
+        "proposer": "16frLykgLH5w8pNsvzEMTzCESMpLqWJMr4SGJUJQgYniDzdb",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0x3a1da660b99d16ebc803bbe2aa21bd6a8b64e193c33070a4ce81a45df604c4d0",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 129,
+            "value": "126112893260167067"
+          },
+          "support": {
+            "value": "42429206937626760"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-11-16T13:09:00.000Z",
+        "preparePeriodEndsAt": "2023-11-09T13:09:00.000Z"
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "rank": 9,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "bKoCWnop7OVHtPfjX3uN",
+      "index": 239,
+      "userId": 2475,
+      "title": "Cancel Referendum 211 (runtime upgrade) due to bad call ",
+      "content": "This Referendum cancels [Referendum 211](https://polkadot.polkassembly.io/referenda/211), which proposes to upgrade the Polkadot relay chain runtime to v1000000.  However, the call for Ref 211 is incorrect, so I am proposing that it be cancelled so that people do not unnecessarily vote on it.\n\nThere is an issue with the upgrade call on Referendum 211, so even if it passes, it will not execute. Specifically, the weight is set too high, so it will never pass. A new runtime upgrade is in preparation. \n\nThis was discovered via the equivalent runtime upgrade, [Ref 297](https://kusama.polkassembly.io/referenda/297),  on Kusama failing. In the enactment block, however, the execution failed and the runtime did not upgrade - for details, you can see [the event here](https://kusama.subscan.io/block/20435000?tab=event&event=20435000-0).\n\nNote - this proposal _cancels_ 211, it does not _kill_ it, i.e., it does _not_ slash the submission or decision deposits.",
+      "createdAt": "2023-11-06T09:15:12.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "history": [
+        {
+          "content": "This Referendum cancels (it does not kill, i.e., it does not touch the submission or decision deposits) [Referendum 211](https://polkadot.polkassembly.io/referenda/211), which proposes to upgrade the Polkadot relay chain runtime to v1000000.  However, the call for Ref 211 is incorrect, so I am proposing that it be cancelled so that people do not unnecessarily vote on it.\n\nThere is an issue with the upgrade call on Referendum 211, so even if it passes, it will not execute. Specifically, the weight is set too high, so it will never pass. A new runtime upgrade is in preparation. \n\nThis was discovered via the equivalent runtime upgrade, [Ref 297](https://kusama.polkassembly.io/referenda/297),  on Kusama failing. In the enactment block, however, the execution failed and the runtime did not upgrade - for details, you can see [the event here](https://kusama.subscan.io/block/20435000?tab=event&event=20435000-0).",
+          "title": "Cancel Referendum 211 (runtime upgrade) due to bad call ",
+          "createdAt": {
+            "_seconds": 1699262615,
+            "_nanoseconds": 915000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 2,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-11-06T09:15:12.000Z",
+        "description": "",
+        "index": 239,
+        "origin": "ReferendumCanceller",
+        "proposer": "16frLykgLH5w8pNsvzEMTzCESMpLqWJMr4SGJUJQgYniDzdb",
+        "status": "Executed",
+        "type": "ReferendumV2",
+        "hash": "0xc937bd5cd64933ce0f38e62eccea87bc1bb3fb9d85b94f542aa186f5795b206a",
+        "voteMetrics": {
+          "nay": {
+            "count": 0,
+            "value": "0"
+          },
+          "aye": {
+            "count": 97,
+            "value": "503726532252071657"
+          },
+          "support": {
+            "value": "496378629759973613"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "decisionPeriodEndsAt": "2023-11-13T11:15:42.000Z",
+        "preparePeriodEndsAt": "2023-11-06T11:15:12.000Z"
+      },
+      "publicUser": {
+        "id": 2475,
+        "username": "Bill",
+        "profileScore": 246,
+        "addresses": [
+          "5HjZCeVcUVpThHNMyMBMKqN5ajph9CkDmZhn9BK48TmC3K4Y"
+        ],
+        "rank": 9,
+        "createdAt": "2021-08-11T12:15:25.037Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    },
+    {
+      "id": "",
+      "index": 212,
+      "title": "Untitled Post",
+      "content": "This is a ReferendumV2 post. It can only be edited by the proposer of the post 5HNXfUQf2sdKUfCPCrfk3ciKTjFJxeGdviefvvyiqGDTqGMH.",
+      "createdAt": "2023-10-24T01:10:24.000Z",
+      "updatedAt": "2023-10-24T01:10:24.000Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "polkadot",
+      "dataSource": "subsquare",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "isDefaultContent": true,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 1
+      },
+      "onChainInfo": {
+        "createdAt": "2023-10-24T01:10:24.000Z",
+        "description": "",
+        "index": 212,
+        "origin": "ReferendumCanceller",
+        "proposer": "16JpoofitetnvCCuAVikBmYUKMExewpn1DPA6Dy5PMEz1aYg",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0xe973f753a9f3c72afda38e9e936d11a2d5e62f29764e35f68e76c129a953ef74",
+        "voteMetrics": {
+          "nay": {
+            "count": 118,
+            "value": "39855802302667243"
+          },
+          "aye": {
+            "count": 6,
+            "value": "543511965872279"
+          },
+          "support": {
+            "value": "504100658722797"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2023-10-24T03:10:24.000Z"
+      },
+      "publicUser": {
+        "id": 11533,
+        "username": "1586e5bc78b24a56b98200c56",
+        "profileScore": 3.5,
+        "createdAt": "2023-08-28T22:18:17.340Z",
+        "rank": 1554,
+        "addresses": [
+          "5HNXfUQf2sdKUfCPCrfk3ciKTjFJxeGdviefvvyiqGDTqGMH"
+        ],
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}

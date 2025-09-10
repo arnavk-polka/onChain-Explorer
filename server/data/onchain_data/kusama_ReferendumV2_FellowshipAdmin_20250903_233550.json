@@ -1,0 +1,103 @@
+{
+  "network": "kusama",
+  "timestamp": "2025-09-03T23:46:42.358429",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "kwpyDbvC5QGrYKa8T4w8",
+      "index": 508,
+      "userId": 10090,
+      "title": "Remove Gabe from the fellowship",
+      "content": "Members of the Fellowship Collective involved in projects flagged by the [OG tracker](https://app.ogtracker.io/mediumSpender/6) should provide a proper explanation, return the funds to the Treasury, or face expulsion.\n\nInvarch failed to provide the first two, so Gabe, a founding member of the team, does not meet the ethical standards required to have a voice in the Fellowship.  \n  \n**TENETS** (extract from the [fellowship manifesto](https://github.com/polkadot-fellows/manifesto/blob/main/manifesto.pdf))  \n  \n\n\"Members are expected to faithfully uphold the following tenets.  \nClarifications to the rules should be in agreement with these tenets. Acting in clear breach of these tenets may be considered by voters as grounds for non-promotion, demotion or, in extreme cases, **exclusion** from the Fellowship.\n\n  \n(1) Sincerely uphold the interests of Polkadot and avoid actions which clearly work against it.  \n(2) Respect the philosophy and principles of Polkadot.  \n(3) Respect the operational procedures, norms and voting conventions of the Fellowship.  \n(4) Respect your fellow Members and the wider community\"",
+      "createdAt": "2025-03-24T10:11:36.001Z",
+      "tags": [],
+      "proposalType": "ReferendumV2",
+      "network": "kusama",
+      "dataSource": "polkassembly",
+      "allowedCommentor": "all",
+      "isDeleted": false,
+      "topic": "general",
+      "history": [
+        {
+          "content": "Members of the Fellowship Collective involved in projects flagged by the [OG tracker](https://app.ogtracker.io/mediumSpender/6) should provide a proper explanation, return the funds to the Treasury, or face expulsion.\n\nInvarch failed to provide the first two, so Gabe, a founding member of the team, does not meet the ethical standards required to have a voice in the Fellowship.",
+          "title": "Remove Gabe from the fellowship",
+          "createdAt": {
+            "_seconds": 1742815248,
+            "_nanoseconds": 112000000
+          }
+        },
+        {
+          "content": "Members of the Fellowship Collective involved in projects flagged by the OG tracker should provide a proper explanation, return the funds to the Treasury, or face expulsion.\n\nInvarch failed to provide the first two, so Gabe, a founding member of the team, does not meet the ethical standards required to have a voice in the Fellowship.",
+          "title": "Remove Gabe from the fellowship",
+          "createdAt": {
+            "_seconds": 1742813528,
+            "_nanoseconds": 837000000
+          }
+        },
+        {
+          "content": "Members of the Fellowship Collective involved in projects flagged by the OG tracker should provide a proper explanation, return the funds to the Treasury, or face expulsion.",
+          "title": "Remove Gabe from the fellowship",
+          "createdAt": {
+            "_seconds": 1742811611,
+            "_nanoseconds": 195000000
+          }
+        }
+      ],
+      "isDefaultContent": false,
+      "metrics": {
+        "reactions": {
+          "like": 0,
+          "dislike": 0
+        },
+        "comments": 7
+      },
+      "onChainInfo": {
+        "createdAt": "2025-03-24T10:11:36.001Z",
+        "description": "",
+        "index": 508,
+        "origin": "FellowshipAdmin",
+        "proposer": "EJgdRddcYSd6XWnwr8oZkkzxJJX8SLwig38d5yxZSRgJGQZ",
+        "status": "TimedOut",
+        "type": "ReferendumV2",
+        "hash": "0x8bd242baf08401d94fcfbb6c9f7b9783cf3ff13737b7b4c2c2175285ac5bc131",
+        "voteMetrics": {
+          "nay": {
+            "count": 20,
+            "value": "28981821055998177"
+          },
+          "aye": {
+            "count": 19,
+            "value": "61253506238880169"
+          },
+          "support": {
+            "value": "41674116298034450"
+          },
+          "bareAyes": {
+            "value": "0"
+          }
+        },
+        "beneficiaries": [],
+        "preparePeriodEndsAt": "2025-03-24T12:11:36.001Z"
+      },
+      "publicUser": {
+        "id": 10090,
+        "username": "KSM",
+        "profileScore": 15.75,
+        "addresses": [
+          "5Do4y7HkzBRhLshMB9KkfoPzoi2HKmXmGJCPERi15eDBZNmk"
+        ],
+        "rank": 312,
+        "createdAt": "2023-07-03T13:53:09.537Z",
+        "profileDetails": {
+          "achievementBadges": [],
+          "badges": [],
+          "bio": "",
+          "image": "",
+          "title": "",
+          "coverImage": "",
+          "publicSocialLinks": []
+        }
+      }
+    }
+  ]
+}
