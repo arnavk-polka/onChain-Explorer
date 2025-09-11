@@ -6,6 +6,7 @@ from app.db import test_connection
 from app.langgraph.graph import graph, GraphState, router as graph_router, sql_agent, retrieval, composer
 from app.logger import get_logger
 from app.services.retrieval import get_retrieval_service, SearchFilters, SearchResult
+from app.services.nlsql import get_nlsql_service, SQLSecurityError
 
 logger = get_logger(__name__)
 
@@ -60,6 +61,19 @@ class SearchResponse(BaseModel):
     total_found: int
     query: str
     filters_applied: Optional[Dict[str, Any]] = None
+
+
+class NLSQLRequest(BaseModel):
+    user_query: str
+    schema_hint: Optional[str] = None
+
+
+class NLSQLResponse(BaseModel):
+    count: Optional[int] = None
+    examples: Optional[List[Dict[str, Any]]] = None
+    plan: str
+    sql: str
+    error: Optional[str] = None
 
 
 @router.get("/healthz")
@@ -191,4 +205,44 @@ async def search_proposals(request: SearchRequest):
         raise HTTPException(
             status_code=500,
             detail=f"Search failed: {str(e)}"
+        )
+
+
+@router.post("/nlsql", response_model=NLSQLResponse)
+async def process_nlsql(request: NLSQLRequest):
+    """Convert natural language to SQL with security validation and execute"""
+    try:
+        logger.info(f"Processing NLSQL query: {request.user_query}")
+        
+        # Get NLSQL service
+        nlsql_service = get_nlsql_service()
+        
+        # Execute the natural language query
+        result = await nlsql_service.execute_nlsql(
+            user_query=request.user_query,
+            schema_hint=request.schema_hint or ""
+        )
+        
+        logger.info(f"NLSQL executed successfully: {result['plan']}")
+        
+        return NLSQLResponse(
+            count=result.get("count"),
+            examples=result.get("examples"),
+            plan=result["plan"],
+            sql=result["sql"]
+        )
+        
+    except SQLSecurityError as e:
+        logger.warning(f"NLSQL security error: {str(e)}")
+        return NLSQLResponse(
+            plan="",
+            sql="",
+            error=f"Security error: {str(e)}"
+        )
+        
+    except Exception as e:
+        logger.error(f"NLSQL processing failed: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"NLSQL processing failed: {str(e)}"
         )
