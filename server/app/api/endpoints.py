@@ -1,12 +1,15 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, field_validator
 from typing import Dict, Any, Optional, List
 from datetime import datetime
+import json
 from app.db import test_connection
-from app.langgraph.graph import graph, GraphState, router as graph_router, sql_agent, retrieval, composer
+# LangGraph imports removed due to circular import issues
 from app.logger import get_logger
 from app.services.retrieval import get_retrieval_service, SearchFilters, SearchResult
 from app.services.nlsql import get_nlsql_service, SQLSecurityError
+from app.services.orchestration import get_orchestration_service
 
 logger = get_logger(__name__)
 
@@ -102,42 +105,32 @@ async def health_check():
 
 @router.post("/query", response_model=QueryResponse)
 async def process_query(request: QueryRequest):
-    """Process query using LangGraph workflow"""
+    """Process query using orchestration service"""
     try:
         logger.info(f"Processing query: {request.query}")
         
-        # Create initial state
-        initial_state = GraphState(query=request.query)
+        # Get orchestration service
+        orchestration_service = get_orchestration_service()
         
-        # Execute the graph - try different methods based on LangGraph version
-        try:
-            # Try the newer API first
-            result = graph.invoke(initial_state)
-        except AttributeError:
-            try:
-                # Try the older API
-                result = graph.run(initial_state)
-            except AttributeError:
-                # Fallback to direct execution
-                result = initial_state
-                # Manually execute the workflow
-                next_step = graph_router(result)
-                if next_step == "sql_agent":
-                    result = sql_agent(initial_state)
-                elif next_step == "retrieval":
-                    result = retrieval(initial_state)
-                else:
-                    result = composer(initial_state)
+        # Collect all events from the stream
+        events = []
+        async for event in orchestration_service.run_graph(request.query):
+            events.append(event)
         
-        # Extract response data
+        # Extract final answer and metadata
+        final_event = next((e for e in events if e["stage"] == "final_answer"), None)
+        sql_event = next((e for e in events if e["stage"] == "sql_result"), None)
+        retrieval_event = next((e for e in events if e["stage"] == "retrieval_hits"), None)
+        
+        # Build response
         response_data = {
-            "response": result.final_response,
-            "sql_query": result.sql_query if result.sql_query else None,
-            "results": result.reranked_results if result.reranked_results else None,
-            "metadata": result.metadata
+            "response": final_event["payload"]["answer"] if final_event else "No response generated",
+            "sql_query": sql_event["payload"]["sql"] if sql_event else None,
+            "results": retrieval_event["payload"]["hits"] if retrieval_event else None,
+            "metadata": final_event["payload"]["metadata"] if final_event else {}
         }
         
-        logger.info(f"Query processed successfully: {result.metadata.get('processing_type')}")
+        logger.info(f"Query processed successfully: {response_data['metadata'].get('processing_type', 'unknown')}")
         return QueryResponse(**response_data)
         
     except Exception as e:
@@ -246,3 +239,109 @@ async def process_nlsql(request: NLSQLRequest):
             status_code=500,
             detail=f"NLSQL processing failed: {str(e)}"
         )
+
+
+@router.post("/query/stream")
+async def process_query_stream(request: QueryRequest):
+    """Process query using orchestration service with streaming response"""
+    
+    async def generate_stream():
+        try:
+            logger.info(f"Processing streaming query: {request.query}")
+            
+            # Get orchestration service
+            orchestration_service = get_orchestration_service()
+            
+            # Stream events
+            async for event in orchestration_service.run_graph(request.query):
+                # Format as Server-Sent Events
+                event_data = json.dumps(event, default=str)
+                yield f"data: {event_data}\n\n"
+            
+            # Send end event
+            yield "data: [DONE]\n\n"
+            
+        except Exception as e:
+            logger.error(f"Streaming query failed: {str(e)}")
+            error_event = {
+                "stage": "error",
+                "payload": {
+                    "error": str(e),
+                    "message": "Failed to process query"
+                }
+            }
+            yield f"data: {json.dumps(error_event)}\n\n"
+            yield "data: [DONE]\n\n"
+    
+    return StreamingResponse(
+        generate_stream(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type"
+        }
+    )
+
+
+@router.post("/query/stream-raw")
+async def process_query_stream_raw(request: Request):
+    """Process query using orchestration service with streaming response (raw JSON)"""
+    
+    async def generate_stream():
+        try:
+            # Parse raw JSON from request body
+            body = await request.json()
+            query = body.get("query", "")
+            
+            if not query:
+                error_event = {
+                    "stage": "error",
+                    "payload": {
+                        "error": "Missing query parameter",
+                        "message": "Query parameter is required"
+                    }
+                }
+                yield f"data: {json.dumps(error_event)}\n\n"
+                yield "data: [DONE]\n\n"
+                return
+            
+            logger.info(f"Processing streaming query: {query}")
+            
+            # Get orchestration service
+            orchestration_service = get_orchestration_service()
+            
+            # Stream events
+            async for event in orchestration_service.run_graph(query):
+                # Format as Server-Sent Events
+                event_data = json.dumps(event, default=str)
+                yield f"data: {event_data}\n\n"
+            
+            # Send end event
+            yield "data: [DONE]\n\n"
+            
+        except Exception as e:
+            logger.error(f"Streaming query failed: {str(e)}")
+            error_event = {
+                "stage": "error",
+                "payload": {
+                    "error": str(e),
+                    "message": "Failed to process query"
+                }
+            }
+            yield f"data: {json.dumps(error_event)}\n\n"
+            yield "data: [DONE]\n\n"
+    
+    return StreamingResponse(
+        generate_stream(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type"
+        }
+    )

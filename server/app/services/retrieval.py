@@ -1,4 +1,4 @@
-heck"""
+"""
 Retrieval service for searching proposals with hybrid search (lexical + vector)
 Implements RRF fusion and optional Cohere reranking
 """
