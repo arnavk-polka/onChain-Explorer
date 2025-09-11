@@ -1,54 +1,75 @@
-import { StreamingTextResponse, Message } from 'ai'
-import { experimental_StreamData } from 'ai'
+import { StreamingTextResponse } from 'ai'
+
+const BASE_API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 export async function POST(req: Request) {
-  const { messages } = await req.json()
+  const { messages, filters } = await req.json()
   const lastMessage = messages[messages.length - 1]
 
-  // Forward the query to our server
-  const response = await fetch('http://localhost:8000/api/v1/query', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      query: lastMessage.content,
-    }),
-  })
+  try {
+    // Forward the query to our server's non-streaming endpoint first
+    const response = await fetch(`${BASE_API_URL}/api/v1/query`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        query: lastMessage.content,
+        filters: filters || {}
+      }),
+    })
 
-  if (!response.ok) {
-    throw new Error('Failed to process query')
+    if (!response.ok) {
+      throw new Error('Failed to process query')
+    }
+
+    const data = await response.json()
+    console.log('Backend response:', data)
+
+    // Create a simple streaming response
+    const encoder = new TextEncoder()
+    const stream = new ReadableStream({
+      async start(controller) {
+        // Simulate streaming by sending the response in chunks
+        const responseText = data.response || 'No response received'
+        const words = responseText.split(' ')
+        
+        for (const word of words) {
+          controller.enqueue(encoder.encode(word + ' '))
+          await new Promise(resolve => setTimeout(resolve, 50))
+        }
+        
+        // Add the results data to the response
+        if (data.results && data.results.length > 0) {
+          const resultsData = JSON.stringify(data.results)
+          controller.enqueue(encoder.encode(`\n\nData: ${resultsData}`))
+        }
+        
+        controller.close()
+      },
+    })
+
+    // Return the streaming response with data
+    return new StreamingTextResponse(stream, {
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8',
+      },
+    })
+
+  } catch (error) {
+    console.error('API error:', error)
+    
+    // Return error response
+    const encoder = new TextEncoder()
+    const stream = new ReadableStream({
+      start(controller) {
+        controller.enqueue(encoder.encode('❌ Error processing your request'))
+        controller.close()
+      },
+    })
+
+    return new StreamingTextResponse(stream, {
+      status: 500,
+    })
   }
-
-  const data = await response.json()
-  
-  // Create streaming response
-  const data_stream = new experimental_StreamData()
-  
-  // Simulate streaming by sending the response in chunks
-  const encoder = new TextEncoder()
-  const stream = new ReadableStream({
-    async start(controller) {
-      const responseText = data.response
-      const chunks = responseText.split(' ')
-      
-      for (const chunk of chunks) {
-        controller.enqueue(encoder.encode(chunk + ' '))
-        await new Promise(resolve => setTimeout(resolve, 50)) // Simulate streaming delay
-      }
-      
-      // Add SQL query and results to stream data if available
-      if (data.sql_query) {
-        data_stream.append({ sql_query: data.sql_query })
-      }
-      if (data.results) {
-        data_stream.append({ results: data.results })
-      }
-      
-      data_stream.close()
-      controller.close()
-    },
-  })
-
-  return new StreamingTextResponse(stream, {}, data_stream)
 }

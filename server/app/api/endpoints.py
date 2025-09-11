@@ -127,6 +127,7 @@ async def process_query(request: QueryRequest):
             "response": final_event["payload"]["answer"] if final_event else "No response generated",
             "sql_query": sql_event["payload"]["sql"] if sql_event else None,
             "results": retrieval_event["payload"]["hits"] if retrieval_event else None,
+            "count": retrieval_event["payload"]["count"] if retrieval_event else 0,
             "metadata": final_event["payload"]["metadata"] if final_event else {}
         }
         
