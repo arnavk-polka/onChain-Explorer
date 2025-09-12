@@ -23,3 +23,5 @@ echo "To stop the container: docker stop onchain-retrieval"
 echo "To remove the container: docker rm onchain-retrieval"
 
 
+
+

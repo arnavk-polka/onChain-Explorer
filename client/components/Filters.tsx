@@ -30,7 +30,7 @@ export default function Filters({ onFiltersChange }: FiltersProps) {
             setNetwork(e.target.value)
             handleFilterChange({ network: e.target.value, type, dateRange })
           }}
-          className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors"
+          className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors text-slate-900"
         >
           <option value="all">All Networks</option>
           <option value="polkadot">Polkadot</option>
@@ -49,7 +49,7 @@ export default function Filters({ onFiltersChange }: FiltersProps) {
             setType(e.target.value)
             handleFilterChange({ network, type: e.target.value, dateRange })
           }}
-          className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors"
+          className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors text-slate-900"
         >
           <option value="all">All Types</option>
           <option value="TreasuryProposal">Treasury Proposal</option>
@@ -73,7 +73,7 @@ export default function Filters({ onFiltersChange }: FiltersProps) {
             setDateRange(e.target.value)
             handleFilterChange({ network, type, dateRange: e.target.value })
           }}
-          className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors"
+          className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors text-slate-900"
         >
           <option value="1d">Last 24 hours</option>
           <option value="7d">Last 7 days</option>

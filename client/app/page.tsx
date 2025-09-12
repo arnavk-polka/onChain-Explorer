@@ -173,7 +173,7 @@ export default function Home() {
                 value={input}
                 onChange={handleInputChange}
                 placeholder="Ask about your onchain data..."
-                className="w-full border border-slate-300 rounded-xl px-4 py-3 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white/90 backdrop-blur-sm shadow-sm"
+                className="w-full border border-slate-300 rounded-xl px-4 py-3 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white/90 backdrop-blur-sm shadow-sm text-slate-900 placeholder-slate-500"
               />
               <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
                 <Send className="w-4 h-4 text-slate-400" />
