@@ -79,28 +79,6 @@ class NLSQLResponse(BaseModel):
     error: Optional[str] = None
 
 
-@router.get("/healthz")
-async def health_check():
-    """Health check endpoint"""
-    try:
-        # Test database connection
-        db_status = await test_connection()
-        
-        if db_status["status"] == "success":
-            return {
-                "status": "healthy",
-                "database": "connected",
-                "timestamp": "2024-01-01T00:00:00Z"
-            }
-        else:
-            return {
-                "status": "unhealthy",
-                "database": "disconnected",
-                "error": db_status["message"]
-            }
-    except Exception as e:
-        logger.error(f"Health check failed: {str(e)}")
-        raise HTTPException(status_code=500, detail="Health check failed")
 
 
 @router.post("/query", response_model=QueryResponse)

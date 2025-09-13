@@ -113,28 +113,13 @@ class OrchestrationService:
         return state.get("route_decision", "composer")
     
     async def _router_node(self, state: Dict[str, Any]) -> Dict[str, Any]:
-        """Route the query to appropriate processing path"""
+        """Route the query to appropriate processing path using intelligent analysis"""
         start_time = time.time()
         query = state.get("query", "")
         logger.info(f"Routing query: {query}")
         
         query_lower = query.lower()
-        
-        # Route based on query characteristics
-        if any(keyword in query_lower for keyword in [
-            "how many", "count", "amount", "highest", "lowest", "total", 
-            "average", "sum", "statistics", "august", "2025", "date"
-        ]):
-            route_decision = "sql_agent"
-            logger.info("Route decision: SQL agent (analytical query)")
-        elif any(keyword in query_lower for keyword in [
-            "find", "search", "show", "get", "clarys", "proposal", "specific", "tell me about"
-        ]):
-            route_decision = "retrieval_agent"
-            logger.info("Route decision: Retrieval agent (search query)")
-        else:
-            route_decision = "composer"
-            logger.info("Route decision: Composer (general query)")
+        route_decision = self._analyze_query_intent(query, query_lower)
         
         # Update state
         state["route_decision"] = route_decision
@@ -142,6 +127,176 @@ class OrchestrationService:
         state["processing_times"]["router"] = time.time() - start_time
         
         return state
+    
+    def _analyze_query_intent(self, query: str, query_lower: str) -> str:
+        """Analyze query intent to determine the best processing path"""
+        
+        # 1. EXACT LOOKUPS - Use SQL agent for precise data retrieval
+        if self._is_exact_lookup(query, query_lower):
+            logger.info("Route decision: SQL agent (exact lookup)")
+            return "sql_agent"
+        
+        # 2. MIXED QUERIES - Use SQL agent if it can handle both parts (check before analytical)
+        if self._is_mixed_query(query_lower):
+            logger.info("Route decision: SQL agent (mixed analytical + examples query)")
+            return "sql_agent"
+        
+        # 3. ANALYTICAL QUERIES - Use SQL agent for aggregations and statistics
+        if self._is_analytical_query(query_lower):
+            logger.info("Route decision: SQL agent (analytical query)")
+            return "sql_agent"
+        
+        # 4. DATE/TIME FILTERED QUERIES - Use SQL agent for structured filtering
+        if self._is_date_filtered_query(query_lower):
+            logger.info("Route decision: SQL agent (date-filtered query)")
+            return "sql_agent"
+        
+        # 5. FILTERED QUERIES - Use SQL agent for structured filtering by type/network
+        if self._is_filtered_query(query_lower):
+            logger.info("Route decision: SQL agent (filtered query)")
+            return "sql_agent"
+        
+        # 6. SEMANTIC SEARCH QUERIES - Use retrieval agent for fuzzy matching
+        if self._is_semantic_search_query(query_lower):
+            logger.info("Route decision: Retrieval agent (semantic search)")
+            return "retrieval_agent"
+        
+        # 7. DEFAULT - Use composer for general queries
+        logger.info("Route decision: Composer (general query)")
+        return "composer"
+    
+    def _is_exact_lookup(self, query: str, query_lower: str) -> bool:
+        """Check if query is asking for exact data lookup"""
+        # Specific ID patterns
+        id_patterns = [
+            "proposal with id", "proposal id", "id is", "id =", "id:", 
+            "proposal #", "proposal number", "specific proposal", "details of proposal"
+        ]
+        
+        # Check for ID patterns
+        if any(pattern in query_lower for pattern in id_patterns):
+            return True
+        
+        # Check for proposal + number pattern (e.g., "proposal 123456")
+        if "proposal" in query_lower and any(char.isdigit() for char in query):
+            return True
+        
+        # Check for specific entity lookups that are likely exact
+        if any(phrase in query_lower for phrase in [
+            "give me the details", "show me the details", "get the details"
+        ]):
+            return True
+        
+        return False
+    
+    def _is_analytical_query(self, query_lower: str) -> bool:
+        """Check if query is asking for analytical/statistical data"""
+        analytical_keywords = [
+            "how many", "count", "total", "number of", "amount", "amounts",
+            "highest", "lowest", "average", "sum", "statistics",
+            "most", "least", "maximum", "minimum", "show me proposal amounts"
+        ]
+        
+        return any(keyword in query_lower for keyword in analytical_keywords)
+    
+    def _is_date_filtered_query(self, query_lower: str) -> bool:
+        """Check if query involves date/time filtering"""
+        date_keywords = [
+            "recent", "after", "before", "between", "since", "until",
+            "january", "february", "march", "april", "may", "june",
+            "july", "august", "september", "october", "november", "december",
+            "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec",
+            "2024", "2025", "2026", "2027", "2028", "2029", "2030"
+        ]
+        
+        # Check for date patterns
+        if any(keyword in query_lower for keyword in date_keywords):
+            return True
+        
+        # Check for date format patterns (YYYY-MM-DD, MM/DD/YYYY, etc.)
+        import re
+        date_patterns = [
+            r'\d{4}-\d{2}-\d{2}',  # YYYY-MM-DD
+            r'\d{2}/\d{2}/\d{4}',  # MM/DD/YYYY
+            r'\d{4}/\d{2}/\d{2}',  # YYYY/MM/DD
+            r'\d{1,2}/\d{1,2}/\d{4}',  # M/D/YYYY or MM/DD/YYYY
+        ]
+        
+        for pattern in date_patterns:
+            if re.search(pattern, query_lower):
+                return True
+        
+        return False
+    
+    def _is_mixed_query(self, query_lower: str) -> bool:
+        """Check if query combines analytical and example requests"""
+        # Queries that ask for both count/examples
+        mixed_patterns = [
+            "how many", "count", "total"
+        ]
+        
+        example_patterns = [
+            "show some", "name a few", "give examples", "show examples", 
+            "and show", "and name", "and give", "and show some", "and name a few"
+        ]
+        
+        has_analytical = any(pattern in query_lower for pattern in mixed_patterns)
+        has_examples = any(pattern in query_lower for pattern in example_patterns)
+        
+        return has_analytical and has_examples
+    
+    def _is_filtered_query(self, query_lower: str) -> bool:
+        """Check if query is asking for filtered results by structured criteria"""
+        # Network filters
+        network_filters = ["kusama", "polkadot", "westend", "rococo"]
+        
+        # Proposal type filters  
+        type_filters = ["treasury", "council", "referendum", "bounty", "tip", "motion"]
+        
+        # Check for network filtering
+        has_network_filter = any(network in query_lower for network in network_filters)
+        
+        # Check for type filtering
+        has_type_filter = any(prop_type in query_lower for prop_type in type_filters)
+        
+        # Check for general filtering patterns
+        filter_patterns = [
+            "find", "what", "show me", "get", "list", "all"
+        ]
+        
+        has_filter_pattern = any(pattern in query_lower for pattern in filter_patterns)
+        
+        # This is a filtered query if it has filtering criteria and patterns
+        return (has_network_filter or has_type_filter) and has_filter_pattern
+    
+    def _is_semantic_search_query(self, query_lower: str) -> bool:
+        """Check if query requires semantic search for fuzzy matching"""
+        # General search patterns
+        search_patterns = [
+            "find", "search", "show me", "tell me about", "what", "which",
+            "get", "look for", "discover"
+        ]
+        
+        # Specific entity names that require semantic search
+        entity_names = [
+            "clarys", "subsquare", "polkadot", "kusama", "treasury", 
+            "council", "referendum", "bounty", "tip"
+        ]
+        
+        # Check for search patterns
+        has_search_pattern = any(pattern in query_lower for pattern in search_patterns)
+        
+        # Check for entity names
+        has_entity = any(entity in query_lower for entity in entity_names)
+        
+        # Check for general proposal queries without specific criteria
+        is_general_proposal_query = (
+            "proposal" in query_lower and 
+            not any(char.isdigit() for char in query_lower) and
+            not any(keyword in query_lower for keyword in ["how many", "count", "total", "amount"])
+        )
+        
+        return has_search_pattern or has_entity or is_general_proposal_query
     
     async def _sql_agent_node(self, state: Dict[str, Any]) -> Dict[str, Any]:
         """Process query using NLSQL service"""
@@ -227,11 +382,28 @@ class OrchestrationService:
             if count > 0:
                 final_answer = f"Found {count} proposals"
                 if examples:
-                    final_answer += f". Here are some examples:\n"
-                    for i, example in enumerate(examples[:3], 1):
+                    final_answer += f". Here are some examples:\n\n"
+                    for i, example in enumerate(examples[:5], 1):
                         title = example.get("title", "Untitled")
                         proposal_type = example.get("type", "Unknown")
-                        final_answer += f"{i}. {title} ({proposal_type})\n"
+                        network = example.get("network", "Unknown")
+                        created_at = example.get("created_at", "Unknown")
+                        proposal_id = example.get("id", "N/A")
+                        proposer = example.get("proposer", "Unknown")
+                        status = example.get("status", "Unknown")
+                        description = example.get("description", "No description available")
+                        amount = example.get("amount_numeric")
+                        
+                        final_answer += f"## Proposal {i}: {title}\n"
+                        final_answer += f"**ID:** {proposal_id}\n"
+                        final_answer += f"**Type:** {proposal_type}\n"
+                        final_answer += f"**Network:** {network}\n"
+                        final_answer += f"**Proposer:** {proposer}\n"
+                        final_answer += f"**Status:** {status}\n"
+                        final_answer += f"**Created:** {created_at}\n"
+                        if amount:
+                            final_answer += f"**Amount:** {amount}\n"
+                        final_answer += f"**Description:** {description[:200]}{'...' if len(description) > 200 else ''}\n\n"
                 state["final_answer"] = final_answer
             else:
                 state["final_answer"] = "No proposals found matching your criteria."
@@ -259,6 +431,8 @@ class OrchestrationService:
                 proposal_id = result.get("id") or "N/A"
                 proposer = result.get("proposer") or "Unknown"
                 status = result.get("status") or "Unknown"
+                description = result.get("description") or "No description available"
+                amount = result.get("amount") or result.get("amount_numeric")
                 
                 final_answer += f"## Proposal {i}: {title}\n"
                 final_answer += f"**ID:** {proposal_id}\n"
@@ -267,7 +441,9 @@ class OrchestrationService:
                 final_answer += f"**Proposer:** {proposer}\n"
                 final_answer += f"**Status:** {status}\n"
                 final_answer += f"**Created:** {created_at}\n"
-                final_answer += f"**Description:** [Loading description...]\n\n"
+                if amount:
+                    final_answer += f"**Amount:** {amount}\n"
+                final_answer += f"**Description:** {description[:200]}{'...' if len(description) > 200 else ''}\n\n"
             
             state["final_answer"] = final_answer
             state["proposals_for_descriptions"] = relevant_results
