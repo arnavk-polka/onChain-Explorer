@@ -4,16 +4,28 @@ import { useState } from 'react'
 
 interface FiltersProps {
   onFiltersChange?: (filters: any) => void
+  onApplyFilters?: (filters: any) => void
 }
 
-export default function Filters({ onFiltersChange }: FiltersProps) {
+export default function Filters({ onFiltersChange, onApplyFilters }: FiltersProps) {
   const [network, setNetwork] = useState('all')
   const [type, setType] = useState('all')
-  const [dateRange, setDateRange] = useState('7d')
+  const [dateRange, setDateRange] = useState('all')
 
-  const handleFilterChange = (newFilters: any) => {
-    if (onFiltersChange) {
-      onFiltersChange(newFilters)
+  const handleApplyFilters = () => {
+    const currentFilters = { network, type, dateRange }
+    if (onApplyFilters) {
+      onApplyFilters(currentFilters)
+    }
+  }
+
+  const handleClearFilters = () => {
+    setNetwork('all')
+    setType('all')
+    setDateRange('all')
+    const clearedFilters = { network: 'all', type: 'all', dateRange: 'all' }
+    if (onApplyFilters) {
+      onApplyFilters(clearedFilters)
     }
   }
 
@@ -26,10 +38,7 @@ export default function Filters({ onFiltersChange }: FiltersProps) {
         </label>
         <select
           value={network}
-          onChange={(e) => {
-            setNetwork(e.target.value)
-            handleFilterChange({ network: e.target.value, type, dateRange })
-          }}
+          onChange={(e) => setNetwork(e.target.value)}
           className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors text-slate-900"
         >
           <option value="all">All Networks</option>
@@ -45,19 +54,18 @@ export default function Filters({ onFiltersChange }: FiltersProps) {
         </label>
         <select
           value={type}
-          onChange={(e) => {
-            setType(e.target.value)
-            handleFilterChange({ network, type: e.target.value, dateRange })
-          }}
+          onChange={(e) => setType(e.target.value)}
           className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors text-slate-900"
         >
           <option value="all">All Types</option>
+          <option value="ReferendumV2">Referendum V2</option>
           <option value="TreasuryProposal">Treasury Proposal</option>
+          <option value="ChildBounty">Child Bounty</option>
+          <option value="CouncilMotion">Council Motion</option>
           <option value="DemocracyProposal">Democracy Proposal</option>
           <option value="Referendum">Referendum</option>
           <option value="Bounty">Bounty</option>
           <option value="Tip">Tip</option>
-          <option value="CouncilMotion">Council Motion</option>
           <option value="TechCommitteeProposal">Tech Committee Proposal</option>
         </select>
       </div>
@@ -69,10 +77,7 @@ export default function Filters({ onFiltersChange }: FiltersProps) {
         </label>
         <select
           value={dateRange}
-          onChange={(e) => {
-            setDateRange(e.target.value)
-            handleFilterChange({ network, type, dateRange: e.target.value })
-          }}
+          onChange={(e) => setDateRange(e.target.value)}
           className="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white shadow-sm transition-colors text-slate-900"
         >
           <option value="1d">Last 24 hours</option>
@@ -84,15 +89,18 @@ export default function Filters({ onFiltersChange }: FiltersProps) {
         </select>
       </div>
 
+      {/* Apply Filters Button */}
+      <button
+        className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm shadow-sm"
+        onClick={handleApplyFilters}
+      >
+        Apply Filters
+      </button>
+
       {/* Clear Filters Button */}
       <button
         className="w-full bg-slate-100 text-slate-700 py-2.5 px-4 rounded-lg hover:bg-slate-200 transition-colors font-medium text-sm shadow-sm"
-        onClick={() => {
-          setNetwork('all')
-          setType('all')
-          setDateRange('7d')
-          handleFilterChange({ network: 'all', type: 'all', dateRange: '7d' })
-        }}
+        onClick={handleClearFilters}
       >
         Clear Filters
       </button>

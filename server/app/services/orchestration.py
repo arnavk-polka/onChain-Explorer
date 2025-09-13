@@ -128,7 +128,7 @@ class OrchestrationService:
             route_decision = "sql_agent"
             logger.info("Route decision: SQL agent (analytical query)")
         elif any(keyword in query_lower for keyword in [
-            "find", "search", "show", "get", "clarys", "proposal", "specific"
+            "find", "search", "show", "get", "clarys", "proposal", "specific", "tell me about"
         ]):
             route_decision = "retrieval_agent"
             logger.info("Route decision: Retrieval agent (search query)")
@@ -237,16 +237,40 @@ class OrchestrationService:
                 state["final_answer"] = "No proposals found matching your criteria."
                 
         elif route_decision == "retrieval_agent" and reranked_results:
-            # Compose answer from retrieval results
-            count = len(reranked_results)
-            final_answer = f"Found {count} relevant proposals:\n"
+            # Much stricter filtering - only show results with meaningful relevance
+            relevant_results = [r for r in reranked_results if r.get("score", 0.0) >= 0.015]
             
-            for i, result in enumerate(reranked_results[:5], 1):
-                title = result.get("title", "Untitled")
-                proposal_type = result.get("type", "Unknown")
-                score = result.get("score", 0.0)
-                final_answer += f"{i}. {title} ({proposal_type}) - Score: {score:.2f}\n"
+            # If still too many results, take only the top 3-5 most relevant
+            if len(relevant_results) > 5:
+                relevant_results = relevant_results[:5]
+            
+            # If no results meet threshold, show only top 2 most relevant
+            if not relevant_results:
+                relevant_results = reranked_results[:2]
+            
+            count = len(relevant_results)
+            final_answer = f"Found {count} relevant proposals:\n\n"
+            
+            for i, result in enumerate(relevant_results, 1):
+                title = result.get("title") or "Untitled"
+                proposal_type = result.get("type") or "Unknown"
+                network = result.get("network") or "Unknown"
+                created_at = result.get("created_at") or "Unknown"
+                proposal_id = result.get("id") or "N/A"
+                proposer = result.get("proposer") or "Unknown"
+                status = result.get("status") or "Unknown"
+                
+                final_answer += f"## Proposal {i}: {title}\n"
+                final_answer += f"**ID:** {proposal_id}\n"
+                final_answer += f"**Type:** {proposal_type}\n"
+                final_answer += f"**Network:** {network}\n"
+                final_answer += f"**Proposer:** {proposer}\n"
+                final_answer += f"**Status:** {status}\n"
+                final_answer += f"**Created:** {created_at}\n"
+                final_answer += f"**Description:** [Loading description...]\n\n"
+            
             state["final_answer"] = final_answer
+            state["proposals_for_descriptions"] = relevant_results
         else:
             state["final_answer"] = "I couldn't find any relevant information for your query."
         
@@ -302,11 +326,23 @@ class OrchestrationService:
                     }
                 }
             elif route_decision == "retrieval_agent":
+                # Filter results for display with stricter criteria
+                retrieval_hits = result.get("retrieval_hits", [])
+                relevant_hits = [r for r in retrieval_hits if r.get("score", 0.0) >= 0.015]
+                
+                # Limit to max 5 results
+                if len(relevant_hits) > 5:
+                    relevant_hits = relevant_hits[:5]
+                
+                # If no results meet threshold, show only top 2
+                if not relevant_hits:
+                    relevant_hits = retrieval_hits[:2]
+                
                 yield {
                     "stage": "retrieval_hits",
                     "payload": {
-                        "hits": result.get("retrieval_hits", []),
-                        "count": len(result.get("retrieval_hits", [])),
+                        "hits": relevant_hits,
+                        "count": len(relevant_hits),
                         "processing_time": result.get("processing_times", {}).get("retrieval_agent", 0)
                     }
                 }
@@ -319,6 +355,24 @@ class OrchestrationService:
                     "processing_times": result.get("processing_times", {})
                 }
             }
+            
+            # If we have proposals for descriptions, send them as a separate event
+            if result.get("proposals_for_descriptions"):
+                yield {
+                    "stage": "proposal_descriptions",
+                    "payload": {
+                        "proposals": result.get("proposals_for_descriptions", [])
+                    }
+                }
+            
+            # Also send the proposals data for the frontend to parse
+            if result.get("proposals_for_descriptions"):
+                yield {
+                    "stage": "proposals_data",
+                    "payload": {
+                        "proposals": result.get("proposals_for_descriptions", [])
+                    }
+                }
             
         except Exception as e:
             logger.error(f"Orchestration failed: {e}")

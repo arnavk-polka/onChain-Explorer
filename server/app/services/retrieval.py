@@ -49,6 +49,9 @@ class SearchResult:
     created_at: datetime
     snippet: str
     score: float = 0.0
+    description: Optional[str] = None
+    proposer: Optional[str] = None
+    status: Optional[str] = None
 
 
 class RetrievalService:
@@ -120,9 +123,14 @@ class RetrievalService:
             else:
                 final_results = fused_results
             
-            # 5. Return top_k results with snippets
+            # 5. Filter and return top_k results with snippets
             results = []
             for i, result in enumerate(final_results[:top_k]):
+                # Much stricter filtering - only include results with meaningful relevance
+                rrf_score = result.get('rrf_score', 0.0)
+                if rrf_score < 0.01:  # Higher threshold for better quality
+                    continue
+                    
                 snippet = self._generate_snippet(result, query)
                 search_result = SearchResult(
                     id=result['id'],
@@ -132,9 +140,16 @@ class RetrievalService:
                     amount=result.get('amount_numeric'),
                     created_at=result.get('created_at'),
                     snippet=snippet,
-                    score=result.get('rrf_score', 0.0)
+                    score=rrf_score,
+                    description=result.get('description'),
+                    proposer=result.get('proposer'),
+                    status=result.get('status')
                 )
                 results.append(search_result)
+                
+                # Limit to maximum 5 results to avoid overwhelming the user
+                if len(results) >= 5:
+                    break
             
             logger.info(f"Found {len(results)} results for query: '{query}'")
             return results
@@ -364,14 +379,17 @@ class RetrievalService:
                 top_n=len(documents)
             )
             
-            # Reorder results based on Cohere ranking
+            # Reorder results based on Cohere ranking and filter by relevance
             reranked_results = []
             for rerank_result in response.results:
                 original_index = rerank_result.index
                 if original_index < len(results):
                     result = results[original_index].copy()
                     result['cohere_score'] = rerank_result.relevance_score
-                    reranked_results.append(result)
+                    
+                    # Only include results with high Cohere relevance scores
+                    if rerank_result.relevance_score >= 0.5:  # Higher threshold for better quality
+                        reranked_results.append(result)
             
             logger.info(f"Reranked {len(reranked_results)} results with Cohere")
             return reranked_results

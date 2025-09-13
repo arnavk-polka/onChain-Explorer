@@ -7,15 +7,15 @@ export async function POST(req: Request) {
   const lastMessage = messages[messages.length - 1]
 
   try {
-    // Forward the query to our server's non-streaming endpoint first
-    const response = await fetch(`${BASE_API_URL}/api/v1/query`, {
+    // Forward the query to our server's streaming endpoint
+    const response = await fetch(`${BASE_API_URL}/api/v1/query/stream`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         query: lastMessage.content,
-        filters: filters || {}
+        user_id: 'frontend'
       }),
     })
 
@@ -23,29 +23,77 @@ export async function POST(req: Request) {
       throw new Error('Failed to process query')
     }
 
-    const data = await response.json()
-    console.log('Backend response:', data)
-
-    // Create a simple streaming response
+    // Handle streaming response
     const encoder = new TextEncoder()
     const stream = new ReadableStream({
       async start(controller) {
-        // Simulate streaming by sending the response in chunks
-        const responseText = data.response || 'No response received'
-        const words = responseText.split(' ')
-        
-        for (const word of words) {
-          controller.enqueue(encoder.encode(word + ' '))
-          await new Promise(resolve => setTimeout(resolve, 50))
+        const reader = response.body?.getReader()
+        if (!reader) {
+          controller.close()
+          return
         }
-        
-        // Add the results data to the response
-        if (data.results && data.results.length > 0) {
-          const resultsData = JSON.stringify(data.results)
-          controller.enqueue(encoder.encode(`\n\nData: ${resultsData}`))
+
+        let buffer = ''
+        let proposalsData: any[] = []
+        let descriptionsData: any[] = []
+
+        try {
+          while (true) {
+            const { done, value } = await reader.read()
+            if (done) break
+
+            buffer += new TextDecoder().decode(value)
+            const lines = buffer.split('\n')
+            buffer = lines.pop() || ''
+
+            for (const line of lines) {
+              if (line.trim().startsWith('data: ')) {
+                try {
+                  const data = JSON.parse(line.slice(6))
+                  
+                  if (data.stage === 'final_answer') {
+                    // Stream the main response text
+                    const responseText = data.payload.answer || 'No response received'
+                    const words = responseText.split(' ')
+                    
+                    for (const word of words) {
+                      controller.enqueue(encoder.encode(word + ' '))
+                      await new Promise(resolve => setTimeout(resolve, 50))
+                    }
+                  } else if (data.stage === 'proposals_data') {
+                    proposalsData = data.payload.proposals || []
+                  } else if (data.stage === 'proposal_descriptions') {
+                    descriptionsData = data.payload.proposals || []
+                  }
+                } catch (e) {
+                  // Ignore parsing errors for non-JSON lines
+                }
+              }
+            }
+          }
+
+          // Send proposals data
+          if (proposalsData.length > 0) {
+            controller.enqueue(encoder.encode('\n\n' + JSON.stringify(proposalsData)))
+          }
+
+          // Send descriptions data
+          if (descriptionsData.length > 0) {
+            const descriptions = {
+              type: 'proposal_descriptions',
+              proposals: descriptionsData.map((proposal: any) => ({
+                id: proposal.id,
+                description: proposal.description || 'No description available'
+              }))
+            }
+            controller.enqueue(encoder.encode('\n\n' + JSON.stringify(descriptions)))
+          }
+
+        } catch (error) {
+          console.error('Streaming error:', error)
+        } finally {
+          controller.close()
         }
-        
-        controller.close()
       },
     })
 
