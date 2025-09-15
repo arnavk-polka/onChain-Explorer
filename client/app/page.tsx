@@ -14,6 +14,7 @@ export default function Home() {
   const [messageProposals, setMessageProposals] = useState<Record<string, Proposal[]>>({})
   const [messageFilteredProposals, setMessageFilteredProposals] = useState<Record<string, Proposal[]>>({})
   const [messageDescriptions, setMessageDescriptions] = useState<Record<string, Record<string, string>>>({})
+  const [messageTextPortions, setMessageTextPortions] = useState<Record<string, string>>({})
   const [showSql, setShowSql] = useState(false)
   const [count, setCount] = useState<number | null>(null)
   const [isLoadingProposals, setIsLoadingProposals] = useState(false)
@@ -23,6 +24,9 @@ export default function Home() {
     type: 'all',
     dateRange: 'all'
   })
+  const [isBackendReady, setIsBackendReady] = useState(false)
+  const [isCheckingBackend, setIsCheckingBackend] = useState(true)
+  const [retryCount, setRetryCount] = useState(0)
 
   // Example messages
   const exampleMessages = [
@@ -35,6 +39,43 @@ export default function Home() {
     if (input.trim()) return // Don't override existing input
     handleInputChange({ target: { value: message } } as any)
   }
+
+  // Health check function
+  const checkBackendHealth = async () => {
+    try {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/api/v1/healthz`)
+      if (response.ok) {
+        setIsBackendReady(true)
+        setIsCheckingBackend(false)
+      } else {
+        // Retry after 2 seconds if backend is not ready (max 15 retries = 30 seconds)
+        if (retryCount < 15) {
+          setRetryCount(prev => prev + 1)
+          setTimeout(checkBackendHealth, 2000)
+        } else {
+          // After 30 seconds, show error but allow user to try anyway
+          setIsCheckingBackend(false)
+          setIsBackendReady(true) // Allow user to try
+        }
+      }
+    } catch (error) {
+      console.log('Backend not ready, retrying...', error)
+      // Retry after 2 seconds if there's an error (max 15 retries = 30 seconds)
+      if (retryCount < 15) {
+        setRetryCount(prev => prev + 1)
+        setTimeout(checkBackendHealth, 2000)
+      } else {
+        // After 30 seconds, show error but allow user to try anyway
+        setIsCheckingBackend(false)
+        setIsBackendReady(true) // Allow user to try
+      }
+    }
+  }
+
+  // Check backend health on component mount
+  useEffect(() => {
+    checkBackendHealth()
+  }, [])
 
   const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
     api: '/api/chat',
@@ -154,9 +195,22 @@ export default function Home() {
       // Look for proposals data that comes from streaming
       try {
         // Check if content contains proposal data in the format we expect
-        if (content.includes('Found') && content.includes('relevant proposals')) {
+        if (content.includes('Found') && (content.includes('proposals') || content.includes('relevant proposals'))) {
+          // Split content into text portion and examples
+          const firstProposalIndex = content.indexOf('## Proposal 1:')
+          let textPortion = ''
+          let examplesContent = content
+          
+          if (firstProposalIndex > 0) {
+            textPortion = content.substring(0, firstProposalIndex).trim()
+            examplesContent = content.substring(firstProposalIndex)
+            
+            // Store the text portion for display
+            setMessageTextPortions(prev => ({ ...prev, [lastMessage.id]: textPortion }))
+          }
+          
           // Extract proposals from the markdown content
-          const proposalMatches = content.match(/## Proposal \d+: ([^\n]+)\n\*\*ID:\*\* ([^\n]+)\n\*\*Type:\*\* ([^\n]+)\n\*\*Network:\*\* ([^\n]+)\n\*\*Proposer:\*\* ([^\n]+)\n\*\*Status:\*\* ([^\n]+)\n\*\*Created:\*\* ([^\n]+)/g)
+          const proposalMatches = examplesContent.match(/## Proposal \d+: ([^\n]+)\n\*\*ID:\*\* ([^\n]+)\n\*\*Type:\*\* ([^\n]+)\n\*\*Network:\*\* ([^\n]+)\n\*\*Proposer:\*\* ([^\n]+)\n\*\*Status:\*\* ([^\n]+)\n\*\*Created:\*\* ([^\n]+)(?:\n\*\*Amount:\*\* ([^\n]+))?(?:\n\*\*Description:\*\* ([^\n]+))?/g)
 
           if (proposalMatches) {
             const extractedProposals = proposalMatches.map((match, index) => {
@@ -168,6 +222,18 @@ export default function Home() {
               const proposer = lines[4].replace(/\*\*Proposer:\*\* /, '')
               const status = lines[5].replace(/\*\*Status:\*\* /, '')
               const created = lines[6].replace(/\*\*Created:\*\* /, '')
+              
+              // Extract amount and description if present
+              let amount = null
+              let description = '[Loading description...]'
+              
+              for (let i = 7; i < lines.length; i++) {
+                if (lines[i].startsWith('**Amount:**')) {
+                  amount = lines[i].replace(/\*\*Amount:\*\* /, '')
+                } else if (lines[i].startsWith('**Description:**')) {
+                  description = lines[i].replace(/\*\*Description:\*\* /, '')
+                }
+              }
 
               return {
                 id,
@@ -177,7 +243,9 @@ export default function Home() {
                 proposer,
                 status,
                 created_at: created,
-                description: '[Loading description...]'
+                amount_numeric: amount ? parseFloat(amount) : undefined,
+                currency: amount ? 'DOT' : undefined,
+                description
               }
             })
 
@@ -278,20 +346,42 @@ export default function Home() {
 
   return (
     <div className="flex h-screen bg-slate-50">
+      {/* Backend Loading Overlay */}
+      {isCheckingBackend && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-8 max-w-md mx-4 text-center">
+            <div className="flex flex-col items-center space-y-4">
+              <div className="flex space-x-2">
+                <div className="w-3 h-3 bg-blue-500 rounded-full animate-bounce"></div>
+                <div className="w-3 h-3 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+                <div className="w-3 h-3 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">Loading System</h3>
+                <p className="text-slate-600 text-sm">Please wait while we prepare the data explorer...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Main Chat Area */}
       <div className="flex-1 flex flex-col">
         {/* Header */}
         <div className="bg-white border-b border-slate-200 px-6 py-4">
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <Database className="w-5 h-5 text-white" />
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                <Database className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <h1 className="text-xl font-semibold text-slate-900">
+                  Onchain Explorer
+                </h1>
+                <p className="text-slate-500 text-sm">Ask questions about onchain data</p>
+              </div>
             </div>
-            <div>
-              <h1 className="text-xl font-semibold text-slate-900">
-                Onchain Explorer
-              </h1>
-              <p className="text-slate-500 text-sm">Ask questions about onchain data</p>
-            </div>
+            
           </div>
         </div>
 
@@ -304,12 +394,25 @@ export default function Home() {
                 {exampleMessages.map((message, index) => (
                   <button
                     key={index}
-                    onClick={() => handleExampleClick(message)}
-                    className="text-left p-4 bg-white border border-slate-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-all duration-200 group"
+                    onClick={() => isBackendReady && handleExampleClick(message)}
+                    disabled={!isBackendReady}
+                    className={`text-left p-4 border rounded-lg transition-all duration-200 group ${
+                      isBackendReady
+                        ? 'bg-white border-slate-200 hover:border-blue-300 hover:bg-blue-50'
+                        : 'bg-slate-100 border-slate-200 cursor-not-allowed'
+                    }`}
                   >
                     <div className="flex items-center space-x-3">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full group-hover:bg-blue-600"></div>
-                      <span className="text-slate-700 group-hover:text-blue-700 font-medium">{message}</span>
+                      <div className={`w-2 h-2 rounded-full ${
+                        isBackendReady 
+                          ? 'bg-blue-500 group-hover:bg-blue-600' 
+                          : 'bg-slate-300'
+                      }`}></div>
+                      <span className={`font-medium ${
+                        isBackendReady 
+                          ? 'text-slate-700 group-hover:text-blue-700' 
+                          : 'text-slate-400'
+                      }`}>{message}</span>
                     </div>
                   </button>
                 ))}
@@ -333,8 +436,10 @@ export default function Home() {
             // Check if this message contains proposals and should show table instead
             const shouldShowTable = message.role === 'assistant' &&
               messageProposalsData.length > 0 &&
-              message.content.includes('Found') &&
-              message.content.includes('relevant proposals')
+              (message.content.includes('Found') && (message.content.includes('proposals') || message.content.includes('relevant proposals')))
+            
+            // For count queries, we should show the table even if there's text content
+            const isCountQueryMessage = isCountQuery(message.content)
 
             // Show loader if we're loading proposals for the last message only
             const isLastMessage = index === messages.length - 1
@@ -358,10 +463,22 @@ export default function Home() {
             if (shouldShowTable) {
               return (
                 <div key={message.id} className="space-y-4 w-full">
-                  {/* Show the table instead of the chat message */}
-                  <div className="w-full">
-                    {/* Results count */}
-                    <div className="mb-4">
+                  {/* Show text portion for count queries or other cases */}
+                  {messageTextPortions[message.id] && (
+                    <div className='flex items-center space-x-2'>
+                      <div className="flex justify-start">
+                        <div className="bg-white border border-slate-200 rounded-lg px-4 py-3 max-w-4xl">
+                          <div className="prose prose-sm max-w-none">
+                            <p className="whitespace-pre-wrap break-words leading-relaxed text-black">
+                              {messageTextPortions[message.id]}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                  
+                  <div className="mb-4 mt-4">
                       <span className="inline-flex items-center px-3 py-1.5 rounded-full text-sm font-semibold bg-blue-100 text-blue-800 border border-blue-200">
                         📊 {messageFilteredProposalsData.length} results found
                         {messageFilteredProposalsData.length !== messageProposalsData.length && (
@@ -371,7 +488,10 @@ export default function Home() {
                         )}
                       </span>
                     </div>
-
+                 
+                  
+                  {/* Show the table */}
+                  <div className="w-full">
                     {messageFilteredProposalsData.length > 0 ? (
                       <ProposalTable
                         proposals={messageFilteredProposalsData}
@@ -398,26 +518,31 @@ export default function Home() {
               >
                 <div
                   className={cn(
-                    'max-w-[85%] rounded-lg px-4 py-3',
+                    'max-w-[85%] rounded-lg px-4 py-3 ',
                     message.role === 'user'
                       ? 'bg-blue-600 text-white'
                       : 'bg-white border border-slate-200 text-slate-900'
                   )}
                 >
                   <div className="prose prose-sm max-w-none">
-                    <p className="whitespace-pre-wrap break-words leading-relaxed">{message.content}</p>
+                    {/* Show text portion if it exists, otherwise show full content */}
+                    {messageTextPortions[message.id] ? (
+                      <div>
+                        <p className="whitespace-pre-wrap break-words leading-relaxed mb-4">
+                          {messageTextPortions[message.id]}
+                        </p>
+                        {/* The table will be shown below via the ProposalTable component */}
+                      </div>
+                    ) : (
+                      <p className="whitespace-pre-wrap break-words leading-relaxed">{message.content}</p>
+                    )}
                   </div>
 
-                  {/* Count pill for count queries */}
-                  {message.role === 'assistant' && count !== null && isCountQuery(message.content) && (
+                  {/* Count pill for count queries - only show if we don't have proposals data to show in table */}
+                  {message.role === 'assistant' && count !== null && isCountQuery(message.content) && messageProposalsData.length === 0 && (
                     <div className="mt-3">
                       <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-800 border border-blue-200">
-                        📊 {messageFilteredProposalsData.length} results found
-                        {messageFilteredProposalsData.length !== messageProposalsData.length && (
-                          <span className="ml-2 text-blue-600">
-                            (filtered from {messageProposalsData.length})
-                          </span>
-                        )}
+                        📊 {count} results found
                       </span>
                     </div>
                   )}
@@ -456,7 +581,7 @@ export default function Home() {
         <div className="bg-white border-t border-slate-200 px-6 py-4">
           <form onSubmit={(e) => {
             e.preventDefault()
-            if (input.trim()) {
+            if (input.trim() && isBackendReady) {
               // Reset count and set loading state
               setCount(null)
               setIsLoadingProposals(true)
@@ -467,16 +592,21 @@ export default function Home() {
               <input
                 value={input}
                 onChange={handleInputChange}
-                placeholder="Ask about onchain data..."
-                className="w-full border border-slate-300 rounded-lg px-4 py-3 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-900 placeholder-slate-500"
+                placeholder={isBackendReady ? "Ask about onchain data..." : "Loading... Please wait"}
+                disabled={!isBackendReady}
+                className={`w-full border rounded-lg px-4 py-3 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-slate-900 placeholder-slate-500 ${
+                  isBackendReady 
+                    ? 'border-slate-300 bg-white' 
+                    : 'border-slate-200 bg-slate-100 cursor-not-allowed'
+                }`}
               />
               <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
-                <Send className="w-4 h-4 text-slate-400" />
+                <Send className={`w-4 h-4 ${isBackendReady ? 'text-slate-400' : 'text-slate-300'}`} />
               </div>
             </div>
             <button
               type="submit"
-              disabled={isLoading || !input.trim()}
+              disabled={isLoading || !input.trim() || !isBackendReady}
               className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center space-x-2 transition-colors"
             >
               <span className="font-medium">Send</span>

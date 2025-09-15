@@ -72,6 +72,7 @@ export default function DescriptionModal({ isOpen, onClose, proposal }: Descript
   const getExternalLinks = () => {
     const network = proposal.network?.toLowerCase() || 'polkadot'
     const id = proposal.id
+    const type = proposal.type?.toLowerCase() || 'referendum'
     
     if (!id) return null
 
@@ -90,10 +91,22 @@ export default function DescriptionModal({ isOpen, onClose, proposal }: Descript
 
     const urls = baseUrls[network as keyof typeof baseUrls] || baseUrls.polkadot
 
+    // Determine the correct path based on proposal type
+    let path = '/referenda'
+    if (type.includes('treasury')) {
+      path = '/treasury'
+    } else if (type.includes('council')) {
+      path = '/council'
+    } else if (type.includes('tip')) {
+      path = '/tips'
+    } else if (type.includes('bounty')) {
+      path = '/bounties'
+    }
+
     return {
-      polkassembly: `${urls.polkassembly}/proposal/${id}`,
-      subsquare: `${urls.subsquare}/proposal/${id}`,
-      subscan: `${urls.subscan}/proposal/${id}`
+      polkassembly: `${urls.polkassembly}${path}/${id}`,
+      subsquare: `${urls.subsquare}${path}/${id}`,
+      subscan: `${urls.subscan}${path}/${id}`
     }
   }
 
@@ -152,7 +165,7 @@ export default function DescriptionModal({ isOpen, onClose, proposal }: Descript
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label className="text-sm font-medium text-slate-600">Status</label>
-                  <div className={`flex flex-col w-[100px] items-center px-3 py-1 rounded-full text-sm font-medium ${
+                  <div className={`flex flex-col w-[200px] items-center px-3 py-1 rounded-full text-sm font-medium ${
                     proposal.status === 'Passed' ? 'bg-green-100 text-green-800' :
                     proposal.status === 'Failed' ? 'bg-red-100 text-red-800' :
                     proposal.status === 'Active' ? 'bg-yellow-100 text-yellow-800' :

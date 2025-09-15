@@ -65,6 +65,7 @@ class RetrievalService:
             self.cohere_client = cohere.Client(api_key=settings.cohere_api_key)
             logger.info("Cohere client initialized for reranking")
     
+    
     def _create_embedding_provider(self, provider: str) -> EmbeddingProvider:
         """Create embedding provider"""
         if provider.lower() == "openai":
@@ -104,12 +105,12 @@ class RetrievalService:
             # 1. Compute query embedding
             query_embedding = await self.embedding_provider.get_embedding(query.strip())
             
-            # 2. Run lexical and vector searches with filters
-            lexical_results = await self._lexical_search(query, filters, limit=50)
+            # 2. Run both lexical and vector searches for all queries
+            lexical_results = await self._lexical_search(query, filters, limit=30)
             vector_results = await self._vector_search(query_embedding, filters, limit=50)
             
-            # 3. Fuse results with RRF
-            fused_results = self._fuse_with_rrf(lexical_results, vector_results, k=60)
+            # 3. Fuse results with RRF (vector search gets much higher weight for better semantic understanding)
+            fused_results = self._fuse_with_rrf(lexical_results, vector_results, k=60, vector_weight=4.0)
             
             # 4. Optional Cohere reranking on top 30
             if use_rerank and self.cohere_client and len(fused_results) > 0:
@@ -126,9 +127,9 @@ class RetrievalService:
             # 5. Filter and return top_k results with snippets
             results = []
             for i, result in enumerate(final_results[:top_k]):
-                # Much stricter filtering - only include results with meaningful relevance
+                # Filter results with meaningful relevance
                 rrf_score = result.get('rrf_score', 0.0)
-                if rrf_score < 0.01:  # Higher threshold for better quality
+                if rrf_score < 0.045:  # Selective threshold to keep relevant results but filter irrelevant ones
                     continue
                     
                 snippet = self._generate_snippet(result, query)
@@ -171,10 +172,31 @@ class RetrievalService:
         params = []
         param_count = 0
         
-        # Full-text search condition
+        # Multiple search strategies for better entity matching
+        search_conditions = []
+        
+        # 1. Full-text search
         param_count += 1
-        where_conditions.append(f"doc_tsv @@ plainto_tsquery('simple', ${param_count})")
+        search_conditions.append(f"doc_tsv @@ plainto_tsquery('simple', ${param_count})")
         params.append(query)
+        
+        # 2. Extract key terms for partial matching (for entity queries)
+        import re
+        words = re.findall(r'\b\w+\b', query.lower())
+        key_terms = [word for word in words if len(word) > 2 and word not in {'tell', 'me', 'about', 'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by'}]
+        
+        # 3. Partial matching for key terms in title and description
+        for term in key_terms:
+            param_count += 1
+            search_conditions.append(f"LOWER(title) LIKE ${param_count}")
+            params.append(f'%{term}%')
+            
+            param_count += 1
+            search_conditions.append(f"LOWER(description) LIKE ${param_count}")
+            params.append(f'%{term}%')
+        
+        # Combine all search strategies with OR
+        where_conditions.append(f"({' OR '.join(search_conditions)})")
         
         # Add filters
         if filters:
@@ -219,9 +241,19 @@ class RetrievalService:
         param_count += 1
         params.append(limit)
         
+        # Build scoring logic dynamically based on key terms
+        score_conditions = ["COALESCE(ts_rank(doc_tsv, plainto_tsquery('simple', $1)), 0)"]
+        param_idx = 2
+        
+        for term in key_terms:
+            score_conditions.append(f"CASE WHEN LOWER(title) LIKE ${param_idx} THEN 0.8 ELSE 0 END")
+            param_idx += 1
+            score_conditions.append(f"CASE WHEN LOWER(description) LIKE ${param_idx} THEN 0.6 ELSE 0 END")
+            param_idx += 1
+        
         query_sql = f"""
         SELECT p.*, 
-               ts_rank(doc_tsv, plainto_tsquery('simple', $1)) as rank_score,
+               GREATEST({', '.join(score_conditions)}) as rank_score,
                'lexical' as search_type
         FROM proposals p
         WHERE {where_clause}
@@ -310,9 +342,10 @@ class RetrievalService:
         self, 
         lexical_results: List[Dict[str, Any]], 
         vector_results: List[Dict[str, Any]], 
-        k: int = 60
+        k: int = 60,
+        vector_weight: float = 1.0
     ) -> List[Dict[str, Any]]:
-        """Fuse results using Reciprocal Rank Fusion"""
+        """Fuse results using Reciprocal Rank Fusion with optional vector weighting"""
         
         # Create score maps
         lexical_scores = {}
@@ -325,7 +358,7 @@ class RetrievalService:
         
         for i, result in enumerate(vector_results):
             proposal_id = result['id']
-            vector_scores[proposal_id] = 1.0 / (k + i + 1)
+            vector_scores[proposal_id] = (1.0 / (k + i + 1)) * vector_weight
             result['vector_score'] = vector_scores[proposal_id]
         
         # Combine all unique proposals

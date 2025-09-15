@@ -216,7 +216,7 @@ class NLSQLService:
         
         try:
             response = self.client.chat.completions.create(
-                model="gpt-4",
+                model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": "You are a PostgreSQL SQL expert with complete knowledge of the database schema. Generate SIMPLE SQL queries using ONLY the provided schema fields. NEVER use CTEs, WITH clauses, or complex subqueries. For 'how many' questions, use SELECT COUNT(*) FROM proposals WHERE [conditions]. For 'show examples' questions, use SELECT * FROM proposals WHERE [conditions] LIMIT 5. Always return valid JSON without any markdown formatting or extra text."},
                     {"role": "user", "content": prompt}

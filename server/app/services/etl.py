@@ -750,10 +750,36 @@ class ETLService:
             if not proposal_id or proposal_id == 'None' or proposal_id not in existing_proposals:
                 continue
                 
-            # Combine title and description for embedding
+            # Create structured text for better embedding quality
             title = row.get('title', '') or ''
             description = row.get('description', '') or ''
-            text = f"{title} {description}".strip()
+            proposer = row.get('proposer', '') or ''
+            network = row.get('network', '') or ''
+            proposal_type = row.get('type', '') or ''
+            
+            # Create structured text with metadata for better semantic understanding
+            text_parts = []
+            
+            # Add title with emphasis
+            if title:
+                text_parts.append(f"Title: {title}")
+            
+            # Add structured metadata
+            if proposer and proposer != 'Unknown':
+                text_parts.append(f"Proposer: {proposer}")
+            if network and network != 'Unknown':
+                text_parts.append(f"Network: {network}")
+            if proposal_type:
+                text_parts.append(f"Type: {proposal_type}")
+            
+            # Add description (truncated if too long)
+            if description and description != 'No description available':
+                # Truncate very long descriptions to focus on key content
+                if len(description) > 2000:
+                    description = description[:2000] + "..."
+                text_parts.append(f"Description: {description}")
+            
+            text = "\n".join(text_parts).strip()
             
             if text:  # Only compute embeddings for non-empty texts
                 texts.append(text)
