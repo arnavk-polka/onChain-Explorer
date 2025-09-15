@@ -49,7 +49,7 @@ export default function ProposalTable({ proposals, proposalDescriptions }: Propo
   const handleViewDescription = (proposal: Proposal) => {
     const proposalWithDescription = {
       ...proposal,
-      description: proposalDescriptions[proposal.id] || proposal.description
+      description: proposal.id ? proposalDescriptions[proposal.id] || proposal.description : proposal.description
     }
     setSelectedProposal(proposalWithDescription)
     setIsModalOpen(true)
@@ -94,7 +94,7 @@ export default function ProposalTable({ proposals, proposalDescriptions }: Propo
                   <tr key={proposal.id || index} className="hover:bg-slate-50 transition-colors">
                     {/* ID */}
                     <td className="px-3 py-3 text-sm text-slate-900 font-mono w-32">
-                      <div className="truncate" title={proposal.id}>
+                      <div className="truncate" title={proposal.id?.toString()}>
                         {proposal.id || '-'}
                       </div>
                     </td>
